@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-10-26T1920Z-scale-guard-gate",
+    "ts": "2026-10-26T19:20:00Z",
+    "type": "wake",
+    "title": "Nightly append gate hardened: shared ml/scale_guard, 4 defects fixed in align_scale, 30/30 tests",
+    "summary": "Follow-up to the repair_scale run: the nightly update_dataset append gate (align_scale) had independently grown the same three defects fixed yesterday PLUS a correction-ordering flaw that false-FATALs the actual 2026-10-07 x100-tail failure mode. Pre-fix on real ESZ26 bars: 31x bad-tick blip corrupted with a nonsense /10 factor; negative close crashed log10; whole-file x1000 refused; x100-tail fetch double-corrected and refused. Now ml/scale_guard.py is the single shared policy (power-of-10 tol 1e-3, outliers refused not repaired, flips-before-snap); repair_scale delegates to it with its 15 tests unchanged; 15 new tests -> 30/30 pass. Wet checks A-E on canonical bars all correct (clean/x100-tail/x100-file bit-exact restores; 31x/94x refused). master 93198df. Sierra untouched.",
+    "status": "ok",
+    "experiments": 1,
+    "tests": "pass",
+    "sierra": "none",
+    "file": "runs/2026-10-26T1920Z-scale-guard-gate.md"
+  },
+  {
     "id": "2026-10-26T1840Z-repair-scale-fixes",
     "ts": "2026-10-26T18:40:00Z",
     "type": "wake",
