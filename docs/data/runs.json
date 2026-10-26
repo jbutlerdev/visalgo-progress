@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "id": "2026-10-26T1620Z-onboarding",
+    "ts": "2026-10-26T16:20:00Z",
+    "type": "manual",
+    "title": "Onboarding: bootstrap verified (dataset manifest 1145/1145 OK, cross-compile OK, HANDOFF read)",
+    "summary": "First boot. gh auth + clone visalgo (d588701) and visalgo-progress; full sha256 manifest verification of /opt/agent-data/visalgo (1145/1145 OK) plus 3 explicit spot-checks (2 .scid + 1 parquet); python3/pandas + mingw cross-compiler verified (PE produced); HANDOFF last-updated block read (session 15/17 state, chart-gate verification still open for Jeremiah). No code changes, Sierra untouched.",
+    "status": "ok",
+    "experiments": 0,
+    "tests": "pass",
+    "sierra": "none",
+    "file": "runs/2026-10-26T1620Z-onboarding.md"
+  }
+]
