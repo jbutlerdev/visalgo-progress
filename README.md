@@ -9,7 +9,7 @@ Dashboard: https://jbutlerdev.github.io/visalgo-progress/
 ## Run-log convention (agents MUST follow)
 
 - One file per run: `runs/YYYY-MM-DDTHHMMZ-<slug>.md` (UTC, minute precision).
-- Append the same run to `dashboard/data/runs.json` (newest first) so the
+- Append the same run to `docs/data/runs.json` (newest first) so the
   dashboard renders it — keep both in the SAME commit as any code-work
   summary push.
 - Content granularity: progress-level (what was attempted, experiments,
