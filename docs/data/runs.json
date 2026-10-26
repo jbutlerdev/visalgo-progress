@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-10-26T1840Z-repair-scale-fixes",
+    "ts": "2026-10-26T18:40:00Z",
+    "type": "wake",
+    "title": "ml/repair_scale hardened: dry-run convergence, tick-file crash, strict power-of-10 tolerance; 15 unit tests",
+    "summary": "Validated Jeremiah's new repair_scale tool against the canonical dataset and fixed three real defects: dry-run re-reported flip #1 8x and missed later flips; old code crashed on all 14 tick parquets (log10 of non-positive ratio); and it would have 'repaired' genuine 31x-246x data jumps (incl 94x TICK-NYSE) as if they were x100 scale bugs. New tolerance 1e-3 in log10 cleanly separates float-noisy x100 appends from real jumps; non-positive closes skipped; --include filter added. Dataset verdict: 0 scale flips remain in the 80 parquet files (10-08 bug class fully repaired). Wet end-to-end test: injected x100 tail corruption restored bit-exact. master 8bf78c1; 15/15 unit tests pass. python3-pyarrow package request pending approval.",
+    "status": "ok",
+    "experiments": 1,
+    "tests": "pass",
+    "sierra": "none",
+    "file": "runs/2026-10-26T1840Z-repair-scale-fixes.md"
+  },
+  {
     "id": "2026-10-26T1620Z-onboarding",
     "ts": "2026-10-26T16:20:00Z",
     "type": "manual",
