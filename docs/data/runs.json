@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T1810Z-menu5b-monthly",
+  "ts": "2026-10-27T18:10:00Z",
+  "type": "wake",
+  "title": "menu-5b monthly: recent-era edge concentrates in 2 high-vol months (Apr-25 +383, Mar-26 +419 = ~89% of +900); 12/22 months positive - package = high-vol-regime improvement with small calm-market tax",
+  "summary": "Monthly dPnL slices (seeds 0-3) inside the 2025/26 window: 12/22 months positive; top-2 (2026-03 +419 4/4, 2025-04 +383 4/4) carry ~89% of the recent-era +900 edge; May-25 shows day-skip value in a losing month (E3 -628 -> PKG -418); notable negatives Jun-26 -201, Sep-25 -131. Dual honest reading: (1) mechanism-coherent - the concentration is exactly in re-rating/vol-shock months the kill-day vetoes target; (2) sobering - calm months are flat-to-slightly-negative, so the 1735Z corrected claim now has its finest-grain form: high-vol-regime improvement + small calm-market tax. Regex sign-bug in dedup disclosed; hand-verified against year totals (412/489 match). vram gate #5 unchanged (hold notify). Sierra none; no code change.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-27T1810Z-menu5b-monthly.md"
+ },
+ {
   "id": "2026-10-27T1735Z-claimset-doc-vram-defer4",
   "ts": "2026-10-27T17:35:00Z",
   "type": "wake",
