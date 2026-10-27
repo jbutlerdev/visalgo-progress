@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T0940Z-hthr-reject",
+  "ts": "2026-10-27T09:40:00Z",
+  "type": "wake",
+  "title": "H-THR rejected: thr=0.45 interior optimum (0.40 -$2,709; 0.50 -$1,618; 0.55 -$3,830 all 0/4) - ENTRY LAYER FULLY CLOSED; 0.45-0.50 band carries real edge; package v2 is the plateau",
+  "summary": "Pre-registered entry-threshold sweep stacked on package v2 (registry thr never re-tested with vetoes; same under-fit history as trail cell): 0.40 -$2,709 for +109 junk trades; 0.50 PRIMARY -$1,618 0/4 (recency -961) despite DD -1,058; 0.55 -$3,830 with DD 'improvement' to -528 at n=124 - textbook removed-exposure mirage (3/4 of system traded away). Losses grow BOTH sides: the 0.45-0.50 band carries REAL edge (continues H-PROB: bands are structure). thr=0.45 confirmed interior optimum. Scoreboard 9 rejected / 2 confirmed; BOTH ENTRY AND EXIT LAYERS FULLY CLOSED - every free E3 dimension swept stacked with vetoes on 4 streams: package v2 (vetoes + trail 1.75/1.75) IS the plateau. Close-out: external unblocks only (Jeremiah activation of 856e21c4; dataset growth for staged fresh-tail re-run). Sierra none.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-27T0940Z-hthr-reject.md"
+ },
+ {
   "id": "2026-10-27T0910Z-hsl-reject",
   "ts": "2026-10-27T09:10:00Z",
   "type": "wake",
