@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T0805Z-live-readonly-health",
+  "ts": "2026-10-27T08:05:00Z",
+  "type": "wake",
+  "title": "no-change + live read-only health: .61 agent healthy (log fresh 08:03Z, PERF 1.617M calls, 5/0/0ms), sltp at registry 2.0/5.0/1.5 = package not deployed (correct)",
+  "summary": "Daily read-only .61 observation: sierra-app running, agent_debug.log advancing (PERF pre=5ms bt=0ms agent=0ms, no anomalies in tail), agent_sltp.txt still '2.0 5.0 1.5' (mtime 10-03) - confirms package v2 undeployed as intended pending Jeremiah. Auto-trading gate not re-verified (no restart since last note; VNC not needed). Ops lesson logged: /tmp does not persist between sandbox tool calls - askpass helper must be created inline with ssh (explains a transient auth-failure burst this cycle; NOT a password rotation). No writes/toggles anywhere. Standby otherwise: master 81d68f7, branch 7ffd982e, dataset frozen 10-02.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "n/a",
+  "sierra": "live-readonly",
+  "file": "runs/2026-10-27T0805Z-live-readonly-health.md"
+ },
+ {
   "id": "2026-10-27T0735Z-nochange-standby2",
   "ts": "2026-10-27T07:35:00Z",
   "type": "wake",
