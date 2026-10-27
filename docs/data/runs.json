@@ -1,5 +1,144 @@
 [
  {
+  "id": "2026-10-27T1540Z-oos-tail",
+  "ts": "2026-10-27T15:40:00Z",
+  "type": "wake",
+  "title": "TRUE OOS on 17 post-freeze days (live-pulled tail): chop window, both arms negative (E3 -$357 / PKG -$266); package relatively better (+$91, DD -$369->-$263); verdict: OOS-neutral-to-consistent, sample thin",
+  "summary": "Protocol pre-registered then executed: merged frozen front (ends 10-02, seam verified contiguous) + live-pulled normalized tail (10-05..27), retrained via the EXACT harness fold protocol (W.collect_signals, SEED=0), replayed E3 vs package v2 on 17 never-seen days. Result: weak regime - 10 E3 trades (-$357, 8 SL exits, 2 trail) / 8 PKG trades (-$266); dPnL +$91 favors package, maxDD improved -$369->$263. Honest reading: 17 days/10 trades is far too thin for a PnL verdict (both arms negative = chop, not regime break); the RELATIVE ranking (vetoes cutting SL-exposure in chop) is directionally consistent with 4y evidence (kill-day skips bad days -> fewer small losses) but confounded by 3 of the vetoes' target cells being absent from 10 trades. No bar-shopping, no tuning, no claims. 4y confirmations (9/9 streams) stand; OOS accumulation continues with each pull. Fuel pipeline proven end-to-end: .scid -> normalize -> merge -> features -> fold-train -> replay in ~2 min.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-27T1540Z-oos-tail.md",
+  "algos": [
+   {
+    "name": "E3 (OOS tail 17d)",
+    "params": {
+     "model": "xgb_best ens3 27f 90d (SEED=0)",
+     "thr": 0.45,
+     "gate": "noFri",
+     "usd_per_pt": 5,
+     "cost_usd_per_trade": 1.25,
+     "dataset": "OOS tail 2026-10-05..2026-10-27 (17 trading days; post-freeze data pulled live from .61; never available to any tuning step)",
+     "series_caveat": "eval tail = ESZ26 raw ES ticks; train side MES-front merged (contiguous seam verified); vol_z drift risk on early days noted",
+     "window": "true out-of-sample (post-10-02-freeze)",
+     "trail_trigger_atr": 2.0,
+     "trail_step_atr": 1.5
+    },
+    "metrics": {
+     "net_pnl": -356.76,
+     "trades": 10,
+     "win_rate": 0.2,
+     "max_dd": -368.64,
+     "profit_factor": 0.34,
+     "sharpe": null
+    },
+    "equity": [
+     [
+      "2026-10-05T21:00:00Z",
+      -60.05
+     ],
+     [
+      "2026-10-06T21:00:00Z",
+      -135.95
+     ],
+     [
+      "2026-10-07T21:00:00Z",
+      -198.89
+     ],
+     [
+      "2026-10-08T21:00:00Z",
+      -259.26
+     ],
+     [
+      "2026-10-12T21:00:00Z",
+      -230.77
+     ],
+     [
+      "2026-10-13T21:00:00Z",
+      -264.69
+     ],
+     [
+      "2026-10-14T21:00:00Z",
+      -350.71
+     ],
+     [
+      "2026-10-20T21:00:00Z",
+      -428.69
+     ],
+     [
+      "2026-10-22T21:00:00Z",
+      -275.34
+     ],
+     [
+      "2026-10-26T21:00:00Z",
+      -356.76
+     ]
+    ]
+   },
+   {
+    "name": "E3 + H-PROB + trail(1.75/1.75) (OOS tail 17d)",
+    "params": {
+     "model": "xgb_best ens3 27f 90d (SEED=0)",
+     "thr": 0.45,
+     "gate": "noFri",
+     "usd_per_pt": 5,
+     "cost_usd_per_trade": 1.25,
+     "dataset": "OOS tail 2026-10-05..2026-10-27 (17 trading days; post-freeze data pulled live from .61; never available to any tuning step)",
+     "series_caveat": "eval tail = ESZ26 raw ES ticks; train side MES-front merged (contiguous seam verified); vol_z drift risk on early days noted",
+     "window": "true out-of-sample (post-10-02-freeze)",
+     "trail_trigger_atr": 1.75,
+     "trail_step_atr": 1.75,
+     "veto_short_prob": "(0.55,0.60]",
+     "veto_long_prob": "(0.60,1.0]",
+     "veto_semantics": "kill-day"
+    },
+    "metrics": {
+     "net_pnl": -265.59,
+     "trades": 8,
+     "win_rate": 0.25,
+     "max_dd": -263.24,
+     "profit_factor": 0.38,
+     "sharpe": null
+    },
+    "equity": [
+     [
+      "2026-10-05T21:00:00Z",
+      -60.05
+     ],
+     [
+      "2026-10-07T21:00:00Z",
+      -122.99
+     ],
+     [
+      "2026-10-08T21:00:00Z",
+      -183.36
+     ],
+     [
+      "2026-10-12T21:00:00Z",
+      -159.29
+     ],
+     [
+      "2026-10-14T21:00:00Z",
+      -245.31
+     ],
+     [
+      "2026-10-20T21:00:00Z",
+      -323.29
+     ],
+     [
+      "2026-10-22T21:00:00Z",
+      -184.17
+     ],
+     [
+      "2026-10-26T21:00:00Z",
+      -265.59
+     ]
+    ]
+   }
+  ]
+ },
+ {
   "id": "2026-10-27T1515Z-menu4-tail-audit",
   "ts": "2026-10-27T15:15:00Z",
   "type": "wake",
