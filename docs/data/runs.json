@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T1515Z-menu4-tail-audit",
+  "ts": "2026-10-27T15:15:00Z",
+  "type": "wake",
+  "title": "menu-4 done: live ESZ26 .scid (952MB) pulled read-only via new key auth - x100 flip at 10-07 02:49Z independently confirms scale_guard's bug date; overlap audit vs frozen front PASS (p50 diff 0.00 pts, 1,917 bars); 18 fresh days banked",
+  "summary": "Self-serve data audit under the corrected law: scp'd live front-contract .scid from .61 (key auth; read-only, no writes anywhere on live; copy raced the live writer harmlessly). Freshness: covers to 15:06Z TODAY - dataset-frozen is no longer a verification blocker, .scid IS the growth path. Scale: within-file flip to x100 tick units at 2026-10-07 02:49Z = exactly the documented ESZ26 tail-bug date ml/scale_guard was built for (independent confirmation from raw source); normalized for audit. Overlap (1,917 common 5m RTH bars 8/28-10/2): front-scid close diff p50 0.00 / mean 0.35 / p95 2.25 / max 6.75 pts, per-day offsets tight (day-mean std 0.65) - PASS at tick level (chart-space per-day offsets small this period; ~400pt lore applies to monthly contract). Fuel banked: 1,316 bars / 18 days (10-05..27) normalized tail parquet. Next: exit-path/OHLC sanity replay on new bars; vram LSTM job staged; menu-5 later. Sierra live-readonly (one pull).",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "pass",
+  "sierra": "live-readonly",
+  "file": "runs/2026-10-27T1515Z-menu4-tail-audit.md"
+ },
+ {
   "id": "2026-10-27T1445Z-loop-testcov",
   "ts": "2026-10-27T14:45:00Z",
   "type": "wake",
