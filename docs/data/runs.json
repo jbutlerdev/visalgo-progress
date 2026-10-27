@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T1635Z-vram-defer2-coexist-q",
+  "ts": "2026-10-27T16:35:00Z",
+  "type": "wake",
+  "title": "vram defer #2: GPU permanently held by Jeremiah's llama-server (qwen3.8-27b-visalgo) - coexistence question sent (GPU window / CPU pilot / park)",
+  "summary": "Menu-6 gate re-check: 0% util, 24.1GB still held by administrator's 10-day llama-server serving the herd under a visalgo alias - by-design shared box, not transient; guest ethics = no OOM gambling, no touching the daemon. Sent one @notify coexistence question: (a) free GPU for scheduled training windows, (b) bless CPU pilot of first LSTM walk-forward (one fold, harness validation; GPU confirm later), or (c) park menu-6. No unilateral workaround. Cycle = one item; state clean (fb1a019, OOS paused till tail grows, Sierra none, no code change).",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-27T1635Z-vram-defer2-coexist-q.md"
+ },
+ {
   "id": "2026-10-27T1610Z-oos-streams-vram-defer",
   "ts": "2026-10-27T16:10:00Z",
   "type": "wake",
