@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T1710Z-menu5-peryear",
+  "ts": "2026-10-27T17:10:00Z",
+  "type": "wake",
+  "title": "menu-5 per-year slice: package edge is 2025/26-concentrated (+$412/+$488 both 4/4), 2022-23 slightly negative (-$127 net) - 'uniform improvement' retired from claim set; vram defer #3",
+  "summary": "Per-year attribution (seeds 0-3, cached signals) reveals what pooled 8/8 hid: 2022 -$102 (0/4), 2023 -$25 (1/4), 2024 +$54 (2/4), 2025 +$412 (4/4), 2026 +$488 (4/4). Edge lives in the recent regime - mechanism-consistent (re-rating-day vetoes + trail trigger suited to recent vol), recency gate (0105Z) had already tested and passed this dimension. Promotion framing: acceptable (deployment targets near future) but claim set now says 'recent-regime improvement, older-era ~neutral-to-slightly-negative', with falsifiable forward statement: pre-2024 regime reversion => package ~E3 or slightly worse. 8/8 stream pooling stands (each stream spans all years) but review should read WITH this slice; candidate doc update queued next cycle. vram defer #3 (llama-server holds 23.8GB; coexistence q unanswered, no re-notify). Sierra none; no code change.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-27T1710Z-menu5-peryear.md"
+ },
+ {
   "id": "2026-10-27T1635Z-vram-defer2-coexist-q",
   "ts": "2026-10-27T16:35:00Z",
   "type": "wake",
