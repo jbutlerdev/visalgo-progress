@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T2340Z-hfri-reject",
+  "ts": "2026-10-27T23:40:00Z",
+  "type": "wake",
+  "title": "H-FRI formal REJECTED on B4 (recency -$112): 3/4 bars pass incl. the BINDING DD bar (Friday adds no DD risk - vetoes already strip toxic Fridays) but recent-era Friday edge is flat (+$78 2026 YTD); Friday-gate series CLOSED",
+  "summary": "Pre-registered formal test of un-skipping Fridays on v2 (seeds 0-3): B1 +$1,549 (4/4) and B3 DD-improves -1,486->-1,254 pass - the weekend-gap-DD fear doesn't bite because kill-day vetoes already remove toxic Fridays; B4 recency -$112 FAILS -> REJECT stands (deployment lives in the recent era). Diagnostic: Friday-only by year +409/+272/+316/+473/+78(26 YTD), 25/44 months positive, best months Apr/May-25 (tariff regime) - same recent-flat/full-window-flattering pattern as TS recency; deployment-timeframe principle refuses it. 6th falsification in exposure/gate family; series CLOSED, live noFri unchanged. Re-open needs a mechanism, not a headline. vram defer #16 (AM ping). Sierra none; no code change.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-27T2340Z-hfri-reject.md"
+ },
+ {
   "id": "2026-10-27T2310Z-maxbars-spec",
   "ts": "2026-10-27T23:10:00Z",
   "type": "wake",
