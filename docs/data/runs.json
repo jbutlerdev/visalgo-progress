@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T2310Z-maxbars-spec",
+  "ts": "2026-10-27T23:10:00Z",
+  "type": "wake",
+  "title": "menu-3/spec: maxbars contract tests (7, branch maxbars-spec) = DLL acceptance spec for v3 time-stop - late TP must not fire (+control proves leg not no-op), exit=close bar maxbars-1, SL-first, trail-in-window hand-computed, short symmetry, None==live",
+  "summary": "ml/test_maxbars_spec.py locks sim_trail_p(maxbars) semantics, doubling as acceptance criteria for the acsil time-stop leg IF v3 approved (prevents backtest/live drift on the time leg - the policy-divergence class filter_policy prevents on entries): beyond-window invisible with control assertion (same data fires without leg - guards no-op port), exit=close of bar maxbars-1 (C++ off-by-one trap), SL-before-TP inside window, trail armed/exits inside window (hand-computed 102.25 @10dp), short symmetry, maxbars=None regression anchor. 7/7 green; 2 fixture bugs self-caught (rising closes trigger trail; run-up lows above rising trail). Portable correctness contract ready for the mingw reimpl harness the moment the DLL go lands. vram defer #15. Sierra none; no prod change. 5 branches staged (hprob-bandgate/ts54-timeslot/loop-testcov/watchdog-testcov/maxbars-spec).",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "pass",
+  "sierra": "none",
+  "file": "runs/2026-10-27T2310Z-maxbars-spec.md"
+ },
+ {
   "id": "2026-10-27T2235Z-watchdog-testcov",
   "ts": "2026-10-27T22:35:00Z",
   "type": "wake",
