@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T1335Z-nochange-standby11",
+  "ts": "2026-10-27T13:35:00Z",
+  "type": "wake",
+  "title": "no-change: standby 11 - lands at open; live check deferred ~30min for real session traffic",
+  "summary": "Pure idle (8th): repos unchanged (81d68f7/7ffd982e), dataset frozen 10-02, holding for activation word (vram untouched), queue closed (9F/2C). Wake landed exactly at 13:30Z RTH open; post-open live read-only check deferred to ~14Z cycle for meaningful session traffic (not an empty book). Activation checklist + fresh-tail re-run staged.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-27T1335Z-nochange-standby11.md"
+ },
+ {
   "id": "2026-10-27T1305Z-nochange-standby10",
   "ts": "2026-10-27T13:05:00Z",
   "type": "wake",
