@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T2135Z-friday-gate-audit",
+  "ts": "2026-10-27T21:35:00Z",
+  "type": "wake",
+  "title": "informational Friday-gate audit on v2: noFri COSTS +$1,215/stream (8/8 positive Friday PnL) full-window, but Friday ~flat last-12mo (-$35, 5/8) - gate's recent cost ~zero; no live change (H-FRI logged as formal candidate backlog item)",
+  "summary": "Measured v2 with Friday trades included (all 8 streams, first-cross+vetoes+trail semantics identical): Friday-only +$1,215/stream mean, 8/8 positive full-window (~$9.7k forgone across streams) - the E2-era noFri gate was expensive historically because kill-day vetoes now do selectively what noFri did bluntly. Recent era: Friday ~flat (-$35 mean, 5/8) so opening it is not alpha, just zero recent cost. NO live policy change (stays noFri; any switch needs its own pre-registered candidate cycle with DD/recency bars + Jeremiah - logged as backlog H-FRI). Deliberately not used as promotion argument for v2 either way; informational protocol pre-stated. Arithmetic cross-check consistent (with-Fri ~5.9k vs noFri ~5.3k + Fri 1.2k). vram defer #12. Sierra none; no code change.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-27T2135Z-friday-gate-audit.md"
+ },
+ {
   "id": "2026-10-27T2110Z-v3-deploy-number",
   "ts": "2026-10-27T21:10:00Z",
   "type": "wake",
