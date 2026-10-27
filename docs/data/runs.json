@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T2010Z-ts54-recency-completion",
+  "ts": "2026-10-27T20:10:00Z",
+  "type": "wake",
+  "title": "TS54 recency on fresh streams: marginal gain flat last-12mo (+$10, 2/4, passes bar) - live expectation corrected to DD-improvement at ~flat PnL vs v2; headline was full-window (2025-regime); doc amended",
+  "summary": "Completed the confirm matrix: T4 (12mo recency) on fresh seeds 4-7 for v3-vs-v2: -46/+40/-65/+110, mean +$10 (2/4) - passes pre-registered bar (>=0), CONFIRM stands, but honest live framing now in candidate doc (branch 6dbaa14c): v3 = DD improvement (~4% fresh/~20% full) at ~flat PnL over v2 in the recent era; the +$279-398 headline is a full-window statistic (TS edge concentrated in 2025 regime, consistent with per-year 1710Z). Same claim-hygiene as v2's 1735Z correction - slice contradicts headline => doc updated before reviewer finds it. v3 stays CONFIRMED as DD-improving variant, separate review item, DLL leg required. Self-caught branch-leftover (verify branch at cycle start, now routine). vram defer #9. Sierra none; no master change.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-27T2010Z-ts54-recency-completion.md"
+ },
+ {
   "id": "2026-10-27T1935Z-hts-confirm-v3",
   "ts": "2026-10-27T19:35:00Z",
   "type": "wake",
