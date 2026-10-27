@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T0605Z-nochange-integrity",
+  "ts": "2026-10-27T06:05:00Z",
+  "type": "wake",
+  "title": "no-change: integrity pass green (ES_front sha256 matches MANIFEST in canonical + repo copies); package v2 still awaiting Jeremiah; queue unpadded",
+  "summary": "Idle-cycle discipline: sha256-verified ES_front.parquet against VISALGO-MANIFEST (b7ae289f..69a5256) in both /opt canonical and git-tracked repo copy - no drift, two-filesystem trap intact. Dataset frozen at 10-02 (builder not in-repo) -> fresh-days recheck stays blocked on external growth. No foreign commits on master/branches. Promotion package v2 fully staged (branch 856e21c4, 40/40 tests, activation spec in CANDIDATE_hprob_bandgate.md) awaiting Jeremiah merge/activation; next unblocked work = vram activation checklist + drift_check parity with VISALGO_FILTERS=1, or fresh-days re-verification. No experiments run - not padding queue with exposure-removal class after 6/7 recent falsifications. Sierra none.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-27T0605Z-nochange-integrity.md"
+ },
+ {
   "id": "2026-10-27T0535Z-fade-probe-nochase",
   "ts": "2026-10-27T05:35:00Z",
   "type": "wake",
