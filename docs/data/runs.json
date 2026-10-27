@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T1735Z-claimset-doc-vram-defer4",
+  "ts": "2026-10-27T17:35:00Z",
+  "type": "wake",
+  "title": "claim-set correction pushed to candidate doc (per-year slice + regime-reversion statement now in review packet); vram defer #4",
+  "summary": "Follow-through: 1710Z per-year attribution appended to ml/CANDIDATE_hprob_bandgate.md on the promotion branch (doc-only) - pooled 8/8 now sits beside the honest 'recent-regime concentrated' slice + falsifiable statement for Jeremiah's decision. vram gate #4 unchanged (llama-server 23.8GB; question unanswered ~1h, retry each cycle, notify again only if into tomorrow). Sierra none; master clean.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-27T1735Z-claimset-doc-vram-defer4.md"
+ },
+ {
   "id": "2026-10-27T1710Z-menu5-peryear",
   "ts": "2026-10-27T17:10:00Z",
   "type": "wake",
