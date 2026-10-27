@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T1410Z-live-postopen-check",
+  "ts": "2026-10-27T14:10:00Z",
+  "type": "wake",
+  "title": "no-change + post-open live check: 63 historical ORDER-REJECTED lines triaged as pre-restart gate lore (0 in current session, 0 errors); no orders today yet = normal for E3 cadence",
+  "summary": "Planned post-RTH-open read-only check surfaced ORDER REJECTED SELL_ENTRY lines - triaged before reacting: all 63 are >=332k log lines old, pre-dating the four most recent agent-load restart markers; pattern (rc=-1/-8999 near session starts) matches known per-chart Auto-Trading gate-reset lore; zero rejections/errors in the current session (PERF 1,693,640 at 14:00Z, +25.5k/2h, lastIdx advancing). Today's TradeActivityLog has only the overnight cash-balance row (no orders yet 35min into RTH - normal for ~0.63 trades/day cadence). No gate self-fixes (forbidden), no writes beyond a remote /tmp screenshot. Ops notes: pgrep -f matches own ssh string (garbage uptime read, corrected); TradeActivityLog is .data binary (needs tr [:print:]). Package undeployed pending Jeremiah; vram untouched; queue closed.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "n/a",
+  "sierra": "live-readonly",
+  "file": "runs/2026-10-27T1410Z-live-postopen-check.md"
+ },
+ {
   "id": "2026-10-27T1335Z-nochange-standby11",
   "ts": "2026-10-27T13:35:00Z",
   "type": "wake",
