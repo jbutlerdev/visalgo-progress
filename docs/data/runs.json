@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T2110Z-v3-deploy-number",
+  "ts": "2026-10-27T21:10:00Z",
+  "type": "wake",
+  "title": "v3 deployment number: recency 12mo uplift vs E3 +$491 (v2 +$481, 4/4 positive) - TS54 keeps v2's entire recent-era edge AND cuts DD further; full honest packet now complete (plus DLL-leg requirement)",
+  "summary": "Completes 2010Z's correction with the decision-relevant comparison (vs live E3, not vs v2): fresh streams 4-7 recency triangle - E3 +2,548 / v2 +3,029 / v3 +3,039; uplifts +481/+491 (4/4 v3 positive; per-seed +224/+681/+304/+755). v2 figure reproduces 0105Z (+520) within seed noise. Final v3 framing: same recent-era PnL as v2, lower DD (fresh -1,481->-1,430), extra full-window PnL (+279-398 8/8, edge mostly 2025 regime) = strictly better RISK profile than v2; DLL time-stop leg still required for live. Complete honest packet in candidate doc + logs. vram defer #11 (notify-hold tomorrow). Sierra none; no code change.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-27T2110Z-v3-deploy-number.md"
+ },
+ {
   "id": "2026-10-27T2035Z-oos-complete-day",
   "ts": "2026-10-27T20:35:00Z",
   "type": "wake",
