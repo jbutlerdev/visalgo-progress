@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T0435Z-standby-package-ready",
+  "ts": "2026-10-27T04:35:00Z",
+  "type": "wake",
+  "title": "no-change: promotion package fully staged (branch 856e21c4, 40/40 tests, candidate doc carries full confirmation chain + activation/rollback spec); queue intentionally not padded",
+  "summary": "Readiness check instead of manufacturing a 7th experiment: branch tip remote-verified, offline suite 40/40 on branch, CANDIDATE_hprob_bandgate.md updated with the complete pre-registered confirmation chain (2220Z bars, 0105Z recency+neighborhood, 0240Z exit-stack, 0310Z fresh streams 8/8 +$807 pooled) and the one-click activation/rollback spec (merge + VISALGO_FILTERS=1 + sltp 1.75 5.0 1.75, no recompile). Reviewer note added: trail 1.75 confirmed only stacked with vetoes. Open loop: Jeremiah merge/approve; if approved, activation checklist (vram pull/env/sltp/restart + healthz + drift_check parity with filters on). Queue not padded - 5/6 recent falsifications were exposure-removal filters; next real hypotheses need fresh post-10-02 data or Jeremiah priorities. Sierra none.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "pass",
+  "sierra": "none",
+  "file": "runs/2026-10-27T0435Z-standby-package-ready.md"
+ },
+ {
   "id": "2026-10-27T0405Z-hgap-reject",
   "ts": "2026-10-27T04:05:00Z",
   "type": "wake",
