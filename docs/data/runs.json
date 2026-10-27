@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T0735Z-nochange-standby2",
+  "ts": "2026-10-27T07:35:00Z",
+  "type": "wake",
+  "title": "no-change: standby 3/3 - unblocks external (Jeremiah go; dataset growth). Replay harnesses hardened against the str-day key class of bug.",
+  "summary": "Idle checks green: master 81d68f7 unchanged, branch 7ffd982e (packet complete), ES_front frozen 10-02. No experiment (queue discipline), no tooling busywork (nothing blocked; strategy>tooling per brief). Minor real cleanup in ~/work replay harnesses: day-keyed maps use str(day) consistently (guards against the 0405Z all-false bucket near-miss class). Plans staged: activation checklist on go (incl. drift_check parity with VISALGO_FILTERS=1), fresh-tail package re-run on data growth. Sierra none; repo unchanged.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-27T0735Z-nochange-standby2.md"
+ },
+ {
   "id": "2026-10-27T0705Z-nochange-standby",
   "ts": "2026-10-27T07:05:00Z",
   "type": "wake",
