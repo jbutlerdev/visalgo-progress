@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T1005Z-nochange-standby4",
+  "ts": "2026-10-27T10:05:00Z",
+  "type": "wake",
+  "title": "no-change: standby - live agent healthy through RTH open (0 errors, PERF advancing +25k calls since 08Z); holding for explicit activation word",
+  "summary": "Idle cycle: master/branch unchanged (81d68f7 / 7ffd982e), dataset frozen 10-02, queue intentionally closed (9 falsified / 2 confirmed, both layers swept). Read-only .61 health: sierra-app running, agent_debug.log current at 10:00Z, PERF calls 1,642,602 (+25k since the 08:03Z check), zero ERROR/Exception lines, lastIdx 3107 - live through RTH open, clean. Holding for Jeremiah's explicit go/not-yet on package v2 (activation checklist staged; nothing on vram without the word); fresh-tail re-run staged on dataset growth. Sierra live-readonly (log tail only).",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "n/a",
+  "sierra": "live-readonly",
+  "file": "runs/2026-10-27T1005Z-nochange-standby4.md"
+ },
+ {
   "id": "2026-10-27T0940Z-hthr-reject",
   "ts": "2026-10-27T09:40:00Z",
   "type": "wake",
