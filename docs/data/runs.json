@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T2235Z-watchdog-testcov",
+  "ts": "2026-10-27T22:35:00Z",
+  "type": "wake",
+  "title": "menu-3: frame_watchdog coverage (6 tests on branch watchdog-testcov) - log-pane detection contract + fail-open policy locked; loop suite 16 tests; day ledger: menus 1/2/3/4/5 all exercised, v3 confirmed, vram defer x14",
+  "summary": "loop/test_frame_watchdog.py (test-only branch): dark->clean, log-pane(230)->dirty, threshold edges 99/100, PARTIAL pane (realistic post-restart case) dirty, tooling failure fails-open (documents except:return-True as intended policy - mass-quarantine by a broken decoder is the blast radius being guarded against). 6/6 green, loop suite 16. np.asarray read-only fixture bug self-caught pre-commit. Today since activation: menu-1 9/9, menu-2 H-CAP reject (10F), menu-3 x2 (16 loop tests), menu-4 tail audit + complete-day OOS stable, menu-5 per-year/month/recency analyses, H-TS v3 CONFIRMED 8/8, Friday audit informational, TS OOS neutral-by-inactivity. 4 candidate branches ready for review. vram defer #14 (ping tomorrow AM). Sierra none; no production change.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "pass",
+  "sierra": "none",
+  "file": "runs/2026-10-27T2235Z-watchdog-testcov.md"
+ },
+ {
   "id": "2026-10-27T2205Z-oos-ts-inert",
   "ts": "2026-10-27T22:05:00Z",
   "type": "wake",
