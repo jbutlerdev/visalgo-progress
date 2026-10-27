@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T0635Z-packet-economics",
+  "ts": "2026-10-27T06:35:00Z",
+  "type": "wake",
+  "title": "no-change: review-packet enrichment - stream-5 trade economics show vetoes cut the median ( -$38->$29) not the tail (win avg -6%), longs flip -$27->$447, PF 1.07->1.12",
+  "summary": "Standby cycle (no Jeremiah response, dataset frozen, no foreign commits). Descriptive decomposition of the saved stream-5 pair for the promotion packet: PKG v2 vs E3 - shorts +1,822 vs +1,474, longs +447 vs -27 (flip), median trade -38.2->-29.2, win avg only -6% (tail preserved), loss avg flat, PF 1.07->1.12, n 569->540. Matches mechanism: kill-day vetoes remove mediocre/loss-heavy cells and preserve the right tail (the H-BE rejection proved this in reverse). Appended to CANDIDATE_hprob_bandgate.md on branch (review packet, no code/master change). Open: Jeremiah decision; dataset growth. Sierra none.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-27T0635Z-packet-economics.md"
+ },
+ {
   "id": "2026-10-27T0605Z-nochange-integrity",
   "ts": "2026-10-27T06:05:00Z",
   "type": "wake",
