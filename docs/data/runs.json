@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T2205Z-oos-ts-inert",
+  "ts": "2026-10-27T22:05:00Z",
+  "type": "wake",
+  "title": "TS54 first OOS datapoint: EXACTLY inert in 17 chop sessions (marginal $0 4/4) - time-stop never fires when trades are fast losers; honest verdict NEUTRAL-by-inactivity (sign-rule triggered but zero info); useful asymmetry: v3==v2 in chop, helps in high-vol",
+  "summary": "TS leg (never tested on post-freeze tail): v3-v2 marginal +$0 across seeds 0-3 - no OOS trade stayed open past 54 bars (chop = fast SL/eod exits; entry capped ~bar 23). Pre-registered support rule (>=3/4 >=0) mechanically triggered but honest reading: NEUTRAL, zero information content - inert features trivially pass sign tests (reported as such, not counted as support). Useful deployment-risk characterization from the null: v3 is trade-for-trade identical to v2 in chop (cannot hurt) and helps in high-vol (May-25 -628->-418) - helps when stalled trades exist, silent otherwise. Frozen-set 8/8 stays load-bearing evidence; OOS won't stress TS until a high-vol stretch. v3 status unchanged (CONFIRMED, DD-improving, DLL-gated). vram defer #13. Sierra none; no code change.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-27T2205Z-oos-ts-inert.md"
+ },
+ {
   "id": "2026-10-27T2135Z-friday-gate-audit",
   "ts": "2026-10-27T21:35:00Z",
   "type": "wake",
