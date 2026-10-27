@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T0910Z-hsl-reject",
+  "ts": "2026-10-27T09:10:00Z",
+  "type": "wake",
+  "title": "H-SL rejected: SL=2.0 interior optimum on stacked package (2.25 -$565, 2.5 -$716, 1.75 -$514 all 0/4) - exit layer FULLY CLOSED, registry cell replicated across all 3 free dims",
+  "summary": "Pre-registered SL sweep stacked on package v2 (queued 0240Z, never tested with vetoes): widen 2.25 primary -$565 0/4 DD -1,645 (fails all bars); 2.5 -$716; tighten 1.75 mech-check -$514 0/4 - hurts via tail-cutting exactly as the tail story predicts (H-BE family), DD 'improvement' is the smaller-losses-more-often mirage. SL=2.0 confirmed interior optimum. EXIT LAYER FULLY CLOSED: trail 1.75/1.75 (0240Z), TP 5.0 (0840Z), SL 2.0 (this) - registry exit cell replicated optimal on 4 streams across all three free dimensions. Scoreboard 8 rejected / 2 confirmed. Both layers now at plateaus around package v2; remaining work external (Jeremiah activation of 856e21c4; dataset growth - fresh-tail re-run staged). Sierra none.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-27T0910Z-hsl-reject.md"
+ },
+ {
   "id": "2026-10-27T0840Z-hptp-reject",
   "ts": "2026-10-27T08:40:00Z",
   "type": "wake",
