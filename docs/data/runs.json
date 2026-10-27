@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T0535Z-fade-probe-nochase",
+  "ts": "2026-10-27T05:35:00Z",
+  "type": "wake",
+  "title": "Fade probe: vetoed prob cells are chop not mis-calibration (+$266/stream vs $400 pre-registered bar - NO CHASE); entry series CLOSED; caches confirmed at 10-01, fresh-days recheck blocked on dataset growth",
+  "summary": "Measurement-first probe of the last entry-layer implication: opposite-side trades at vetoed first-crosses (kill-day SHORT p(0.55,0.60] / LONG p>0.60, package exits, seeds 0-3) earn +$266/stream (279/255/295/235; SHORT-cells +217, LONG-cells +49) - below the +$400 pursue bar set before running. Cells are mediocre, not inverted; the veto's real mechanism is day-SKIP (consistent: skip-and-continue was -228, kill-day +495). Fading would monetize noise and destroy the skip benefit - pre-registered bar acted as anti-churn device. Data check: caches end 2026-10-01, ES_front externally built (no self-serve extension) -> fresh-days recheck stays blocked on dataset growth. Open items: Jeremiah merge/activation, dataset growth. Nothing else queued that is not exposure-removal churn. Sierra none, repo unchanged.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-27T0535Z-fade-probe-nochase.md"
+ },
+ {
   "id": "2026-10-27T0510Z-hbe-reject",
   "ts": "2026-10-27T05:10:00Z",
   "type": "wake",
