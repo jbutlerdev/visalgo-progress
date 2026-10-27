@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T2035Z-oos-complete-day",
+  "ts": "2026-10-27T20:35:00Z",
+  "type": "wake",
+  "title": "OOS refreshed on COMPLETE 17-session base (10-27 to 16:00 close): per-seed dPnL exactly unchanged (+91/+15/+57/-19, mean +36) - thin-sample verdict not a half-day artifact",
+  "summary": "Menu-4 continuation: session closed, re-pulled .scid (scp 9s), rebuilt normalized tail (1,374 bars) + merged series + OOS caches from scratch (old inputs deleted). Both arms x 4 seeds: dPnL identical per-seed to the 15:06Z pull; completed session added one eod-exit trade per stream (identical both arms, outside veto cells); E3 mark-to-close shifted absolute PnL ~4-5$. OOS verdict (neutral-to-consistent, thin) now verified stable on a clean full-session base - not a mid-tape artifact. Next refresh at +3 sessions (weekend); v3 TS54 recency re-run then. vram defer #10 (question ~6h, notify hold tomorrow). Sierra live-readonly (one pull). No code change.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "live-readonly",
+  "file": "runs/2026-10-27T2035Z-oos-complete-day.md"
+ },
+ {
   "id": "2026-10-27T2010Z-ts54-recency-completion",
   "ts": "2026-10-27T20:10:00Z",
   "type": "wake",
