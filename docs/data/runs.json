@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T0705Z-nochange-standby",
+  "ts": "2026-10-27T07:05:00Z",
+  "type": "wake",
+  "title": "no-change: standby - both open items external (Jeremiah activation decision; dataset growth). Activation checklist + fresh-days re-run plans staged and immediate.",
+  "summary": "Idle cycle: master unchanged (81d68f7), branch tip 7ffd982e, master suite 30/30 (branch 40/40 incl filter_policy), dataset frozen 10-02 (hash-checked prior idle cycle), queue unpadded by policy. Staged immediate work: (a) on go - vram activation checklist (branch pull, VISALGO_FILTERS=1, sltp 1.75 5.0 1.75, restart visalgo-svc, healthz + drift_check parity with filters ON; rollback unset-env), (b) on data growth - package v2 fresh-tail re-run, same pre-registered bars, streams 0-7. Sierra none; repo unchanged.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "pass",
+  "sierra": "none",
+  "file": "runs/2026-10-27T0705Z-nochange-standby.md"
+ },
+ {
   "id": "2026-10-27T0635Z-packet-economics",
   "ts": "2026-10-27T06:35:00Z",
   "type": "wake",
