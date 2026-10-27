@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T1610Z-oos-streams-vram-defer",
+  "ts": "2026-10-27T16:10:00Z",
+  "type": "wake",
+  "title": "OOS 4-seed extension: package +$36 mean (3/4), chop regime stream-robust (E3 -$413 all seeds); vram menu-6 DEFERRED - llama-server holds 23.8GB (guest ethics: never contend)",
+  "summary": "Menu-1 extension on the 17-day post-freeze tail across SEED=0-3: dPnL +91/+15/+57/-19 (mean +$36, 3/4 positive), DD better 3/4. Both arms ~-$400 across all seeds: the chop window is stream-robust hard, package keeps relative ordering at noise-level margin - no confirmation claim, consistent-with-plateau only; seed-3 negative reported as-is. Menu-6 vram check: GPU util 0% but 24.1/24.6GB held by administrator's 10-day-old llama-server (serving qwen3.8-27b-visalgo to the herd) - cannot allocate, deferring per guest ethics (no job submitted; retry next cycle, @notify if persists days). master fb1a019; Sierra none; no code change.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-27T1610Z-oos-streams-vram-defer.md"
+ },
+ {
   "id": "2026-10-27T1540Z-oos-tail",
   "ts": "2026-10-27T15:40:00Z",
   "type": "wake",
