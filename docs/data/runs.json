@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T1235Z-nochange-standby9",
+  "ts": "2026-10-27T12:35:00Z",
+  "type": "wake",
+  "title": "no-change: standby 9 - frozen state; live next check post-RTH-open ~14Z",
+  "summary": "Pure idle (6th): repos unchanged (81d68f7/7ffd982e), dataset frozen 10-02, holding for activation word (vram untouched), live last-clean 12:02Z (next ~14Z post-open), queue closed (9F/2C). Activation checklist + fresh-tail re-run staged.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-27T1235Z-nochange-standby9.md"
+ },
+ {
   "id": "2026-10-27T1205Z-nochange-standby8",
   "ts": "2026-10-27T12:05:00Z",
   "type": "wake",
