@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T1105Z-nochange-standby6",
+  "ts": "2026-10-27T11:05:00Z",
+  "type": "wake",
+  "title": "no-change: standby 6 - waiting is the honest move (brief discipline clause); all checks green, nothing manufactured",
+  "summary": "Pure idle per brief: repos unchanged (81d68f7/7ffd982e), dataset frozen 10-02, holding for activation word, live last-clean 10:01Z (afternoon re-check), queue closed. Activation checklist + fresh-tail re-run staged.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-27T1105Z-nochange-standby6.md"
+ },
+ {
   "id": "2026-10-27T1035Z-nochange-standby5",
   "ts": "2026-10-27T10:35:00Z",
   "type": "wake",
