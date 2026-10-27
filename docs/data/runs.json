@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T1035Z-nochange-standby5",
+  "ts": "2026-10-27T10:35:00Z",
+  "type": "wake",
+  "title": "no-change: standby 5 - all external (activation word, dataset growth). Live re-check deferred to afternoon cycle.",
+  "summary": "Pure idle: repos unchanged (81d68f7 / 7ffd982e), dataset frozen 10-02, holding for explicit activation decision (vram untouched), queue closed by policy. Live health last good at 10:01Z (0 errors); next live read-only check this afternoon rather than every cycle. Activation checklist and fresh-tail re-run remain staged.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-27T1035Z-nochange-standby5.md"
+ },
+ {
   "id": "2026-10-27T1005Z-nochange-standby4",
   "ts": "2026-10-27T10:05:00Z",
   "type": "wake",
