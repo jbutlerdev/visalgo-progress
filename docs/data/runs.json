@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T1935Z-hts-confirm-v3",
+  "ts": "2026-10-27T19:35:00Z",
+  "type": "wake",
+  "title": "H-TS CONFIRMED fresh streams 4-7: +$279 mean 4/4, DD improved, top-month 38% - package v3 candidate (branch ts54-timeslot) pushed; DEPLOY GAP: live DLL has no time-stop leg (0 refs in acsil/) - backtest-only until Jeremiah approves DLL work",
+  "summary": "Pre-registered confirm of TS=54 on never-used streams 4-7: dPnL +286/+272/+135/+422 = mean +$279 4/4 (F1-F4 all green incl monthly-concentration 38%), DD -1,481->-1,430. Combined 8/8 streams positive (discovery +398 + fresh +279; winner's-curse shrinkage reported). Package v3 = v2 + close-at-entry+54-bars; separate review item so v2 decision stays clean (branch algo-dev/ts54-timeslot, CANDIDATE_ts54_timeslot.md). KEY FLAG: grep finds ZERO time-stop/maxbars refs in acsil/*.cpp - fw29 cannot execute this exit; TS is backtest-only until DLL grows the leg (recompile+deploy = Jeremiah gate); shipping v2 without the leg while believing TS numbers would be the exact policy-divergence class filter_policy prevents. Decision stack now: v2 activation / vram coexistence / v3 DLL work. vram defer #8. Process: seed-0 filename crash + grep-0 && semantics both self-caught. Sierra none.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-27T1935Z-hts-confirm-v3.md"
+ },
+ {
   "id": "2026-10-27T1910Z-hts-candidate",
   "ts": "2026-10-27T19:10:00Z",
   "type": "wake",
