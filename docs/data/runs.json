@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T1445Z-loop-testcov",
+  "ts": "2026-10-27T14:45:00Z",
+  "type": "wake",
+  "title": "menu-3: loop.frame_bars offline coverage (10 tests; found+fixed empty-dir bug) on branch loop-testcov - .61 ssh auth degraded since 14:31Z (watch item; menu-4 pull blocked)",
+  "summary": "Backlog menu-3 delivered under the corrected 24/7 law: 10 offline tests for loop.frame_bars pure functions - NAME_RE, atr14 Wilder-TR convention locked with hand-computed windows (guards SFT labels vs EWM/min_periods drift), build_day_bars contract, forward_outcomes shift semantics (fwd1_range next-bar H-L, tail NaNs, h=1-only range), load_frames ingest/skip. Suite found ONE real bug: empty-dir returns no-column frame crashing .empty-path callers -> typed-empty guard. Two fixture slips were mine, fixed pre-commit. 10/10 green, ml suite 30 OK, branch algo-dev/loop-testcov pushed. Vram retry refused again (menu-6 blocked, no binding). WATCH: .61 ssh degraded - standard askpass pattern worked 4x today until 14:06Z, then Permission denied/Too-many-auth at 14:31Z (backed off, <=1 retry/cycle; likely faillock after many sessions or a rotation ~14:10Z; sshd-side only, live agent last seen healthy 14:06Z). Menu-4 (fresh .scid tail audit) blocked behind it.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "pass",
+  "sierra": "none",
+  "file": "runs/2026-10-27T1445Z-loop-testcov.md"
+ },
+ {
   "id": "2026-10-27T1435Z-seed8-9of9",
   "ts": "2026-10-27T14:35:00Z",
   "type": "wake",
