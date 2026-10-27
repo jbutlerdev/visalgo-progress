@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-27T0840Z-hptp-reject",
+  "ts": "2026-10-27T08:40:00Z",
+  "type": "wake",
+  "title": "H-TP3 rejected: TP=5.0 is an interior optimum on the stacked package (6.0: -$271+DD-worse; 7.0/4.5 flat) - exit layer closed, tail is balanced not a cliff",
+  "summary": "Pre-registered TP-multiplier sweep stacked on package v2 (never swept with vetoes before; registry TP cell untested stacked). Seeds 0-3 cached: TP=6.0 primary -$271 mean 0/4 positive DD -1,566 (fails T1/T2/T3); TP=7.0 -$21 3/4 but DD worse, recency negative (inert line, tp-exits 34); TP=4.5 diagnostic FLAT (-$2, tp-exits 105.8) - earlier locking pays exactly for lost tail. No pass: TP=5.0 confirmed as optimum in the stacked cell. Tail-story refinement: balanced, not cliff - consistent with H-BE's -$1,901 and the registry scan's original pick. Exit layer CLOSED (trail 1.75/1.75 + TP 5.0 + SL 2.0). Scoreboard 7 rejected / 2 confirmed. Unblocks remain external: Jeremiah activation (branch 856e21c4), dataset growth past 10-01. Sierra none.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-27T0840Z-hptp-reject.md"
+ },
+ {
   "id": "2026-10-27T0805Z-live-readonly-health",
   "ts": "2026-10-27T08:05:00Z",
   "type": "wake",
