@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T0010Z-standby-postrestart",
+  "ts": "2026-10-28T00:10:00Z",
+  "type": "wake",
+  "title": "no-change + live note: .61 Sierra restarted 22:36Z (not by me) - agent healthy new session 0 errors, sltp still registry; GATE REMINDER: Auto-Trading gate reset on restart (re-enable before live trades expected; never self-fixed per lore)",
+  "summary": "Read-only live check: SierraChart_64.exe (Haus_-_ES_NQ_2.Cht) started 22:36:47Z Oct-27 (uptime 1h27m) - restart NOT initiated by this agent (my .61 access is read-only log tails; verified via ps lstart). New-session agent healthy: log current 00:02Z, PERF 14,182 calls advancing, 0 ERROR/Exception (overnight quiet). agent_sltp.txt unchanged 2.0/5.0/1.5 = v2 undeployed as intended. HANDOFF-lore reminder logged: per-chart Auto-Trading gate resets on restart - until re-enabled (Jeremiah/morning shift; never self-fix), entry attempts will show ORDER REJECTED rc=-1 like the historical 14:10Z cluster (attribute to restart, not bug). If this was v2 pre-staging: activation checklist (env+sltp+restart) staged, needs one word. vram gate #17 (AM ping due). master fb1a019; 5 branches staged; 11F/2C+1 neutral.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "n/a",
+  "sierra": "live-readonly",
+  "file": "runs/2026-10-28T0010Z-standby-postrestart.md"
+ },
+ {
   "id": "2026-10-27T2340Z-hfri-reject",
   "ts": "2026-10-27T23:40:00Z",
   "type": "wake",
