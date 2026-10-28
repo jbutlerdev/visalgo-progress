@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T1035Z-hens-reject",
+  "ts": "2026-10-28T10:35:00Z",
+  "type": "wake",
+  "title": "H-ENSEMBLE formal REJECT both cells (E=1 -1,626 & DD doubles to -2,664; E=5 -1,364) - E=3 interior optimum; ensemble averaging matters nonlinearly at thr/veto-band crossings; 3x research-cost-cut falsified; registry joint optimum complete (capacity/label/window/ensemble)",
+  "summary": "Pre-registered never-tested ENSEMBLE=3 (variance-reduction, distinct from capacity; H-CAP method seeds 0-1/cell, fresh fits with SEED/FEAT lessons, pkg-standard): E=1 equivalence bars FAIL (d -1,003/-2,250, DD -1,402->-2,664 doubles - raw probas noisy exactly at 0.45 thr + veto band, entries/vetoes flip erratically; DD = positive control for where variance bites), E=5 improvement bars FAIL (-305/-2,423, over-smoothing averages away legit crossings). Falsification #18; no expansion (10x-bar negative). Registry joint-optimum story COMPLETE: capacity+label+window+ensemble all confirmed interior optima - offline tuning fully exhausted, only new-information lanes remain. Cost honesty: no 3x fresh-train cut (timing measured 35/96/165s linear). Caches kept. Sierra none. 3C/18F/1N. Repro saved.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-28T1035Z-hens-reject.md"
+ },
+ {
   "id": "2026-10-28T1010Z-hwindow-reject",
   "ts": "2026-10-28T10:10:00Z",
   "type": "wake",

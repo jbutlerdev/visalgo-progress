@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-28T10:10Z",
+  "updated": "2026-10-28T10:35Z",
   "scoreboard": {
     "confirmed": 3,
-    "falsified": 17,
+    "falsified": 18,
     "neutral": 1
   },
   "review_stack": [
@@ -110,6 +110,10 @@
     {
       "h": "H-WINDOW TRAIN_DAYS 60/120 (registry 90)",
       "verdict": "catastrophic both cells (-8,390/-6,017, DD degrades) - registry joint optimum on window axis; 'shorter adapts faster' inverted"
+    },
+    {
+      "h": "H-ENSEMBLE E=1/E=5 (registry E=3)",
+      "verdict": "both reject: E=1 -1,626 + DD doubles (proba noise at thr/veto band), E=5 -1,364 over-smooth - E=3 interior optimum"
     }
   ],
   "neutral": [
