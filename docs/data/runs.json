@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T2355Z-tstop-exit-chain-unit",
+  "ts": "2026-10-28T23:55:00Z",
+  "type": "wake",
+  "title": "**5th gate: exit-chain order C++==Python 7/7** + correction: backtest engine HAS simulated position (g_BtSide) - alt-path (2) cleanly feasible w/o trade service, ready to build; gate stack 7+8+15+10+7 all green",
+  "summary": "Discovery: backtest engine carries simulated position (g_BtSide/SL/TP/TrDay, sl>tp>1555-eod check order, close-based trail replica) - corrects the earlier assumption that tstop is only exercisable via trade service; Jeremiah's alt-path (AGENT_BACKTEST tstop block, zero trade service) now fully specified, buildable on request. New gate acsil/tstop_replay_test.cpp (75453a5): mirrors DLL exit sequence (maxbars stream-cut first, sl, tp, trail-on-settled-close, eod), asserts identical (tag,pnl) vs python oracle on all 7 cases (incl SHORT mirror, trail-armed-stopped) - 7/7 PASS. Test-authoring hiccups (junk line, const-ref resize, sed include) fixed transparently. Scope honesty: gate 5 = mirror (validates check ORDER + cross-language agreement), not deployed DLL; live-API half (CancelOrder rcs, BuyExit fill, races) still needs SimMode flip OR the backtest extension - both paths specified, awaiting pick. Sierra none; datasets read-only; GPU study ~00:04Z armed. Gate stack 47 assertions total.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "exit-chain unit 7/7 PASS; stack 7+8+15+10+7=47",
+  "sierra": "none",
+  "file": "runs/2026-10-28T2355Z-tstop-exit-chain-unit.md"
+ },
+ {
   "id": "2026-10-28T2310Z-v4-decision-fee-rebase",
   "ts": "2026-10-28T23:10:00Z",
   "type": "wake",
