@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T2220Z-sltp-parse-unit",
+  "ts": "2026-10-28T22:20:00Z",
+  "type": "wake",
+  "title": "**sltp parse gate: 15/15 PASS** (acsil/sltp_test.cpp) - the time-stop's silent-failure seam now pinned hardware-free: v4-line, era-compat, mb>=2 floor, fallbacks, whitespace; documented trap: typo'd 3rd field (x) => fscanf stops => maxbars silently OFF",
+  "summary": "Continued hardware-free verification stack while B3 awaits SimMode decision. acsil/sltp_test.cpp (a3f4fd4) mirrors deployed parse verbatim (fscanf 4-field, >=2 accept, a>0.1&&b>a, t>0, mb>=2 floor, defaults) - 15 cases ALL PASS incl 2/3-field era compat, mb=1 floored OFF, garbage/empty/missing/bad-gate->defaults, whitespace robustness. Key documented behavior: non-numeric 3rd token makes fscanf stop before mb => maxbars silently OFF with no error (typo trap) - test pins reality (must mirror DLL); mitigation = B3 on-box check (file content + observed LIVE TSTOP). Gate stack: py oracle 7 + trigger 8 + parse 15, trade-service half pending SimMode (Jeremiah flip-on-dev OR backtest alt-path; B3 DLL Sim1-pinned ready). Sierra none (local only). Datasets read-only. Queue: B3 -> B5 -> C; GPU study behind.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "sltp parse unit 15/15 PASS (g++)",
+  "sierra": "none",
+  "file": "runs/2026-10-28T2220Z-sltp-parse-unit.md"
+ },
+ {
   "id": "2026-10-28T2155Z-oos-refresh-1028",
   "ts": "2026-10-28T21:55:00Z",
   "type": "manual",
