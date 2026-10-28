@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T1925Z-dev-agent-running",
+  "ts": "2026-10-28T19:25:00Z",
+  "type": "wake",
+  "title": "**fw24 dry-run DLL RUNNING on .162** (sudo unit start, PERF restarted, ~11ms model calls = loaded+live); agent ON (off-file renamed w/ backup), sltp 4th field armed - B3 needs REPLAY_START next for the contract lines",
+  "summary": "B3 progress on dev twin: systemctl start denied for dev user; sudo OK (passwordless) => unit active, wine Sierra running Haus chartbook. DLL proof-of-life: fresh PERF sequence (calls 1..699, http 11ms/bar => AGENT_FEATURES model calls work) = staged fw24 dry-run DLL loaded+executing. agent_off.txt renamed aside (agent ON; backup kept) - safe since fw25 compiled-in dry-run = order path ABSENT from binary. agent_sltp.txt='1.75 5.0 1.75 54' (maxbars 54). No DRYRUN/gate/TSTOP lines yet: replay needs commands.json REPLAY_START (backtest_* machinery on dev, ran 10-21). Next: REPLAY_START a known-signal day -> expect DRYRUN order lines + LIVE TSTOP after bar 54 -> verify 7 contract semantics vs oracle -> 3-field parity (no TSTOP) -> B5 sc_client dry-runs -> C staging page. .61 untouched. Sierra: .162 only (unit start, gate rename, sltp). Datasets read-only.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "DLL load + model-call liveness on dev",
+  "sierra": "dev",
+  "file": "runs/2026-10-28T1925Z-dev-agent-running.md"
+ },
+ {
   "id": "2026-10-28T1845Z-dev-dll-staged",
   "ts": "2026-10-28T18:45:00Z",
   "type": "wake",
