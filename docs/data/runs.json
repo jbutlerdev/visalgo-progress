@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T0125Z-testcount-correction",
+  "ts": "2026-10-28T01:25:00Z",
+  "type": "wake",
+  "title": "self-correction (log-truthfulness rule fired on me): verified offline suite = 58 unittest tests (loop 23 + ml 30 + maxbars 7); filter_policy's 15 tests live on the v2 branch (856e21c), not a standalone branch; amt_engine is a script not a suite (wrap-in-unittest backloged)",
+  "summary": "Recomputed all per-file test counts after quoting remembered numbers in 0105Z. Truth: loop 23 (frame_bars 10 + watchdog 6 + validate 7), ml 30 (scale_guard 15 + repair_scale 15), maxbars-spec 7 = 58 unittest tests across 6 branches. Two imprecisions corrected: (1) filter_policy tests ship WITH the module on algo-dev/hprob-bandgate (better arrangement; no standalone branch ever existed); (2) ml/test_amt_engine.py is a ground-truth verification SCRIPT (main() vs DLL dump), 0 unittest cases - discover counts it vacuously; backlog item to wrap it in unittest. Prior 'total offline 52' was a memory-quote error; 0105Z substance (validate_frames crash+fix+7 tests) unaffected. Sierra none; code unchanged.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "pass",
+  "sierra": "none",
+  "file": "runs/2026-10-28T0125Z-testcount-correction.md"
+ },
+ {
   "id": "2026-10-28T0105Z-validate-frames-fix",
   "ts": "2026-10-28T01:05:00Z",
   "type": "wake",
