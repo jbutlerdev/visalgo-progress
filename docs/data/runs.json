@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T0250Z-dtc-client-tests",
+  "ts": "2026-10-28T02:50:00Z",
+  "type": "wake",
+  "title": "menu-3: sc_client.dtc offline tests (11) vs fake DTC server - money-path client had zero coverage: handshake/logon error paths, client-side qty cap, ClientOrderID misattribution guard, TCP-split frame reassembly",
+  "summary": "sc_client/dtc.py (will place real orders someday) had no tests. Stdlib FakeDTC speaks real wire contract (16-byte binary HHii4s encoding handshake, then NUL-delimited JSON frames). 11 tests/1.1s (branch dtc-client-testcov e2d282fb): wrong-encoding handshake errors not hangs; logon reject + TradingIsSupported-names-the-Sierra-fix paths; qty>1 refused client-side w/ nothing-reached-server assert; first ORDER_UPDATE matched by ClientOrderID + enum mapping; wrong-cid update can't satisfy the wait (misattribution guard); split-TCP-chunk frame reassembly; wait_for timeout diagnostics. Own bug caught+logged: fake's 12-byte handshake reply made client block 10s timeouts (90s first run) - contract pinned both sides. Offline suite 73 (verified per-file). 8 review branches. vram defer #22. Sierra none.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "pass",
+  "sierra": "none",
+  "file": "runs/2026-10-28T0250Z-dtc-client-tests.md"
+ },
+ {
   "id": "2026-10-28T0205Z-dashboard-ledger",
   "ts": "2026-10-28T02:05:00Z",
   "type": "wake",
