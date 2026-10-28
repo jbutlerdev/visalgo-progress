@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T1800Z-dryrun-hardening",
+  "ts": "2026-10-28T18:00:00Z",
+  "type": "wake",
+  "title": "**Dry-run hardened to compile-time default (fw25)**: orders now OPT-IN via -DVISALGO_LIVE_ORDERS=1 (.61-only, Jeremiah-gated); both modes cross-compile (7 KB order-path delta = flag bites); sierra-dev surveyed for B4 (no DLLs yet, RELOAD missing, unit-vs-process discrepancy)",
+  "summary": "B3-safety prerequisite done. AGENT_DRYRUN was a source-edited const (live .61 build = 'edit to 0'); converted to compiler control: VISALGO_LIVE_ORDERS default 0 => AGENT_DRYRUN=1 (no orders) unless explicitly -DVISALGO_LIVE_ORDERS=1 (live .61 build only, go-instructions will pin the exact line). Macro-collision caught (first #define renamed the variable itself). Both modes build: default 2,427,517 / live 2,434,696 bytes - ~7KB order-path delta is independent evidence the flag works. B3 dev DLL: /tmp/AgentFrame_dev_fw24.dll sha256 400a91ee.. (dry-run default + AGENT_FEATURES=1). Dev .162 survey: ACSIL dir EMPTY (fw24 first DLL there - B4 needs dir+study attach, not drop-in), agent dir w/ backtest files exists, sierra-app unit inactive but stray sierra pid 2323631 (reconcile in B4). Next: B3 dedicated cycle - install dev DLL, start/attach chart, sltp '1.75 5.0 1.75 54', dry-run default, run 7 contract semantics vs LIVE TSTOP lines; B4 proper w/ RELOAD+md5+LOAD. .61 untouched; restart/Auto-Trading = Jeremiah. Sierra touched: .162 read-only. Datasets read-only.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "2 build modes compile; size-delta parity check",
+  "sierra": "dev-readonly",
+  "file": "runs/2026-10-28T1800Z-dryrun-hardening.md"
+ },
+ {
   "id": "2026-10-28T1735Z-fw24-timeslot-compiled",
   "ts": "2026-10-28T17:35:00Z",
   "type": "wake",
