@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T2055Z-b3-simmode-gate",
+  "ts": "2026-10-28T20:55:00Z",
+  "type": "wake",
+  "title": "**B3 held at SimMode gate**: dev titlebar shows NO SIMULATE marker (never self-toggled per interlock) - instead built fw26: order account compiler-pinned to Sim1 for the dev B3 build (wrong-mode deploy can't touch real 23064968); awaiting Jeremiah SimMode-ON or alt-path",
+  "summary": "Interlock over speed: window title read-only shows 'Trading Evaluator' w/o SIMULATE => SimMode not confirmed ON on .162 (never toggled by agent; config encrypted, no plaintext proof). B3 tstop exercise HELD. Cycle produced fw26 hardening instead: AGENT_ORDER_SYMBOL/ACCOUNT compiler-overridable, defaults unchanged (live semantics identical); B3 dev build compiled -DVISALGO_ORDER_ACCOUNT=\"Sim1\" => even wrong-mode deploy on dev cannot hit real account 23064968 (defense-in-depth atop the gate, not instead). Deterministic builds: dry-run sha bef2a9b8, devB3 (live-order+Sim1-pinned) clean. B3 needs ONE of: (1) Jeremiah SimMode ON on .162 (then titlebar-verify read-only and run), or (2) directive for alt path (AGENT_BACKTEST simulated-position extension - tstop semantics testable w/o trade service at all - ready to build on request). .162 runs fixed dry-run DLL (no order path compiled in). Nothing sent anywhere; .61 untouched. Sierra touched: .162 read-only probes; artifacts local.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "2 builds compile (Sim1-pinned B3 ready)",
+  "sierra": "dev-readonly",
+  "file": "runs/2026-10-28T2055Z-b3-simmode-gate.md"
+ },
+ {
   "id": "2026-10-28T2015Z-tstop-dryrun-bugfix",
   "ts": "2026-10-28T20:15:00Z",
   "type": "wake",
