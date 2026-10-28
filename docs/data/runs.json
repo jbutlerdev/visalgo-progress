@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T0310Z-client-tests",
+  "ts": "2026-10-28T03:10:00Z",
+  "type": "wake",
+  "title": "menu-3: sc_client.client tests (7) - ENTER_LONG/SHORT->buy/sell direction contract pinned (typo = silent flip), Action enum values pinned, str-Enum JSON-decision acceptance documented; suite 82",
+  "summary": "sc_client/client.py (typed wrapper model loop talks to) now 7 fake-bridge tests (branch client-testcov e5565ce0): action->side mapping asserted as ordered list (direction contract - the silent-flip typo class), HOLD short-circuit w/ nothing-sent, symbol/qty/position passthrough, Action enum values pinned (loop/ + persisted decisions key on them), str-Enum raw-string acceptance documented not assumed (first test asserted wrong premise - str mixin hashes equal - corrected to real contract). Doubles as SierraBridge Protocol doc for Phase-0 SCBridge wiring. Suite 75->82 (verified per-file 0258Z method). 10 review branches. Backlog: forward_test (fake ct_env), sim/ entry, ml features golden values. vram defer #23. Sierra none.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "pass",
+  "sierra": "none",
+  "file": "runs/2026-10-28T0310Z-client-tests.md"
+ },
+ {
   "id": "2026-10-28T0258Z-suite75-correction",
   "ts": "2026-10-28T02:58:00Z",
   "type": "wake",
