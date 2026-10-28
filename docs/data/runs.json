@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T1135Z-reject-attribution",
+  "ts": "2026-10-28T11:35:00Z",
+  "type": "wake",
+  "title": "live attribution check (pre-flagged scenario): 63 ORDER REJECTED = exactly the pre-restart cluster from 1410Z triage - 0 NEW post-22:36Z-restart; overnight benign (PERF 154k, 0 ERROR); RTH re-appearance would mean gate never re-enabled (morning checklist)",
+  "summary": "Read-only .61 check after seeing rejected-order tails: count 63 matches byte-count of historical pre-restart cluster (triaged yesterday 1410Z, gate-reset era) -> current session 0 rejections, consistent with pre-market quiet (PERF 154,579 advancing, lastIdx 2093, 0 ERROR). Exactly the misattribution risk pre-flagged at 0010Z ('attribute tonight rejections to restart not bug') - confirmed benign. If rejections appear during RTH post-restart = Auto-Trading gate never re-enabled = Jeremiah/morning-shift item (never self-fix). Command died once on grep exit-code (fixed defensively with ||true). Queue: OOS 21:30Z tonight (Wed session + zone-5 re-probe), Thu vram ping #3, review stack unchanged. Sierra live-readonly.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "n/a",
+  "sierra": "live-readonly",
+  "file": "runs/2026-10-28T1135Z-reject-attribution.md"
+ },
+ {
   "id": "2026-10-28T1110Z-dll-feasibility",
   "ts": "2026-10-28T11:10:00Z",
   "type": "wake",
