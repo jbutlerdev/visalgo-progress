@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T0625Z-hzoneveto-confirmed",
+  "ts": "2026-10-28T06:25:00Z",
+  "type": "wake",
+  "title": "**H-ZONEVETO CONFIRMED (3rd of program)**: confirm 4/4 (+457, DD -1,732->-1,418) matches discovery exactly; v4=+TS54 COMPOSES (+562 4/4, complementary); v4-vs-E3 recency +$522 4/4 = BEST on record; OOS neutral-by-inactivity (0.0 exactly)",
+  "summary": "Fresh-stream confirm (seeds 4-7, never seen) passes all 4 locked bars: dPnL +457 4/4, DD -1,732->-1,418, recency +88 4/4, ~32 vetoes/seed - magnitude/sign/DD/veto-count all replicate (strongest replication of program; scoreboard 3C/16F/1N). Composition: TS54 marginal on v2+Z is +562 4/4 (> +302 on plain v2) = mechanisms complementary; v4 vs E3 recency +522 4/4 supersedes v2 +481 / v3 +491 - best recent-era delta on record. OOS 17 chop sessions d=exactly $0 (4/4): zone-5 shorts never open in chop - neutral-by-inactivity 3rd instance, zero-information disclosure kept. Caveats: seed 8 not yet run (9/9 extension next cycle), CPU-convention pending GPU parity, DLL gating-only expectation requires acsil verification next cycle. Decision stack now 3 separable items (v2 GO / v3 DLL / v4 best-on-record; v4 supersedes if all approved, v2 stands alone). Branch zonenveto f27cbfc2 w/ CANDIDATE_zoneveto.md. Sierra none.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-28T0625Z-hzoneveto-confirmed.md"
+ },
+ {
   "id": "2026-10-28T0550Z-hzoneveto-pass",
   "ts": "2026-10-28T05:50:00Z",
   "type": "wake",
