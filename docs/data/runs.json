@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T1110Z-dll-feasibility",
+  "ts": "2026-10-28T11:10:00Z",
+  "type": "wake",
+  "title": "decision-support: DLL portability assessed from source - TIME-STOP = 30-60 lines (fw23 trail machinery already tracks entry-bar key + per-bar-new block: add bar counter + market-close + 4th sltp field default OFF); zone-veto confirmed gating-only (zone_of cpp:261). v3 review now complete: effect+mechanism+contract+cost. H-STREAK declined at scan (2nd clean kill)",
+  "summary": "Tuning exhausted; binding constraint = Jeremiah's review stack lacking effort-estimate input. Read acsil source: AgentFrame fw23 trail state (g_AgTrDay/g_AgTrBarKey/g_AgTrAtr0 + per-bar-new block ~2201) is exactly the scaffolding a time-stop needs -> port = bar counter + close-at-maxbars (mirror flatten) + sltp 4th field (default 0=OFF) + validate against 7 maxbars-spec semantics; estimate 30-60 lines one file no new computation. Zone gate confirmed gating-only (zone_of exists cpp:261, entry blocks have bar). Interlocks unchanged (mingw->sierra-dev->contract tests->Jeremiah-gated .61; gate never self-fixed). v3 decision inputs now complete: +302 9/9 pkg-std, long-side mechanism, contract spec, ~1 dev-hour. H-STREAK (prev-day-outcome conditioning) declined at scan stage: flat across groups - proba system already prices persistence; 2nd clean cheap kill. Sierra none. Queue: OOS 21:30Z, Thu vram ping.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-28T1110Z-dll-feasibility.md"
+ },
+ {
   "id": "2026-10-28T1035Z-hens-reject",
   "ts": "2026-10-28T10:35:00Z",
   "type": "wake",
