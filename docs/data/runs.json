@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T0910Z-packet-docs-sync",
+  "ts": "2026-10-28T09:10:00Z",
+  "type": "wake",
+  "title": "packet docs synced to deployable-definition audit: CANDIDATE_hprob gains primary DEPLOYABLE table (+827 4/4, DD -1,486 vs -1,820, recency +534) ahead of discovery tables; ts54 gets clean-definition note - reviewer sees decision-grade numbers + no drift questions",
+  "summary": "Review-packet integrity pass: hprob packet (tip 3f40644d) now leads with the DEPLOYABLE DEFINITION section (noFri both arms = activation config; pre-locked rule PASS; packet Fri-inclusive tables kept as historical discovery record with repro pointer). ts54 packet (tip 5cf2d02f) carries a definition note: TS scripts always had the Friday skip (weekday-grep verified) so its numbers were never exposed to the 0655Z-class bug. Process footnote per log-truthfulness: first edit attempt used remembered anchors - one assert fired, one no-op'd (both caught by guards/status check); fixed by grepping actual headings - verify structure before editing, same lesson class as the harness audits, twice in one cycle. Queue: OOS refresh 21:30Z, Thu vram ping #3. Sierra none.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-28T0910Z-packet-docs-sync.md"
+ },
+ {
   "id": "2026-10-28T0840Z-v2-deployable-audit",
   "ts": "2026-10-28T08:40:00Z",
   "type": "wake",
