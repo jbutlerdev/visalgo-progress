@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T1545Z-fee-basis-zgauge",
+  "ts": "2026-10-28T15:45:00Z",
+  "type": "wake",
+  "title": "**Fee basis codified** (MEASURED_RT_FEE_USD=2.26 + AGENTS.md decision-run rule + 4 tests, 1.25 default frozen for reproducibility) + **live z-gauge built**: E3-MES forward test z \u2208 [\u22120.52, \u22120.07] = tracking expectations, not broken",
+  "summary": "Two queue items closed. (1) fee-basis branch: measured 2.26 constant, decision-run rule in AGENTS.md step 3 (GO/NO-GO numbers at 2.26 or report both; default frozen so pre-10-28 numbers stay reproducible), subprocess-level tests pin both paths. (2) ml/live_z_gauge.py: parses read-only fills-dir copies, era filter --since 2026-10-08, dual estimator (EOD change-sum w/ 10/11 coverage caveat + NLV-continuity w/ flow heuristic), prints honest z-RANGE vs chop-expected -5.65/session, |z|<2 = not broken. Live era (11 sess, 20 RTs): z [-0.52,-0.07] => forward test tracking expectations - the running measured gauge replacing gut calls. Known limitation: est2 flow detection -33 vs manual +160 (heuristic gap; range still bounds truth). 37 ml tests OK. Branches algo-dev/fee-basis (76e6457) + algo-dev/live-zgauge. Remaining queue: fill-price extraction (needs new DTC trade-activity msg type, dev-box next), 21:30Z OOS refresh armed, GPU LSTM study, v4 DLL lane. Sierra none. Datasets read-only.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "37 ml suite OK (+7 new this cycle)",
+  "sierra": "none",
+  "file": "runs/2026-10-28T1545Z-fee-basis-zgauge.md"
+ },
+ {
   "id": "2026-10-28T1455Z-live-fill-reality-check",
   "ts": "2026-10-28T14:55:00Z",
   "type": "experiment",
