@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T0355Z-hsize-reject",
+  "ts": "2026-10-28T03:55:00Z",
+  "type": "wake",
+  "title": "H-SIZE formal REJECTED on binding S3 (DD -1,254->-2,340) despite S1 29x threshold (+$4,380, 4/4) + recency +$1,765 - falsification #13; mechanism (edge concentrates high-ATR) triangulated from 3rd direction; risk-neutral scaling, live qty capped at 1 anyway",
+  "summary": "Pre-registered ATR-regime sizing on v2 (2x when entry-ATR>=p70, 0.5x<=p30, seeds 0-3): S1 +4,380 (largest effect of program), S2 4/4, S4 recency +1,765 4/4 - but S3 DD-binding FAILS -1,254->-2,340 -> REJECT per pre-registration (S3 made binding after H-FRI lesson; did its job). DD failure is mechanical: 2x on high-ATR days doubles the exposure that carries the wins; PnL +93% for DD +87% = risk-neutral scaling, not free alpha. Deployment note: live qty cap 1 makes it undeployable as specified regardless - recorded as capital-policy data, not alpha claim. Mechanism (edge high-vol-concentrated) now triangulated from per-year + gap-day + sizing = 3 independent angles; future use is explanatory (kill-day refinement), not a sizing knob. Falsification #13. Mid-run fix: seed-0 cache filename has no _s0 suffix. vram #24. Sierra none.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-28T0355Z-hsize-reject.md"
+ },
+ {
   "id": "2026-10-28T0325Z-oos-attribution",
   "ts": "2026-10-28T03:25:00Z",
   "type": "wake",
