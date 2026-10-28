@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T1620Z-v4-activation-compose",
+  "ts": "2026-10-28T16:20:00Z",
+  "type": "wake",
+  "title": "**v4 activation B1 done**: activation branch composed (hprob+ts54+zonenveto+fee-basis+zgauge+client-tests, clean merges) + suites green (53 ml + 8 sc_client) - B2 mingw cross-compile next",
+  "summary": "B1 of the approved v4 activation plan. algo-dev/v4-activation @ 2ddeb3c pushed: zonenveto-policy base (already carried hprob code) + merges hprob-bandgate docs, ts54 doc (TS code is DLL-side B2), fee-basis, live-zgauge, client-testcov. No conflicts (hprob/zonenveto divergence doc-only, ancestry-verified first). B1 gate: ml discover 53 OK, sc_client 8 OK, imports clean. Correction logged: earlier '82 tests' was over-recollection; verified-by-running figure is 53+8 (log-truthfulness). Interlocks intact: B2 cross-compile (maxbars 4th sltp field default OFF, Z-flag default OFF, parity) -> B3 contract tests -> B4 dev deploy w/ backups -> B5 dry-runs; .61 staging-prep only, Jeremiah keeps restart+Auto-Trading. Sierra touched: none. Next: B2 (~30-40min cycle); GPU study + 21:30Z OOS refresh armed behind.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "53 ml + 8 sc_client OK (activation branch)",
+  "sierra": "none",
+  "file": "runs/2026-10-28T1620Z-v4-activation-compose.md"
+ },
+ {
   "id": "2026-10-28T1545Z-fee-basis-zgauge",
   "ts": "2026-10-28T15:45:00Z",
   "type": "wake",
