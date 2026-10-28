@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T2155Z-oos-refresh-1028",
+  "ts": "2026-10-28T21:55:00Z",
+  "type": "manual",
+  "title": "**Scheduled OOS refresh done**: 10-28 session added (18 OOS days) - clean pull/normalize (monster-bar region bypassed by pre-scale slice; x100 whole-file flip auto-caught) / merge / replay: **E3 +$39, v2+v4 trade-less (bar-0 short veto-band)**, zone-5 shorts absent 18th day; .61 gate: agent ON, rejects still 63 (Auto-Trading gate off, noted); vram ping skipped (answered today)",
+  "summary": "Post-close OOS tail refresh per schedule. Path: scid pull 10s, slice ticks >=10-28 BEFORE scale policy (10-07 monster region no longer blocks - deferred diagnosis validated), flip-scan clean, align_scale caught+fixed whole-file x100 (continuous w/ banked 7758), merge to 18 tail days, walk-forward collect_signals seeds 0-3 (per-seed processes after feature-leak KeyError; exact harness, no tuning). Session result (4 streams): E3 1 trade +$39 (bar-0 short zone 3); v2/v4 0 trades (correct veto of veto-band-adjacent cross - PnL-neutral thin-day behavior); zone-5 shorts 0 again (11-16 crosses none in zone5; 18-day structural-absence streak, Z stays 4y-confirmed/OOS-silent). Cumulative OOS chop tail ~flat-negative - z-gauge is the tracker, no headline off 18 days. Ops: .61 read-only - agent ON, PERF alive, ORDER REJECTED unchanged 63 => Auto-Trading chart gate still NOT enabled (Jeremiah's action, noted not self-fixed). vram third ping SKIPPED: Jeremiah answered GPU today + llama restored-verified - no outstanding question. Banked tail+sig caches for next refresh. Sierra: .61 read-only. Datasets read-only.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "live-readonly",
+  "file": "runs/2026-10-28T2155Z-oos-refresh-1028.md"
+ },
+ {
   "id": "2026-10-28T2120Z-tstop-unit-hardwarefree",
   "ts": "2026-10-28T21:20:00Z",
   "type": "wake",
