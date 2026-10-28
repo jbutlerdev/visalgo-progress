@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T1400Z-concentration-audit",
+  "ts": "2026-10-28T14:00:00Z",
+  "type": "manual",
+  "title": "**Concentration concern (Jeremiah) audited**: one day IS real - 2025-04-10 crash-day short validated (raw bars, TP reachable, no SL threat, scale clean); 23.5% of E3 / 18.1% of v4; NEW reporting rule: top1/top5 share + ex-top5 ship with every headline (noted, NEVER smoothed); approved stack LOWERS concentration",
+  "summary": "Observation confirmed with numbers: top day 2025-04-10 identical in all 4 streams (mean-path 23.5% E3 / 18.1% v4; per-seed 16-26%). (1) VALIDATION: trade = ENTER_SHORT @5728 p=0.532 ATR42.2 on the post-3.3%-drop tariff-crash day (range 5501-5743, 78 bars); TP 5517 reachable (day low 5501), SL 5812 never threatened (post-entry high <=5743), scale clean (~5.7k, x100-sane), prev-day continuity (-3.3%) - REAL trade, kept. (2) SMOOTHING POLICY: refused artificial smoothing per Jeremiah's own caveat; instead top1_day/top1_share/top5_share/ex_top5/pos_days now ship as metric chips on every dashboard algo card + repro script conc_audit.py (per-stream daily frames saved). Honest reading for review: ex-top5 E3 +1,806 vs v4 +2,807 (edge is NOT one day - positive_days ~48-49%, median day ~0); approved stack reduces reliance (23.5->18.1%). vram re-check: llama active laguna-xs-2.1 health:200. Sierra none. 1235Z algos updated with chips.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-28T1400Z-concentration-audit.md"
+ },
+ {
   "id": "2026-10-28T1340Z-v4-approved-gpu-session",
   "ts": "2026-10-28T13:40:00Z",
   "type": "manual",
@@ -44,12 +56,18 @@
      "usd_per_pt": 5,
      "cost": 2.5,
      "sltp": "2.0/5.0/1.75 (E3: trail 1.5)",
-     "dd_note": "DD computed on mean equity path (smoothed; per-stream mean DD slightly worse - see logs)"
+     "dd_note": "DD computed on mean equity path (smoothed; per-stream mean DD slightly worse - see logs)",
+     "outlier_policy": "top days NOTED not smoothed (Jeremiah 10-28 rule); top day 2025-04-10 validated real (crash-day short, raw-bar reachability + scale checked)"
     },
     "metrics": {
      "pnl_mean_per_stream": 4487,
      "trades_total": 2272,
-     "dd_of_mean_path": -1820
+     "dd_of_mean_path": -1820,
+     "top1_day": "2025-04-10",
+     "top1_share_%": 23.5,
+     "top5_share_%": 59.7,
+     "ex_top5": 1806,
+     "pos_days_%": 45.9
     },
     "equity": [
      [
@@ -1663,12 +1681,18 @@
      "usd_per_pt": 5,
      "cost": 2.5,
      "sltp": "2.0/5.0/1.75 (E3: trail 1.5)",
-     "dd_note": "DD computed on mean equity path (smoothed; per-stream mean DD slightly worse - see logs)"
+     "dd_note": "DD computed on mean equity path (smoothed; per-stream mean DD slightly worse - see logs)",
+     "outlier_policy": "top days NOTED not smoothed (Jeremiah 10-28 rule); top day 2025-04-10 validated real (crash-day short, raw-bar reachability + scale checked)"
     },
     "metrics": {
      "pnl_mean_per_stream": 5314,
      "trades_total": 2160,
-     "dd_of_mean_path": -1486
+     "dd_of_mean_path": -1486,
+     "top1_day": "2025-04-10",
+     "top1_share_%": 19.8,
+     "top5_share_%": 56.4,
+     "ex_top5": 2317,
+     "pos_days_%": 48.3
     },
     "equity": [
      [
@@ -3282,12 +3306,18 @@
      "usd_per_pt": 5,
      "cost": 2.5,
      "sltp": "2.0/5.0/1.75 (E3: trail 1.5)",
-     "dd_note": "DD computed on mean equity path (smoothed; per-stream mean DD slightly worse - see logs)"
+     "dd_note": "DD computed on mean equity path (smoothed; per-stream mean DD slightly worse - see logs)",
+     "outlier_policy": "top days NOTED not smoothed (Jeremiah 10-28 rule); top day 2025-04-10 validated real (crash-day short, raw-bar reachability + scale checked)"
     },
     "metrics": {
      "pnl_mean_per_stream": 5712,
      "trades_total": 2160,
-     "dd_of_mean_path": -1151
+     "dd_of_mean_path": -1151,
+     "top1_day": "2025-04-10",
+     "top1_share_%": 18.4,
+     "top5_share_%": 52.5,
+     "ex_top5": 2716,
+     "pos_days_%": 48.7
     },
     "equity": [
      [
@@ -4901,12 +4931,18 @@
      "usd_per_pt": 5,
      "cost": 2.5,
      "sltp": "2.0/5.0/1.75 (E3: trail 1.5)",
-     "dd_note": "DD computed on mean equity path (smoothed; per-stream mean DD slightly worse - see logs)"
+     "dd_note": "DD computed on mean equity path (smoothed; per-stream mean DD slightly worse - see logs)",
+     "outlier_policy": "top days NOTED not smoothed (Jeremiah 10-28 rule); top day 2025-04-10 validated real (crash-day short, raw-bar reachability + scale checked)"
     },
     "metrics": {
      "pnl_mean_per_stream": 5803,
      "trades_total": 2059,
-     "dd_of_mean_path": -1060
+     "dd_of_mean_path": -1060,
+     "top1_day": "2025-04-10",
+     "top1_share_%": 18.1,
+     "top5_share_%": 51.6,
+     "ex_top5": 2807,
+     "pos_days_%": 48.9
     },
     "equity": [
      [
