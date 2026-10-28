@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T0805Z-atrmin-norun",
+  "ts": "2026-10-28T08:05:00Z",
+  "type": "wake",
+  "title": "H-ATRMIN declined at scan stage (bottom ATR deciles EARN +$8/+$7 - cost-dominance hypothesis false; mid-decile negatives = cherry-pick bait, declined) - but ATR-decile table = 4th independent triangulation: top decile carries ~45% of all PnL (+4,790/+10.7k)",
+  "summary": "Pre-registered observational scan (seeds 0-1, counting only) tested micro-ATR cost-dominance before any formal run: FALSE - smallest-ATR trades net-earn (d0 +8.3 mean, d1 +7.2), negatives sit scattered mid-distribution (d3/d4/d6) with no mechanism - vetoing those post-hoc would be multiple-comparison cherry-picking, explicitly declined. Candidate killed at scan stage: 20 min, zero bar erosion, scoreboard stays 3C/16F honest. Diagnostic value recorded anyway: ATR-decile dose-response shows top decile alone ~+4,790 of ~+10.7k pooled (45% of PnL from 10% of trades) - 4th independent angle on high-vol concentration (with per-year, gap-day, H-SIZE mechanics). Informs veto-refinement prioritization + crash-window expectations; NOT a live knob (H-SIZE falsified ATR-conditioned exposure; DD constraint is the reason). Both hypothesis-generation cycles so far cheap+honest (zone->MIXED, this->declined). Sierra none. OOS refresh 21:30Z.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-28T0805Z-atrmin-norun.md"
+ },
+ {
   "id": "2026-10-28T0745Z-tsside-decomp",
   "ts": "2026-10-28T07:45:00Z",
   "type": "wake",
