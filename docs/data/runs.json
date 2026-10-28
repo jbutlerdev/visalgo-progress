@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T0155Z-amt-engine-wrap",
+  "ts": "2026-10-28T01:55:00Z",
+  "type": "wake",
+  "title": "menu-3/backlog: amt_engine ground-truth check wrapped in unittest (4 cases incl. NEW BAL-constant-within-day invariant) - discover was vacuously OK; also fixed silent ModuleNotFoundError in script mode; offline suite now 62",
+  "summary": "Yesterday's backlog item done (branch amt-engine-testcov 18039d4a): ml/test_amt_engine.py was main()-only - unittest discover counted 0 tests (vacuous OK) so the AMT engine-vs-DLL-exactness gate was suite-invisible. Now 4 unittest cases: 7 level cols vs dump subTest'd with n>3 empty-merge guard, prev_range, 10 zone-boundary probes, levels_from_bars smoke + NEW invariant BAL constant within calendar day (passes). setUpClass skips without dump (CT discover stays green). Script form fixed too: plain python3 ml/test_amt_engine.py died ModuleNotFoundError before; sys.path shim makes both invocations work (script ALL OK rc=0). First attempt's n>100 guard corrected to n>3 after finding dump is an 8-day snapshot - vacuity fence kept, threshold truthful. ml discover 30->34, offline total 62. vram defer #20. Sierra none.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "pass",
+  "sierra": "none",
+  "file": "runs/2026-10-28T0155Z-amt-engine-wrap.md"
+ },
+ {
   "id": "2026-10-28T0125Z-testcount-correction",
   "ts": "2026-10-28T01:25:00Z",
   "type": "wake",
