@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T1340Z-v4-approved-gpu-session",
+  "ts": "2026-10-28T13:40:00Z",
+  "type": "manual",
+  "title": "**APPROVALS: v4 package + GPU takeover (Jeremiah)** - activation plan staged (dev-first, interlocks intact); GPU session #1 complete: llama-laguna snapshot->stop->canonical data push (hash-verified)->LSTM 1-fold CUDA smoke 10.0s->RESTORE verified health:200 correct model (6m50s outage)",
+  "summary": "Verbatim approvals recorded (v4 + GPU with restart-when-done condition; interpreted safety-first: v4 approval does NOT skip dev-first->contract->md5->Jeremiah-gated .61 interlocks; restore = hard gate; Z MIXED record stands). GPU session #1: baseline locked (binds 10.10.199.146:8080 not localhost - learned), stopped (GPU 24115->266MiB), pushed canonical ES_front to vram repo (sha256-verified, old backed up), found sanctioned ~/venv (xgb+torch cu130, no installs), ONE LSTM fold trained 10.0s on CUDA -> full study ~35min feasible next dedicated cycle (vram repo code old b0fb47f - sync first). RESTORE 13:33Z verified: active, health:200, models laguna-xs-2.1, 24083MiB. v4 -> APPROVED ACTIVATION IN PROGRESS (plan file staged; B1-B5+C next cycles: compose+suites, mingw, contract tests, dev deploy w/ backups+dry-runs, .61 staging-prep-only). Sierra none this cycle.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-28T1340Z-v4-approved-gpu-session.md"
+ },
+ {
   "id": "2026-10-28T1320Z-oos-pipeline-checkpoint",
   "ts": "2026-10-28T13:20:00Z",
   "type": "wake",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T11:10Z",
+  "updated": "2026-10-28T13:40Z",
   "scoreboard": {
     "confirmed": 3,
     "falsified": 18,
@@ -8,10 +8,10 @@
   "review_stack": [
     {
       "name": "v4 package (v2 + zone-veto + TS54)",
-      "status": "CONFIRMED \u2014 BEST ON RECORD",
+      "status": "APPROVED \u2014 ACTIVATION IN PROGRESS (dev-first)",
       "branch": "algo-dev/zonenveto (+ ts54-timeslot)",
       "summary": "Superset candidate: prob vetoes + trail 1.75/1.75 + zone-5 short veto + 54-bar time-stop. pkg-std re-measure: TS marginal +$394 4/4 (complementary); vs E3 recency +$837 4/4 = best on record. NOTE: Z-component re-prereg pending (see retraction 0655Z); v4 recency story survives.; DD best profile. DLL: time-stop leg (contract spec ready) + zone gating (verify zone_c reuse). If approving the stack, v4 is the recommended end-state.",
-      "asks": "Jeremiah: v4 review (or v2-only as the minimal step)"
+      "asks": "in progress: compose+compile+contract -> sierra-dev -> staging; .61 deploy stays Jeremiah-gated"
     },
     {
       "name": "H-ZONEVETO (v2+zone-5-short-veto)",
@@ -36,10 +36,10 @@
     },
     {
       "name": "vram LSTM research (menu-6)",
-      "status": "BLOCKED ON COEXISTENCE",
+      "status": "UNBLOCKED \u2014 GPU granted (restore-when-done condition honored)",
       "branch": null,
       "summary": "GPU held 24.1/24.6 GB by llama-server (10 days). ~460 MB free - cannot allocate; guest ethics forbid OOM gambling. Options sent (a: GPU windows, b: CPU pilot, c: park). Deferred x21.",
-      "asks": "Jeremiah: pick a/b/c"
+      "asks": "none - LSTM study executing"
     }
   ],
   "falsified": [
