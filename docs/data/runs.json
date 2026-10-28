@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T1735Z-fw24-timeslot-compiled",
+  "ts": "2026-10-28T17:35:00Z",
+  "type": "wake",
+  "title": "**B2 complete: fw24 time-stop WRITTEN + cross-compiles** (86 lines; sltp 4th field, bracket-cancel + market close, one-shot/day; OFF-parity audit PASS: g_AgMaxBars=0 default = pre-fw24 behavior) - B3 contract run on .162 next",
+  "summary": "v4 activation B2 done on branch v4-activation (commit 9825098). Patch: agent_sltp.txt 4th field maxbars (0=OFF via mb default + >=2 floor), entry-bar time state in both entry blocks, tstop block before exit path: same-day (now-entry)/5>=maxbars with our-position check -> CancelOrder our working attached stop AND target (existing trail loop only found stop - key structural fix) -> BuyExit/SellExit market close -> trail-state reset + LIVE TSTOP log + EXIT-REJECTED alarm; g_AgMaxBarsHitDay one-shot guard. OFF-parity audit: block gated on g_AgMaxBars>0, default 0, fscanf-fail 0, diff +86/-2 (both minus = the modified fscanf line). Toolchain: no docker in sandbox; direct mingw works, -lwinhttp MUST follow source (build.sh note). Baseline compiles same flags => diff audit valid. B3 next: run the 7 contract semantics vs DLL on sierra-dev dry-run + default-build parity; then B4 deploy (.162, *.bak/RELOAD/md5/LOAD) + B5 dry-runs. .61 untouched; Jeremiah keeps restart/Auto-Trading. Sierra none this cycle. Datasets read-only.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "mingw compile OK (baseline+fw24); OFF-parity audit 4/4",
+  "sierra": "none",
+  "file": "runs/2026-10-28T1735Z-fw24-timeslot-compiled.md"
+ },
+ {
   "id": "2026-10-28T1655Z-timeslot-contract",
   "ts": "2026-10-28T16:55:00Z",
   "type": "wake",

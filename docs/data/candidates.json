@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T16:20Z",
+  "updated": "2026-10-28T17:35Z",
   "scoreboard": {
     "confirmed": 3,
     "falsified": 18,
@@ -8,7 +8,7 @@
   "review_stack": [
     {
       "name": "v4 package (v2 + zone-veto + TS54)",
-      "status": "APPROVED \u2014 ACTIVATION: B1 done (branch composed), B2 cross-compile next",
+      "status": "APPROVED \u2014 ACTIVATION: B1+B2 done (fw24 compiled), B3 contract on dev next",
       "branch": "algo-dev/zonenveto (+ ts54-timeslot)",
       "summary": "Superset candidate: prob vetoes + trail 1.75/1.75 + zone-5 short veto + 54-bar time-stop. pkg-std re-measure: TS marginal +$394 4/4 (complementary); vs E3 recency +$837 4/4 = best on record. NOTE: Z-component re-prereg pending (see retraction 0655Z); v4 recency story survives.; DD best profile. DLL: time-stop leg (contract spec ready) + zone gating (verify zone_c reuse). If approving the stack, v4 is the recommended end-state. CONCENTRATION (Jeremiah audit 1400Z): top day 2025-04-10 (validated real) = 18.1% of v4 (E3 23.5%); ex-top5 v4 +2,807 - edge not one day; approved stack lowers concentration. Top-day causality PROVEN OOS (strict retrain reproduces decision); +1-tick stress only -631 (8x more fill-robust than E3).",
       "asks": "in progress: compose+compile+contract -> sierra-dev -> staging; .61 deploy stays Jeremiah-gated"
