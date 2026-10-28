@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T0550Z-hzoneveto-pass",
+  "ts": "2026-10-28T05:50:00Z",
+  "type": "wake",
+  "title": "**H-ZONEVETO discovery PASS 4/4** (first since the confirmed candidates): veto zone-5 (above-AMT-R4) shorts = +$469 mean (4/4 seeds), DD -1,254->-1,168, recency +$137 4/4 - new-info feature lane (zone_c, cached-never-used) after 3 straight threshold-surgery rejections; fresh-stream confirm seeds 4-7 next cycle",
+  "summary": "Hypothesis-generation pass (steer) on the never-used cached zone column: observational scan (seeds 0-1 only, keeping 2-3 quasi-fresh) found zone-5 (above R4) entry shorts bleed -$21/tr (n=63; late-chasing shorts mean-revert). Pre-registered ONE cell (bars locked before run), v2 + zone-5 short veto (kill-day vetoes untouched), seeds 0-3: D1 +469 all-4-positive, D2 4/4, D3 DD improves -1,168, D4 recency +137 4/4 => DISCOVERY PASS. Fresh-stream confirm (seeds 4-7, never seen) is the true test - queued next cycle per protocol; if pass, candidate = third review item (packages v2+Z/v3+Z) and DLL note: zone_c already computed live so may port without new computation (verify before claim). Watch-outs recorded: scan-seed overlap, thin n~32/seed, single-cell pre-registration (long cells at zones 1/4 deliberately untouched). vram #27 Thu-armed. Sierra none. Repros saved.",
+  "status": "ok",
+  "experiments": 2,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-28T0550Z-hzoneveto-pass.md"
+ },
+ {
   "id": "2026-10-28T0520Z-hsidethr-reject",
   "ts": "2026-10-28T05:20:00Z",
   "type": "wake",
