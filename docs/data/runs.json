@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T0940Z-manifest-audit",
+  "ts": "2026-10-28T09:40:00Z",
+  "type": "wake",
+  "title": "data-integrity audit: canonical MANIFEST 1,145/1,145 OK (4.1s) + working ES_front sha256 byte-identical to manifest - all program PnLs rest on verified bytes; OOS-repo diff expected (frozen+tail merge), recorded for traceability; audit now periodic control",
+  "summary": "Full sha256sum -c over VISALGO-MANIFEST in canonical tree: 1,145 files all OK zero FAIL. Working copy ES_front.parquet hash matches manifest exactly (b7ae289f...a5256) => every discovery/confirmation/experiment this program logged computed on byte-verified canonical data. oos_repo copy differs (6738453...) as expected: frozen front + banked 10-03..10-27 tail (OOS merge) - diff recorded so future audits see intent. Rationale: retraction-week lesson generalized - verify foundations not just logic; dataset corruption would silently poison all comparisons; 4s cost => now periodic (weekly / after dataset-touching runs). Live .61 healthy (PERF 129,802, 0 ERROR). Sierra live-readonly log-tail only. vram #34.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "n/a",
+  "sierra": "live-readonly",
+  "file": "runs/2026-10-28T0940Z-manifest-audit.md"
+ },
+ {
   "id": "2026-10-28T0910Z-packet-docs-sync",
   "ts": "2026-10-28T09:10:00Z",
   "type": "wake",
