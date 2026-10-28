@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T1210Z-reentry-convention-confirmed",
+  "ts": "2026-10-28T12:10:00Z",
+  "type": "wake",
+  "title": "H-REENTRY declined at scan (kill #3): one-entry-per-day convention QUANTIFIED AS PROTECTIVE - second crosses exist 24-47% of trade-days but net -$13.1/trade (-$3,342, median -$41); the 'obvious' re-entry upgrade is harmful; convention joins label-shape as load-bearing",
+  "summary": "Never-measured harness convention (break after first entry) audited via counting scan seeds 0-1: second qualifying cross appears on 24-47% of trade-days -> convention binding often; those trades would earn mean -13.1/median -40.6/total -3,342 (late-chasing an already-booked move = losing cohort, coherent w/ zone-5-short & mid-conf-short stacking findings + persistence-pricing). Declined formalization (no candidate; -1,700/seed can't pass +150 bar; ceremony avoided). Convention-confirmation diagnostic (like ATR-decile table) - NOT counted as falsification, scoreboard 3C/18F/1N unchanged. Caveat: second-cross exit-bar approximated (PnL stats from real sim_trail_p). Scan-stage kills now 3 (ATRMIN/STREAK/REENTRY) at ~4min each vs 1 MIXED produced - generation lane validated. Sierra none. OOS 21:30Z.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-28T1210Z-reentry-convention-confirmed.md"
+ },
+ {
   "id": "2026-10-28T1135Z-reject-attribution",
   "ts": "2026-10-28T11:35:00Z",
   "type": "wake",
