@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T2120Z-tstop-unit-hardwarefree",
+  "ts": "2026-10-28T21:20:00Z",
+  "type": "wake",
+  "title": "**tstop trigger logic verified hardware-free**: acsil/tstop_test.cpp - 8 C++ cases mirroring the fw24 block (OFF/same-bar/exact-5x-maxbars/flat/day-match/one-shot/54-bar=14:05/no-overnight) ALL PASS; caught my own wrong boundary assertion during authoring",
+  "summary": "While B3 trade-service exercise waits on SimMode gate, verified the port-breakable half locally: C++ unit mirrors fw24 condition chain + arithmetic verbatim from AgentFrame.cpp (fields/guards identical), asserts 8 cases incl the v4 scenario (09:35 entry maxbars=54: not-14:00/fires-14:05) and one-shot/day + no-overnight guards. ALL PASS (plain g++, in-repo acsil/tstop_test.cpp e00b437). Self-check logged: initial test asserted boundary should NOT fire - test was wrong (+15min = exactly fires), fixed; logic correct. Gate stack: python oracle 7/7, C++ trigger unit 8/8, trade-service behavior pending SimMode (Jeremiah: flip on dev OR AGENT_BACKTEST alt-path; B3 DLL Sim1-pinned ready). Scope honest: unit = condition chain only, not CancelOrder/BuyExit outcomes. Sierra none this cycle; datasets read-only. Outstanding: B5, C staging, GPU LSTM study (granted), 21:30Z OOS refresh armed.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "tstop unit 8/8 PASS (g++); py oracle 7/7 stands",
+  "sierra": "none",
+  "file": "runs/2026-10-28T2120Z-tstop-unit-hardwarefree.md"
+ },
+ {
   "id": "2026-10-28T2055Z-b3-simmode-gate",
   "ts": "2026-10-28T20:55:00Z",
   "type": "wake",
