@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T0520Z-hsidethr-reject",
+  "ts": "2026-10-28T05:20:00Z",
+  "type": "wake",
+  "title": "H-SIDETHR formal REJECTED 0/4 (shorts' thr 0.50: dPnL -2,656 AND DD worse -1,254->-1,798): mid-confidence shorts are profitable AND hedge the long book - side x thr cross not exploitable; falsification #16, calibration lane closed to threshold surgery",
+  "summary": "Pre-registered one-cell test (multiple-comparisons rule): raise shorts' entry thr 0.45->0.50 on v2 (chop-shorts-bleed prior). All 4 bars fail: C1 -2,656 (4/4 negative), C3 DD WORSE by 544 (removed shorts hedged long-book DD - dual-purpose: individually profitable + structurally protective), C4 recency -512 0/4. Explains the 0940Z uniform-thr interior optimum: cross not exploitable by trimming either side; kill-day vetoes remain the correct surgical side-conditional instrument. Mirror cell (longs 0.50) pre-declared exploratory-only, primary failed -> NOT run (no bar-shopping). Calibration lane open only for information-ADDING methods. Falsification #16; all offline-reachable axes now closed; remaining: feature additions (heavy), LSTM (vram #26, Thu ping due). v2-GO/v3-DLL unchanged; OOS refresh armed tonight post-close. Sierra none.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-28T0520Z-hsidethr-reject.md"
+ },
+ {
   "id": "2026-10-28T0455Z-hlabel-reject",
   "ts": "2026-10-28T04:55:00Z",
   "type": "wake",

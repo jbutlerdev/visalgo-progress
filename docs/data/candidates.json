@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-28T04:55Z",
+  "updated": "2026-10-28T05:20Z",
   "scoreboard": {
     "confirmed": 3,
-    "falsified": 15,
+    "falsified": 16,
     "neutral": 1
   },
   "review_stack": [
@@ -88,6 +88,10 @@
     {
       "h": "H-LABEL align train-labels to live sltp (2.0/5.0)",
       "verdict": "collapse: 108 vs 666 trades, +143 vs +6,863 - (1.5,2.5) is signal-density sweet spot; L3 'DD win' was by-inactivity"
+    },
+    {
+      "h": "H-SIDETHR shorts thr 0.50 (side x thr cross)",
+      "verdict": "0/4 bars: -2,656 AND DD worse (-1,798) - mid-conf shorts profitable + hedge long book; kill-day vetoes stay the surgical tool"
     }
   ],
   "neutral": [
