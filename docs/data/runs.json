@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T0655Z-zonenveto-retraction",
+  "ts": "2026-10-28T06:55:00Z",
+  "type": "wake",
+  "title": "**RETRACTION: H-ZONEVETO confirm measured on off-definition replay (missing Friday skip) - pkg-std: disc +$95 3/4 FAILS D1 (was +$469), conf +$210 4/4 passes, pooled +$149 borderline, DD improves 9/9, recency +$193 4/4. Demoted MIXED; ledger 3C/16F. v4 comp re-measured pkg-std: TS-on-v2+Z +$394 4/4, v4-vs-E3 recency +$837 4/4 best on record**",
+  "summary": "Self-audit caught my own inflated CONFIRM ~50min after posting it: my ZVETO run_zv/run4 replays omitted the package-standard Friday skip (h_ts_confirm.run has it; my new scripts defined own replays). All prior packet numbers unaffected (exec proper run()). Corrected: discovery D1 FAILS (+95, seed3 -147 vs bar +150) -> CONFIRM retracted per pre-registration, status MIXED (DD-improving 9/9 streams + recency +193 4/4 are the robust face; absolute PnL straddles the bar at +149). Lesson logged: both-arms-same-script is necessary but NOT sufficient - replay must match DEPLOYED definition. v4 composition pkg-std robust: TS marginal +394 4/4 (complementary), v4-vs-E3 recency +$837 4/4 = new best-on-record (correctly measured). Zone gating DLL claim VERIFIED (NqAmtAgent zone_of at cpp:261). Next: re-preregister Z as DD/recency-framed candidate on definition-pinned harness. Jeremiah notified of retraction. Sierra none. 3C/16F.",
+  "status": "ok",
+  "experiments": 2,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-28T0655Z-zonenveto-retraction.md"
+ },
+ {
   "id": "2026-10-28T0625Z-hzoneveto-confirmed",
   "ts": "2026-10-28T06:25:00Z",
   "type": "wake",

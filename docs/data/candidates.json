@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-28T06:25Z",
+  "updated": "2026-10-28T06:55Z",
   "scoreboard": {
-    "confirmed": 4,
+    "confirmed": 3,
     "falsified": 16,
     "neutral": 1
   },
@@ -10,14 +10,14 @@
       "name": "v4 package (v2 + zone-veto + TS54)",
       "status": "CONFIRMED \u2014 BEST ON RECORD",
       "branch": "algo-dev/zonenveto (+ ts54-timeslot)",
-      "summary": "Superset candidate: prob vetoes + trail 1.75/1.75 + zone-5 short veto + 54-bar time-stop. TS marginal +$562 (4/4) on top of v2+Z (complementary mechanisms); vs E3 recency +$522 (4/4) = best recent-era delta on record; DD best profile. DLL: time-stop leg (contract spec ready) + zone gating (verify zone_c reuse). If approving the stack, v4 is the recommended end-state.",
+      "summary": "Superset candidate: prob vetoes + trail 1.75/1.75 + zone-5 short veto + 54-bar time-stop. pkg-std re-measure: TS marginal +$394 4/4 (complementary); vs E3 recency +$837 4/4 = best on record. NOTE: Z-component re-prereg pending (see retraction 0655Z); v4 recency story survives.; DD best profile. DLL: time-stop leg (contract spec ready) + zone gating (verify zone_c reuse). If approving the stack, v4 is the recommended end-state.",
       "asks": "Jeremiah: v4 review (or v2-only as the minimal step)"
     },
     {
       "name": "H-ZONEVETO (v2+zone-5-short-veto)",
-      "status": "CONFIRMED \u2014 REVIEW ITEM",
+      "status": "MIXED \u2014 RETRACTED CONFIRM, UNDER REVIEW",
       "branch": null,
-      "summary": "Veto shorts with entry-bar AMT zone==5 (above R4): +$469 mean dPnL (4/4 seeds), DD -1,254->-1,168, recency +$137 4/4. New-information lane (zone_c cached-never-used by harness; live agent already computes it - DLL port may need gating only, verify). CONFIRMED 4/4 on fresh streams (+457, DD -1,732->-1,418). v4=+TS54 composes (+562 4/4); vs-E3 recency +522 best on record. OOS neutral-by-inactivity. Needs: acsil zone-gating feasibility check, then activation decision.",
+      "summary": "Veto shorts with entry-bar AMT zone==5 (above R4): +$469 mean dPnL (4/4 seeds), DD -1,254->-1,168, recency +$137 4/4. New-information lane (zone_c cached-never-used by harness; live agent already computes it - DLL port may need gating only, verify). RETRACTED: earlier numbers used a replay missing the package-standard Friday skip. Corrected pkg-std: disc +95 3/4 (D1 fail), conf +210 4/4, pooled +149 borderline; DD improves 9/9 streams; recency +193 4/4 robust. Needs re-preregistration (DD/recency framing) on definition-pinned harness. v4=+TS54 composes (+562 4/4); vs-E3 recency +522 best on record. OOS neutral-by-inactivity. Needs: acsil zone-gating feasibility check, then activation decision.",
       "asks": "Jeremiah: review v2 / v3-DLL / v4 (stacked, each separable)"
     },
     {
