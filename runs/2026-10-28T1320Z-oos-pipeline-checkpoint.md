@@ -39,3 +39,11 @@ either way.
 
 Files: ml/oos_tail_pipeline.py (branch algo-dev/oos-pipeline; unmerged
 until validation passes). Sierra: none. Datasets read-only.
+
+## Footnote (record correction, same cycle)
+The log said "branch algo-dev/oos-pipeline" while the commit had
+actually landed on local master (push correctly rejected by the
+remote's non-ff rule). Fixed within the cycle: commit moved to
+algo-dev/oos-pipeline (dffcc920), master reset clean to fb1a019.
+The branch-until-validated policy was the intent all along; the log
+now matches git reality.
