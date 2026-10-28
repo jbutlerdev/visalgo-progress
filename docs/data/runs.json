@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T2015Z-tstop-dryrun-bugfix",
+  "ts": "2026-10-28T20:15:00Z",
+  "type": "wake",
+  "title": "**SAFETY: fw24 time-stop fired real order calls even in dry-run build** (CancelOrder+BuyExit unguarded) - found pre-exercise, fixed w/ entry/exit-pattern guard, DRYRUN/LIVE log prefixes, -1.5KB dry-build proof; fixed DLL on .162; B3 needs live-order build vs dev SIM (replay skips orders - pos never nonzero)",
+  "summary": "Bug in my own fw24 port (1735Z), caught while preparing B3 replay trigger: tstop block called CancelOrder(stop+target)+BuyExit/SellExit UNCONDITIONALLY, unlike every other order path's if(AGENT_DRYRUN) pattern => the 'dry-run' dev build would have fired real market orders on any tstop trigger. Exactly fw25's failure mode, in post-hardening code; verification-before-exercise caught it on dev (pre-any-order). Fix: cancel-loop+exit under if(!AGENT_DRYRUN), state+log both modes, TSTOP lines prefixed DRYRUN/LIVE (unmistakable), EXIT-REJECTED live-only. Evidence guard bites: dry build 2,426,005B (-1.5KB dead order path), live build byte-size unchanged. Fixed DLL sha c94fa2fe deployed .162 + restarted. B3 structural finding: REPLAY skips order calls (line 119) so pos never nonzero -> tstop can't fire in replay OR dry-run; honest exercise = live-order build (-DVISALGO_LIVE_ORDERS=1) vs dev SIM account after read-only SimMode-ON screenshot proof (brief rule), backtest_signals entry w/ long exit -> LIVE TSTOP + bracket-cancel proof. Next cycle B3 proper. .61 untouched; restart/Auto-Trading = Jeremiah. Sierra: .162 (DLL swap sha-verified, restart).",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "both build modes compile; size-delta guard proof; sha both-ends",
+  "sierra": "dev",
+  "file": "runs/2026-10-28T2015Z-tstop-dryrun-bugfix.md"
+ },
+ {
   "id": "2026-10-28T1925Z-dev-agent-running",
   "ts": "2026-10-28T19:25:00Z",
   "type": "wake",
