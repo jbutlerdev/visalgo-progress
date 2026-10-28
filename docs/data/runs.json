@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T0840Z-v2-deployable-audit",
+  "ts": "2026-10-28T08:40:00Z",
+  "type": "wake",
+  "title": "Pre-deployment due-diligence (ZVETO-lesson applied systematically): 6 packet-lineage scripts lacked the live-DLL noFri rule; deployable-definition recompute HOLDS - v2 +$827 pooled 4/4 (was +807), DD identical -1,486 vs -1,820, recency +$534 4/4; pre-locked verdict rule PASS -> GO-pending stands on what activation actually runs",
+  "summary": "Systemic sweep after the retraction: hprob/hstack_confirm/hprob_oos/htrail_confirm/h_seeds47/h_seed8 all omit the Friday skip the live DLL enforces (only TS scripts had it) - packet deltas were 'filters without the Friday gate'. Recomputed decision numbers with noFri on BOTH arms (= exact activation config): pooled dE3 +827 4/4 (+462/+1,167/+511/+1,168), DD mean -1,486 vs E3 -1,820 (identical to packet), recency 12mo +534 4/4 (was +481). Dropping Fridays slightly helps both deltas (Friday cohort weakest on both sides - consistent w/ H-FRI flat-recent). Verdict rule locked before run (pool>=500, >=3/4, DD-no-worse): PASS -> v2 STAYS GO-pending on the deployable definition. Standing pre-review gate now: weekday()-grep sweep + dual-arm recompute for any packet number. Packet doc primary-table swap queued. Sierra none. Repro saved. OOS refresh 21:30Z.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-28T0840Z-v2-deployable-audit.md"
+ },
+ {
   "id": "2026-10-28T0805Z-atrmin-norun",
   "ts": "2026-10-28T08:05:00Z",
   "type": "wake",
