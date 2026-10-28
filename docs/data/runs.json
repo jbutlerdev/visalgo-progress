@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T1655Z-timeslot-contract",
+  "ts": "2026-10-28T16:55:00Z",
+  "type": "wake",
+  "title": "**Contract-first for the DLL port**: 7-test maxbars oracle written (tp/sl preemption, bar-index close, trail interaction, 0-vs-None OFF bridge) + B2 recon done \u2014 exits are server-side brackets, so fw24 needs CancelOrder+BuyExit/SellExit (~90-120 lines, dedicated cycle); 60 ml tests green",
+  "summary": "B2 approached contract-first. (1) ml/test_timeslot_contract.py pins sim_trail_p(maxbars) semantics = the oracle the C++ fw24 patch must match: None-full-run, 1-bar exit, stream-cut at index (bar-5 spike invisible), tp/sl preempt stop, trail+stop, and the C++-0=OFF vs Python-None=OFF bridge guard (raw 0 raises - documented seam). (2) Recon on deployed AgentFrame: sltp parse :2115 (3-field fscanf, 4th field clean), trail block :2198-2250 (barKeyT/g_AgTrDay/order-loop exist), KEY: exits = server-side attached brackets (Target1/Stop1 offsets) => fw24 must cancel BOTH attached orders (existing loop finds stop only) then market-exit via sc.BuyExit/SellExit (headers :2770, SimExit pattern). Effort revised 90-120 lines. Deferred to dedicated cycle per checkpoint rule rather than half-patch. Suites: 60 ml OK (+7), 8 sc_client. Branch v4-activation updated. Sierra none; datasets read-only. Next: B2 dedicated (patch+mingw+parity), then B3 same-7-semantics vs DLL on .162; 21:30Z OOS refresh + GPU study armed.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "60 ml + 8 sc_client OK",
+  "sierra": "none",
+  "file": "runs/2026-10-28T1655Z-timeslot-contract.md"
+ },
+ {
   "id": "2026-10-28T1620Z-v4-activation-compose",
   "ts": "2026-10-28T16:20:00Z",
   "type": "wake",
