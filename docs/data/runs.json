@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T0745Z-tsside-decomp",
+  "ts": "2026-10-28T07:45:00Z",
+  "type": "wake",
+  "title": "H-TSSIDE formal: TS54 effect ENTIRELY long-side carried (L-only +378 4/4 vs global +398; shorts-only +20 inert) - my 'shorts bleed' hypothesis inverted by data; short-only simplification rejected on 4/5 bars; global TS stays spec, long-only documented as ~$20-equivalent DLL fallback",
+  "summary": "Pre-registered decomposition of the confirmed TS54 effect by side (seeds 0-3, pkg-standard pinned harness, cached sigs): TS-global +398 4/4 (reproduces 1935Z discovery exactly - cross-validates the harness fix); TS-longsonly +378 4/4 DD -1,250; TS-shortsonly +20 2/4 DD -1,395. Short-only candidate fails E1/E2/E3(marginal)/E4(recency -42)/E5(gap $378) -> global TS stays the recommendation. Mechanism correction worth the cycle: time-stop works via dead-money LONGS closed at bar 54 (shorts resolve on trail/TP/SL) - 5th 'confirmed-but-unexamined dimension' caught. DLL-effort note: long-only TS is a ~$20-equivalent minimal-port fallback (global still best DD -1,189); short-only off the table. Sierra none. Repro saved. OOS refresh 21:30Z.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-28T0745Z-tsside-decomp.md"
+ },
+ {
   "id": "2026-10-28T0720Z-zveto-policy-oos",
   "ts": "2026-10-28T07:20:00Z",
   "type": "wake",
