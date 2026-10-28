@@ -20,7 +20,7 @@ V2 = kill-day vetoes + trail 1.75/1.75 — the exact activation config.
 | metric | packet (Fri included) | **deployable (both arms noFri)** |
 |---|---|---|
 | pooled dE3 | +$807 | **+$827 (4/4: +462/+1,167/+511/+1,168)** |
-| DD mean | −1,486 vs −1,820 | **−1,486 vs −1,820 (identical)** |
+| DD mean | −1,486 vs −1,820 | **−1,486 vs −1,820 (unchanged to the dollar)** |
 | recency 12mo | +$481 | **+$534 (4/4)** |
 
 **Verdict rule: POOL ≥ +$500 AND ≥3/4 AND DD-no-worse → PASS. v2
@@ -33,6 +33,10 @@ both sides — consistent with the H-FRI formal's flat-recent finding).
   numbers Jeremiah reviews are now the deployed-definition numbers
   (the activation checklist already assumed them; now they're measured
   that way).
+* All numbers in the deployable column are this script's fresh output
+  (incl. DD); the packet column quotes prior runs — the DD match to the
+  dollar is genuine (Friday cohort trades were vetoed/held on most streams)
+  but treat the fresh column as authoritative.
 * Packet docs (CANDIDATE_hprob_bandgate.md) should cite the deployable
   table as primary (branch doc update queued next cycle).
 * The definition-sweep method (grep weekday() across harnesses +
