@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T10:35Z",
+  "updated": "2026-10-28T11:10Z",
   "scoreboard": {
     "confirmed": 3,
     "falsified": 18,
@@ -31,7 +31,7 @@
       "name": "v3 package (v2 + time-stop 54)",
       "status": "AWAITING DLL DECISION",
       "branch": "algo-dev/ts54-timeslot",
-      "summary": "TS54 closes bar-54 if still open. Marginal +$302 mean, 9/9 positive, DD better in all 9 (seed8 -1,280 to -990). Recency +$491 (4/4) over E3. Backtest-only until DLL port (contract = ml/test_maxbars_spec.py, 7 tests). OOS-neutral (inert in chop).",
+      "summary": "TS54 closes bar-54 if still open. Marginal +$302 mean, 9/9 positive, DD better in all 9 (seed8 -1,280 to -990). Recency +$491 (4/4) over E3. DLL port assessed from source: 30-60 lines (fw23 trail machinery already tracks entry-bar state; +counter +close +sltp 4th field default OFF) - contract = ml/test_maxbars_spec.py 7 semantics. Effect +302 9/9 pkg-std, long-side mechanism. OOS-neutral (inert in chop).",
       "asks": "Jeremiah: approve DLL time-stop work on sierra-dev (recompile + contract tests)"
     },
     {
