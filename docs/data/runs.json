@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T1845Z-dev-dll-staged",
+  "ts": "2026-10-28T18:45:00Z",
+  "type": "wake",
+  "title": "**B4 staging half**: fw24 dry-run DLL byte-verified on sierra-dev (ACSIL dir created, sha256 d117c1fa match, RELOAD armed, NOTHING STARTED); build determinism proven; stray-pid discrepancy closed",
+  "summary": "Dev .162 staged for B3/B4: ~/SierraChart/ACSIL created, AgentFrame_64.dll (fw24+fw25, dry-run DEFAULT build 2,427,517B exact-size-match to 1800Z artifact; sha256 identical both ends) + RELOAD armed. No sierra process running (unit dead) so DLL not yet loaded - LOAD proof next cycle on unit start. Findings: sandbox /tmp is per-tool-call (build vanished) => artifacts to ~/work/dll/ (deterministic rebuild verified); stray sierra pid 2323631 self-exited (discrepancy closed). Next dedicated cycle: start unit, AgentFrame study attach (GUI ops w/ screenshots per HANDOFF lore), dev sltp '1.75 5.0 1.75 54', run 7 contract semantics vs LIVE TSTOP lines + 3-field parity (no TSTOP). Then B5 sc_client dry-runs, C .61 staging-prep. .61 untouched; restart/Auto-Trading = Jeremiah. Sierra: .162 file staging only, no process/GUI actions. Datasets read-only.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "build determinism + byte-verify both ends",
+  "sierra": "dev-staged",
+  "file": "runs/2026-10-28T1845Z-dev-dll-staged.md"
+ },
+ {
   "id": "2026-10-28T1800Z-dryrun-hardening",
   "ts": "2026-10-28T18:00:00Z",
   "type": "wake",
