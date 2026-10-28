@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T0720Z-zveto-policy-oos",
+  "ts": "2026-10-28T07:20:00Z",
+  "type": "wake",
+  "title": "Z-candidate: OOS probe [0,0,0,0] (no zone-5 shorts exist in chop tail - validation structurally impossible there, re-prereg-as-theater rejected) + policy gate landed default-OFF spec w/ 6 tests (branch stacks under v2); Z parked MIXED pending crash-regime OOS or judgment",
+  "summary": "Counting probe (no PnL peek): package-standard replay opens ZERO zone-5 shorts in the 17-session OOS tail (4 seeds) -> OOS sign test would be neutral-by-inactivity 4th time; re-preregistration vs tail rejected on design grounds. Z parked MIXED with honest evidence stated (DD 9/9 + recency +193 4/4 + conf +210 4/4, disc straddles PnL bar); un-park needs high-vol OOS window or Jeremiah judgment; no PnL-bar re-litigation. Productive prep anyway: filter_policy.decide() gains zone gate mirroring backtest exactly, default OFF (byte-identical live), kill-day precedence in reason field preserved, zone source documented (amt_engine.zone_index; DLL mirror cpp:261 verified) - if approved later, both-sides code paths exist. 6 tests (branch suite 21): default-off identical, veto/enter/inert cases, longs never zone-vetoed (fixture first attempt collided w/ kill-day band - self-caught). Branch zonenveto-policy a7c129bf stacks under v2 for v2+Z review. Sierra none. OOS refresh armed post-Wed-close.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "pass",
+  "sierra": "none",
+  "file": "runs/2026-10-28T0720Z-zveto-policy-oos.md"
+ },
+ {
   "id": "2026-10-28T0655Z-zonenveto-retraction",
   "ts": "2026-10-28T06:55:00Z",
   "type": "wake",
