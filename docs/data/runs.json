@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T2310Z-v4-decision-fee-rebase",
+  "ts": "2026-10-28T23:10:00Z",
+  "type": "wake",
+  "title": "**v4 decision numbers at MEASURED fee**: v4-E3 = **+$1,370 pooled 4/4** (E3 +3,913 avg -> v4 +5,283), recency **+783 4/4** - measured fee STRENGTHENS the package case (+827@1.25 -> +1,370@2.26; v4 trades less so fee hits E3 harder); own summary sign-bug caught by recompute rule",
+  "summary": "Fee-basis rule executed for the decision table: recomputed v4-vs-E3 from saved per-stream frames at 2.26/RT (-1.01/trade from 1.25 frames). Pooled mean-path +1,370 pos 4/4 per-seed [1197,1827,1056,1400]; recency-12m +783 4/4 [552,1028,744,810]. E3 avg +3,913 vs v4 +5,283 w/ fewer trades (517 vs 568) - vetoes+TS54 cut cost-bearing noise; fee shift moves delta UP because per-trade fee penalty hits the higher-churn arm harder (+827@1.25 -> +1,370@2.26). Deployment-review table now fee-honest end-to-end; no new claims beyond standing approval (activation still B3-gated). Self-check: my summary line printed wrong sign (rows were right) - recompute rule caught it, clean table in log. Sierra none; datasets read-only. Next: GPU LSTM study ~00:04Z scheduled; B3 pending Jeremiah SimMode/alt-path.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-28T2310Z-v4-decision-fee-rebase.md"
+ },
+ {
   "id": "2026-10-28T2250Z-cancel-selection-unit",
   "ts": "2026-10-28T22:50:00Z",
   "type": "wake",
