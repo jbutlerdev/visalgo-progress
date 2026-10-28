@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T0035Z-ts-9of9",
+  "ts": "2026-10-28T00:35:00Z",
+  "type": "wake",
+  "title": "v3 time leg now 9/9 marginal-positive: seed 8 (never-used) +$325, DD -1,280->-990 (23% better); mean marginal +$302 across 9 streams, DD improved in all 9 - pre-empts the review objection",
+  "summary": "Gap-close in v3 evidence: TS54 leg tested on seed 8 (menu-1's 9th never-used stream, previously only v2-vs-E3): v2 +5,762/DD -1,280 -> v3 +6,087/DD -990, marginal +325. Time leg now positive on 9/9 streams (4 discovery + 4 fresh + seed8), mean marginal +$302, DD improved in every stream (first sub-$1,000 DD on any stream/variant). Removes 'leg tested on only 8 of 9 streams' objection at ~3min compute; status unchanged (CONFIRMED, DLL-gated, CPU-convention pending GPU parity). vram defer #18 (AM ping sent, no repeat). Sierra none; no code change; master fb1a019; 5 branches staged.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-28T0035Z-ts-9of9.md"
+ },
+ {
   "id": "2026-10-28T0010Z-standby-postrestart",
   "ts": "2026-10-28T00:10:00Z",
   "type": "wake",
