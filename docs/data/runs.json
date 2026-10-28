@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T1320Z-oos-pipeline-checkpoint",
+  "ts": "2026-10-28T13:20:00Z",
+  "type": "wake",
+  "title": "OOS refresh consolidated into ml/oos_tail_pipeline.py (scid->flip-repair->align->merge; reuses canonical pieces) - --validate exposed 2nd tail anomaly (1,112 monster bars from 09:35Z 10-07, off-tolerance ratio) needing next-cycle diagnosis; tonight's refresh runs proven manual path, pipeline gated on validation",
+  "summary": "Ad-hoc OOS steps (used 3x) consolidated into one command reusing export.scid/update_dataset.align_scale/scale_guard wet loop (no re-implementation). Validation-vs-banked caught a case the manual flow had handled by eyeball: after repairing the documented 02:49Z flip, 1,112 monster bars (>20k) start 10-07 09:35 ET with prev-ratio ~0.0100 (99.51x) - classify rejects (off SCALE_TOL), align_scale FATAL-refuses. Banked tail is monster-clean (provenance: 15:06Z copy, ends 16:00) so likely scid growth between copies + second mid-bug region; TBD next cycle (resample ~3-4min x invocations exceeded budget - honest checkpoint). Tonight 21:30Z runs PROVEN manual path regardless; pipeline upgrades to primary only when fresh-pull validation passes - the gate is exactly why it was built. Branch algo-dev/oos-pipeline unmerged pending validation. Sierra none.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-28T1320Z-oos-pipeline-checkpoint.md"
+ },
+ {
   "id": "2026-10-28T1235Z-review-curves",
   "ts": "2026-10-28T12:35:00Z",
   "type": "wake",
