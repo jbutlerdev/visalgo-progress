@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T2250Z-cancel-selection-unit",
+  "ts": "2026-10-28T22:50:00Z",
+  "type": "wake",
+  "title": "**tstop cancel-selection unit 10/10 PASS** (acsil/cancel_test.cpp) - which brackets die pinned hardware-free: long kills both SELL brackets, short both BUY, entry-side untouched, qty SIGN-branch pinned, dead/unattached/wrong-qty skipped; orphan-clear documented by-design (sole-trader scope); gate stack 7+8+15+10 - units exhausted, B3 on-box is the only unknown left",
+  "summary": "4th hardware-free gate for fw24: cancel-selection predicate (the safety-critical 'which attached orders get CancelOrder'd' - wrong pick = stray bracket survives the close and could re-open a dead position). acsil/cancel_test.cpp (69a2b24) mirrors ours/against/attached/working verbatim; 10 cases ALL PASS: long->both SELL, short->both BUY, entry-side safe, qty=-1 IS ours (Sierra sign convention pinned), qty0/2/unattached/not-working skipped, 2-of-5 mix exact, stale-exit-side-orphan IS cancelled (BY DESIGN - no parent-id check; safe while agent sole trader on MESZ26/23064968; revisit if human hand-trades - logged known-scope not bug). Gate stack now oracle7+trigger8+parse15+cancelsel10 all green: everything unit-testable without trade service is tested; B3 on-box covers live API half (CancelOrder rcs, BuyExit fill, bracket-fill races) pending SimMode flip or alt-path pick. Sierra none; datasets read-only.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "cancel-selection unit 10/10 PASS (g++)",
+  "sierra": "none",
+  "file": "runs/2026-10-28T2250Z-cancel-selection-unit.md"
+ },
+ {
   "id": "2026-10-28T2220Z-sltp-parse-unit",
   "ts": "2026-10-28T22:20:00Z",
   "type": "wake",
