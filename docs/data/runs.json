@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T1455Z-live-fill-reality-check",
+  "ts": "2026-10-28T14:55:00Z",
+  "type": "experiment",
+  "title": "**Live reality check**: live book = E3 MES forward test (chart #38, server brackets, visalgo-agent) \u2014 measured fee **$2.26/RT vs modeled $1.25** (rebase: E3 +3,913 / v4 +5,283, still 4/4); live forward **\u2212$304/21 trades/14 sessions \u2248 1\u03c3 adverse vs chop-conditioned expectation** (\u2212$78) - slippage question stays open, fill-price extraction queued",
+  "summary": "READ-ONLY pull: 64 TradeActivityLogs + agent log + DTC positions (flat; build 58131). (1) Book = E3 MES forward test on account 23064968; backtest TICK_USD=5 is MES-scale => dollar-comparable. (2) FEES: daily Change fields = k x $2.26 exactly (10-26 single RT = -2.26 flat-PnL day) => all-in $2.26/RT vs modeled 1.25. Rebase -1.01/trade: E3 +4,487->+3,913, v4 +5,803->+5,283, both 4/4 seeds positive - verdicts survive honest fees; VISALGO_ENTRY_COST=2.26 becomes standing default for decision runs (queued first task next cycle). (3) LIVE FORWARD: 10-09 409.64 -> 10-28 265.20 with +160 inflow => -304 net over 21 RTs (1 MES contract). Chop-conditioned expectation -78 (from OOS tail); n=21 => sigma ~150-220 => ~1 sigma ADVERSE: not breakage, not health - the honest read is keep accumulating sessions, not polish backtests. (4) Ops: 0 new rejects, flat book, server-side brackets survive agent death. Next: fee rebase default; fill-price extraction via DTC/screenshot for the slippage distribution (last open realism gap); weekly live-vs-expected z-gauge. Sierra .61 READ-ONLY only.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "live-readonly",
+  "file": "runs/2026-10-28T1455Z-live-fill-reality-check.md"
+ },
+ {
   "id": "2026-10-28T1425Z-topday-deep-validation",
   "ts": "2026-10-28T14:25:00Z",
   "type": "experiment",
