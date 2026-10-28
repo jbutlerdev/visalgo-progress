@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T0420Z-hatrthr-reject",
+  "ts": "2026-10-28T04:20:00Z",
+  "type": "wake",
+  "title": "H-ATRTHR formal REJECTED (1/4 bars: dPnL -67, recency -197 all-seeds-worse): calm-regime trades NET-EARN - high-vol concentration != dead-weight calm entries; risk-safe (trade-removal) direction falsified too; entry layer fully closed",
+  "summary": "Pre-registered regime-conditional threshold on v2 (thr 0.45->0.50 only when entry-ATR<=p33; removal-only, seeds 0-3, ~157 trades/seed skipped): T1 -67 FAIL, T2 2/4 FAIL, T3 DD-neutral pass (-1,254->-1,245), T4 recency -197 0/4 FAIL -> REJECT, falsification #14. Mechanism nuance recorded: 'edge high-vol concentrated' (3-angle triangulation) does NOT imply calm-market entries are dead weight - the bottom-ATR tercile's p>=0.45 survivors net-earn; skipped trades worth more than DD avoided. Consistent with 0940Z uniform-thr interior optimum: regime-conditioned perturbations lose from BOTH directions. Entry/exit/capacity/exposure/sizing layers all closed; queue: feature additions, label-shape (1.5/2.5 distinct axis), LSTM (vram-blocked). vram #25. Sierra none.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-28T0420Z-hatrthr-reject.md"
+ },
+ {
   "id": "2026-10-28T0400Z-hsize-ratio-fix",
   "ts": "2026-10-28T04:00:00Z",
   "type": "wake",

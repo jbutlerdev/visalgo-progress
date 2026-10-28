@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-28T03:55Z",
+  "updated": "2026-10-28T04:20Z",
   "scoreboard": {
     "confirmed": 3,
-    "falsified": 13,
+    "falsified": 14,
     "neutral": 1
   },
   "review_stack": [
@@ -80,6 +80,10 @@
     {
       "h": "H-SIZE ATR-regime sizing (2x p70/0.5x p30)",
       "verdict": "S3 DD-binding FAIL (-1,254->-2,340) though S1 +$4,380 4/4 + recency +$1,765; risk-neutral scaling; live qty cap 1 undeployable as specified"
+    },
+    {
+      "h": "H-ATRTHR regime-conditional thr (0.50 when ATR<=p33)",
+      "verdict": "1/4 bars: dPnL -67, recency -197 (0/4) - calm-regime trades net-earn; removal not free"
     }
   ],
   "neutral": [
