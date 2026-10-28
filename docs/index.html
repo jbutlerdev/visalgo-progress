@@ -16,7 +16,7 @@ h1{font-size:19px;margin:0}h1 span{color:var(--acc)}
 .run{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:14px 16px}
 .run h3{margin:0 0 6px;font-size:15px}
 .meta{color:var(--mut);font-size:12px;display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px}
-.badge{font-size:11px;padding:1px 8px;border-radius:10px;border:1px solid var(--bd)}
+.badge{font-size:11px;padding:1px 8px;border-radius:10px;border:1px solid var(--bd)}.badge.warn{background:#4d3800;color:#e3b341;border-color:#9e6a03}.badge.ok{background:#0d2818;color:#3fb950;border-color:#238636}
 .ok{color:var(--ok);border-color:var(--ok)}.partial{color:var(--warn);border-color:var(--warn)}.blocked,.failed{color:var(--bad);border-color:var(--bad)}
 .run>p.summary{margin:6px 0 0;white-space:pre-wrap}
 a{color:var(--acc);text-decoration:none}
@@ -37,7 +37,7 @@ table.p td:first-child{color:var(--mut);white-space:nowrap}
 .noeq{color:var(--mut);font-size:11px;padding:30px 0;text-align:center;border:1px dashed var(--bd);border-radius:6px}
 </style></head><body>
 <header><h1>visalgo <span>·</span> algo performance</h1><div class="sub">equity curves, params &amp; metrics per run — logged in <a href="https://github.com/jbutlerdev/visalgo-progress/tree/main/runs">/runs</a> · source: private repo · <span id="updated"></span></div></header>
-<div id="stats"></div><div id="runs"><div class="empty">loading…</div></div>
+<div id="stats"></div><div id="candidates"></div><div id="runs"><div class="empty">loading…</div></div>
 <script>
 function downsample(a,max){if(a.length<=max)return a;const o=[],s=(a.length-1)/(max-1);for(let i=0;i<max;i++)o.push(a[Math.round(i*s)]);return o}
 function eqSvg(eq){
@@ -57,6 +57,18 @@ function algoCard(a){
   const p=Object.entries(a.params||{});
   const pt=p.length?`<details class="params" ${p.length<=7?'open':''}><summary>params (${p.length})</summary><table class="p">${p.map(([k,v])=>`<tr><td>${k}</td><td>${typeof v==='object'?JSON.stringify(v):v}</td></tr>`).join('')}</table></details>`:'';
   return`<div class="algo"><h4>${a.name||'algo'}</h4>${eqSvg(a.equity)}<div class="chips">${chips}</div>${pt}</div>`}
+fetch('data/candidates.json?ts='+Date.now()).then(r=>r.ok?r.json():null).then(c=>{
+  if(!c)return;const sb=c.scoreboard||{};
+  const badge=s=>`<span class="badge ${/GO|DLL|COEX/.test(s)?'warn':'ok'}">${s}</span>`;
+  const st=(c.review_stack||[]).map(x=>`<div class="run" style="margin:6px 0"><h3>${x.name} ${badge(x.status)}</h3>
+   <div class="meta"><span>${x.branch?('<code>'+x.branch+'</code>'):'—'}</span></div>
+   <p class="summary">${(x.summary||'').replace(/</g,'&lt;')}</p>
+   <p class="meta"><b>needs:</b> ${(x.asks||'').replace(/</g,'&lt;')}</p></div>`).join('');
+  const fal=(c.falsified||[]).map(x=>`<tr><td><code>${x.h}</code></td><td>${(x.verdict||'').replace(/</g,'&lt;')}</td></tr>`).join('');
+  document.getElementById('candidates').innerHTML=`<h2>Candidates · <span style="color:#3fb950">${sb.confirmed??'-'} confirmed</span> · <span style="color:#f85149">${sb.falsified??'-'} falsified</span> · ${sb.neutral??0} neutral</h2>${st}
+   <details class="params"><summary>falsified hypotheses (${(c.falsified||[]).length}) — scoreboard discipline</summary><table class="p">${fal}</table></details>
+   <p class="meta" style="opacity:.6">ledger updated ${c.updated||''}</p>`;
+}).catch(()=>{});
 fetch('data/runs.json?ts='+Date.now()).then(r=>r.json()).then(rs=>{
   rs=(rs||[]).slice().sort((a,b)=>(b.ts||'').localeCompare(a.ts||''));
   const work=rs.filter(r=>r.type!=='example');

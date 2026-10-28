@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T0205Z-dashboard-ledger",
+  "ts": "2026-10-28T02:05:00Z",
+  "type": "wake",
+  "title": "menu-5: dashboard candidate-ledger panel - decision stack (v2 GO / v3 DLL / vram a-b-c, each with its one 'needs:' ask) + 3-confirmed/12-falsified scoreboard rendered on the cockpit page from candidates.json",
+  "summary": "Review friction on the decision stack = slower unblocks. New #candidates panel atop the dashboard, data-driven from new docs/data/candidates.json (edit JSON, page follows): scoreboard line 3 confirmed / 12 falsified / 1 neutral; review-stack cards with status badges + branch + evidence para + explicit 'needs:' line per item (Jeremiah: merge+activation go / approve DLL time-stop on sierra-dev / pick vram a-b-c); collapsible 12-row falsification table (scoreboard discipline artifact, visible without clutter). .ok/.warn badge CSS added; JSON+markup validated (no browser in sandbox - polish deferred to live view). Dashboard stays a VIEW of canonical CANDIDATE_*.md, updated-stamp shown. vram defer #21. Sierra none.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-28T0205Z-dashboard-ledger.md"
+ },
+ {
   "id": "2026-10-28T0155Z-amt-engine-wrap",
   "ts": "2026-10-28T01:55:00Z",
   "type": "wake",

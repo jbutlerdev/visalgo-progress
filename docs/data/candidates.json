@@ -1,0 +1,32 @@
+{
+  "updated": "2026-10-28T02:05Z",
+  "scoreboard": {"confirmed": 3, "falsified": 12, "neutral": 1},
+  "review_stack": [
+    {"name": "v2 package (H-PROB band-gate)", "status": "AWAITING GO", "branch": "algo-dev/hprob-bandgate",
+     "summary": "Kill-day prob vetoes (short p in (0.55,0.60], long p>0.60) + trail 1.75/1.75 on E3. Pool +$807 vs E3, DD -1,486 vs -1,820. CONFIRMED 9/9 streams (incl. fresh-trained seed 8). Edge 2025/26-regime-concentrated; small calm-market tax. Activation checklist staged (env + sltp + restart, rollback = unset).",
+     "asks": "Jeremiah: merge + activation go"},
+    {"name": "v3 package (v2 + time-stop 54)", "status": "AWAITING DLL DECISION", "branch": "algo-dev/ts54-timeslot",
+     "summary": "TS54 closes bar-54 if still open. Marginal +$302 mean, 9/9 positive, DD better in all 9 (seed8 -1,280 to -990). Recency +$491 (4/4) over E3. Backtest-only until DLL port (contract = ml/test_maxbars_spec.py, 7 tests). OOS-neutral (inert in chop).",
+     "asks": "Jeremiah: approve DLL time-stop work on sierra-dev (recompile + contract tests)"},
+    {"name": "vram LSTM research (menu-6)", "status": "BLOCKED ON COEXISTENCE", "branch": null,
+     "summary": "GPU held 24.1/24.6 GB by llama-server (10 days). ~460 MB free - cannot allocate; guest ethics forbid OOM gambling. Options sent (a: GPU windows, b: CPU pilot, c: park). Deferred x21.",
+     "asks": "Jeremiah: pick a/b/c"}
+  ],
+  "falsified": [
+    {"h": "H-TP 6.0/7.0/4.5", "verdict": "TP=5.0 interior optimum; all variants 0/4 bars"},
+    {"h": "H-SL 2.25/1.75", "verdict": "SL=2.0 interior optimum; both 0/4"},
+    {"h": "H-THR 0.40/0.50/0.55", "verdict": "thr=0.45 interior optimum; all 0/4 (-$1.6k to -$3.8k)"},
+    {"h": "H-CAPACITY depth4 / lr0.03 / lr0.10", "verdict": "registry (200/depth3/0.06) is joint optimum; fail C1 by 7-28x"},
+    {"h": "H-SIDES (long-only / short-only)", "verdict": "closed 0405Z cycle"},
+    {"h": "H-TIMES (session carve-outs)", "verdict": "closed 0435Z cycle"},
+    {"h": "H-GAPS (entry gap filters)", "verdict": "closed 0505Z cycle"},
+    {"h": "H-FADES (fade-the-move entries)", "verdict": "closed 0535Z cycle"},
+    {"h": "H-BANDS relax", "verdict": "bands are confirmed VETOES - relaxing destroys edge"},
+    {"h": "H-TS48 (conservative TS)", "verdict": "passes bars but dominated by TS54; kept as fallback only"},
+    {"h": "H-FRI un-skip Fridays", "verdict": "3/4 bars incl. DD, but recency -$112 -> REJECT; Friday-gate series CLOSED (noFri stays)"},
+    {"h": "H-ENTRY-COST sensitivity", "verdict": "edge survives 2x costs; not a cost artifact (not an improvement - falsifies 'costs kill it')"}
+  ],
+  "neutral": [
+    {"h": "TS54 OOS sign test (17 chop sessions)", "verdict": "4/4 >= 0 but marginal $0 = inert-by-inactivity; reported zero-information, not a win"}
+  ]
+}
