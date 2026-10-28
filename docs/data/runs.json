@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T1425Z-topday-deep-validation",
+  "ts": "2026-10-28T14:25:00Z",
+  "type": "experiment",
+  "title": "**Top-day DEEP validation**: fold-causality PROVEN by strict retrain (train ends 04-04, retrained reproduces cached short @p0.54 vs 0.53, 75/78 argmax) - genuinely OOS, no leak; top-day survives 4-tick stress (+$1,003); REAL fragility = ~$10 gross/trade: +1 tick stress E3 -2,613 / v4 -631 (v4 8x more fill-robust); LIVE-FILL STUDY queued as the decisive realism test",
+  "summary": "Answering the unrealistic-returns question at its root. (A) Fold-causality: retrained the fold containing 2025-04-10 from scratch (registry cfg ens3 seed0): train 2024-11-27..2025-04-04, test 04-07..04-11, target NOT in train; fresh predict reproduces the cached decision (entry bar 0 SHORT p 0.544 vs cached 0.532; 75/78 argmax identical - float noise, same trade). Feature-shift grep clean. NO LEAKAGE - real OOS. (B) Top-day stress: -12.5/-25/-50$ extra slippage -> +1,040/+1,028/+1,003 (crash-day short, 211 pts; execution-assumption-immune). (C) Whole-book +1-tick stress: E3 +4,487->-2,613 (0/4), v4 +5,803->-631 (1/4) - gross edge only ~$10/trade across 567 trades; FILL REALISM is the binding risk to reported returns; v4 degrades 8x slower than E3 (deploy argument). (D) Decisive next test queued: READ-ONLY pull of .61 TradeActivityLogs live fills vs modeled fills -> empirical per-exit-tag slippage; re-baseline PnL at measured slippage if warranted (measurement, not smoothing). foldproof.py + per-stream trade frames saved. Sierra: none this cycle (planned read-only log pull).",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-28T1425Z-topday-deep-validation.md"
+ },
+ {
   "id": "2026-10-28T1400Z-concentration-audit",
   "ts": "2026-10-28T14:00:00Z",
   "type": "manual",
