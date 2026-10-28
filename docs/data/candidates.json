@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-28T06:55Z",
+  "updated": "2026-10-28T10:10Z",
   "scoreboard": {
     "confirmed": 3,
-    "falsified": 16,
+    "falsified": 17,
     "neutral": 1
   },
   "review_stack": [
@@ -106,6 +106,10 @@
     {
       "h": "H-SIDETHR shorts thr 0.50 (side x thr cross)",
       "verdict": "0/4 bars: -2,656 AND DD worse (-1,798) - mid-conf shorts profitable + hedge long book; kill-day vetoes stay the surgical tool"
+    },
+    {
+      "h": "H-WINDOW TRAIN_DAYS 60/120 (registry 90)",
+      "verdict": "catastrophic both cells (-8,390/-6,017, DD degrades) - registry joint optimum on window axis; 'shorter adapts faster' inverted"
     }
   ],
   "neutral": [

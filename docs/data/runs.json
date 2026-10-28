@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T1010Z-hwindow-reject",
+  "ts": "2026-10-28T10:10:00Z",
+  "type": "wake",
+  "title": "H-WINDOW formal REJECT both cells (60d -8,390 / 120d -6,017 vs registry 90d, DD degrades both ways) - falsification #17; REGISTRY CONFIRMED JOINT OPTIMUM on every harness dimension (capacity/label/window + all cells); 'shorter adapts faster' prior inverted",
+  "summary": "Pre-registered last harness axis (TRAIN_DAYS=90): cells 60/120 fresh-trained seeds 0-1 (H-LABEL SEED + FEAT_PREFIX lessons applied; both worked), pkg-standard replay. Both fail at 40-60x the bar (60d -8,390 worst - too little data per fold ~1.8k bars; 120d -6,017 staler, DD-deepening) -> no expansion (negative signal at 40x bar = waste to spend seeds 2-3). SETTLES: registry = confirmed joint optimum across ALL harness knobs (capacity H-CAP, label H-LABEL, window this, all entry/exit/exposure/sizing/side cells); further gains require new information (features) or model family (LSTM vram-blocked). My regime-adaptation prior wrong in BOTH directions - recorded as inversion. DD shape monotone away from 90 (positive control). Cached win60/120 sigs kept. Sierra none. 3C/17F/1N.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-28T1010Z-hwindow-reject.md"
+ },
+ {
   "id": "2026-10-28T0940Z-manifest-audit",
   "ts": "2026-10-28T09:40:00Z",
   "type": "wake",
