@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T0325Z-oos-attribution",
+  "ts": "2026-10-28T03:25:00Z",
+  "type": "wake",
+  "title": "steer-aligned: OOS pull-forward = per-session attribution (PKG>E3 2 days, <4, tie 11; max |d|~$40; pooled +$17, reconciles 2000Z +$22) - E3-trail baseline bug caught+fixed before claiming; H-SIZE pre-registered (ATR-regime sizing) for next cycle",
+  "summary": "Reprioritized per Jeremiah's steer (algo-profit leads, coverage fills). Data refresh correctly deferred (tail ends 10-27 16:00, Wed session not closed - re-pull adds 0 days; fires tomorrow post-close). Depth added instead: first per-session OOS attribution from cached 4-seed signals - v2 beats E3 2/17 days (+38/+17), loses 4 (max -22), ties 11; every delta granular -> +$17 pooled is thin drift not one lucky day, no tail risk concentrated. Baseline bug caught by reconciliation (third log-truth catch this week): my script's E3 trail 1.5/1.5 vs registry 2.0/1.5 - fixed, re-ran, consistent with 2000Z. Both variants negative in chop (-424/-407) - honest regime-tax note; packet strengthened on robustness without inflating verdict. NEW: H-SIZE pre-registered (2x size when day-ATR-pct>=0.7, 0.5x <=0.3; bars S1>=150/S2>=3of4/S3 DD/S4 recency; fresh-seed confirm protocol) - mechanism lane per EA steer. vram #24. Sierra none.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-28T0325Z-oos-attribution.md"
+ },
+ {
   "id": "2026-10-28T0310Z-client-tests",
   "ts": "2026-10-28T03:10:00Z",
   "type": "wake",
