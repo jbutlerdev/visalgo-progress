@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T0400Z-hsize-ratio-fix",
+  "ts": "2026-10-28T04:00:00Z",
+  "type": "wake",
+  "title": "H-SIZE ratio correction (verified, not remembered): PnL +64% (6,863->11,243) vs DD +87% - sizing is risk-WORSENING, stronger rejection than 0355Z's 'risk-neutral' wording; v2 stream means on record",
+  "summary": "Footnote fix to 0355Z: the +93%/+87% ratio was part-remembered; recompute gives sized PnL +64% (v2 mean 6,863 -> 11,243) vs DD +87% (-1,254->-2,340) - return/DD deteriorates, i.e. ATR-regime sizing adds proportionally more drawdown than return (vol-clustered loss tail fatter than win tail). Rejection stands and strengthens; 0355Z directional conclusion unchanged, one adjective corrected. Per-trade v2 stream PnLs recorded (6,331/8,083/6,742/6,296 seeds 0-3) for future delta baselines. 4th log-truth catch this week - the rule keeps paying.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-28T0400Z-hsize-ratio-fix.md"
+ },
+ {
   "id": "2026-10-28T0355Z-hsize-reject",
   "ts": "2026-10-28T03:55:00Z",
   "type": "wake",
