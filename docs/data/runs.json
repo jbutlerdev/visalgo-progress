@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T0258Z-suite75-correction",
+  "ts": "2026-10-28T02:58:00Z",
+  "type": "wake",
+  "title": "correction #2 (log-truth): distinct offline unittest suite = 75 (15+15+10+6+7+7+4+11 per-file dot-form verified); '73' was memory-addition again; slash-path unittest invocation silently fails to import (false zeros) - tool gotcha logged",
+  "summary": "Authoritative per-file ok-counts at home branches: scale_guard 15, repair_scale 15, frame_bars 10, frame_watchdog 6, validate_frames 7, maxbars_spec 7, amt_engine 4, dtc 11 = 75 distinct tests across 9 branches. Footnote fix to 0250Z (which said 73 via remembered addition - second instance of the memory-quote trap this week; rule earns its keep). Tool gotcha: 'python3 -m unittest ml/test_x' (slash) runs 1 vacuous failing test; only dot form imports - explains earlier flaky Ran-1/zeros. 0250Z substance (11 dtc tests, e2d282fb) unaffected.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "pass",
+  "sierra": "none",
+  "file": "runs/2026-10-28T0258Z-suite75-correction.md"
+ },
+ {
   "id": "2026-10-28T0250Z-dtc-client-tests",
   "ts": "2026-10-28T02:50:00Z",
   "type": "wake",
