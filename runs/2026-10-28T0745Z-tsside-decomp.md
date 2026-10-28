@@ -14,7 +14,7 @@ simplify the DLL. **Result: hypothesis inverted.**
 | **TS on LONGS only** | **+$378 (4/4)** | −1,250 |
 | TS on SHORTS only | +$20 (2/4) | −1,395 |
 
-Bars for the short-only candidate: E1 +20<150 ✗ · E2 2/4 ✗ · E3 DD ✗·
+Bars for the short-only candidate: E1 +20<150 ✗ · E2 2/4 ✗ · E3 DD passes (−1,395 vs −1,486) ✓·
 E4 recency −42 ✗ · E5 |S-only−global| = $378 > $50 ✗ → **KEEP GLOBAL
 TS** (pre-registered outcome).
 
