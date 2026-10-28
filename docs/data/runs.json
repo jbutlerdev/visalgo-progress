@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T0105Z-validate-frames-fix",
+  "ts": "2026-10-28T01:05:00Z",
+  "type": "wake",
+  "title": "menu-3: validate_frames tests (7) - FOUND+FIXED real crash: orphan JSON (missing PNG) crashed the replay-harvest validator with FileNotFoundError - the exact corruption class it exists to detect",
+  "summary": "loop/validate_frames is the gate every sierra-dev replay harvest passes before backfill consumes it. Test authoring found: parse_frames reported orphan JSONs but iterated ALL jsons + getsize()'d the .png, so a half-written frame (json landed, png missing - the corruption the orphan check exists for) crashed the validator mid-harvest, wasting the replay session. Fix: iterate json-paired set only; orphans still reported (branch validate-frames-testcov 6bd10238). 7 tests: pairing/orphans/ignore-nonframes, field extraction, clean=0problems+mono=True, OHLC invariant, ts-vs-filename lie, PNG-too-small (sparse stubs), bar_index mono=False. Loop suite 23, total offline 52. 6 review branches staged. vram defer #19. Sierra none.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "pass",
+  "sierra": "none",
+  "file": "runs/2026-10-28T0105Z-validate-frames-fix.md"
+ },
+ {
   "id": "2026-10-28T0035Z-ts-9of9",
   "ts": "2026-10-28T00:35:00Z",
   "type": "wake",
