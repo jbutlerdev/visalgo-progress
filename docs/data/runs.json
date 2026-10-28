@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-28T0455Z-hlabel-reject",
+  "ts": "2026-10-28T04:55:00Z",
+  "type": "wake",
+  "title": "H-LABEL formal REJECTED catastrophically (L1 fails 40x): live-sltp-aligned labels (2.0/5.0) collapse trades 666->108, PnL +143 vs +6,863 - label shape (1.5/2.5) is a signal-density sweet spot, load-bearing; harness seed-wiring bug self-caught (4 'seeds' byte-identical; not re-run - 40x failure)",
+  "summary": "Pre-registered label/exit alignment test (fresh XGB retrain, labels at live sltp 2.0/5.0 vs harness 1.5/2.5, replay v2 unchanged, thr 0.45 fixed by pre-registration): L1 -6,700 mean (40x below bar), L2 0/4 -> REJECT, most decisive of program. Mechanism: 2.0/5.0 rarely resolves within label horizon -> labels flatten -> argmax rarely clears 0.45 -> 108 vs ~664 trades; DD 'improvement' (-685) is neutral-by-inactivity again. CONFIRMS harness (1.5,2.5) is load-bearing signal-density choice, not arbitrary knob. Harness bugs self-caught+logged: W.SEED set once -> 4 seeds byte-identical (no re-run justified: rescue needs +$6,700 vs 40x fail); FEAT_PREFIX mutation broke 2nd build_dataset (reset added). Label-shape axis CLOSED; remaining lanes: feature additions (heavy), LSTM (vram #26). v2/v3 decisions unchanged. Sierra none.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a",
+  "sierra": "none",
+  "file": "runs/2026-10-28T0455Z-hlabel-reject.md"
+ },
+ {
   "id": "2026-10-28T0420Z-hatrthr-reject",
   "ts": "2026-10-28T04:20:00Z",
   "type": "wake",

@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-28T04:20Z",
+  "updated": "2026-10-28T04:55Z",
   "scoreboard": {
     "confirmed": 3,
-    "falsified": 14,
+    "falsified": 15,
     "neutral": 1
   },
   "review_stack": [
@@ -84,6 +84,10 @@
     {
       "h": "H-ATRTHR regime-conditional thr (0.50 when ATR<=p33)",
       "verdict": "1/4 bars: dPnL -67, recency -197 (0/4) - calm-regime trades net-earn; removal not free"
+    },
+    {
+      "h": "H-LABEL align train-labels to live sltp (2.0/5.0)",
+      "verdict": "collapse: 108 vs 666 trades, +143 vs +6,863 - (1.5,2.5) is signal-density sweet spot; L3 'DD win' was by-inactivity"
     }
   ],
   "neutral": [
