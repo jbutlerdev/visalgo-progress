@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-29T0100Z-branch-consolidation",
+  "ts": "2026-10-29T01:00:00Z",
+  "type": "wake",
+  "title": "**Branch consolidation**: master 9 branches stale -> merged 4 verified additive lanes (fee-basis, z-gauge, client-tests, ts54-doc); 37+8 green on master; gated work (v4-activation DLL+policy) stays on branch until B3+deploy audit",
+  "summary": "Hygiene cycle: master was 3 days/9 branches behind = drift risk. Merged (verified-green on v4-activation first, all additive/no deployed-behavior change): fee-basis (MEASURED_RT_FEE_USD=2.26 + decision rule + 4 tests), live-zgauge (dual-estimator tracker + 3), client-testcov (8 tests), ts54-timeslot (doc only; TS code DLL-side). Post-merge master suites: 37 ml + 8 sc_client OK (was 30+0). Intentionally branch-only: v4-activation (filter_policy + fw24/25/26 - deployment-affecting, merges post-B3+gated-deploy as audit trail), hprob/zonenveto individually (code inside v4-activation), oos-pipeline (monster-bar formal fix pending; pre-scale-slice workaround proven 2155Z). Policy adopted: verified additive work flows to master on cadence; gated work stays labeled. Sierra none; datasets read-only. Next: B3 pending Jeremiah pick (both paths specified); full LSTM study own slot (~35min, caches warm).",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "master suites 37 ml + 8 sc_client OK",
+  "sierra": "none",
+  "file": "runs/2026-10-29T0100Z-branch-consolidation.md"
+ },
+ {
   "id": "2026-10-29T0030Z-lstm-pilot-gpu",
   "ts": "2026-10-29T00:30:00Z",
   "type": "manual",
