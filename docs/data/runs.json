@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-29T0030Z-lstm-pilot-gpu",
+  "ts": "2026-10-29T00:30:00Z",
+  "type": "manual",
+  "title": "**GPU LSTM pilot done (approved session #2)**: paired 8-fold identical-protocol run - LSTM +$74/WR50% vs XGB -$131/WR38% on 40 registry-era days (n~27 = statistically NOTHING, no claim); llama restored-verified; pre-registered: full 212-fold x 3 seeds + OOS + calibration next",
+  "summary": "Approved GPU study part 1. Session: baseline lock -> stop llama -> sync canonical ml/+export/ (vram repo b0fb47f pre-ml/) -> paired pilot -> RESTORE verified (active/health:200/laguna/24GB; ~50min outage, 4 path bugs in my scratch harness fixed per-round-trip, repo untouched). Paired protocol: 8 folds x 5d (~40 trading days from day 90), identical 27 features/entry (0.45 first-cross <=41, WIN36, noFri, one/day)/exit (E3-trail 2.0/1.5 sl-first pessimistic), seed 0. XGB registry ens3: n29 -131 dd-239 wr37.9 meanp0.487. LSTM (64h,SEQ36,fold-train GPU): n26 +74 dd-139 wr50.0 meanp0.805. Honest read: direction interesting (LSTM confidently better OR miscalibrated - indistinguishable at n=26, ~+/-300 1sigma); folds are REGISTRY-ERA (not OOS). No claim, no deployment implication; E3/registry stands. Pre-registered next (if proceeds): 212-fold x seeds 0-2 + OOS tail + reliability calibration. Caches on vram ~/pilotwork + copied. vram hygiene: pre-existing STAGED work (14 files) untouched; my sync overwrote their working-tree ml/drift_check.py+PROCESS.md w/ canonical (staged blobs = originals); my artifacts ~/lstm_pilot.py ~/pilotwork deletable. Sierra none; datasets read-only hash-verified. Gate stack 47 stays; B3 still pending Jeremiah pick.",
+  "status": "ok",
+  "experiments": 1,
+  "tests": "n/a (GPU study pilot)",
+  "sierra": "none",
+  "file": "runs/2026-10-29T0030Z-lstm-pilot-gpu.md"
+ },
+ {
   "id": "2026-10-28T2355Z-tstop-exit-chain-unit",
   "ts": "2026-10-28T23:55:00Z",
   "type": "wake",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T23:10Z",
+  "updated": "2026-10-29T00:30Z",
   "scoreboard": {
     "confirmed": 3,
     "falsified": 18,
@@ -40,6 +40,12 @@
       "branch": null,
       "summary": "GPU held 24.1/24.6 GB by llama-server (10 days). ~460 MB free - cannot allocate; guest ethics forbid OOM gambling. Options sent (a: GPU windows, b: CPU pilot, c: park). Deferred x21.",
       "asks": "none - LSTM study executing"
+    },
+    {
+      "name": "LSTM (model-family probe)",
+      "status": "PILOT: ahead on 40d slice (n=27 = no claim)",
+      "summary": "Paired identical-protocol pilot: LSTM +$74/WR50 vs XGB -$131/WR38 on 8 registry-era folds; mean-p 0.805 (calibration untested). Pre-registered: 212-fold x 3 seeds + OOS + reliability curves before any implication. E3/registry stands.",
+      "asks": "full study next (~35min GPU, caches warm)"
     }
   ],
   "falsified": [
