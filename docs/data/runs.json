@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-29T0230Z-deploy-runbook",
+  "ts": "2026-10-29T02:30:00Z",
+  "type": "wake",
+  "title": "**Deploy runbook drafted (.61, step C) + gate puzzle root-caused**: the deployed fw13 DLL IGNORES agent_on.txt (file-override landed in fw20; box build reads study INPUT only) - explains 0200Z; runbook = 5-part gate stack (incl fw25 compile-gate verify), pre-flight, arm sequence w/ exit-ERROR kill rule, day-0 = first real-PnL read, <60s rollback",
+  "summary": "Step C done as draft. Root cause of agent_on.txt-present-but-OFF: FileExists(on) branch absent from fw13-era deployed source (git log -S archaeology) - the 0-byte file ignored since Sep 30; gate was the study input all along; runbook arms BOTH mechanisms. Runbook contents: gate stack (input/file fw20+ caveat, Global AT, per-chart AT Jeremiah-only, service/account/contract, fw25 -DVISALGO_LIVE_ORDERS=1 compile-gate + size-delta verification vs dry 2,426,005B); pre-flight (B3 7/7, live build w/ account/symbol compile pins, B4 dry evidence, B5, sha-pinned sign-off); deploy (backup->scp->sha->arm sltp 1.75/5.0/1.75/54->Jeremiah restart+gates+mode shot->touch on+input YES->watch BUY_ENTRY@/LIVE TSTOP/REJECTED/ERROR); KILL RULE exit-side ORDER ERROR => rm on-file + manual flatten check (fw11: exits must never fail); day-0 verification (first fill = forward-test day 0, Trade-Tracker = first real PnL); rollback <60s. Awaiting Jeremiah: attribution answer, B3 pick, deploy approval chain. Sierra touched none (read-only listing; local archaeology). Master @ 8331baa.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "n/a (docs+archaeology)",
+  "sierra": "none",
+  "file": "runs/2026-10-29T0230Z-deploy-runbook.md"
+ },
+ {
   "id": "2026-10-29T0200Z-live-state-audit",
   "ts": "2026-10-29T02:00:00Z",
   "type": "wake",
