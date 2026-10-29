@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-29T0200Z-live-state-audit",
+  "ts": "2026-10-29T02:00:00Z",
+  "type": "wake",
+  "title": "**Live-state audit (read-only .61)**: DLL agent has NEVER placed a fill (0 successes vs 63 REJECTEDs in full 532k-line log) + currently gate-OFF; the 20 activity-log RTs are NOT agent-attributable -> forward test = BACKTESTS ONLY until Jeremiah answers who traded MESZ26 Oct8-28; corrects 2155Z 'agent ON' note",
+  "summary": "Read-only audit of .61 after the retraction: agent currently LIVE OFF (gate file empty; 2155Z 'agent ON' note was wrong - corrected). agent_debug.log (532k lines, back to ~Sep 26) contains ZERO successful order calls; last attempts show ORDER REJECTED rc=-1/-8999 (Auto-Trading gate + earlier dry builds). Chart history REBASEs (2135->1) benign per dev lore. CONSEQUENCE: the 20 RTs (Oct 8-28) cannot be DLL-attributed - candidates: Jeremiah manual, Python loop/DTC path, pre-log DLL (weak: fills inside log window). Honest status: LIVE FORWARD TEST NOT RUNNING, attribution open; forward evidence = backtests only (still strong) + measured fee (fee fields reliable regardless of trader). One question to Jeremiah: who traded MESZ26 on 23064968? Fine if 'me, testing' -> live-forward simply starts fresh post-v4-deploy as plan assumes. Official trade reports (queued PnL path) also carry submitting-client = attribution tool. Standing: B3 pick (both paths spec'd), LSTM study slot-ready. Sierra touched none (read-only greps); datasets read-only.",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "n/a (read-only audit)",
+  "sierra": "live-readonly",
+  "file": "runs/2026-10-29T0200Z-live-state-audit.md"
+ },
+ {
   "id": "2026-10-29T0135Z-zgauge-retraction",
   "ts": "2026-10-29T01:35:00Z",
   "type": "wake",
