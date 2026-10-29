@@ -1,5 +1,17 @@
 [
  {
+  "id": "2026-10-29T0135Z-zgauge-retraction",
+  "ts": "2026-10-29T01:35:00Z",
+  "type": "wake",
+  "title": "**RETRACTION**: live forward-test PnL was false precision (NLV swings +/-300 vs fee-multiple Changes - log can't yield PnL); -304/1sigma & all est1/est2 z's retracted; gauge rewritten honest (fills/counts/fees only, test pins no-PnL-claim); Trade-Tracker path queued - WHAT SURVIVES: fee 2.26, RT counts, backtests, v4 approval",
+  "summary": "Started as flow-bugfix, became a truth-audit. Raw dump: NLV +/-300 swings (10-20 -324 w/ change -14.52; 10-16/17 +161/+310) impossible from 2-3 MES round-trips at $5/pt; Balance field is cash-side (deposits+margin) so flow heuristic fabricated. sum(Change) and NLV-continuity are NOT PnL estimators. RETRACTED: 1455Z -304/14sess + 1sigma-vs-expected, 1925Z/2155Z restatements, 1545Z est1/est2 z-verdicts. SURVIVES: fee $2.26/RT (k x 2.26 solid), 20 RTs in agent era (live trading happens), all backtest/confirm evidence, v4 approval, OOS parquet results. Gauge now: counts+fee-decomposition+raw NLV + UNKNOWN-FROM-THIS-SOURCE verdict; test asserts no PnL z ever prints (37+8 green). Interim FLOW-SUSPECT heuristic dropped too (150-jump flag mislabels legit PnL). Replacement queued: (1) Trade Tracker capture on .61, (2) DTC trade-history req type, (3) official statements. Until then NO live-PnL claims; forward test judged fills-existing + backtest expectations. Jeremiah notified (correcting earlier -304/1sigma notice). Sierra none (local analysis of banked copies).",
+  "status": "ok",
+  "experiments": 0,
+  "tests": "37 ml + 8 sc_client OK (honesty test added)",
+  "sierra": "none",
+  "file": "runs/2026-10-29T0135Z-zgauge-retraction.md"
+ },
+ {
   "id": "2026-10-29T0100Z-branch-consolidation",
   "ts": "2026-10-29T01:00:00Z",
   "type": "wake",
