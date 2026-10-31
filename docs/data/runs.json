@@ -1,5 +1,12 @@
 [
  {
+  "ts": "2026-10-31T23:50:00Z",
+  "type": "wake",
+  "summary": "Outage resolved (token): visalgo clone + progress push verified (master 8331baa). Half-state honest: python stack + datasets bind still pending -> campaign execution gated on those two only. Full outage arc consolidated; staged campaign (EA-locked bars) recorded; live-box read-only observations logged. Next: calibrate->oos->gapday on stack+datasets land.",
+  "algos": [],
+  "branch": "main"
+ },
+ {
   "id": "2026-10-29T0230Z-deploy-runbook",
   "ts": "2026-10-29T02:30:00Z",
   "type": "wake",
