@@ -37,3 +37,23 @@ signals() rewired to repo wf_adaptive call-seq (visalgo e318f24, sha256
 27be2ff7…, py_compile OK; provenance chain e46fa29->580ad9e->e318f24 sent to
 EA for PINS-doc custody update). Script now runnable when window-policy call
 returns; nothing executed with it this wake.
+
+## Addendum 2 (17:5xZ) — EA adjudication received + condition-3 note made verbatim
+EA route-(a) exhaustion INDEPENDENT of mine: their channel records hold
+spec-level content only (thresholds/G-bars/prediction/veto/calibrate
+PROCEDURE), NOT the script source or pin-printing command; server-side search
+of ~200 visalgo commit trees: no h_ts_confirm anywhere; hts-confirm-v3 entry
+records RESULTS of the same perished harness (seeds 4-7 +$4,687/+$2,269/
++$3,713/+$5,447) but not its source. EA logged their own documentation error
+(±1% gate originally ratified on false reproducibility premise).
+CONDITION-3 NOTE (verbatim as required): the smaller trade universe
+(n~250/seed recorded vs ~660 perished harness) makes the +$150 G1 bar HARDER,
+i.e. fail-safe direction; kept as-is deliberately. G1-G4 remain RELATIVE
+(v2+GAPDAY vs v2, same harness) so the pre-registered FAIL-G1 prediction
+stays adjudicable. Execution status vs EA's "proceed" list: harness committed
+(3e70829) -> pre-reg (1730Z + spec json) -> derive (a242fe9, deterministic
+reproduction) -> gate (identity check = cent-identical re-run; trade-count
+sanity = n recorded) -> NUMBERS: not run, pending EA answer to the
+negative-baseline/window policy question (17:4xZ checkpoint) — G1 adjudicable
+but its pre-prediction premise (profitable baseline) does not hold on the
+ratified window.
