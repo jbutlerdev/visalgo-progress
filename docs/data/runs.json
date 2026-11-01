@@ -1,5 +1,12 @@
 [
  {
+  "ts": "2026-11-01T00:33:00Z",
+  "type": "wake",
+  "summary": "One-line no-change wake: stack NO, datasets NO, token OK; nothing changed; campaign armed; Sierra untouched.",
+  "algos": [],
+  "branch": "main"
+ },
+ {
   "ts": "2026-11-01T00:05:00Z",
   "type": "wake",
   "summary": "Blocked (stack+datasets unchanged); new: Oct-31 .scid flush >3h late (size-identical file) \u2014 pre-planned honest handling via verify_new_days day-delta. Campaign armed, nothing faked.",
