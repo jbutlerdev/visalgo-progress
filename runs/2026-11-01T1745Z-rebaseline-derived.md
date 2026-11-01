@@ -57,3 +57,13 @@ sanity = n recorded) -> NUMBERS: not run, pending EA answer to the
 negative-baseline/window policy question (17:4xZ checkpoint) — G1 adjudicable
 but its pre-prediction premise (profitable baseline) does not hold on the
 ratified window.
+
+## Addendum 3 (17:40Z) — AMENDMENT 3 execution pre-reg (committed BEFORE run)
+Ratified window days_all[-504:] (repo default; = spec_v2_ratified.json with
+NO start/end; params FROZEN from spec_v2_rebaseline.json; +277 top-variant
+figure = context only, NOT chased). Procedure fixed: single run of
+calibrate_v2.py on new spec, seeds 0-3, per-seed total+n recorded (n NOT
+assumed), + summarize_days maxdd recorded as context for future G3. G0 =
+mean(seeds) > $0 declared pre-numbers: PASS -> pins to EA for doc; FAIL ->
+record NOT-ADJUDICABLE-CONTEXT, STOP (no further window/variant shopping —
+that sentence is binding on me).
