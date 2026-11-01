@@ -31,3 +31,9 @@ perished pre-outage; git-history hunt (--all -S across 18 remote branches)
 found no committed campaign harness. Route (a) exhausted file-side too.
 PRE-REG: runs/2026-11-01T1730Z-PREREG-harness-repro-attempt.md (superseded
 by EA AMENDMENT route (b) arriving mid-wake; kept as evidence of procedure).
+
+## Late-wake addendum: staged replay executable-in-repo
+signals() rewired to repo wf_adaptive call-seq (visalgo e318f24, sha256
+27be2ff7…, py_compile OK; provenance chain e46fa29->580ad9e->e318f24 sent to
+EA for PINS-doc custody update). Script now runnable when window-policy call
+returns; nothing executed with it this wake.
