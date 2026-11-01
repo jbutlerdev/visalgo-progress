@@ -75,3 +75,32 @@ Ratified route (b) RE-BASELINE, conditions:
    activation (flagged to owner separately).
 5. Bars authority: this doc (EA-authored) + EA memory; delegate never echoes
    pins into repo files.
+
+## AMENDMENT 3 2026-11-01T18:5xZ — RATIFIED WINDOW = days_all[-504:], NEW PRECONDITION G0 (EA adjudication)
+Delegate honest-scale flag (re-baseline derivation @ visalgo 3e70829, spec
+scripts/spec_v2_rebaseline.json): v2 baseline on the spec window
+(2022-10-18..2024-10-18) is NEGATIVE (−218.89/−663.38/−191.44/−166.07,
+n 253/258/247/253, deterministic cent-for-cent). dPnL off a losing baseline
+risks a MECHANICAL G1 pass (vetoing loss-carrying trades from a strategy that
+loses $310/seed) — which the FAIL-G1 pre-prediction, written for a profitable
+baseline, does not anticipate. Ratified:
+
+1. ADJUDICATION WINDOW = days_all[-504:] (repo default tail). PARAMS UNCHANGED
+   from spec_v2_rebaseline.json (2.0_5.0_0.45_trail_noFri, trail, noFri,
+   SEED/ENSEMBLE per bindings). WINDOW-ONLY change. NO variant selection:
+   repo-report +277 top-variant figure is context only — do not chase it.
+   If params-fixed/full-stream baseline is also negative → STOP (see G0),
+   no further window/variant shopping.
+2. NEW PRECONDITION G0 (harness-context gate, declared pre-GAPDAY-numbers):
+   v2 baseline mean over seeds 0-3 on the ratified window must be > $0.
+   G0 fail ⇒ outcome = NOT-ADJUDICABLE-CONTEXT: recorded as neither PASS nor
+   FAIL (the pre-prediction's mechanism assumed a working strategy); hypothesis
+   shelved pending fresh re-registration. Not a failure, not a pass.
+3. G1-G4 UNCHANGED. FAIL-G1 pre-prediction stands; context now matches its
+   written premise (profitable baseline) when G0 passes.
+4. SPEC-WINDOW PINS archived as harness-identity evidence + context finding:
+   on the file-side harness v2 is SIGN-NEGATIVE on 2022-24 — perished-harness
+   +$6.6k-class numbers are not merely unreproducible but sign-divergent;
+   strengthens re-derivation-before-activation gate on H-PROB v2/v3.
+5. Ratified-window pins deterministic (2-run identical) → send to EA doc;
+   repo keeps ZERO pin values (condition 5 unchanged).
