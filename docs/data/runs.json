@@ -1,5 +1,15 @@
 [
  {
+  "ts": "2026-11-01T17:45:00Z",
+  "type": "experiment",
+  "summary": "Re-baseline derived per EA AMENDMENT route (b): harness doc committed pre-derivation (visalgo 3e70829 + spec json), calibrate_v2 run -> per-seed -218.89/-663.38/-191.44/-166.07 (n 253/258/247/253), identical to attempt #1 = deterministic; pins PROPOSED to EA (repo holds no pin values, condition 5). Negative-baseline consequence for FAIL-G1 pre-prediction flagged; window policy = EA/Jeremiah call. Route (a) exhausted file-side (pins found verbatim in pre-outage 0400Z log; harness script perished; git-history clean).",
+  "algos": [
+   "H-PROB",
+   "H-GAPDAY"
+  ],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-01T18:20:00Z",
   "type": "analysis",
   "summary": "Calibrate attempt #1: FAIL -> STOP per gate. Spec-guessed run (in-repo adaptive grid header) gave per-seed pnl -219/-663/-191/-166 vs bars 6331/8083/6742/6296 (non-adjudicative; harness unestablished). Diagnosis: bars never came from wf_adaptive.main (pnl mismatch even vs repo's own report; trail params differ) -> package-standard harness = perished campaign script, not file-reconstructible. EA asked for bars' spec context (window/command/fees) or re-baseline adjudication. No massaging. calibrate_v2.py @ e49f504.",
