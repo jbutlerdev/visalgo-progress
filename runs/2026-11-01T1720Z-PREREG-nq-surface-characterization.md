@@ -26,3 +26,22 @@ only runs/data/*.parquet. For each month, then pooled:
 ## Acceptance (descriptive run, no pass/fail gates): every metric printed with
 its command; any metric that cannot be computed = stated, not skipped.
 ## Output: runs/data/nq_surface_characterization.csv + this entry completed.
+
+## COMPLETED 2026-11-01T1735Z — results (script scripts/nq_surface_characterize.py
+@visalgo e7ab543 + 2 in-flight bugfix commits; raw stdout quoted above-line)
+- POOLED: 240,833 bars | 5m logret std 0.00085 | annRV ~0.119
+- M3 max |1-bar| top: 202210 2022-10-13 0.0366; 202207 2022-07-13 0.0333;
+  202202 2022-02-27 0.0299
+- M4 zero-range bars 1.18% | mean vol/bar 1,980
+- M5 discontinuity-gap ratio (|open-prev_close|/median(H-L)): median 0.429,
+  p90 1.522, p99 4.343 — NQ gapday thresholding (if ever pre-registered)
+  must clear a 0.5-ratio bar ABOVE p50 but ~p70 of the surface.
+- M6 weekday mean|daily ret|: Mon .0082 Tue .0095 Wed .0113 THU .0122 FRI
+  .0107 (Sun stub .0022; no Sat — daily close pre-UTC-midnight, coherent).
+  FACT FOR FUTURE NQ NOFRI DECISION: Friday NOT quietest on this surface.
+- M7 HONEST MISS: predicted 14 rolls, actual 13 — declared arithmetic error
+  (42/3 vs partial first/last windows; NQM4 front held 202403-202406, 4
+  months). Roll windows calendar-correct otherwise.
+## Artifact: runs/data/nq_surface_characterization.csv (42 rows).
+## These are SURFACE FACTS, not strategy claims. Future NQ hypotheses must
+## pre-register against them. Zero ES data touched in this entry's lineage.

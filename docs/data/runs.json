@@ -1,5 +1,12 @@
 [
  {
+  "ts": "2026-11-01T17:35:00Z",
+  "type": "analysis",
+  "summary": "NQ surface characterization COMPLETE (pre-reg 1720Z honored: committed before numbers). 240,833 bars: 5m ret std .00085 annRV~.119; max 1-bar |r| .0366 (2022-10-13); zero-range 1.18%; gap-ratio med .429/p90 1.52/p99 4.34; weekday |ret| Thu>Wed>Fri (Fri NOT quietest); rolls 13 vs predicted 14 (honest pre-reg miss). CSV committed. Descriptive facts only, zero ES borrowing.",
+  "algos": [],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-01T17:05:00Z",
   "type": "analysis",
   "summary": "Bindings confirmed vs repo files: hprob_oos/walk_forward FALSIFIED (missing); real = wf_adaptive+pipeline; side encoding fixed (arg==2=+1). KEY: ES 5m stream in-repo 101,784 bars to 2026-10-02 -> frozen sequence (calibrate/OOS/H-GAPDAY) NOT blocked by 19 zero-byte bind months. Hand-rolled simulate flagged non-standard; W.replay rewrite next wake. visalgo@580ad9e.",
