@@ -1,5 +1,17 @@
 [
  {
+  "ts": "2026-11-01T18:25:00Z",
+  "type": "experiment",
+  "summary": "OOS candidate table on ratified harness (descriptive per pre-reg 39dcde1; identity gate cent-identical): v2 pooled +12,188 (n1255), e3 fixed-exit 1-knob ~equal total but worst_q 3x worse (-1389 vs -464), v4 zone-only 2-knob maxdd notably better (-5672) worst_q far worse (-3449). CSV artifact (3370 rows) for candidate-stack review. Single run, no gates, 2-cent rounding difference recorded honestly.",
+  "algos": [
+   "H-PROB",
+   "v2",
+   "e3",
+   "v4"
+  ],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-01T18:10:00Z",
   "type": "experiment",
   "summary": "H-GAPDAY executed on ratified file-side harness: FAIL -> falsification #17 (3C/17F), gap-day DESCRIPTIVE. EA FAIL-G1 pre-prediction CORRECT (G1 -436.14 vs +150 bar, G2 0/4, G3 hostile 7564->7748, G4 2/4). Baseline cent-identical to ratified pins -> identity proof, pins canonical. Pre-reg 18a3c14 -> script 786c0a7 -> single run; artifacts committed. No bar-shopping, no exploratory knobs, no seeds 4-7.",
