@@ -1,5 +1,12 @@
 [
  {
+  "ts": "2026-11-01T18:30:00Z",
+  "type": "analysis",
+  "summary": "Idle check-in during STANDBY: mandated reads done (AGENTS.md current, HANDOFF last-updated 10-15 predates campaign, standby entry intact); probes unchanged (19 zero-byte, DECODE-READY, both lanes no new commits). Follow-up list empty by disposition; no experiment picked (self-generated work barred; new hypotheses need fresh pre-reg).",
+  "algos": [],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-01T19:00:00Z",
   "type": "analysis",
   "summary": "Campaign -> STANDBY per EA disposition. Consolidation doc spec field-checked against EA's 5-point deliverable (grep evidence; no rewrite churn). Standing: NQ tail parked on re-stage (19/61 zero-byte unchanged), no self-generated work, fresh pre-registration required for any new hypothesis. Final ledger: campaign1+surface closed, #17 falsified (3C/17F), pins canonical 3x, OOS current, consolidation = Jeremiah entry point.",
