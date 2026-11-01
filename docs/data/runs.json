@@ -1,5 +1,12 @@
 [
  {
+  "ts": "2026-11-01T13:40:00Z",
+  "type": "experiment",
+  "summary": "Campaign 1 first derived dataset: NQ 5m bars, raw 202103 -> runs/data/ parquet+manifest (4369 bars, 19 days, OHLC invariant 0 violations, front NQM1 max-volume; databento 0.89.0). Two pre-declared checks self-flagged as ES-assumed, re-anchored honestly. Next: months 202104+ sequentially.",
+  "algos": [],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-01T12:58:00Z",
   "type": "blocked",
   "summary": "Campaign 1 blocked: databento decoder pkg pending (c1f4643c/463fdfaf); verify green (stack+binds 61); builder committed visalgo@0f1f565 (month_bars verbatim + manifest). Run-attempt raw: ModuleNotFoundError databento. Next: 202103 one-month build -> runs/data/ + type(a).",

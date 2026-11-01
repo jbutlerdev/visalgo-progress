@@ -1,0 +1,22 @@
+{
+ "src": "/opt/agent-data/visalgo/raw/glbx-mdp3-20210310-20210331.trades.dbn.zst",
+ "front": "NQM1",
+ "bars": 4369,
+ "first_ts": "2021-03-10 00:00:00+00:00",
+ "last_ts": "2021-03-31 23:55:00+00:00",
+ "total_volume": 7568054,
+ "builder": "scripts/build_ticks_5m.py <- ml/nq_ticks_load.month_bars",
+ "databento": "0.89.0",
+ "corrected_from": "ES_ticks_5m_202103 (name was my wrong assumption; raw symbols are NQ* -> NQM1 per value_counts)",
+ "acceptance": {
+  "ohlc_invariant_violations": 0,
+  "trading_days": 19,
+  "bars_per_day_min": 24,
+  "bars_per_day_max": 273,
+  "zero_volume_bars": 0,
+  "price_range": [
+   12609.75,
+   13287.25
+  ]
+ }
+}
