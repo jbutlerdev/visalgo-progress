@@ -1,5 +1,12 @@
 [
  {
+  "ts": "2026-11-01T13:55:00Z",
+  "type": "experiment",
+  "summary": "Campaign 1 build complete for usable bind: 42/42 non-empty months (2021-03..2024-08) built+committed (42 parquet+manifests). INTEGRITY REPORT: 19 raw months (Sep-24..Mar-26) are 0-byte files -> derived coverage stops 2024-08-31; OOS era inside hole; reported for re-stage, not repaired. QA rollup next.",
+  "algos": [],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-01T13:40:00Z",
   "type": "experiment",
   "summary": "Campaign 1 first derived dataset: NQ 5m bars, raw 202103 -> runs/data/ parquet+manifest (4369 bars, 19 days, OHLC invariant 0 violations, front NQM1 max-volume; databento 0.89.0). Two pre-declared checks self-flagged as ES-assumed, re-anchored honestly. Next: months 202104+ sequentially.",

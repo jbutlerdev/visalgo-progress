@@ -1,0 +1,10 @@
+{
+ "src": "/opt/agent-data/visalgo/raw/glbx-mdp3-20220301-20220331.trades.dbn.zst",
+ "front": "NQM2",
+ "bars": 6085,
+ "first_ts": "2022-03-01 00:00:00+00:00",
+ "last_ts": "2022-03-31 23:55:00+00:00",
+ "total_volume": 7823655,
+ "builder": "scripts/build_ticks_5m.py <- ml/nq_ticks_load.month_bars",
+ "databento": "0.89.0"
+}
