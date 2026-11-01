@@ -1,5 +1,12 @@
 [
  {
+  "ts": "2026-11-01T12:58:00Z",
+  "type": "blocked",
+  "summary": "Campaign 1 blocked: databento decoder pkg pending (c1f4643c/463fdfaf); verify green (stack+binds 61); builder committed visalgo@0f1f565 (month_bars verbatim + manifest). Run-attempt raw: ModuleNotFoundError databento. Next: 202103 one-month build -> runs/data/ + type(a).",
+  "algos": [],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-01T00:33:00Z",
   "type": "wake",
   "summary": "One-line no-change wake: stack NO, datasets NO, token OK; nothing changed; campaign armed; Sierra untouched.",
