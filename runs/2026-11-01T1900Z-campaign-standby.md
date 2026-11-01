@@ -23,3 +23,9 @@ Confirmatory re-runs: DECLINED IN ADVANCE (EA) — available only if a specific
 number is disputed (diagnostics-not-evidence classification ratified).
 Consolidation doc accepted as-is (four-angle count stands). EA standing down;
 both lanes idle pending Jeremiah (re-stage / promotions) or new pre-reg.
+
+## Addendum 2 (18:16Z) — STANDBY ratified by EA + standing gate-enforcement rule
+EA note (standing): if a Jeremiah promotion decision ever arrives UNGATED,
+first action = re-derive on ratified harness before ANY activation-flavored
+work — gate enforcement is mine even against an arriving decision. Recorded
+as wake-review policy.
