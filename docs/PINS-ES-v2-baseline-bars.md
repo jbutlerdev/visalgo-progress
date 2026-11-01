@@ -116,7 +116,7 @@ pre-run; params frozen), harness = staged script e318f24 (EA-verified):
 | 2 | $2,920.40 | 314 |
 | 3 | $3,345.36 | 315 |
 Mean +$3,047.01 — G0 PASS (all four positive; profitable-baseline context).
-Status: CONFIRMED-PENDING-2ND-RUN — pins become canonical on the second
+Status: CANONICAL (baseline totals cent-identical on GAPDAY pass per AMENDMENT-4 rule; identity proven @ visalgo-progress daa66d2).
 identical run (determinism identity check; attempts #1/#2 were cent-for-cent).
 Context note for archive: sign agrees with perished harness on THIS window
 (+$6.6k-class vs new ~half-scale, smaller n); the earlier sign-divergence was
@@ -127,3 +127,15 @@ its MAGNITUDE basis (perished-harness economics, e.g. +$7.1/trade) does not
 transfer — treat as directional, not numeric, anchor.
 G3 accepted-as-repo-source: summarize_days on day_pnl (repo function); PASS
 string unreachable unless G3 computes (BINDING per original doc).
+
+## VERDICT 2026-11-01T1810Z — H-GAPDAY FALSIFIED (#17; ledger 3C/17F)
+G1 FAIL: dPnL -404.78/-578.01/-326.02/-435.76, mean -436.14 (bar +150).
+G2 0/4. G3 HOSTILE (computed, summarize_days repo-source): pooled maxdd
+7,564.73 -> 7,748.35. G4 2/4 (non-load-bearing; seed-2/3 194.9 tie flagged).
+EA directional pre-prediction (FAIL-G1, non-gap trades carry the edge): HIT.
+Gap-day preference = DESCRIPTIVE, closed. Loss-concentration triangulation
+third consecutive hit (vetoing low-gap days removes the trades that carry the
+edge AND worsens DD). Mirrors/thresholds not run (primary-fail rule honored).
+Artifact: runs/data/gapday_result_2026-11-01T1810Z.json. Lineage: pre-reg
+18a3c14 -> script 786c0a7 -> G0 PASS -> single run. First fully file-side,
+custody-chained adjudication of the campaign.
