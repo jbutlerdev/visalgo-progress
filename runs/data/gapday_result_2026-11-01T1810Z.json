@@ -1,0 +1,1 @@
+{"d": [-404.78, -578.01, -326.02, -435.76], "g1": -436.14, "g2": 0, "g3": {"dd_base": 7564.73, "dd_gap": 7748.35, "pass_": false, "source": "W.summarize_days pooled"}, "g4": {"per_seed": [-40.8, -84.0, 194.9, 194.9], "pos": 2, "pooled": 265.0, "days": 170}, "null_atr_days": 0, "verdict": "FAIL -> falsification #17 (3C/17F); gap-day DESCRIPTIVE"}

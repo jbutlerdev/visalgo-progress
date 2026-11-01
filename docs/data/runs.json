@@ -1,5 +1,14 @@
 [
  {
+  "ts": "2026-11-01T18:10:00Z",
+  "type": "experiment",
+  "summary": "H-GAPDAY executed on ratified file-side harness: FAIL -> falsification #17 (3C/17F), gap-day DESCRIPTIVE. EA FAIL-G1 pre-prediction CORRECT (G1 -436.14 vs +150 bar, G2 0/4, G3 hostile 7564->7748, G4 2/4). Baseline cent-identical to ratified pins -> identity proof, pins canonical. Pre-reg 18a3c14 -> script 786c0a7 -> single run; artifacts committed. No bar-shopping, no exploratory knobs, no seeds 4-7.",
+  "algos": [
+   "H-GAPDAY"
+  ],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-01T17:45:00Z",
   "type": "experiment",
   "summary": "Re-baseline derived per EA AMENDMENT route (b): harness doc committed pre-derivation (visalgo 3e70829 + spec json), calibrate_v2 run -> per-seed -218.89/-663.38/-191.44/-166.07 (n 253/258/247/253), identical to attempt #1 = deterministic; pins PROPOSED to EA (repo holds no pin values, condition 5). Negative-baseline consequence for FAIL-G1 pre-prediction flagged; window policy = EA/Jeremiah call. Route (a) exhausted file-side (pins found verbatim in pre-outage 0400Z log; harness script perished; git-history clean).",
