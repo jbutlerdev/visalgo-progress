@@ -1,5 +1,12 @@
 [
  {
+  "ts": "2026-11-01T20:00:00Z",
+  "type": "analysis",
+  "summary": "Idle wake (STANDBY): probes unchanged 5x (e4d7b7f/080a751, 19/61 zero-byte, no input). Process fix: idle wakes now append to rolling standby-idle-log (one probe-line) instead of new near-duplicate files \u2014 reconciles per-wake run-log floor with #4 no-chronicle rule; substantive changes still get full entries.",
+  "algos": [],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-01T19:30:00Z",
   "type": "analysis",
   "summary": "Idle check-in (STANDBY, 4th consecutive unchanged): all probes same (19/61 zero-byte, both lanes quiet, no external input); AGENTS.md/HANDOFF current. Queue external only.",
