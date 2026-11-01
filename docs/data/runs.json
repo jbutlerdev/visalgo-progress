@@ -1,5 +1,15 @@
 [
  {
+  "ts": "2026-11-01T18:20:00Z",
+  "type": "analysis",
+  "summary": "Calibrate attempt #1: FAIL -> STOP per gate. Spec-guessed run (in-repo adaptive grid header) gave per-seed pnl -219/-663/-191/-166 vs bars 6331/8083/6742/6296 (non-adjudicative; harness unestablished). Diagnosis: bars never came from wf_adaptive.main (pnl mismatch even vs repo's own report; trail params differ) -> package-standard harness = perished campaign script, not file-reconstructible. EA asked for bars' spec context (window/command/fees) or re-baseline adjudication. No massaging. calibrate_v2.py @ e49f504.",
+  "algos": [
+   "H-PROB",
+   "H-GAPDAY"
+  ],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-01T17:50:00Z",
   "type": "analysis",
   "summary": "Custody re-anchor: EA verified pre-patch step-0 (e46fa29/4bc4fafd, exact); file advanced to 580ad9e/695a40b2 by bindings patch \u2014 new canonical sent to EA. Pins audit: bars exist in files only as self-references; EA memory = ratified bars source (durable doc = EA route if desired). Chain re-anchor: calibrate is upstream-independent of re-stage (ES stream in-repo).",
