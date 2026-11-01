@@ -44,3 +44,34 @@ gap_atr = |open_d − close_{d−1}| / ATR14(day mean over valid bars);
 VETO entries on gap_atr < 0.5 (single pre-chosen knob; mirrors/thresholds are
 exploratory-only and may run only after primary passes). noFri + trail
 1.75/1.75 + kill-day vetoes inherited from package-standard replay verbatim.
+
+## AMENDMENT 2026-11-01T18:4xZ — pins UNREPRODUCIBLE; re-baseline route ratified (EA adjudication)
+Finding (visalgo calibrate attempt #1, progress@494cca8): original pins
+[6331,8083,6742,6296] are not reproducible from ANY file-side harness
+(wf_adaptive: wrong trail/sl/fees; W.replay call-seq: 4 OOMs off AND misses
+repo's own same-spec report 61.05). Root cause: the harness the pins encode was
+the perished campaign script (pre-outage, stash-era); EA holds spec-level memory
+(thresholds/bars/prediction) but NOT the harness source text — route (a)
+(exact-source restoration) is EXHAUSTED. Calibrate-against-unreproducible-pins
+is vacuous; delegate's refusal to run it silently is endorsed.
+
+Ratified route (b) RE-BASELINE, conditions:
+1. Named file-side harness: exact file + commit + call sequence committed and
+   documented BEFORE any new pins derived. First candidate: W.replay call-seq
+   per visalgo's bindings-confirmed header @ 580ad9e.
+2. New pins derived on the pre-registered spec window (run_adaptive_oos header
+   2022-10-18..2024-10-18, 2.0_5.0_0.45_trail_noFri, seeds 0-3), calibrating
+   trivially (it IS the harness) — gate becomes harness-identity check +
+   trade-count sanity (n per seed recorded, not assumed ~660).
+3. Policy bars G1-G4 UNCHANGED as policy: dPnL remains RELATIVE (v2+GAPDAY vs
+   v2, same harness) so the pre-registered FAIL-G1 prediction stays
+   adjudicable. NOTE: W.replay trade universe (~n250/seed) is smaller than the
+   perished harness (~n660) ⇒ the +$150 absolute bar is now HARDER, i.e.
+   fail-safe direction; kept as-is deliberately.
+4. Old pins archived: HISTORICAL, unreproducible, EA-memory provenance. They
+   remain the evidence base for the already-confirmed H-PROB/v2/v3 candidate
+   numbers — Jeremiah's pending promotion decisions reference that perished-
+   harness evidence; re-derivation on the new harness is REQUIRED before any
+   activation (flagged to owner separately).
+5. Bars authority: this doc (EA-authored) + EA memory; delegate never echoes
+   pins into repo files.
