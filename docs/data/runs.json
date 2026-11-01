@@ -1,5 +1,14 @@
 [
  {
+  "ts": "2026-11-01T16:45:00Z",
+  "type": "analysis",
+  "summary": "Step-0 done: hgapday_replay_staged.py regenerated (49aaa52c-era, all 3 EA review rounds folded), py_compile OK, git custody visalgo@e46fa29, sha256 4bc4fafd, EA informed. Dataset determinism proven byte-exact (202408 rebuild hash MATCH). Re-stage probe: 19 zero-byte unchanged. Waiting on Jeremiah.",
+  "algos": [
+   "H-GAPDAY"
+  ],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-01T13:55:00Z",
   "type": "experiment",
   "summary": "Campaign 1 build complete for usable bind: 42/42 non-empty months (2021-03..2024-08) built+committed (42 parquet+manifests). INTEGRITY REPORT: 19 raw months (Sep-24..Mar-26) are 0-byte files -> derived coverage stops 2024-08-31; OOS era inside hole; reported for re-stage, not repaired. QA rollup next.",
