@@ -105,3 +105,25 @@ baseline, does not anticipate. Ratified:
    strengthens re-derivation-before-activation gate on H-PROB v2/v3.
 5. Ratified-window pins deterministic (2-run identical) → send to EA doc;
    repo keeps ZERO pin values (condition 5 unchanged).
+
+## AMENDMENT 4 2026-11-01T19:1xZ — RATIFIED-WINDOW PINS (v2 baselines, CONFIRMED-PENDING-2ND-RUN)
+Window days_all[-504:] (spec_v2_ratified.json @ visalgo 4ea5f48, committed
+pre-run; params frozen), harness = staged script e318f24 (EA-verified):
+| seed | v2 mean | n |
+|---|---|---|
+| 0 | $2,761.08 | 315 |
+| 1 | $3,161.20 | 311 |
+| 2 | $2,920.40 | 314 |
+| 3 | $3,345.36 | 315 |
+Mean +$3,047.01 — G0 PASS (all four positive; profitable-baseline context).
+Status: CONFIRMED-PENDING-2ND-RUN — pins become canonical on the second
+identical run (determinism identity check; attempts #1/#2 were cent-for-cent).
+Context note for archive: sign agrees with perished harness on THIS window
+(+$6.6k-class vs new ~half-scale, smaller n); the earlier sign-divergence was
+spec-window (2022-24) specific. Activation-gate on H-PROB v2/v3 stands
+(non-reproducible scale, unreproducible harness).
+Pre-prediction status: FAIL-G1 premise-class (profitable baseline) now holds;
+its MAGNITUDE basis (perished-harness economics, e.g. +$7.1/trade) does not
+transfer — treat as directional, not numeric, anchor.
+G3 accepted-as-repo-source: summarize_days on day_pnl (repo function); PASS
+string unreachable unless G3 computes (BINDING per original doc).
