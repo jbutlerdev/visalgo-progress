@@ -12,7 +12,8 @@ MEANINGLESS results. No cross-instrument porting in either direction.
 
 ## Canonical replay script
 scripts/hgapday_replay_staged.py @ visalgo
-- 580ad9e = sha256 695a40b2e2ef33a98a712f019553ce14099c4c6087388e79fbf142aa99bd60f6 (CURRENT; EA-verified)
+- e318f24 = sha256 27be2ff74a1f7afe487e298851d9697b69edad72ca3a9374408d508dfa71401d (CURRENT; EA-verified; staged signals() rewired to repo wf_adaptive bindings-confirmed call-seq; runnable-in-repo)
+- 580ad9e = sha256 695a40b2e2ef33a98a712f019553ce14099c4c6087388e79fbf142aa99bd60f6 (prior; EA-verified)
 - e46fa29 = sha256 4bc4fafd783aee6367c1855518c7909c27bdbe685300891921825d1047883ac0 (pre-patch provenance; EA-verified)
 Logic change pending: arms must call W.replay (package-standard) before ANY
 numbers are quoted. Calibrate gate retained as harness VERIFICATION.
