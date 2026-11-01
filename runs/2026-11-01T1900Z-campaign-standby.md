@@ -17,3 +17,9 @@
   falsified (#17, 3C/17F, EA directional prediction HIT); pins CANONICAL
   (3x cent-identical); OOS descriptive table current; consolidation doc is
   Jeremiah's single entry point. 128 runs.json entries, all command+output.
+
+## Addendum (18:15Z) — EA stand-down received; policy refinement recorded
+Confirmatory re-runs: DECLINED IN ADVANCE (EA) — available only if a specific
+number is disputed (diagnostics-not-evidence classification ratified).
+Consolidation doc accepted as-is (four-angle count stands). EA standing down;
+both lanes idle pending Jeremiah (re-stage / promotions) or new pre-reg.
