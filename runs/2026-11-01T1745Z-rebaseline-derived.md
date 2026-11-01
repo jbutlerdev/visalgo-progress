@@ -67,3 +67,23 @@ assumed), + summarize_days maxdd recorded as context for future G3. G0 =
 mean(seeds) > $0 declared pre-numbers: PASS -> pins to EA for doc; FAIL ->
 record NOT-ADJUDICABLE-CONTEXT, STOP (no further window/variant shopping —
 that sentence is binding on me).
+
+## Addendum 4 (17:45Z) — AMENDMENT-3 ratified-window run: G0 PASS
+`python3 scripts/calibrate_v2.py scripts/spec_v2_ratified.json` (versions np
+1.26.4 pd 1.5.3 xgb 1.7.4) ->
+  seed 0 pnl 2761.08 n 315 | seed 1 3161.20 n 311 | seed 2 2920.40 n 314 |
+  seed 3 3345.36 n 315
+G0 (declared pre-run, addendum 3): mean = +$3,047.01 > $0 -> PASS; all 4
+seeds positive; n recorded (not assumed; 311-315 vs spec-window 247-258 vs
+perished ~660 — universe facts on record). Context now matches FAIL-G1
+pre-prediction's written premise (profitable baseline). Ratified-window pins
+SENT TO EA for doc (condition 5: repo holds zero pin values as bars; the
+lines above are constitution-#1 command+output evidence).
+DEVIATION DISCLOSED: addendum-3 pre-reg said summarize_days maxdd would be
+recorded as future-G3 context — script prints total+n only; not run a second
+time for it. Deferral is sound because G3 is BINDING and its own
+repo-source-DD-curve requirement makes this context redundant for gating.
+Next per doc: GAPDAY arms run (staged script e318f24, signals() rewired to
+repo call-seq; window = days_all[-504:] same as ratified; single run; G0
+already PASS; G3 cannot print PASS until repo-source DD curves run —
+PROVISIONAL G1G2 only otherwise).
