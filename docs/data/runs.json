@@ -1,5 +1,15 @@
 [
  {
+  "ts": "2026-11-01T17:05:00Z",
+  "type": "analysis",
+  "summary": "Bindings confirmed vs repo files: hprob_oos/walk_forward FALSIFIED (missing); real = wf_adaptive+pipeline; side encoding fixed (arg==2=+1). KEY: ES 5m stream in-repo 101,784 bars to 2026-10-02 -> frozen sequence (calibrate/OOS/H-GAPDAY) NOT blocked by 19 zero-byte bind months. Hand-rolled simulate flagged non-standard; W.replay rewrite next wake. visalgo@580ad9e.",
+  "algos": [
+   "H-GAPDAY",
+   "H-PROB"
+  ],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-01T16:45:00Z",
   "type": "analysis",
   "summary": "Step-0 done: hgapday_replay_staged.py regenerated (49aaa52c-era, all 3 EA review rounds folded), py_compile OK, git custody visalgo@e46fa29, sha256 4bc4fafd, EA informed. Dataset determinism proven byte-exact (202408 rebuild hash MATCH). Re-stage probe: 19 zero-byte unchanged. Waiting on Jeremiah.",
