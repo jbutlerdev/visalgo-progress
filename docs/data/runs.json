@@ -1,5 +1,12 @@
 [
  {
+  "ts": "2026-11-01T19:00:00Z",
+  "type": "analysis",
+  "summary": "Campaign -> STANDBY per EA disposition. Consolidation doc spec field-checked against EA's 5-point deliverable (grep evidence; no rewrite churn). Standing: NQ tail parked on re-stage (19/61 zero-byte unchanged), no self-generated work, fresh pre-registration required for any new hypothesis. Final ledger: campaign1+surface closed, #17 falsified (3C/17F), pins canonical 3x, OOS current, consolidation = Jeremiah entry point.",
+  "algos": [],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-01T18:50:00Z",
   "type": "analysis",
   "summary": "Plan complete: candidate-doc consolidation delivered (docs/CANDIDATE-STACK-CONSOLIDATION-2026-11-01.md @ cba0869) with EA's activation-gate boundary front-and-center (pre-re-baseline numbers need file-side re-derivation before any activation; pin values not restated). Confirmed/falsified/descriptive state + authority map consolidated. External queue: Jeremiah re-stage + promotions; EA disposition.",
