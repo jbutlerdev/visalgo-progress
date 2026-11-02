@@ -40,3 +40,7 @@ new hypotheses -> fresh pre-reg on own instrument/harness).
 - 03:00Z e4d7b7f 97661b8 19/61 quiet — 20th consecutive unchanged (STANDBY ~10h)
 - 03:30Z e4d7b7f 9dd28ce 19/61 quiet — 21st consecutive unchanged (STANDBY)
 - 04:00Z e4d7b7f fa87e34 19/61 quiet — 22nd consecutive unchanged (STANDBY ~11h)
+- 04:00:46Z DUPLICATE-WAKE DETECTED (same slot as committed 04:00Z line, 46s
+  later): refused duplicate probe/count — same-minute same-state re-log would
+  be a #4 chronicle-duplicate. No new probe performed (state was observed
+  seconds prior and unchanged); trace of this wake = this line.
