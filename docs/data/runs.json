@@ -1,5 +1,12 @@
 [
  {
+  "ts": "2026-11-02T07:33:00Z",
+  "type": "analysis",
+  "summary": "Idle wake (STANDBY ~14.5h): probes unchanged 29x (e4d7b7f/8b7f9c3, 19/61 zero-byte, no input). Queue external only. Re-stage remains the only unattended long-pole (gates NQ tail; ES lane independent).",
+  "algos": [],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-02T07:03:00Z",
   "type": "analysis",
   "summary": "Idle wake (STANDBY ~14h): probes unchanged 28x (e4d7b7f/3f34716, 19/61 zero-byte, no input). Fresh slot verified (07:03:02Z). Queue external only.",
