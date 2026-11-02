@@ -44,3 +44,5 @@ new hypotheses -> fresh pre-reg on own instrument/harness).
   later): refused duplicate probe/count — same-minute same-state re-log would
   be a #4 chronicle-duplicate. No new probe performed (state was observed
   seconds prior and unchanged); trace of this wake = this line.
+- 04:30Z e4d7b7f 5d1308a 19/61 quiet — 23rd consecutive unchanged (STANDBY;
+  fresh slot verified vs 04:00:46Z duplicate-wake trace)

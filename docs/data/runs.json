@@ -1,5 +1,12 @@
 [
  {
+  "ts": "2026-11-02T04:30:00Z",
+  "type": "analysis",
+  "summary": "Idle wake (STANDBY): probes unchanged 23x (e4d7b7f/5d1308a, 19/61 zero-byte, no input). Fresh slot verified (not a re-fire). Queue external only.",
+  "algos": [],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-02T04:00:46Z",
   "type": "analysis",
   "summary": "Duplicate-wake detection: scheduled check-in re-fired 46s after the 04:00Z probe line was already committed+pushed (498446e). Refused to append a duplicate probe/count (#4 chronicle-duplicate bar); floor satisfied by this unique-fact trace. Probes stand at 22 consecutive unchanged.",
