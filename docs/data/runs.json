@@ -1,5 +1,14 @@
 [
  {
+  "ts": "2026-11-02T15:59:00Z",
+  "type": "analysis",
+  "summary": "vram lane OPEN (Jeremiah) \u2014 proven: RTX 3090 query rc=0 (raw in entry). DEFER rule invoked: llama-server holds 23,812/24,576 MiB (active human service) -> no training fired. Host ready (visalgo clone, py3.12, torch 2.14 cu130, cuda True). ML candidate = ml/lstm_wf.py (mirrors xgb_wf protocol); plan folded with pre-reg gate before any metric. Assigned task, no other self-generated work.",
+  "algos": [
+   "ML-LSTM"
+  ],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-02T15:30:36Z",
   "type": "analysis",
   "summary": "Idle wake (STANDBY ~22.5h): probe 46 unchanged (e4d7b7f/03259b4, 19/61 zero-byte, no input). Fresh slot same-call verified (15:30:36Z); distinct prompt cited, first entry of turn, no re-checks (hardened rule held). Queue external only.",
