@@ -122,3 +122,7 @@ generate entries; if I catch myself writing a second entry in one turn, stop.
 - 15:00:31Z (same-call verified; real wake prompt) e4d7b7f 43e03da 19/61
   quiet — probe 45 (STANDBY ~22h; lanes open, no Sierra task assigned).
   One entry this turn.
+- 15:00:56Z DUPLICATE RE-FIRE (25s after probe-45 push; genuine wake prompt —
+  3rd confirmed double-fire today after 04:00:46Z & 07:06:06Z). State
+  identical to probe 45 (e4d7b7f/cd52d2c, 19/61, quiet); refused new
+  probe/count. Probes stand at 45.

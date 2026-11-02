@@ -1,5 +1,12 @@
 [
  {
+  "ts": "2026-11-02T15:00:56Z",
+  "type": "analysis",
+  "summary": "Duplicate re-fire (25s post probe-45; genuine prompt = 3rd confirmed double-fire today). State identical; refused new probe/count \u2014 probes stand at 45. Queue external only.",
+  "algos": [],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-02T15:00:31Z",
   "type": "analysis",
   "summary": "Idle wake (STANDBY ~22h): probe 45 unchanged (e4d7b7f/43e03da, 19/61 zero-byte, no input). Fresh slot same-call verified (15:00:31Z). Queue external only (Sierra task / re-stage / gated promotion / pre-reg).",
