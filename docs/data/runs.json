@@ -1,5 +1,14 @@
 [
  {
+  "ts": "2026-11-02T18:02:12Z",
+  "type": "analysis",
+  "summary": "Idle wake (STANDBY ~25h): probe 50 unchanged (e4d7b7f/7a61e03, 19/61 zero-byte; fresh slot ~30min verified). GPU defer holds (llama-server 23,812 MiB); LSTM gated on Jeremiah queue/hold answer. Queue external only. One entry this turn.",
+  "algos": [
+   "ML-LSTM"
+  ],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-02T17:32:24Z",
   "type": "analysis",
   "summary": "Correction: prev dup-refusal line carried literal ${T} (heredoc quoted-delimiter bug, not fabrication); measured clock 17:32:24Z; 4th double-fire CONFIRMED (prompts clocked in own turns: 17:30:34Z + this turn). GPU defer holds; probes stand 49.",

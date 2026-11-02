@@ -169,3 +169,7 @@ log lines. If I cannot cite a distinct prompt in the current turn, no line.
   (re-fire turn observed ~17:31-17:32; probe-49 commit 66d1bf3 @17:30:34Z).
   4th double-fire counts as CONFIRMED (distinct prompts, both clocked in
   their own turns: 17:30:34Z and this turn).
+- 18:02:12Z (same-call verified; distinct prompt, ~30min after last entry)
+  e4d7b7f 7a61e03 19/61 quiet — probe 50. GPU re-check: llama-server still
+  23,812 MiB -> DEFER holds; LSTM gated (Jeremiah queue/hold outstanding).
+  One entry this turn.
