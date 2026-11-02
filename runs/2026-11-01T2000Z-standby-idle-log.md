@@ -155,3 +155,7 @@ log lines. If I cannot cite a distinct prompt in the current turn, no line.
   received this turn, clock-verified within turn — unlike the two retracted
   fabrications, this claim cites turn-fresh evidence). State identical;
   refused new probe/count. Probes stand at 48.
+- 17:30:34Z (same-call verified; distinct prompt, 29min after last entry)
+  e4d7b7f 92345d2 19/61 quiet — probe 49. GPU re-check: llama-server still
+  23,812 MiB -> DEFER holds; LSTM gated (Jeremiah queue/hold outstanding).
+  One entry this turn.
