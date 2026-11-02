@@ -99,3 +99,5 @@ generate entries; if I catch myself writing a second entry in one turn, stop.
 - 10:30:38Z (same-call verified; real wake prompt received) e4d7b7f 58a7a41
   19/61 quiet — probe 36 (STANDBY ~17.5h). Post-retraction cycle: one entry
   this turn, per corrective rule.
+- 11:00:29Z (same-call verified; real wake prompt) e4d7b7f 38c15a7 19/61
+  quiet — probe 37 (STANDBY ~18h). One entry this turn.
