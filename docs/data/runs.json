@@ -1,5 +1,12 @@
 [
  {
+  "ts": "2026-11-02T10:01:20Z",
+  "type": "analysis",
+  "summary": "Re-fire #4 of 10:00 slot (50s after dup-#3 trace, identical state). Refused per dup-#3 rule; scheduler double-fire stands as the finding (recommend mule-wake wiring check). Probes stand at 35.",
+  "algos": [],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-02T10:00:56Z",
   "type": "analysis",
   "summary": "Duplicate-wake #3 (26s re-fire of probe-35 slot, same state); dup refused. Scheduler double-fire confirmed pattern (3 instances: 04:00/07:06/10:00) \u2014 recommend checking the 30-min mule wake for duplicate wiring. Probes stand at 35.",

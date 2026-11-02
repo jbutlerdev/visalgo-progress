@@ -78,3 +78,7 @@ True count at this writing: 28 probes; this wake = 29th (07:04:39Z).
   state). Refused dup line/count. Scheduler double-fire now 3x observed
   (04:00, 07:06, 10:00) — pattern confirmed, not transient: recommend the
   30-min mule wake be checked for a duplicate wiring. Probes stand at 35.
+- 10:01:20Z RE-FIRE #4 of same slot (50s after dup-#3 trace; state identical:
+  e4d7b7f/8463946, 19/61, quiet). Refused; dup-#3 trace covers this slot —
+  per its own recommendation, further identical re-fires get at most a
+  one-word trace; scheduler double-fire is the finding, not each echo.
