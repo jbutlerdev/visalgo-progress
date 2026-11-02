@@ -31,3 +31,6 @@ new hypotheses -> fresh pre-reg on own instrument/harness).
   separation policy: the ES 0.5 knob ported to NQ vetoes nearly everything.
   No follow-up run without EA/Jeremiah authorization (STANDBY intact; any
   NQ gap-day hypothesis needs its own pre-reg + own thresholds vs M5 pcts).
+- 01:00Z (logged 01:0x) e4d7b7f 1163cb1 19/61 quiet — 16th consecutive
+  unchanged (STANDBY; no follow-ups on yesterday's disclosed counterfactual —
+  authorization gate intact)

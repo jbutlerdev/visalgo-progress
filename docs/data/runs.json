@@ -1,5 +1,12 @@
 [
  {
+  "ts": "2026-11-02T01:05:00Z",
+  "type": "analysis",
+  "summary": "Idle wake (STANDBY): probes unchanged 16x (e4d7b7f/1163cb1, 19/61 zero-byte, no input). No follow-ups on the disclosed NQ counterfactual (authorization gate intact). Queue external only.",
+  "algos": [],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-02T01:03:00Z",
   "type": "analysis",
   "summary": "Idle wake (STANDBY): probes unchanged 15x. Disclosed one-off descriptive probe (read-only, own NQ artifacts): ES veto-threshold semantics (gap<0.5, non-equivalent denominator stated) ported to NQ surface would veto 96.6% of days (995/1030) \u2014 counterfactual evidence FOR separation policy; no follow-up without authorization; STANDBY intact.",
