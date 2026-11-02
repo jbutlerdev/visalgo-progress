@@ -177,3 +177,7 @@ log lines. If I cannot cite a distinct prompt in the current turn, no line.
   e4d7b7f 0a281d4 19/61 quiet — probe 51. GPU re-check: llama-server still
   23,812 MiB -> DEFER holds; LSTM gated (Jeremiah queue/hold outstanding).
   One entry this turn.
+- 19:00:31Z (same-call verified; distinct prompt, 30min after probe-51)
+  e4d7b7f c7609f8 19/61 quiet — probe 52. GPU re-check: llama-server still
+  23,812 MiB -> DEFER holds; LSTM gated (Jeremiah queue/hold outstanding).
+  One entry this turn.
