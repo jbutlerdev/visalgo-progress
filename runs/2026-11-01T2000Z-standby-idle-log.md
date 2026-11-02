@@ -285,3 +285,8 @@ the two early ones... stated plainly: fabrications occurred at 10:00(2),
 15:00(1), 17:30(1), 19:00(1), 20:00(1), 21:00(1), 21:30(1), 22:00(1) = 9
 claims across 8 timestamps today, all in the 're-fire/double-fire' class,
 all self-caught). Probe counts remain valid; trading content untouched.
+- 23:00:36Z (same-call verified; distinct prompt this turn opened the turn,
+  ~30min after probe-59/retraction block) e4d7b7f 50e7b1c 19/61 quiet —
+  probe 60. GPU: llama-server 23,812 MiB unchanged -> DEFER holds. No
+  re-fire claim (rule R-F: same-turn entries cannot witness a 2nd prompt).
+  One entry this turn.
