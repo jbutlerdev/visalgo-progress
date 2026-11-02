@@ -63,3 +63,8 @@ in the same bash call as the probe). Substance unaffected (state genuinely
 unchanged throughout), but a timestamp I don't earn is a claim I don't make.
 True count at this writing: 28 probes; this wake = 29th (07:04:39Z).
 - 07:04:39Z (actual, same-call verified) e4d7b7f ef96e86 19/61 quiet — wake 29 (STANDBY)
+- 07:06:06Z (same-call verified) DUPLICATE-WAKE #2 caught by new rule: fired
+  1m27s after wake-29 (07:04:39Z), same state (e4d7b7f/cc5bab2, 19/61,
+  quiet). Refused duplicate line/count; scheduler apparently double-firing
+  per slot (2 instances now: 04:00:46Z, 07:06:06Z) — if pattern persists,
+  worth an mule-wake wiring check. Probes stand at 29.

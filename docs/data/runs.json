@@ -1,5 +1,12 @@
 [
  {
+  "ts": "2026-11-02T07:06:06Z",
+  "type": "analysis",
+  "summary": "Duplicate-wake #2 caught by same-call clock rule: re-fire 1m27s after wake 29, same state; duplicate line/count refused. Scheduler appears to double-fire per slot (2 instances) \u2014 flag for wake-wiring check if it persists. Probes stand at 29.",
+  "algos": [],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-02T07:04:39Z",
   "type": "analysis",
   "summary": "Self-correction: two-line wake turns had written one label ~28min into the future (07:33Z line at actual 07:03Z; same pattern earlier). Rule adopted: one probe line per wake, timestamp = clock read in the same bash call as the probe. Substance unaffected (state unchanged). Wake 29 logged at true 07:04:39Z (e4d7b7f/ef96e86, 19/61, quiet).",
