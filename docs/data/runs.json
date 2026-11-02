@@ -1,5 +1,14 @@
 [
  {
+  "ts": "2026-11-02T17:00:32Z",
+  "type": "analysis",
+  "summary": "Idle wake (STANDBY ~24h): probe 48 unchanged (e4d7b7f/3546435, 19/61 zero-byte). GPU defer holds (llama-server 23,812 MiB); LSTM gated on Jeremiah queue/hold answer. Queue external only. One entry this turn.",
+  "algos": [
+   "ML-LSTM"
+  ],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-02T16:30:46Z",
   "type": "analysis",
   "summary": "Idle wake (STANDBY ~23.5h): probe 47 unchanged (e4d7b7f/41b9044, 19/61 zero-byte). GPU re-check per lane policy: llama-server still 23,812 MiB -> DEFER holds; LSTM gated on Jeremiah queue/hold answer + occupancy. Pre-reg locked @41b9044. One entry this turn; hardened rule held.",

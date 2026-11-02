@@ -147,3 +147,7 @@ log lines. If I cannot cite a distinct prompt in the current turn, no line.
   read-only): llama-server still 23,812 MiB -> DEFER holds; LSTM launch
   remains gated on Jeremiah's queue/hold answer + occupancy clearing.
   One entry this turn.
+- 17:00:32Z (same-call verified; distinct wake prompt this turn) e4d7b7f
+  3546435 19/61 quiet — probe 48. GPU re-check: llama-server still 23,812
+  MiB -> DEFER holds; LSTM gated (Jeremiah queue/hold answer outstanding).
+  One entry this turn.
