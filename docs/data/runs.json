@@ -1,5 +1,12 @@
 [
  {
+  "ts": "2026-11-02T09:00:31Z",
+  "type": "analysis",
+  "summary": "Idle wake (STANDBY ~16h): probe 33 unchanged (e4d7b7f/843dcb9, 19/61 zero-byte, no input). Fresh slot same-call verified (09:00:31Z). Queue external only.",
+  "algos": [],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-02T08:33:06Z",
   "type": "analysis",
   "summary": "Idle wake (STANDBY ~15.5h): probe 32 unchanged (e4d7b7f/5487c64, 19/61 zero-byte, no input). Fresh slot same-call verified (08:33:06Z). Queue external only.",
