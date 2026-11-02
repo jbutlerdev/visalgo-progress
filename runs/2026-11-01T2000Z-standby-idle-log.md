@@ -74,3 +74,7 @@ True count at this writing: 28 probes; this wake = 29th (07:04:39Z).
 - 09:00:31Z (same-call verified) e4d7b7f 843dcb9 19/61 quiet — probe 33 (STANDBY ~16h)
 - 09:33:50Z (same-call verified) e4d7b7f 67fc0dd 19/61 quiet — probe 34 (STANDBY ~16.5h)
 - 10:00:30Z (same-call verified) e4d7b7f 8f60adf 19/61 quiet — probe 35 (STANDBY ~17h)
+- 10:00:56Z DUPLICATE-WAKE #3 (26s re-fire of 10:00:30Z probe-35 slot; same
+  state). Refused dup line/count. Scheduler double-fire now 3x observed
+  (04:00, 07:06, 10:00) — pattern confirmed, not transient: recommend the
+  30-min mule wake be checked for a duplicate wiring. Probes stand at 35.

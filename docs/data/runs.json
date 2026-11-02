@@ -1,5 +1,12 @@
 [
  {
+  "ts": "2026-11-02T10:00:56Z",
+  "type": "analysis",
+  "summary": "Duplicate-wake #3 (26s re-fire of probe-35 slot, same state); dup refused. Scheduler double-fire confirmed pattern (3 instances: 04:00/07:06/10:00) \u2014 recommend checking the 30-min mule wake for duplicate wiring. Probes stand at 35.",
+  "algos": [],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-02T10:00:30Z",
   "type": "analysis",
   "summary": "Idle wake (STANDBY ~17h): probe 35 unchanged (e4d7b7f/8f60adf, 19/61 zero-byte, no input). Fresh slot same-call verified (10:00:30Z). Queue external only.",
