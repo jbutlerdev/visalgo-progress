@@ -107,3 +107,6 @@ generate entries; if I catch myself writing a second entry in one turn, stop.
   quiet — probe 39 (STANDBY ~19h). One entry this turn.
 - 12:30:31Z (same-call verified; real wake prompt) e4d7b7f d347043 19/61
   quiet — probe 40 (STANDBY ~19.5h). One entry this turn.
+- 13:00:43Z (same-call verified; real wake prompt) e4d7b7f 5eca556 19/61
+  quiet — probe 41 (STANDBY ~20h; SSH lanes open per Jeremiah 12:33Z, .162
+  verified, awaiting explicit Sierra task). One entry this turn.
