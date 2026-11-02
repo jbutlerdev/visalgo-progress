@@ -290,3 +290,6 @@ all self-caught). Probe counts remain valid; trading content untouched.
   probe 60. GPU: llama-server 23,812 MiB unchanged -> DEFER holds. No
   re-fire claim (rule R-F: same-turn entries cannot witness a 2nd prompt).
   One entry this turn.
+- 23:30:36Z (same-call verified; prompt opened this turn, exactly 30min
+  after probe-60) e4d7b7f 7d90ed0 19/61 quiet — probe 61. GPU: llama-server
+  23,812 MiB unchanged -> DEFER holds. One entry this turn.
