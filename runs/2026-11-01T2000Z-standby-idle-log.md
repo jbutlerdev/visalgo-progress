@@ -142,3 +142,8 @@ log lines. If I cannot cite a distinct prompt in the current turn, no line.
 - 15:30:36Z (same-call verified; distinct wake prompt received this turn)
   e4d7b7f 03259b4 19/61 quiet — probe 46 (STANDBY ~22.5h; lanes open, no
   Sierra task assigned). One entry this turn; no intra-turn re-checks.
+- 16:30:46Z (same-call verified; distinct wake prompt this turn) e4d7b7f
+  41b9044 19/61 quiet — probe 47. GPU re-check (assigned-task policy,
+  read-only): llama-server still 23,812 MiB -> DEFER holds; LSTM launch
+  remains gated on Jeremiah's queue/hold answer + occupancy clearing.
+  One entry this turn.

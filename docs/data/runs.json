@@ -1,5 +1,14 @@
 [
  {
+  "ts": "2026-11-02T16:30:46Z",
+  "type": "analysis",
+  "summary": "Idle wake (STANDBY ~23.5h): probe 47 unchanged (e4d7b7f/41b9044, 19/61 zero-byte). GPU re-check per lane policy: llama-server still 23,812 MiB -> DEFER holds; LSTM gated on Jeremiah queue/hold answer + occupancy. Pre-reg locked @41b9044. One entry this turn; hardened rule held.",
+  "algos": [
+   "ML-LSTM"
+  ],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-02T16:10:00Z",
   "type": "analysis",
   "summary": "PRE-REG ML candidate #1 (LSTM walk-forward, vram lane): runner/protocol confirmed from files (lstm_wf.py unmodified; fee parity grep-checked 5.0/1.25); locked spec: ratified window days_all[-504:], seeds 0-3, exit-parity deviation declared up front (sim_pnl fixed -> comparison target = e3 descriptive context, NOT v2 trail), primary metric = per-seed total+n, G1-style non-collapse bar (>= -50% of e3 pooled 12,043.70), G3 binding summarize_days, G4 date-window. GATED on GPU occupancy + this doc locked. No metrics pre-launch.",
