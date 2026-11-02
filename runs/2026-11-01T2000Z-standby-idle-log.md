@@ -163,3 +163,9 @@ log lines. If I cannot cite a distinct prompt in the current turn, no line.
   after probe-49 commit 66d1bf3 @17:30:34Z). State identical; no new
   probe/count. Probes stand 49. (4th confirmed double-fire today if
   genuine — turn-clock evidence noted, unlike retracted claims.)
+- 17:32:24Z (measured, this call) CORRECTION to prev line: literal "${T}"
+  was a heredoc-expansion bug (quoted delimiter), not a fabricated stamp —
+  the refusal event is real; its honest timestamp is THIS measured clock
+  (re-fire turn observed ~17:31-17:32; probe-49 commit 66d1bf3 @17:30:34Z).
+  4th double-fire counts as CONFIRMED (distinct prompts, both clocked in
+  their own turns: 17:30:34Z and this turn).
