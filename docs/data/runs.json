@@ -1,5 +1,14 @@
 [
  {
+  "ts": "2026-11-02T17:32:11Z",
+  "type": "analysis",
+  "summary": "Re-fire of 17:30 slot refused (turn-clock verified seconds post probe-49 commit; state identical, probes stand 49). GPU defer holds (llama-server 23,812 MiB); LSTM gated on Jeremiah. Queue external only.",
+  "algos": [
+   "ML-LSTM"
+  ],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-02T17:30:34Z",
   "type": "analysis",
   "summary": "Idle wake (STANDBY ~24.5h): probe 49 unchanged (e4d7b7f/92345d2, 19/61 zero-byte; fresh slot 29min verified). GPU defer holds (llama-server 23,812 MiB); LSTM gated on Jeremiah queue/hold answer. Queue external only. One entry this turn.",
