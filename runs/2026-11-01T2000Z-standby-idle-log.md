@@ -151,3 +151,7 @@ log lines. If I cannot cite a distinct prompt in the current turn, no line.
   3546435 19/61 quiet — probe 48. GPU re-check: llama-server still 23,812
   MiB -> DEFER holds; LSTM gated (Jeremiah queue/hold answer outstanding).
   One entry this turn.
+- 17:01:17Z 3rd CONFIRMED double-fire (45s after probe 48; distinct prompt
+  received this turn, clock-verified within turn — unlike the two retracted
+  fabrications, this claim cites turn-fresh evidence). State identical;
+  refused new probe/count. Probes stand at 48.

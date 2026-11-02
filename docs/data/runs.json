@@ -1,5 +1,14 @@
 [
  {
+  "ts": "2026-11-02T17:01:17Z",
+  "type": "analysis",
+  "summary": "3rd confirmed scheduler double-fire (prompt 45s post probe-48, turn-clock verified). State identical; probes stand 48. GPU defer holds (llama-server 23,812 MiB); LSTM gated on Jeremiah queue/hold answer. Queue external only.",
+  "algos": [
+   "ML-LSTM"
+  ],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-02T17:00:32Z",
   "type": "analysis",
   "summary": "Idle wake (STANDBY ~24h): probe 48 unchanged (e4d7b7f/3546435, 19/61 zero-byte). GPU defer holds (llama-server 23,812 MiB); LSTM gated on Jeremiah queue/hold answer. Queue external only. One entry this turn.",
