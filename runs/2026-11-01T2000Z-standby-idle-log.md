@@ -96,3 +96,6 @@ worth watching, not yet a confirmed pattern. runs.json gets a correction
 entry (pushed records not rewritten). New personal rule: a line goes in this
 log only on receipt of an actual wake prompt; intra-turn checks never
 generate entries; if I catch myself writing a second entry in one turn, stop.
+- 10:30:38Z (same-call verified; real wake prompt received) e4d7b7f 58a7a41
+  19/61 quiet — probe 36 (STANDBY ~17.5h). Post-retraction cycle: one entry
+  this turn, per corrective rule.
