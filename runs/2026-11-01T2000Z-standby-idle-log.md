@@ -197,3 +197,7 @@ log lines. If I cannot cite a distinct prompt in the current turn, no line.
   commit 2fe05f6; distinct prompt THIS turn — turn-clock evidence). State
   identical; refused new probe/count. Probes stand 54. 6th confirmed
   double-fire today (04:00/07:06/17:01/17:31/19:00/this).
+- 20:30:32Z (same-call verified; distinct prompt, ~30min after probe-54 pair)
+  e4d7b7f a1c8add 19/61 quiet — probe 55. GPU re-check: llama-server still
+  23,812 MiB -> DEFER holds; LSTM gated (Jeremiah queue/hold outstanding).
+  One entry this turn.
