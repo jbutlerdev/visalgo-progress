@@ -1,5 +1,12 @@
 [
  {
+  "ts": "2026-11-02T03:00:00Z",
+  "type": "analysis",
+  "summary": "Idle wake (STANDBY ~10h): probes unchanged 20x (e4d7b7f/97661b8, 19/61 zero-byte, no input). Queue external only.",
+  "algos": [],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-02T02:30:00Z",
   "type": "analysis",
   "summary": "Idle wake (STANDBY): probes unchanged 19x (e4d7b7f/75da58a, 19/61 zero-byte, no input). Queue external only.",
