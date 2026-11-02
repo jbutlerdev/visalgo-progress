@@ -101,3 +101,5 @@ generate entries; if I catch myself writing a second entry in one turn, stop.
   this turn, per corrective rule.
 - 11:00:29Z (same-call verified; real wake prompt) e4d7b7f 38c15a7 19/61
   quiet — probe 37 (STANDBY ~18h). One entry this turn.
+- 11:30:32Z (same-call verified; real wake prompt) e4d7b7f b9e5afb 19/61
+  quiet — probe 38 (STANDBY ~18.5h). One entry this turn.
