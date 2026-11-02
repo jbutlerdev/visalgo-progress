@@ -1,5 +1,12 @@
 [
  {
+  "ts": "2026-11-02T07:30:30Z",
+  "type": "analysis",
+  "summary": "Idle wake (STANDBY ~14.5h): probe 30 unchanged (e4d7b7f/bb4dd10, 19/61 zero-byte, no input). Fresh slot verified same-call (07:30:30Z). Queue external only.",
+  "algos": [],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-02T07:06:06Z",
   "type": "analysis",
   "summary": "Duplicate-wake #2 caught by same-call clock rule: re-fire 1m27s after wake 29, same state; duplicate line/count refused. Scheduler appears to double-fire per slot (2 instances) \u2014 flag for wake-wiring check if it persists. Probes stand at 29.",

@@ -68,3 +68,4 @@ True count at this writing: 28 probes; this wake = 29th (07:04:39Z).
   quiet). Refused duplicate line/count; scheduler apparently double-firing
   per slot (2 instances now: 04:00:46Z, 07:06:06Z) — if pattern persists,
   worth an mule-wake wiring check. Probes stand at 29.
+- 07:30:30Z (same-call verified) e4d7b7f bb4dd10 19/61 quiet — probe 30 (STANDBY ~14.5h)
