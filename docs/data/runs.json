@@ -1,5 +1,14 @@
 [
  {
+  "ts": "2026-11-02T19:31:31Z",
+  "type": "analysis",
+  "summary": "Idle wake (STANDBY ~26.5h): probe 53 unchanged (e4d7b7f/d0a57f2, 19/61 zero-byte; fresh slot 30min verified). GPU defer holds (llama-server 23,812 MiB); LSTM gated on Jeremiah queue/hold answer. Queue external only. One entry this turn.",
+  "algos": [
+   "ML-LSTM"
+  ],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-02T19:00:54Z",
   "type": "analysis",
   "summary": "19:00-slot re-fire refused (23s post probe-52; distinct prompt this turn, turn-clock verified). Probes stand 52; 5th confirmed double-fire today. GPU defer holds (llama-server 23,812 MiB); LSTM gated on Jeremiah. Queue external only.",
