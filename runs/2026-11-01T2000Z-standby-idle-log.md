@@ -113,3 +113,6 @@ generate entries; if I catch myself writing a second entry in one turn, stop.
 - 13:33:33Z (same-call verified; real wake prompt) e4d7b7f b7c03e3 19/61
   quiet — probe 42 (STANDBY ~20.5h; lanes open, no Sierra task assigned).
   One entry this turn.
+- 14:00:29Z (same-call verified; real wake prompt) e4d7b7f 8886640 19/61
+  quiet — probe 43 (STANDBY ~21h; lanes open, no Sierra task assigned).
+  One entry this turn.
