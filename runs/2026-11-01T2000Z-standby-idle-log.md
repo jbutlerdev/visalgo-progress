@@ -213,3 +213,7 @@ log lines. If I cannot cite a distinct prompt in the current turn, no line.
   e4d7b7f f3a7282 19/61 quiet — probe 57. GPU re-check: llama-server still
   23,812 MiB -> DEFER holds; LSTM gated (Jeremiah queue/hold outstanding).
   One entry this turn.
+- 21:30:58Z (measured this turn) — 21:30-slot RE-FIRE (post probe-57 commit
+  b1146a6; distinct prompt THIS turn — turn-clock evidence). State
+  identical; refused new probe/count. Probes stand 57. 8th confirmed
+  double-fire today.
