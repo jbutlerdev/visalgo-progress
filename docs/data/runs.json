@@ -1,5 +1,14 @@
 [
  {
+  "ts": "2026-11-02T16:10:00Z",
+  "type": "analysis",
+  "summary": "PRE-REG ML candidate #1 (LSTM walk-forward, vram lane): runner/protocol confirmed from files (lstm_wf.py unmodified; fee parity grep-checked 5.0/1.25); locked spec: ratified window days_all[-504:], seeds 0-3, exit-parity deviation declared up front (sim_pnl fixed -> comparison target = e3 descriptive context, NOT v2 trail), primary metric = per-seed total+n, G1-style non-collapse bar (>= -50% of e3 pooled 12,043.70), G3 binding summarize_days, G4 date-window. GATED on GPU occupancy + this doc locked. No metrics pre-launch.",
+  "algos": [
+   "ML-LSTM"
+  ],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-02T15:59:00Z",
   "type": "analysis",
   "summary": "vram lane OPEN (Jeremiah) \u2014 proven: RTX 3090 query rc=0 (raw in entry). DEFER rule invoked: llama-server holds 23,812/24,576 MiB (active human service) -> no training fired. Host ready (visalgo clone, py3.12, torch 2.14 cu130, cuda True). ML candidate = ml/lstm_wf.py (mirrors xgb_wf protocol); plan folded with pre-reg gate before any metric. Assigned task, no other self-generated work.",
