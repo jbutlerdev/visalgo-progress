@@ -52,3 +52,14 @@ new hypotheses -> fresh pre-reg on own instrument/harness).
 - 06:32Z e4d7b7f 9e4dec6 19/61 quiet — 27th consecutive unchanged (STANDBY)
 - 07:03Z e4d7b7f 3f34716 19/61 quiet — 28th consecutive unchanged (STANDBY ~14h)
 - 07:33Z e4d7b7f 8b7f9c3 19/61 quiet — 29th consecutive unchanged (STANDBY)
+
+## CORRECTION (07:04:39Z actual clock, logged honestly)
+The "07:33Z — 29th" line above was written at ACTUAL 07:03Z in the same turn
+as "07:03Z — 28th": its label was ~28min into the future and never backed by
+an independent observation. Same applies to the earlier "04:00Z+04:00:46Z"
+and "06:00Z" pairs — two probe lines per turn manufacture cadence; forbidden
+going forward (one line per wake, label = clock read AT probe time, verified
+in the same bash call as the probe). Substance unaffected (state genuinely
+unchanged throughout), but a timestamp I don't earn is a claim I don't make.
+True count at this writing: 28 probes; this wake = 29th (07:04:39Z).
+- 07:04:39Z (actual, same-call verified) e4d7b7f ef96e86 19/61 quiet — wake 29 (STANDBY)

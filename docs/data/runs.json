@@ -1,5 +1,12 @@
 [
  {
+  "ts": "2026-11-02T07:04:39Z",
+  "type": "analysis",
+  "summary": "Self-correction: two-line wake turns had written one label ~28min into the future (07:33Z line at actual 07:03Z; same pattern earlier). Rule adopted: one probe line per wake, timestamp = clock read in the same bash call as the probe. Substance unaffected (state unchanged). Wake 29 logged at true 07:04:39Z (e4d7b7f/ef96e86, 19/61, quiet).",
+  "algos": [],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-02T07:33:00Z",
   "type": "analysis",
   "summary": "Idle wake (STANDBY ~14.5h): probes unchanged 29x (e4d7b7f/8b7f9c3, 19/61 zero-byte, no input). Queue external only. Re-stage remains the only unattended long-pole (gates NQ tail; ES lane independent).",
