@@ -23,3 +23,11 @@ new hypotheses -> fresh pre-reg on own instrument/harness).
 - 23:30Z e4d7b7f 09c145c 19/61 quiet — 12th consecutive unchanged probe (STANDBY)
 - 00:01Z e4d7b7f f13c083 19/61 quiet — 13th consecutive unchanged (STANDBY day 2 begins; no state change at date rollover)
 - 00:33Z e4d7b7f 525fbb3 19/61 quiet — 14th consecutive unchanged (STANDBY)
+- 01:03Z e4d7b7f 9bfda1b 19/61 quiet — 15th consecutive unchanged (STANDBY).
+  ONE-OFF DESCRIPTIVE PROBE (disclosed, not a workstream): replayed ES's
+  veto-threshold semantics (gap<0.5) over the ratified NQ surface files
+  (denominator: day range, NOT ES's ATR14 — stated non-equivalence): would
+  veto 995/1030 NQ days (96.6%). Pure counterfactual evidence FOR the
+  separation policy: the ES 0.5 knob ported to NQ vetoes nearly everything.
+  No follow-up run without EA/Jeremiah authorization (STANDBY intact; any
+  NQ gap-day hypothesis needs its own pre-reg + own thresholds vs M5 pcts).
