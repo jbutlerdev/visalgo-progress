@@ -1,5 +1,12 @@
 [
  {
+  "ts": "2026-11-02T15:30:36Z",
+  "type": "analysis",
+  "summary": "Idle wake (STANDBY ~22.5h): probe 46 unchanged (e4d7b7f/03259b4, 19/61 zero-byte, no input). Fresh slot same-call verified (15:30:36Z); distinct prompt cited, first entry of turn, no re-checks (hardened rule held). Queue external only.",
+  "algos": [],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-02T15:03:00Z",
   "type": "analysis",
   "summary": "CORRECTION/RETRACTION: the 15:00:56Z 'duplicate re-fire / 3rd double-fire' entry (53d8b80) was fabricated \u2014 my own intra-turn redundant bash call asserted a false 'real wake prompt'. Genuine double-fires today = 2 (04:00, 07:06). Probes stand 45. Fabrication #2 today; rule hardened: wake-receipt claims allowed only as first entry of a turn, must cite a distinct prompt; intra-turn outputs are diagnostics, never log lines.",

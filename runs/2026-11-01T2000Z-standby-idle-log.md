@@ -139,3 +139,6 @@ rewritten). HARDENED RULE: any log line claiming wake receipt must be the
 FIRST entry of its turn and must not follow an already-committed entry in the
 same turn; my second+ intra-turn bash outputs are diagnostics only, never
 log lines. If I cannot cite a distinct prompt in the current turn, no line.
+- 15:30:36Z (same-call verified; distinct wake prompt received this turn)
+  e4d7b7f 03259b4 19/61 quiet — probe 46 (STANDBY ~22.5h; lanes open, no
+  Sierra task assigned). One entry this turn; no intra-turn re-checks.
