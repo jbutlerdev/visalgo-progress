@@ -105,3 +105,5 @@ generate entries; if I catch myself writing a second entry in one turn, stop.
   quiet — probe 38 (STANDBY ~18.5h). One entry this turn.
 - 12:02:03Z (same-call verified; real wake prompt) e4d7b7f 7efcc9c 19/61
   quiet — probe 39 (STANDBY ~19h). One entry this turn.
+- 12:30:31Z (same-call verified; real wake prompt) e4d7b7f d347043 19/61
+  quiet — probe 40 (STANDBY ~19.5h). One entry this turn.
