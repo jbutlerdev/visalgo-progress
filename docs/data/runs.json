@@ -1,5 +1,12 @@
 [
  {
+  "ts": "2026-11-02T13:33:33Z",
+  "type": "analysis",
+  "summary": "Idle wake (STANDBY ~20.5h): probe 42 unchanged (e4d7b7f/b7c03e3, 19/61 zero-byte, no input). Fresh slot same-call verified (13:33:33Z). Queue external only (Sierra task / re-stage / gated promotion / pre-reg).",
+  "algos": [],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-02T13:00:43Z",
   "type": "analysis",
   "summary": "Idle wake (STANDBY ~20h): probe 41 unchanged (e4d7b7f/5eca556, 19/61 zero-byte, no input). Fresh slot same-call verified (13:00:43Z). SSH lanes open since 12:33Z (.162 verified; .61 unprobed, vram closed) \u2014 awaiting explicit Sierra task. Queue external only.",
