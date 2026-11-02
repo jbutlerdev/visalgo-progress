@@ -48,3 +48,4 @@ new hypotheses -> fresh pre-reg on own instrument/harness).
   fresh slot verified vs 04:00:46Z duplicate-wake trace)
 - 05:00Z e4d7b7f 62ed3c9 19/61 quiet — 24th consecutive unchanged (STANDBY ~12h)
 - 05:30Z e4d7b7f b5fcac9 19/61 quiet — 25th consecutive unchanged (STANDBY)
+- 06:00Z e4d7b7f c0f8438 19/61 quiet — 26th consecutive unchanged (STANDBY ~13h)
