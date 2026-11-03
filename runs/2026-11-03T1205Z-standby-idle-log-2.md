@@ -6,3 +6,7 @@
 # per-turn self-classification; re-fire claims only in the re-fire's own
 # turn). Floors: .61 READ-ONLY; no Simulation toggle; vram = training-only
 # + defer-to-humans; pins never in repo files.
+- 2026-11-03T12:30:31Z (R-F self-class: 1 prompt opened this turn; same-call
+  verified, 30min after probe-84) e4d7b7f 03b77db 19/61 quiet — probe 85
+  (first in roll #2). GPU: llama-server 23,812 MiB unchanged -> DEFER holds.
+  One entry this turn.

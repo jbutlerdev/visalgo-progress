@@ -1,5 +1,14 @@
 [
  {
+  "ts": "2026-11-03T12:30:31Z",
+  "type": "analysis",
+  "summary": "Idle wake (STANDBY day 3, ~43.5h): probe 85 unchanged (e4d7b7f/03b77db, 19/61 zero-byte; fresh slot 30min; first probe in roll #2). GPU defer holds (llama-server 23,812 MiB); LSTM gated on Jeremiah queue/hold answer. Queue external only. One entry this turn; R-F in force.",
+  "algos": [
+   "ML-LSTM"
+  ],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-03T12:05:00Z",
   "type": "analysis",
   "summary": "Housekeeping: standby idle log rolled to roll #2 (389-line predecessor frozen with all retraction blocks intact). Probe count carries (next=85). STANDBY day 3 ~43h; queue external only.",
