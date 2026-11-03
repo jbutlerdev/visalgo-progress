@@ -98,3 +98,7 @@
   claim cannot be written. Applied retroactively: the 21:01/22:30 entries
   stood because both copies were in-content at write time and quoted
   contextually; this one could not produce the quote on audit.
+- 2026-11-03T23:30:39Z (R-F self-class: 1 prompt this turn, quoted verbatim
+  in wake message per R-F-2; same-call verified, 30min after probe-106)
+  e4d7b7f 889c698 19/61 quiet — probe 107. GPU: llama-server 23,812 MiB
+  unchanged -> DEFER holds. One entry this turn.
