@@ -308,3 +308,6 @@ all self-caught). Probe counts remain valid; trading content untouched.
   prior turn). Two turns, one slot. State identical -> refused new
   probe/count. Probes stand 64. 4th genuine double-fire (after 04:00/07:06/
   17:01 yesterday), first logged under R-F discipline.
+- 2026-11-03T01:31:31Z (same-call verified; prompt opened this turn, ~30min
+  after the 01:00 pair) e4d7b7f 5934f68 19/61 quiet — probe 65. GPU:
+  llama-server 23,812 MiB unchanged -> DEFER holds. One entry this turn.
