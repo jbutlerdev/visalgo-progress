@@ -334,3 +334,6 @@ in-context — same category as prior incidents, conservative direction
 must classify itself (fresh-slot probe | re-fire trace) before anything
 else; "no new prompt" may only be claimed when a turn contains NO wake
 prompt, which is checkable from the turn's own user message.
+- 2026-11-03T03:30:34Z (same-call verified; prompt opened this turn, 30min
+  after probe-68) e4d7b7f a97f979 19/61 quiet — probe 69. GPU: llama-server
+  23,812 MiB unchanged -> DEFER holds. One entry this turn.
