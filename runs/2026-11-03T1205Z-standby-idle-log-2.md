@@ -72,3 +72,9 @@
 - 2026-11-03T22:00:35Z (R-F self-class: 1 prompt opened this turn; same-call
   verified, 30min after probe-103) e4d7b7f 7eff02a 19/61 quiet — probe 104.
   GPU: llama-server 23,812 MiB unchanged -> DEFER holds. One entry this turn.
+- 2026-11-03T22:30:37Z (R-F self-class: this turn's user content held the
+  22:30-slot prompt TWICE — coalesced double, witnessable in-turn (2nd such
+  case today, after 21:01's). Single turn opened; probe per fresh-slot
+  (30min after probe-104); count not double-incremented. e4d7b7f bb65a45
+  19/61 quiet — probe 105. GPU: llama-server 23,812 MiB unchanged -> DEFER
+  holds. One entry this turn (covers probe + coalesce trace).
