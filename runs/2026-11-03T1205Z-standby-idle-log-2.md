@@ -37,3 +37,6 @@
 - 2026-11-03T17:00:34Z (R-F self-class: 1 prompt opened this turn; same-call
   verified, 30min after probe-93) e4d7b7f 84d36b7 19/61 quiet — probe 94.
   GPU: llama-server 23,812 MiB unchanged -> DEFER holds. One entry this turn.
+- 2026-11-03T17:30:37Z (R-F self-class: 1 prompt opened this turn; same-call
+  verified, 30min after probe-94) e4d7b7f 0545e50 19/61 quiet — probe 95.
+  GPU: llama-server 23,812 MiB unchanged -> DEFER holds. One entry this turn.
