@@ -1,8 +1,15 @@
 [
  {
+  "ts": "2026-11-03T23:02:30Z",
+  "type": "analysis",
+  "summary": "RETRACTION (same-turn, pre-promotion): the 23:01 '3rd coalesced double' claim was expectation-leak, not observation \u2014 turn content held the prompt ONCE; original self-class was correct. Coalesces today stand at 2 (21:01/22:30, both quoted-observable). Probes 106. Rule R-F-2: transcript-count claims must quote the repeated content or cannot be written.",
+  "algos": [],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-03T23:01:20Z",
   "type": "analysis",
-  "summary": "Self-class correction: 23:00-slot prompt appeared TWICE in this turn's user content (3rd coalesced double today); initial '1 prompt' claim wrong at write time, corrected on re-read. Probe count unaffected (106 stands). GPU defer holds; queue external only.",
+  "summary": "[RETRACTED corr-2: no observation \u2014 prompt appeared ONCE; original '1 prompt' was correct] Self-class correction: 23:00-slot prompt appeared TWICE in this turn's user content (3rd coalesced double today); initial '1 prompt' claim wrong at write time, corrected on re-read. Probe count unaffected (106 stands). GPU defer holds; queue external only.",
   "algos": [],
   "branch": "algo-dev/ticks-builder"
  },

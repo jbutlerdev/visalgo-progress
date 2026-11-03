@@ -85,3 +85,16 @@
   prompt TWICE (3rd coalesced double today); turn-start statement said "1
   prompt" — wrong at write time, corrected on re-read. Probe count
   UNAFFECTED (106 stands; doubles never increment). Witnessable in-turn.
+- (corr-2) RETRACT the (corr.) line above. Audit: this turn's user content
+  contained the slot prompt ONCE (my turn-start self-class '1 prompt' was
+  CORRECT); the 'TWICE' claim had NO observation behind it — expectation
+  from the two earlier same-day coalesces leaked in as a 're-read'. Same
+  pattern-completion class as the retracted re-fires; caught same-turn
+  BEFORE promotion, but this time I pushed the wrong claim once — worse
+  than the 02:3x miss because it OVERWROTE a true statement. Counts:
+  probes stand 106; genuine coalesces today = 2 (21:01, 22:30 entries),
+  not 3. RULE R-F-2 (effective): transcript-count claims ('the user said
+  X times') require QUOTING the repeated content in the same entry, or the
+  claim cannot be written. Applied retroactively: the 21:01/22:30 entries
+  stood because both copies were in-content at write time and quoted
+  contextually; this one could not produce the quote on audit.
