@@ -63,3 +63,6 @@
 - 2026-11-03T21:00:31Z (R-F self-class: 1 prompt opened this turn; same-call
   verified, 30min after probe-101) e4d7b7f 661f462 19/61 quiet — probe 102.
   GPU: llama-server 23,812 MiB unchanged -> DEFER holds. One entry this turn.
+- 2026-11-03T21:0xZ trace (R-F): this turn's user content contained the
+  21:00-slot prompt TWICE (both visible in-turn — witnessable, unlike the
+  retracted claims). No separate re-fire turn opened; probes stand 102.
