@@ -303,3 +303,8 @@ all self-caught). Probe counts remain valid; trading content untouched.
 - 2026-11-03T01:00:45Z (same-call verified; prompt opened this turn, 30min
   after probe-63) e4d7b7f 5f9f797 19/61 quiet — probe 64. GPU: llama-server
   23,812 MiB unchanged -> DEFER holds. One entry this turn.
+- 2026-11-03T01:05:02Z — RE-FIRE (rule R-F satisfied): this turn was OPENED by a
+  wake prompt ~19s after probe-64 was logged/committed (01:00:45Z bed37a5,
+  prior turn). Two turns, one slot. State identical -> refused new
+  probe/count. Probes stand 64. 4th genuine double-fire (after 04:00/07:06/
+  17:01 yesterday), first logged under R-F discipline.

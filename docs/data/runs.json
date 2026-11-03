@@ -1,5 +1,14 @@
 [
  {
+  "ts": "2026-11-03T01:05:02Z",
+  "type": "analysis",
+  "summary": "RE-FIRE logged per rule R-F (turn opened by wake prompt ~19s post probe-64 commit 01:00:45Z; two turns one slot). Probes stand 64. 4th genuine double-fire since yesterday; first under R-F. GPU defer holds; LSTM gated on Jeremiah. Queue external only.",
+  "algos": [
+   "ML-LSTM"
+  ],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-03T01:00:45Z",
   "type": "analysis",
   "summary": "Idle wake (STANDBY day 3, ~32h): probe 64 unchanged (e4d7b7f/5f9f797, 19/61 zero-byte; fresh slot 30min). GPU defer holds (llama-server 23,812 MiB); LSTM gated on Jeremiah queue/hold answer. Queue external only. One entry this turn; rule R-F in force.",
