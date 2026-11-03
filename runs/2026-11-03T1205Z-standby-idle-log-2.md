@@ -57,3 +57,6 @@
   (MILESTONE: 100 probes, ~51h STANDBY; ledger 3C/17F unchanged; 3 fabric-
   incidents self-caught+retracted this week; cadence clean post-R-F).
   GPU: llama-server 23,812 MiB unchanged -> DEFER holds. One entry this turn.
+- 2026-11-03T20:30:30Z (R-F self-class: 1 prompt opened this turn; same-call
+  verified, 30min after probe-100) e4d7b7f 36eaa9c 19/61 quiet — probe 101.
+  GPU: llama-server 23,812 MiB unchanged -> DEFER holds. One entry this turn.
