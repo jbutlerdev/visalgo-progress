@@ -337,3 +337,6 @@ prompt, which is checkable from the turn's own user message.
 - 2026-11-03T03:30:34Z (same-call verified; prompt opened this turn, 30min
   after probe-68) e4d7b7f a97f979 19/61 quiet — probe 69. GPU: llama-server
   23,812 MiB unchanged -> DEFER holds. One entry this turn.
+- 2026-11-03T04:00:36Z (R-F self-class: prompt opened this turn; same-call
+  verified, 30min after probe-69) e4d7b7f fa08f9b 19/61 quiet — probe 70.
+  GPU: llama-server 23,812 MiB unchanged -> DEFER holds. One entry this turn.
