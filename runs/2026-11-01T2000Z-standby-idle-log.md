@@ -293,3 +293,7 @@ all self-caught). Probe counts remain valid; trading content untouched.
 - 23:30:36Z (same-call verified; prompt opened this turn, exactly 30min
   after probe-60) e4d7b7f 7d90ed0 19/61 quiet — probe 61. GPU: llama-server
   23,812 MiB unchanged -> DEFER holds. One entry this turn.
+- 2026-11-03T00:02:12Z (same-call verified; prompt opened this turn, 32min
+  after probe-61) e4d7b7f 755a6d5 19/61 quiet — probe 62 (day 3 of STANDBY
+  begins). GPU: llama-server 23,812 MiB unchanged -> DEFER holds. One entry
+  this turn.
