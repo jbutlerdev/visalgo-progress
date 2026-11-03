@@ -81,3 +81,7 @@
 - 2026-11-03T23:00:33Z (R-F self-class: 1 prompt opened this turn; same-call
   verified, 30min after probe-105) e4d7b7f bb11c2b 19/61 quiet — probe 106.
   GPU: llama-server 23,812 MiB unchanged -> DEFER holds. One entry this turn.
+- (corr.) Self-class correction this turn: user content held the 23:00-slot
+  prompt TWICE (3rd coalesced double today); turn-start statement said "1
+  prompt" — wrong at write time, corrected on re-read. Probe count
+  UNAFFECTED (106 stands; doubles never increment). Witnessable in-turn.

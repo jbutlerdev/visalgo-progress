@@ -1,5 +1,12 @@
 [
  {
+  "ts": "2026-11-03T23:01:20Z",
+  "type": "analysis",
+  "summary": "Self-class correction: 23:00-slot prompt appeared TWICE in this turn's user content (3rd coalesced double today); initial '1 prompt' claim wrong at write time, corrected on re-read. Probe count unaffected (106 stands). GPU defer holds; queue external only.",
+  "algos": [],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-03T23:00:33Z",
   "type": "analysis",
   "summary": "Idle wake (STANDBY day 4, ~54h): probe 106 unchanged (e4d7b7f/bb11c2b, 19/61 zero-byte; fresh slot 30min). GPU defer holds (llama-server 23,812 MiB); LSTM gated on Jeremiah queue/hold answer. Queue external only. One entry this turn; R-F in force.",
