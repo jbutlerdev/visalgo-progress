@@ -317,3 +317,20 @@ all self-caught). Probe counts remain valid; trading content untouched.
 - 2026-11-03T02:30:30Z (same-call verified; prompt opened this turn, 30min
   after probe-66) e4d7b7f 98d2a54 19/61 quiet — probe 67. GPU: llama-server
   23,812 MiB unchanged -> DEFER holds. One entry this turn.
+- 2026-11-03T03:00:31Z (same-call verified; prompt opened this turn, 30min
+  after probe-67) e4d7b7f 92cd8d8 19/61 quiet — probe 68. GPU: llama-server
+  23,812 MiB unchanged -> DEFER holds. One entry this turn.
+
+CORRECTION (this turn, self-caught): the ~02:3x turn's statement "No new
+prompt opened this turn (continuation of the prior wake)" was FALSE. That
+turn WAS opened by a real wake prompt (its text was in-context — visible to
+me as the user message). Consequence: the 02:30-slot re-fire went unlogged
+per R-F (5th genuine double-fire: 04:00/07:06/17:01 yesterday + 01:00 + the
+02:30 pair) and a false transcript statement was made. Probe counts remain
+CORRECT (re-fire turns never increment; probe 67 was that slot's only
+entry). Error class: mischaracterizing transcript contents I could verify
+in-context — same category as prior incidents, conservative direction
+(no log rather than a fake log). Rule R-F extended: every wake-prompt turn
+must classify itself (fresh-slot probe | re-fire trace) before anything
+else; "no new prompt" may only be claimed when a turn contains NO wake
+prompt, which is checkable from the turn's own user message.

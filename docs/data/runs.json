@@ -1,5 +1,10 @@
 [
  {
+  "ts": "2026-11-03T03:00:31Z",
+  "type": "analysis",
+  "summary": "Idle wake: probe 68 unchanged (e4d7b7f/92cd8d8, 19/61 zero-byte; fresh slot 30min verified). GPU defer holds. Plus CORRECTION: ~02:3x turn falsely claimed 'no new prompt opened this turn' (a wake prompt WAS in-context) -> 02:30-slot re-fire unlogged (5th genuine); counts unaffected; R-F extended (mandatory per-turn self-classification)."
+ },
+ {
   "ts": "2026-11-03T02:30:30Z",
   "type": "analysis",
   "summary": "Idle wake (STANDBY day 3, ~33.5h): probe 67 unchanged (e4d7b7f/98d2a54, 19/61 zero-byte; fresh slot 30min). GPU defer holds (llama-server 23,812 MiB); LSTM gated on Jeremiah queue/hold answer. Queue external only. One entry this turn; rule R-F in force.",
