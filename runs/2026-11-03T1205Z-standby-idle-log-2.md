@@ -78,3 +78,6 @@
   (30min after probe-104); count not double-incremented. e4d7b7f bb65a45
   19/61 quiet — probe 105. GPU: llama-server 23,812 MiB unchanged -> DEFER
   holds. One entry this turn (covers probe + coalesce trace).
+- 2026-11-03T23:00:33Z (R-F self-class: 1 prompt opened this turn; same-call
+  verified, 30min after probe-105) e4d7b7f bb11c2b 19/61 quiet — probe 106.
+  GPU: llama-server 23,812 MiB unchanged -> DEFER holds. One entry this turn.
