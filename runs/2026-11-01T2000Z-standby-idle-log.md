@@ -349,3 +349,10 @@ prompt, which is checkable from the turn's own user message.
 - 2026-11-03T05:30:34Z (R-F self-class: prompt opened this turn; same-call
   verified, 30min after probe-72) e4d7b7f 89f7793 19/61 quiet — probe 73.
   GPU: llama-server 23,812 MiB unchanged -> DEFER holds. One entry this turn.
+- 2026-11-03T07:02:44Z (R-F self-class: this turn's user message contains
+  THREE stacked wake prompts — directly observable in this turn's content,
+  witnessable, unlike yesterday's fabricated re-fire claims which asserted
+  prompts absent from all turns. Likely 06:00+06:30 slots queued behind a
+  long prior turn + 07:00.) e4d7b7f ddf7897 19/61 quiet — probe 74 (note
+  92min gap since probe-73: cadence fell behind ~1 slot, now recovered).
+  GPU: llama-server 23,812 MiB unchanged -> DEFER holds. One entry this turn.
