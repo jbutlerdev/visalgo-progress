@@ -1,5 +1,14 @@
 [
  {
+  "ts": "2026-11-03T07:33:00Z",
+  "type": "analysis",
+  "summary": "Idle wake (STANDBY day 3, ~38.5h): probe 75 unchanged (e4d7b7f/cbb4abe, 19/61 zero-byte; fresh slot 30min \u2014 cadence recovered from 06:xx backlog). GPU defer holds (llama-server 23,812 MiB); LSTM gated on Jeremiah queue/hold answer. Queue external only. One entry this turn; R-F in force.",
+  "algos": [
+   "ML-LSTM"
+  ],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-03T07:02:44Z",
   "type": "analysis",
   "summary": "Idle wake: THREE wake prompts stacked in one turn (observable in turn content; 06:00/06:30 slots likely queued behind long prior turn). Probe 74 unchanged (e4d7b7f/ddf7897, 19/61 zero-byte); 92min gap since probe-73, cadence recovered. GPU defer holds (llama-server 23,812 MiB); LSTM gated on Jeremiah queue/hold answer. Queue external only. One entry this turn; R-F in force.",

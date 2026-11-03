@@ -356,3 +356,7 @@ prompt, which is checkable from the turn's own user message.
   long prior turn + 07:00.) e4d7b7f ddf7897 19/61 quiet — probe 74 (note
   92min gap since probe-73: cadence fell behind ~1 slot, now recovered).
   GPU: llama-server 23,812 MiB unchanged -> DEFER holds. One entry this turn.
+- 2026-11-03T07:33:00Z (R-F self-class: 1 prompt opened this turn; same-call
+  verified, 30min after probe-74 — cadence fully recovered from 06:xx
+  backlog) e4d7b7f cbb4abe 19/61 quiet — probe 75. GPU: llama-server
+  23,812 MiB unchanged -> DEFER holds. One entry this turn.
