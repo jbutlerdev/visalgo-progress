@@ -360,3 +360,6 @@ prompt, which is checkable from the turn's own user message.
   verified, 30min after probe-74 — cadence fully recovered from 06:xx
   backlog) e4d7b7f cbb4abe 19/61 quiet — probe 75. GPU: llama-server
   23,812 MiB unchanged -> DEFER holds. One entry this turn.
+- 2026-11-03T08:00:37Z (R-F self-class: 1 prompt opened this turn; same-call
+  verified, ~28min after probe-75) e4d7b7f c3adb73 19/61 quiet — probe 76.
+  GPU: llama-server 23,812 MiB unchanged -> DEFER holds. One entry this turn.
