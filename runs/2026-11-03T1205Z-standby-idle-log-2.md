@@ -102,3 +102,7 @@
   in wake message per R-F-2; same-call verified, 30min after probe-106)
   e4d7b7f 889c698 19/61 quiet — probe 107. GPU: llama-server 23,812 MiB
   unchanged -> DEFER holds. One entry this turn.
+- 2026-11-04T00:00:42Z (R-F self-class: 1 prompt this turn, quoted in reply
+  per R-F-2; same-call verified, ~30min after probe-107) e4d7b7f 074f465
+  19/61 quiet — probe 108 (STANDBY day 5 begins, ~55h). GPU: llama-server
+  23,812 MiB unchanged -> DEFER holds. One entry this turn.
