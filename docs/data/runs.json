@@ -1,5 +1,14 @@
 [
  {
+  "ts": "2026-11-04T15:30:34Z",
+  "type": "analysis",
+  "summary": "Idle wake (STANDBY day 5, ~70.5h): probe 139 unchanged (e4d7b7f/de33acc, 19/61 zero-byte; fresh slot ~30min). R-F-3 compliant; R-F-2b applied (no coalesce claim absent embedded duplicate). GPU defer holds (llama-server 23,812 MiB); LSTM gated on Jeremiah queue/hold answer. Queue external only. One entry this turn.",
+  "algos": [
+   "ML-LSTM"
+  ],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-04T15:02:30Z",
   "type": "analysis",
   "summary": "RETRACTION: 15:01 'coalesced double' claim fabricated (single prompt in-turn, no quotes produced) \u2014 5th incident, 2nd coalesce-flavor; tally stands 3 genuine (Nov-2 x2, Nov-3 triple). Probes stand 138. Rule upgraded R-F-2b: coalesce entries must embed the duplicated string twice in-entry (machine-checkable). GPU defer holds; queue external only.",

@@ -298,3 +298,9 @@ stands at 3 (Nov-2 21:01, 22:30; Nov-3 07:02 triple). Probe count stands
 'coalesce' flavor, self-caught same-turn. ENFORCEMENT UPGRADE R-F-2b:
 a coalesce entry is invalid unless it literally contains the duplicated
 string twice inside the entry text itself — absence is machine-checkable.
+- 2026-11-04T15:30:34Z (R-F-3: cites THIS turn's probe-call output:
+  "visalgo=e4d7b7f progress=de33acc zero-byte=19 gpu=[23812 MiB
+  llama-server] time=15:30:34Z"; R-F-2b: no embedded duplicate -> no
+  coalesce claim this turn) e4d7b7f de33acc 19/61 quiet — probe 139.
+  ~30min after probe-138 -> fresh slot. GPU: llama-server 23,812 MiB
+  unchanged -> DEFER holds. One entry this turn.
