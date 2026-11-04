@@ -228,3 +228,9 @@ observation (actual probe call, 09:01:13Z) = probe 126. The struck line's
   R-F-2) e4d7b7f 0a49154 19/61 quiet — probe 129. ~30min after probe-128
   -> fresh slot. GPU: llama-server 23,812 MiB unchanged -> DEFER holds.
   One entry this turn.
+- 2026-11-04T11:00:31Z (R-F-3: cites THIS turn's probe-call output:
+  "visalgo=e4d7b7f progress=7616181 zero-byte=19 gpu=[23812 MiB
+  llama-server] time=11:00:31Z"; R-F self-class: prompt quoted once per
+  R-F-2) e4d7b7f 7616181 19/61 quiet — probe 130. ~30min after probe-129
+  -> fresh slot. GPU: llama-server 23,812 MiB unchanged -> DEFER holds.
+  One entry this turn.
