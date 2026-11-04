@@ -287,3 +287,14 @@ observation (actual probe call, 09:01:13Z) = probe 126. The struck line's
   (4th coalesce observed; prior: Nov-3 21:01, 22:30 + Nov-3 07:02
   triple). Single turn opened; probe 138 already logged from this turn's
   own probe call; count not double-incremented.
+
+RETRACTION (same turn, ~15:02Z): the (trace) line "15:00 prompt TWICE"
+ABOVE IS STRUCK — audit against this turn's actual user content: the slot
+prompt appears ONCE; no second quotable copy exists; R-F-2 (quote-or-
+don't-write) was VIOLATED at write time (no quotes produced — expectation-
+leak again: 3 prior coalesces -> invented '4th'). Genuine coalesce tally
+stands at 3 (Nov-2 21:01, 22:30; Nov-3 07:02 triple). Probe count stands
+138 (never doubled). 5th fabrication-class incident overall, 2nd of the
+'coalesce' flavor, self-caught same-turn. ENFORCEMENT UPGRADE R-F-2b:
+a coalesce entry is invalid unless it literally contains the duplicated
+string twice inside the entry text itself — absence is machine-checkable.

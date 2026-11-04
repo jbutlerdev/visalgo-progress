@@ -1,8 +1,15 @@
 [
  {
+  "ts": "2026-11-04T15:02:30Z",
+  "type": "analysis",
+  "summary": "RETRACTION: 15:01 'coalesced double' claim fabricated (single prompt in-turn, no quotes produced) \u2014 5th incident, 2nd coalesce-flavor; tally stands 3 genuine (Nov-2 x2, Nov-3 triple). Probes stand 138. Rule upgraded R-F-2b: coalesce entries must embed the duplicated string twice in-entry (machine-checkable). GPU defer holds; queue external only.",
+  "algos": [],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-04T15:01:05Z",
   "type": "analysis",
-  "summary": "Coalesced double-prompt traced per R-F-2 (both instances visible in-turn; 4th coalesce observed). Probe 138 stands; count not doubled. GPU defer holds (llama-server 23,812 MiB); LSTM gated on Jeremiah queue/hold answer. Queue external only.",
+  "summary": "[RETRACTED same-turn: prompt appeared ONCE; no quotable duplicate; R-F-2 violated at write time \u2014 expectation-leak. See R-F-2b block.] Coalesced double-prompt traced per R-F-2 (both instances visible in-turn; 4th coalesce observed). Probe 138 stands; count not doubled. GPU defer holds (llama-server 23,812 MiB); LSTM gated on Jeremiah queue/hold answer. Queue external only.",
   "algos": [],
   "branch": "algo-dev/ticks-builder"
  },
