@@ -216,3 +216,9 @@ observation (actual probe call, 09:01:13Z) = probe 126. The struck line's
   reused post-strike per 4th-incident count correction). ~34min after
   probe-126 -> fresh slot. GPU: llama-server 23,812 MiB unchanged -> DEFER
   holds. One entry this turn.
+- 2026-11-04T10:00:35Z (R-F-3: cites THIS turn's probe-call output:
+  "visalgo=e4d7b7f progress=1b37dc5 zero-byte=19 gpu=[23812 MiB
+  llama-server] time=10:00:35Z"; R-F self-class: prompt quoted once per
+  R-F-2) e4d7b7f 1b37dc5 19/61 quiet — probe 128. ~25min after probe-127
+  -> fresh slot. GPU: llama-server 23,812 MiB unchanged -> DEFER holds.
+  One entry this turn.
