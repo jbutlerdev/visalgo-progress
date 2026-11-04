@@ -106,3 +106,7 @@
   per R-F-2; same-call verified, ~30min after probe-107) e4d7b7f 074f465
   19/61 quiet — probe 108 (STANDBY day 5 begins, ~55h). GPU: llama-server
   23,812 MiB unchanged -> DEFER holds. One entry this turn.
+- 2026-11-04T00:30:36Z (R-F self-class: 1 prompt this turn, quoted in reply
+  per R-F-2; same-call verified, 30min after probe-108) e4d7b7f 84aa24c
+  19/61 quiet — probe 109. GPU: llama-server 23,812 MiB unchanged -> DEFER
+  holds. One entry this turn.
