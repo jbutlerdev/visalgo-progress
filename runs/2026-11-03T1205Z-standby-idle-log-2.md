@@ -385,3 +385,9 @@ string twice inside the entry text itself — absence is machine-checkable.
   (MILESTONE: 150 probes post-R-F-regime, zero trading content touched).
   ~30min after probe-149 -> fresh slot. GPU: llama-server 23,812 MiB
   unchanged -> DEFER holds. One entry this turn.
+- 2026-11-04T21:30:32Z (R-F-3: cites THIS turn's probe-call output:
+  "visalgo=e4d7b7f progress=377da41 zero-byte=19 gpu=[23812 MiB
+  llama-server] time=21:30:32Z"; R-F-2b: no embedded duplicate -> no
+  coalesce claim this turn) e4d7b7f 377da41 19/61 quiet — probe 151.
+  ~30min after probe-150 -> fresh slot. GPU: llama-server 23,812 MiB
+  unchanged -> DEFER holds. One entry this turn.
