@@ -397,3 +397,12 @@ string twice inside the entry text itself — absence is machine-checkable.
   coalesce claim this turn) e4d7b7f 296007b 19/61 quiet — probe 152.
   ~30min after probe-151 -> fresh slot. GPU: llama-server 23,812 MiB
   unchanged -> DEFER holds. One entry this turn.
+- 2026-11-04T22:30:33Z (R-F-3: cites THIS turn's probe-call output:
+  "visalgo=e4d7b7f progress=38b9316 zero-byte=19 gpu=[23812 MiB
+  llama-server] time=22:30:33Z"; R-F-2b: no embedded duplicate -> no
+  coalesce claim this turn) e4d7b7f 38b9316 19/61 quiet — probe 153.
+  ~30min after probe-152 -> fresh slot. HEAD moved c85226b->38b9316:
+  EXTERNAL commit by Jeremiah <git@jbutler.dev> "ci: force fresh Pages
+  build" (.ci-ping +1; inspected via git show — infra ping, no content;
+  first non-agent commit on progress repo this STANDBY). GPU: llama-server
+  23,812 MiB unchanged -> DEFER holds. One entry this turn.

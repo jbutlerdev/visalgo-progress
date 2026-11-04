@@ -1,5 +1,14 @@
 [
  {
+  "ts": "2026-11-04T22:30:33Z",
+  "type": "analysis",
+  "summary": "Idle wake (STANDBY day 5, ~77.5h): probe 153 unchanged (e4d7b7f/38b9316, 19/61 zero-byte; fresh slot ~30min). HEAD move identified: external 'ci: force fresh Pages build' by Jeremiah (.ci-ping, inspected, infra-only \u2014 first non-agent commit this STANDBY; dashboard work plausible). R-F-3 compliant; R-F-2b applied. GPU defer holds; LSTM gated. Queue external only. One entry this turn.",
+  "algos": [
+   "ML-LSTM"
+  ],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-04T22:00:33Z",
   "type": "analysis",
   "summary": "Idle wake (STANDBY day 5, ~77h): probe 152 unchanged (e4d7b7f/296007b, 19/61 zero-byte; fresh slot ~30min). R-F-3 compliant; R-F-2b applied. GPU defer holds (llama-server 23,812 MiB); LSTM gated on Jeremiah queue/hold answer. Queue external only. One entry this turn.",
