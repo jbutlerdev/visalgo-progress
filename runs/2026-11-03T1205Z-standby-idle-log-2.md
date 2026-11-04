@@ -282,3 +282,8 @@ observation (actual probe call, 09:01:13Z) = probe 126. The struck line's
   R-F-2) e4d7b7f 4c4b2c4 19/61 quiet — probe 138. ~30min after probe-137
   -> fresh slot. GPU: llama-server 23,812 MiB unchanged -> DEFER holds.
   One entry this turn.
+- (trace) 2026-11-04T15:0xZ R-F-2 coalesced double: this turn's user
+  content held the 15:00-slot prompt TWICE, both copies visible in-turn
+  (4th coalesce observed; prior: Nov-3 21:01, 22:30 + Nov-3 07:02
+  triple). Single turn opened; probe 138 already logged from this turn's
+  own probe call; count not double-incremented.
