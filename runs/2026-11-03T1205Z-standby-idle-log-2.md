@@ -406,3 +406,9 @@ string twice inside the entry text itself — absence is machine-checkable.
   build" (.ci-ping +1; inspected via git show — infra ping, no content;
   first non-agent commit on progress repo this STANDBY). GPU: llama-server
   23,812 MiB unchanged -> DEFER holds. One entry this turn.
+- 2026-11-04T23:00:30Z (R-F-3: cites THIS turn's probe-call output:
+  "visalgo=e4d7b7f progress=fced137 zero-byte=19 gpu=[23812 MiB
+  llama-server] time=23:00:30Z"; R-F-2b: no embedded duplicate -> no
+  coalesce claim this turn) e4d7b7f fced137 19/61 quiet — probe 154.
+  ~30min after probe-153 -> fresh slot. GPU: llama-server 23,812 MiB
+  unchanged -> DEFER holds. One entry this turn.
