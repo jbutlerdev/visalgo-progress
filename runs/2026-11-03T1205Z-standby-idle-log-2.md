@@ -342,3 +342,9 @@ string twice inside the entry text itself — absence is machine-checkable.
   same-turn evidence of the defect (transcript location + what's wrong);
   no evidence -> no retraction. Suspicion triggers an AUDIT step
   (read transcript/tool log), never a direct write.
+- 2026-11-04T18:00:46Z (R-F-3: cites THIS turn's probe-call output:
+  "visalgo=e4d7b7f progress=9854f08 zero-byte=19 gpu=[23812 MiB
+  llama-server] time=18:00:46Z"; R-F-2b: no embedded duplicate -> no
+  coalesce claim this turn) e4d7b7f 9854f08 19/61 quiet — probe 144.
+  ~30min after probe-143 -> fresh slot. GPU: llama-server 23,812 MiB
+  unchanged -> DEFER holds. One entry this turn.
