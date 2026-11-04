@@ -146,3 +146,7 @@
   per R-F-2; same-call verified, 30min after probe-117 -> fresh slot)
   e4d7b7f 8468592 19/61 quiet — probe 118. GPU: llama-server 23,812 MiB
   unchanged -> DEFER holds. One entry this turn.
+- 2026-11-04T05:30:47Z (R-F self-class: prompt quoted per R-F-2; no second
+  instance producible as quote -> no double claim; same-call verified, 30min
+  after probe-118 -> fresh slot) e4d7b7f 37fd9f6 19/61 quiet — probe 119.
+  GPU: llama-server 23,812 MiB unchanged -> DEFER holds. One entry this turn.
