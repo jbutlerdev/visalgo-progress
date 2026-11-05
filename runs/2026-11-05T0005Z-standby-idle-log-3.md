@@ -344,3 +344,11 @@ evidence; suspicion -> audit, never a write).
   line: probe 201 at 2026-11-05T23:00:33Z, ~30min after probe-200,
   fresh slot, GPU DEFER holds. Retracted header stands in history
   marked invalid. One corrected entry this turn.
+- 2026-11-05T23:30:34Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening:
+  "visalgo=e4d7b7f progress=d17f991 zero-byte=19 gpu=[23812 MiB
+  llama-server] date=2026-11-05 time=23:30:34Z"; R-F-2b: no embedded
+  duplicate -> no coalesce claim this turn) e4d7b7f d17f991 19/61 quiet
+  — probe 202. ~30min after probe-201(corrected) -> fresh slot. GPU:
+  llama-server 23,812 MiB unchanged -> DEFER holds. One entry this turn.
