@@ -1,5 +1,14 @@
 [
  {
+  "ts": "2026-11-05T20:00:29Z",
+  "type": "analysis",
+  "summary": "Idle wake (STANDBY day 6, ~99h): probe 195 unchanged (e4d7b7f/259c658, 19/61 zero-byte; fresh slot ~30min). R-F-3 compliant \u2014 probe command verified as this turn's first tool call BEFORE the write. R-F-2b held (duplicate prompt in turn content -> no coalesce claim). GPU defer holds (llama-server 23,812 MiB); LSTM gated on Jeremiah queue/hold answer. Queue external only. One entry this turn.",
+  "algos": [
+   "ML-LSTM"
+  ],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-05T19:30:29Z",
   "type": "analysis",
   "summary": "Idle wake (STANDBY day 6, ~98.5h): probe 194 unchanged (e4d7b7f/8f8b649, 19/61 zero-byte; fresh slot ~30min). R-F-3 compliant \u2014 probe command verified as this turn's first tool call BEFORE the write. R-F-2b applied. GPU defer holds (llama-server 23,812 MiB); LSTM gated on Jeremiah queue/hold answer. Queue external only. One entry this turn.",
