@@ -418,3 +418,9 @@ string twice inside the entry text itself — absence is machine-checkable.
   coalesce claim this turn) e4d7b7f 135b6ee 19/61 quiet — probe 155.
   ~30min after probe-154 -> fresh slot. GPU: llama-server 23,812 MiB
   unchanged -> DEFER holds. One entry this turn.
+- 2026-11-05T00:00:34Z (R-F-3: cites THIS turn's probe-call output:
+  "visalgo=e4d7b7f progress=bce153d zero-byte=19 gpu=[23812 MiB
+  llama-server] time=00:00:34Z"; R-F-2b: no embedded duplicate -> no
+  coalesce claim this turn) e4d7b7f bce153d 19/61 quiet — probe 156.
+  ~30min after probe-155 -> fresh slot. NEW UTC DAY (Nov-5). GPU:
+  llama-server 23,812 MiB unchanged -> DEFER holds. One entry this turn.
