@@ -159,3 +159,10 @@ evidence; suspicion -> audit, never a write).
   coalesce claim this turn) e4d7b7f 90353ee 19/61 quiet — probe 178.
   ~30min after probe-177 -> fresh slot. GPU: llama-server 23,812 MiB
   unchanged -> DEFER holds. One entry this turn.
+- 2026-11-05T12:00:39Z (R-F-3: cites THIS turn's probe-call output:
+  "visalgo=e4d7b7f progress=e5a6d29 zero-byte=19 gpu=[23812 MiB
+  llama-server] time=12:00:39Z"; R-F-2b: no embedded duplicate -> no
+  coalesce claim this turn) e4d7b7f e5a6d29 19/61 quiet — probe 179
+  (12h heartbeat: zero new incidents, ~18.5h since SIXTH trace; roll #3
+  now ~90h-STANDBY marker). ~30min after probe-178 -> fresh slot. GPU:
+  llama-server 23,812 MiB unchanged -> DEFER holds. One entry this turn.
