@@ -324,3 +324,11 @@ evidence; suspicion -> audit, never a write).
   zero trading content touched). ~30min after probe-199 -> fresh slot.
   GPU: llama-server 23,812 MiB unchanged -> DEFER holds. One entry this
   turn.
+- 2026-11-06T00:00:35Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write:
+  "visalgo=e4d7b7f progress=6fb5358 zero-byte=19 gpu=[23812 MiB
+  llama-server] time=23:00:33Z"; R-F-2b: no embedded duplicate -> no
+  coalesce claim this turn) e4d7b7f 6fb5358 19/61 quiet — probe 201.
+  NEW UTC DAY (Nov-6, per local date at probe time). ~30min after
+  probe-200 -> fresh slot. GPU: llama-server 23,812 MiB unchanged ->
+  DEFER holds. One entry this turn.

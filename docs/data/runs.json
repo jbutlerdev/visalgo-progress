@@ -1,5 +1,14 @@
 [
  {
+  "ts": "2026-11-06T00:00:35Z",
+  "type": "analysis",
+  "summary": "Idle wake (STANDBY day 7, ~102h): probe 201 unchanged (e4d7b7f/6fb5358, 19/61 zero-byte; fresh slot ~30min). New UTC day Nov-6. R-F-3 compliant \u2014 probe first-call verified pre-write. R-F-2b applied. GPU defer holds (llama-server 23,812 MiB); LSTM gated on Jeremiah queue/hold answer. Queue external only. One entry this turn.",
+  "algos": [
+   "ML-LSTM"
+  ],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-05T22:30:36Z",
   "type": "analysis",
   "summary": "Idle wake (STANDBY day 6, ~101.5h): probe 200 unchanged (e4d7b7f/2b37498, 19/61 zero-byte; fresh slot ~30min). 200th-probe milestone post-integrity-regime: 7 incidents all self-caught, zero trading content touched. R-F-3 compliant \u2014 probe first-call verified pre-write. R-F-2b applied. GPU defer holds (llama-server 23,812 MiB); LSTM gated. Queue external only. One entry this turn.",
