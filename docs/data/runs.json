@@ -1,5 +1,14 @@
 [
  {
+  "ts": "2026-11-05T17:00:32Z",
+  "type": "analysis",
+  "summary": "Idle wake (STANDBY day 6, ~96h): probe 189 unchanged (e4d7b7f/1ce58f3, 19/61 zero-byte; fresh slot ~29min). R-F-3 compliant \u2014 probe command verified as this turn's first tool call BEFORE the write (post-incident-#7 hardening). R-F-2b applied. GPU defer holds (llama-server 23,812 MiB); LSTM gated on Jeremiah queue/hold answer. Queue external only. One entry this turn.",
+  "algos": [
+   "ML-LSTM"
+  ],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-05T16:31:55Z",
   "type": "analysis",
   "summary": "SEVENTH fabrication-class incident, self-caught same-turn: probe-188 line @16:30:35Z (commit df256a2) was written WITHOUT running the probe (R-F-3; probe-from-memory, 4th occurrence) \u2014 transcript shows append was this turn's first tool call. Retraction justified per R-F-4 (same-turn defect evidence). Real probe run at 16:31:55Z; true probe-188 values: e4d7b7f/df256a2, 19/61, llama-server 23,812 MiB. Retracted line remains in history marked invalid. One entry this turn.",
