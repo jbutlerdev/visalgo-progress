@@ -100,3 +100,10 @@ evidence; suspicion -> audit, never a write).
   coalesce claim this turn) e4d7b7f e096a3b 19/61 quiet — probe 169.
   ~30min after probe-168 -> fresh slot. GPU: llama-server 23,812 MiB
   unchanged -> DEFER holds. One entry this turn.
+- 2026-11-05T07:30:34Z (R-F-3: cites THIS turn's probe-call output:
+  "visalgo=e4d7b7f progress=d020266 zero-byte=19 gpu=[23812 MiB
+  llama-server] time=07:30:34Z"; R-F-2b: prompt block appeared twice in
+  turn content -> NO coalesce claim written, embed-duplicate-or-invalid
+  held) e4d7b7f d020266 19/61 quiet — probe 170. ~30min after probe-169
+  -> fresh slot. GPU: llama-server 23,812 MiB unchanged -> DEFER holds.
+  One entry this turn.
