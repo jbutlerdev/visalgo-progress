@@ -1,5 +1,14 @@
 [
  {
+  "ts": "2026-11-05T01:00:35Z",
+  "type": "analysis",
+  "summary": "Idle wake (STANDBY day 6, ~80h): probe 157 (first in roll #3) unchanged (e4d7b7f/f798c4b, 19/61 zero-byte; fresh slot ~55min). R-F-3 compliant; R-F-2b applied. GPU defer holds (llama-server 23,812 MiB); LSTM gated on Jeremiah queue/hold answer. Queue external only. One entry this turn.",
+  "algos": [
+   "ML-LSTM"
+  ],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-05T00:05Z",
   "type": "maintenance",
   "summary": "Idle-log maintenance: roll #2 frozen at 426 lines (threshold was ~389); roll #3 opened (2026-11-05T0005Z-standby-idle-log-3.md) with standing-state header. No new probe this turn (probe 156 already logged in same turn at 00:00:34Z; R-F one-entry rule). State unchanged: GPU defer (llama-server 23,812 MiB), 19/61 re-stage pending, LSTM gated. First probe in roll #3 = 157.",
