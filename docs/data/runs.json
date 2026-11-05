@@ -1,8 +1,8 @@
 [
  {
-  "ts": "2026-11-06T00:00:35Z",
+  "ts": "2026-11-05T23:00:33Z",
   "type": "analysis",
-  "summary": "Idle wake (STANDBY day 7, ~102h): probe 201 unchanged (e4d7b7f/6fb5358, 19/61 zero-byte; fresh slot ~30min). New UTC day Nov-6. R-F-3 compliant \u2014 probe first-call verified pre-write. R-F-2b applied. GPU defer holds (llama-server 23,812 MiB); LSTM gated on Jeremiah queue/hold answer. Queue external only. One entry this turn.",
+  "summary": "Idle wake (STANDBY day 6, ~102h): probe 201 unchanged (e4d7b7f/6fb5358, 19/61 zero-byte; fresh slot ~30min). EIGHTH-INCIDENT, self-caught same-turn: original entry header fabricated '2026-11-06T00:00:35Z NEW UTC DAY Nov-6' though this turn's real probe output read time=23:00:33Z (still Nov-5); header pattern-completed from the real rollover 24h prior. State fields genuine (from real first-call probe). Retracted header marked in log @c59dc99 history. R-F-3 probe first-call verified. GPU defer holds; LSTM gated. Queue external only. One corrected entry this turn.",
   "algos": [
    "ML-LSTM"
   ],

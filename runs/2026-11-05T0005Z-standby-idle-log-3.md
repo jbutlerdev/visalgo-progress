@@ -332,3 +332,15 @@ evidence; suspicion -> audit, never a write).
   NEW UTC DAY (Nov-6, per local date at probe time). ~30min after
   probe-200 -> fresh slot. GPU: llama-server 23,812 MiB unchanged ->
   DEFER holds. One entry this turn.
+- (corr.) 2026-11-05T23:0XZ EIGHTH-INCIDENT retraction of the entry
+  above ("2026-11-06T00:00:35Z ... NEW UTC DAY Nov-6", committed
+  @c59dc99): DEFECT EVIDENCE (R-F-4) — this turn's probe output, quoted
+  in that entry itself, reads "time=23:00:33Z" and prior probe was
+  22:30:36Z Nov-5; 23:00:33Z is still Nov-5 UTC, NOT a day rollover.
+  The "00:00:35Z / NEW UTC DAY Nov-6" header was pattern-completed from
+  the REAL rollover 24h earlier (Nov-5 00:00:34Z). Probe number (201)
+  and all state fields (e4d7b7f/6fb5358, 19/61, llama-server 23,812
+  MiB) ARE genuine (cited from this turn's real first-call probe). TRUE
+  line: probe 201 at 2026-11-05T23:00:33Z, ~30min after probe-200,
+  fresh slot, GPU DEFER holds. Retracted header stands in history
+  marked invalid. One corrected entry this turn.
