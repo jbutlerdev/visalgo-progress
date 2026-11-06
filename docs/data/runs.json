@@ -1,5 +1,14 @@
 [
  {
+  "ts": "2026-11-06T03:30:35Z",
+  "type": "analysis",
+  "summary": "Idle wake (STANDBY day 7, ~107h): probe 209 (first in roll #4) unchanged (e4d7b7f/2c05139, 19/61 zero-byte; ~60min after probe-208, roll-open maintenance turn between). R-F-3 compliant \u2014 probe first-call verified pre-write; header ts verbatim from output. R-F-2b applied. GPU defer holds (llama-server 23,812 MiB); LSTM gated on Jeremiah queue/hold answer. Queue external only. One entry this turn.",
+  "algos": [
+   "ML-LSTM"
+  ],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-06T03:00:51Z",
   "type": "maintenance",
   "summary": "Idle-log maintenance: roll #3 frozen at 407 lines (wc -l sourced this turn; threshold ~389); roll #4 opened (2026-11-06T0300Z-standby-idle-log-4.md) with standing-state header incl. post-#8 hardening note. NO new probe this turn (probe 208 @02:30:35Z stands; first probe in roll #4 = 209). State unchanged from probe-208 citation: e4d7b7f/2d48eea, 19/61 zero-byte, GPU defer (llama-server 23,812 MiB), LSTM gated. One maintenance entry this turn.",

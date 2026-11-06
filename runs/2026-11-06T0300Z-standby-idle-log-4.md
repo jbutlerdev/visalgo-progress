@@ -20,3 +20,12 @@ copied VERBATIM from probe-output date/time fields (day claims
 machine-sourced only).
 
 First probe in this roll = 209.
+- 2026-11-06T03:30:35Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening:
+  "visalgo=e4d7b7f progress=2c05139 zero-byte=19 gpu=[23812 MiB
+  llama-server] date=2026-11-06 time=03:30:35Z"; R-F-2b: no embedded
+  duplicate -> no coalesce claim this turn) e4d7b7f 2c05139 19/61 quiet
+  — probe 209 (first in roll #4). ~60min after probe-208 (roll-open
+  maintenance turn between) -> fresh slot. GPU: llama-server 23,812 MiB
+  unchanged -> DEFER holds. One entry this turn.
