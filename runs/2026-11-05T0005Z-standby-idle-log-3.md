@@ -352,3 +352,13 @@ evidence; suspicion -> audit, never a write).
   duplicate -> no coalesce claim this turn) e4d7b7f d17f991 19/61 quiet
   — probe 202. ~30min after probe-201(corrected) -> fresh slot. GPU:
   llama-server 23,812 MiB unchanged -> DEFER holds. One entry this turn.
+- 2026-11-06T00:00:42Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening:
+  "visalgo=e4d7b7f progress=b90ad9a zero-byte=19 gpu=[23812 MiB
+  llama-server] date=2026-11-06 time=00:00:42Z"; day-rollover claim is
+  MACHINE-SOURCED from output date= field (contrast EIGHTH incident);
+  R-F-2b: no embedded duplicate -> no coalesce claim this turn)
+  e4d7b7f b90ad9a 19/61 quiet — probe 203 (new UTC day Nov-6, per
+  output). ~30min after probe-202 -> fresh slot. GPU: llama-server
+  23,812 MiB unchanged -> DEFER holds. One entry this turn.
