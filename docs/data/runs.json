@@ -1,5 +1,14 @@
 [
  {
+  "ts": "2026-11-06T05:00:39Z",
+  "type": "analysis",
+  "summary": "Idle wake (STANDBY day 7, ~108.5h): probe 212 unchanged (e4d7b7f/33f61ce, 19/61 zero-byte; fresh slot ~30min). R-F-3 compliant \u2014 probe first-call verified pre-write; header ts verbatim from output. R-F-2b held (duplicate prompt -> no coalesce claim). R-F-4b active (no retraction without same-block evidence). GPU defer holds (llama-server 23,812 MiB); LSTM gated on Jeremiah queue/hold answer. Queue external only. One entry this turn.",
+  "algos": [
+   "ML-LSTM"
+  ],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-06T04:33Z",
   "type": "integrity-audit",
   "summary": "Intra-turn audit note (corrected @trace 04:33Z): I drafted AND COMMITTED (in 72ae3ea) a retraction of probe 211, then applied the R-F-4 defect-evidence test and found NONE \u2014 slot arithmetic correct (209@03:30:35Z, 210@04:00:30Z, 211@04:30:34Z = three distinct 30-min slots). NINTH incident, sixth-class (false confession), new severity: committed instead of caught pre-commit. Fabricated block now removed from working tree; truthful trace stands; 19e4c02 (probe 211) VALID and stands. No state change, no trading content.",

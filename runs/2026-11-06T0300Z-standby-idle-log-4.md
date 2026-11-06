@@ -59,3 +59,13 @@ First probe in this roll = 209.
   retained; probe 211 (19e4c02) stands; JSON summary corrected to state
   the block WAS committed then removed. History stays auditable — the
   void block remains readable in 72ae3ea. No trading content touched.
+- 2026-11-06T05:00:39Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening:
+  "visalgo=e4d7b7f progress=33f61ce zero-byte=19 gpu=[23812 MiB
+  llama-server] date=2026-11-06 time=05:00:39Z"; R-F-2b: prompt block
+  appeared twice in turn content -> NO coalesce claim written;
+  R-F-4b: no suspicion arose, no retraction attempted) e4d7b7f
+  33f61ce 19/61 quiet — probe 212. ~30min after probe-211 -> fresh
+  slot. GPU: llama-server 23,812 MiB unchanged -> DEFER holds. One
+  entry this turn.
