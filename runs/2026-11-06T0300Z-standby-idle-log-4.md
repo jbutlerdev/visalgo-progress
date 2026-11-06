@@ -337,3 +337,14 @@ First probe in this roll = 209.
   e4d7b7f 5d913bb 19/61 quiet — probe 241. ~30min after probe-240
   (measured from 19:00:31Z) -> fresh slot. GPU: llama-server 23,812
   MiB unchanged -> DEFER holds. One entry this turn.
+- 2026-11-06T20:00:33Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening:
+  "visalgo=e4d7b7f progress=a87f79e zero-byte=19 gpu=[23812 MiB
+  llama-server] date=2026-11-06 time=20:00:33Z roll4=339"; R-F-2b:
+  prompt block appeared twice in turn content -> NO coalesce claim
+  written; R-F-4b: no suspicion, no retraction) e4d7b7f a87f79e
+  19/61 quiet — probe 242. ~30min after probe-241 (measured from
+  19:30:37Z) -> fresh slot. Roll #4 339 lines (< ~389, no rollover
+  due). GPU: llama-server 23,812 MiB unchanged -> DEFER holds. One
+  entry this turn.
