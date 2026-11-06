@@ -180,3 +180,12 @@ First probe in this roll = 209.
   e4d7b7f 921865b 19/61 quiet — probe 224. ~30min after probe-223
   (measured from 10:30:32Z) -> fresh slot. GPU: llama-server 23,812
   MiB unchanged -> DEFER holds. One entry this turn.
+- 2026-11-06T11:30:33Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening:
+  "visalgo=e4d7b7f progress=f4bb6c4 zero-byte=19 gpu=[23812 MiB
+  llama-server] date=2026-11-06 time=11:30:33Z"; R-F-2b: no embedded
+  duplicate -> no coalesce claim; R-F-4b: no suspicion, no retraction)
+  e4d7b7f f4bb6c4 19/61 quiet — probe 225. ~30min after probe-224
+  (measured from 11:00:34Z) -> fresh slot. GPU: llama-server 23,812
+  MiB unchanged -> DEFER holds. One entry this turn.
