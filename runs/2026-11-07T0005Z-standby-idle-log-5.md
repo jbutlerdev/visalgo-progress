@@ -309,3 +309,25 @@ First probe in this roll = 250.
   untouched). zero-byte=N/A(raw-gone) | raw-data UNAVAILABLE (bind
   absent) | gpu ssh UNCONFIRMED. LSTM pre-reg 41b9044 DUAL-BLOCKED,
   locked. One entry this turn.
+- 2026-11-07T19:33:26Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening:
+  "clock=2026-11-07T19:33:26Z ... 61 files, 19 zero-byte ... CA_OK";
+  follow-on same-turn calls: clone HEAD-verifies + ssh query;
+  R-F-2b: no embedded duplicate -> no coalesce claim; R-F-4b: no
+  suspicion, no retraction) RECOVERY-#2 + probe 272 (milestone).
+  Platform re-provisioned this wake: git/ssh/python3/curl on PATH
+  (/usr/bin), system CA bundle OK (nix workaround retired), BIND
+  MOUNT RESTORED — 61 files / 19 zero-byte (measured, matches
+  last-known-good 19/61 pre-outage) -> raw-data AVAILABLE again.
+  Sandbox recycled (prior /root/work incl. gap-log GONE) but
+  ~/.ssh/id_ed25519 persisted -> GPU-LANE KEY AUTH WORKS (Jeremiah
+  installed pubkey; read-only nvidia-smi returned: llama-server
+  23,812 MiB + venv python 256 MiB -> human session active, DEFER
+  holds; ~508 MiB free insufficient, not self-judged — deferring
+  regardless per EA standing rule). HEAD-verify EXACT both:
+  algo-dev/ticks-builder=e4d7b7f, progress origin/main=73240bf
+  (zero new commits) -> STOP-gate clean. Token configs scrubbed
+  (grep 0 both). LSTM pre-reg 41b9044: dual-block -> SINGLE-block:
+  remaining gates = (a) GPU free (llama-server exit) + (b) Jeremiah
+  queue/hold answer. Cadence normal 30-min. One entry this turn.
