@@ -363,3 +363,22 @@ First probe in this roll = 250.
   'proceed' -> single gate remains (GPU free). Dashboard rows via
   tools/dash.py append only (confirmed contract; md-only idle holds).
   One entry this turn.
+- 2026-11-07T20:00:46Z (R-F-3: cites THIS turn's probe-call output —
+  probe FIRST tool call, verified pre-write, verbatim: "clock=
+  2026-11-07T20:00:46Z git/ssh/ssh-keygen/python3/curl=MISSING
+  /root/work=GONE /root/.ssh=GONE CA_MISSING bind=PRESENT"; clone
+  HEAD-verify same-turn: origin/main=ea84d2a EXACT; R-F-2b: no
+  embedded duplicate -> no coalesce claim; R-F-4b: no suspicion,
+  no retraction) STRIP-#2 honest gap (wake ~20:00Z). Second strip
+  ~27min after full RECOVERY-#2 (19:33Z). Regression fields: tools
+  MISSING, ~/.ssh GONE (baked key gone with it), CA_MISSING,
+  /root/work GONE (gap-log lesson vindicated — recovery facts came
+  from repo RUNBOOK + memory, not workdir). PRESERVED: bind mount
+  61 files/19 zero-byte (mount hardening held — supervisor's fix
+  verified under a second reconcile) + injected token + nix store.
+  GPU ssh UNAVAILABLE this wake (ssh + key gone; no probe possible;
+  zero simulated data). Line pushed via nix-kit (proven fallback).
+  Escalation: platform item REOPENED to EA (reconcile strips base
+  despite fresh rebuild; boot-marker trap suspected recurring).
+  Cadence continues honest-gap until re-provision. One entry this
+  turn.
