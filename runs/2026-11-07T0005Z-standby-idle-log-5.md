@@ -396,3 +396,15 @@ First probe in this roll = 250.
   fired 20:01Z; EA owns Jeremiah thread on re-strip mechanism).
   Pre-reg 41b9044 single-blocked (occupancy re-check deferred till
   ssh returns). One entry this turn.
+- 2026-11-07T21:00:35Z (R-F-3: cites THIS turn's probe-call output —
+  probe FIRST tool call, verified pre-write, verbatim: "clock=
+  2026-11-07T21:00:35Z git/ssh/ssh-keygen/python3/curl=MISSING
+  /root/.ssh=GONE bind=PRESENT CA_MISSING"; HEAD-verify same-turn
+  pre-write: origin/main=822a76d EXACT (STOP-gate clean); R-F-2b:
+  no embedded duplicate -> no coalesce claim; R-F-4b: no suspicion,
+  no retraction) STRIP-#2 wake-3 honest gap. Same stripped instance
+  (/root/recovery survived -> still single-event, no loop since
+  20:00Z). Fields: tools MISSING, gpu-ssh UNPROBEABLE, bind
+  PRESERVED, CA_MISSING. nix-kit push; no re-ping (escalations
+  fired; EA owns thread). Pre-reg 41b9044 single-blocked
+  (occupancy check deferred till ssh returns). One entry this turn.
