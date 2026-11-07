@@ -1,5 +1,14 @@
 [
  {
+  "ts": "2026-11-07T08:35:16Z",
+  "type": "analysis",
+  "summary": "RECOVERY + probe 250 (cadence resumes). Environment failure 00:30Z-08:00Z: 17 stripped wake slots; honest gaps maintained, nothing fabricated (probe 249 last-valid; local gap-log /root/work/gap-log-nov7.md). Recovery via nix-store git + libressl cert.pem trust (verification ON, never disabled); both repos cloned; HEAD-verify EXACT both (algo-dev/ticks-builder e4d7b7f, progress main d85bf53) -> STOP-gate not triggered; master drift benign (3 pre-window Jeremiah AGENTS.md docs commits). Token scrubbed from configs. BIND MOUNT ABSENT (platform-layer finding). GPU ssh unavailable pending Jeremiah key install -> defer holds, zero simulated data. R-F-3 compliant \u2014 probe first-call verified pre-write; header ts verbatim. R-F-2b applied. R-F-4b active.",
+  "algos": [
+   "ML-LSTM"
+  ],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-07T00:05Z (maintenance; real clock read at file-open)",
   "type": "maintenance",
   "summary": "Idle-log maintenance: roll #4 frozen at 415 lines (wc -l sourced this turn; threshold ~389); roll #5 opened (2026-11-07T0005Z-standby-idle-log-5.md) with standing-state header incl. all five rules + post-#8 hardening note. NO new probe this turn (probe 249 @23:36:03Z stands; first probe in roll #5 = 250). State unchanged from probe-249 citation: e4d7b7f/c0d700d, 19/61 zero-byte, GPU defer (llama-server 23,812 MiB), LSTM gated. One maintenance entry this turn.",
