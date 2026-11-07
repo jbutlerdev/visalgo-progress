@@ -1,5 +1,14 @@
 [
  {
+  "ts": "2026-11-07T15:00:33Z",
+  "type": "analysis",
+  "summary": "Idle wake (STANDBY day 8, ~142h): probe 263 unchanged (e4d7b7f/d3f49fa; fresh slot ~30min, measured). State block per ratified contract: raw-data UNAVAILABLE (bind absent), gpu ssh UNCONFIRMED (key-install pending). LSTM pre-reg 41b9044 dual-blocked, locked. R-F-3 compliant \u2014 probe first-call verified pre-write; header ts verbatim. R-F-2b applied. R-F-4b active. Queue external only. One entry this turn.",
+  "algos": [
+   "ML-LSTM"
+  ],
+  "branch": "algo-dev/ticks-builder"
+ },
+ {
   "ts": "2026-11-07T14:30:36Z",
   "type": "analysis",
   "summary": "Idle wake (STANDBY day 8, ~141.5h): probe 262 unchanged (e4d7b7f/c17da61; fresh slot ~30min, measured). State block per ratified contract: raw-data UNAVAILABLE (bind absent), gpu ssh UNCONFIRMED (key-install pending). LSTM pre-reg 41b9044 dual-blocked, locked. R-F-3 compliant \u2014 probe first-call verified pre-write; header ts verbatim. R-F-2b applied. R-F-4b active. Queue external only. One entry this turn.",
