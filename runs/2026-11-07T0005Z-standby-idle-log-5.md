@@ -321,8 +321,12 @@ First probe in this roll = 250.
   MOUNT RESTORED — 61 files / 19 zero-byte (measured, matches
   last-known-good 19/61 pre-outage) -> raw-data AVAILABLE again.
   Sandbox recycled (prior /root/work incl. gap-log GONE) but
-  ~/.ssh/id_ed25519 persisted -> GPU-LANE KEY AUTH WORKS (Jeremiah
-  installed pubkey; read-only nvidia-smi returned: llama-server
+  ~/.ssh/ carries a platform-provisioned key (dir mtime 19:17Z
+  this turn; id_ed25519+config+known_hosts; my 00:48Z keypair
+  destroyed with /root/work -- 'persisted' was wrong wording,
+  corrected same-turn by audit; .pub absent so fingerprint not
+  re-verifiable here) -> GPU-LANE KEY AUTH WORKS (hostname->'vram'
+  twice; read-only nvidia-smi returned: llama-server
   23,812 MiB + venv python 256 MiB -> human session active, DEFER
   holds; ~508 MiB free insufficient, not self-judged — deferring
   regardless per EA standing rule). HEAD-verify EXACT both:
