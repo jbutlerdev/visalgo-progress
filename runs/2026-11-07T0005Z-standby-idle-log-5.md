@@ -193,3 +193,18 @@ First probe in this roll = 250.
   14:30:36Z) -> fresh slot. zero-byte=N/A(raw-gone) | raw-data
   UNAVAILABLE (bind absent) | gpu ssh UNCONFIRMED. LSTM pre-reg
   41b9044 DUAL-BLOCKED, locked. One entry this turn.
+- 2026-11-07T15:31:18Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening:
+  "visalgo=e4d7b7f progress=21c2f79 zero-byte=N/A(raw-gone) bind=NO
+  gpu=[ssh UNCONFIRMED key-install-pending known_hosts-gone]
+  date=2026-11-07 time=15:31:18Z"; R-F-2b: no embedded duplicate ->
+  no coalesce claim; R-F-4b: no suspicion, no retraction) e4d7b7f
+  21c2f79 — probe 264. ~31min after probe-263 (measured from
+  15:00:33Z) -> fresh slot. EXTERNAL COMMIT absorbed: 21c2f79
+  jbutlerdev 2026-11-07T10:18:31-05:00 "dashboard v3: schema-enforced
+  logging tool + sanitize + defensive render" (tools/dash.py +263;
+  purged committed runs/data/NQ_ticks_5m_*.parquet binaries — his
+  repo-hygiene, no agent action). zero-byte=N/A(raw-gone) | raw-data
+  UNAVAILABLE (bind absent) | gpu ssh UNCONFIRMED. LSTM pre-reg
+  41b9044 DUAL-BLOCKED, locked. One entry this turn.
