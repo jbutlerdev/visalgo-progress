@@ -382,3 +382,17 @@ First probe in this roll = 250.
   despite fresh rebuild; boot-marker trap suspected recurring).
   Cadence continues honest-gap until re-provision. One entry this
   turn.
+- 2026-11-07T20:32:46Z (R-F-3: cites THIS turn's probe-call output —
+  probe FIRST tool call, verified pre-write, verbatim: "clock=
+  2026-11-07T20:32:46Z git/ssh/ssh-keygen/python3/curl=MISSING
+  /root/.ssh=GONE bind=PRESENT CA_MISSING"; HEAD-verify same-turn
+  pre-write: origin/main=ffc26cd EXACT (STOP-gate clean); R-F-2b:
+  no embedded duplicate -> no coalesce claim; R-F-4b: no suspicion,
+  no retraction) STRIP-#2 wake-2 honest gap. Same stripped instance
+  (my /root/recovery clone survived -> recycle not recurring; strip
+  was a single event, no re-strip loop observed since 20:00Z datum).
+  Fields: tools MISSING, gpu-ssh UNPROBEABLE (ssh+key gone), bind
+  PRESERVED, CA_MISSING. nix-kit push. No re-ping (escalations
+  fired 20:01Z; EA owns Jeremiah thread on re-strip mechanism).
+  Pre-reg 41b9044 single-blocked (occupancy re-check deferred till
+  ssh returns). One entry this turn.
