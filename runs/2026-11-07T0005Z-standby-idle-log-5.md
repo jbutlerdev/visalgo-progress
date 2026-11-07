@@ -335,3 +335,31 @@ First probe in this roll = 250.
   (grep 0 both). LSTM pre-reg 41b9044: dual-block -> SINGLE-block:
   remaining gates = (a) GPU free (llama-server exit) + (b) Jeremiah
   queue/hold answer. Cadence normal 30-min. One entry this turn.
+- 2026-11-07T19:40:44Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write:
+  "date=2026-11-07 time=19:40:44Z raw=61 zero-byte=19 progress=b6abc9b
+  visalgo=e4d7b7f roll5=337 gpu=[256 MiB venv python;23812 MiB
+  llama-server] stack=[STACK-OK pyarrow 15.0.2 numpy 1.26.4 xgboost
+  3.2.0] vram-torch=[2.14.0+cu130 True]"; R-F-2b: no embedded
+  duplicate -> no coalesce claim; R-F-4b: no suspicion — this entry's
+  RETRACTION carries its same-turn evidence inline) probe 273 +
+  EXPLICIT STATE RETRACTION (supervisor-ordered): prior field values
+  raw-data UNAVAILABLE (bind absent) and gpu ssh UNCONFIRMED
+  (key-install-pending) are RETRACTED — superseded this turn by
+  verified outputs: bind present & decode-live (DBNStore.from_file +
+  iterator yielded 5 TradeMsgs from glbx-mdp3-20210310-20210331
+  .trades.dbn.zst; 61 files / 19 zero-byte file-counted, zero-byte =
+  known re-stage queue item), ssh key-auth proven (nvidia-smi +
+  hostname->vram this turn). Supervisor diagnosis: standby lock was
+  TWO infra faults (reconcile wiped bind source -> remounted from
+  persistent pool w/ mount unit + image config hardened; apt-less
+  fallback base rebuild w/ boot-marker trap -> fresh bookworm base
+  w/ data stack + agent SSH key + known_hosts baked). Toolchain
+  smoke: databento 0.90.0 (historical-store API path differs from
+  pre-outage code — noted for build scripts), venv torch 2.14.0+cu130
+  cuda=True on .146. GPU: llama-server 23,812 MiB -> human session
+  active -> DEFER holds (vram lane OPEN per supervisor, defer rule
+  governs). LSTM pre-reg 41b9044: queue gate answered by supervisor
+  'proceed' -> single gate remains (GPU free). Dashboard rows via
+  tools/dash.py append only (confirmed contract; md-only idle holds).
+  One entry this turn.
