@@ -208,3 +208,19 @@ First probe in this roll = 250.
   repo-hygiene, no agent action). zero-byte=N/A(raw-gone) | raw-data
   UNAVAILABLE (bind absent) | gpu ssh UNCONFIRMED. LSTM pre-reg
   41b9044 DUAL-BLOCKED, locked. One entry this turn.
+- 2026-11-07T15:31:18Z+ (same turn, post-write audit; R-F-4 retraction
+  WITH same-block evidence) RETRACT ledger row of probe-264 above:
+  owner's dashboard-v3 (21c2f79, jbutlerdev, 10:18:31-05:00) installed
+  tools/dash.py schema — ALLOWED_TYPES excludes 'analysis' (verbatim
+  from tools/dash.py this turn: "ALLOWED_TYPES = {\"experiment\",
+  \"deploy\", \"correction\", \"manual\", \"maintenance\",
+  \"integrity-audit\", \"blocked\"}") and STANDBY_RE drops standby
+  lines; his sanitize --apply at that commit removed 406 idle rows
+  (423->17, all recoverable at blob d3f49fa + this md). My json.dump
+  append of an 'analysis' row violated the new contract -> row
+  removed, runs.json restored EXACTLY to 21c2f79 state (count=17,
+  has_analysis=False verified). Idle-log md line above KEPT (log of
+  record). New cadence contract from this turn: probe/idle lines
+  live ONLY in runs/*.md; runs.json touched solely via
+  'python3 tools/dash.py append' for real runs — never re-gamed as
+  type manual.
