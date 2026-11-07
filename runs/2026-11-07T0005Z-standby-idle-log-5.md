@@ -408,3 +408,15 @@ First probe in this roll = 250.
   PRESERVED, CA_MISSING. nix-kit push; no re-ping (escalations
   fired; EA owns thread). Pre-reg 41b9044 single-blocked
   (occupancy check deferred till ssh returns). One entry this turn.
+- 2026-11-07T21:30:29Z (R-F-3: cites THIS turn's probe-call output —
+  probe FIRST tool call, verified pre-write, verbatim: "clock=
+  2026-11-07T21:30:29Z git/ssh/ssh-keygen/python3/curl=MISSING
+  /root/.ssh=GONE bind=PRESENT CA_MISSING"; HEAD-verify same-turn
+  pre-write: origin/main=030b7b7 EXACT (STOP-gate clean); R-F-2b:
+  no embedded duplicate -> no coalesce claim; R-F-4b: no suspicion,
+  no retraction) STRIP-#2 wake-4 honest gap. Same stripped instance
+  (/root/recovery survived; 4 wakes stable-stripped since 20:00Z —
+  loop hypothesis weakening). Fields: tools MISSING, gpu-ssh
+  UNPROBEABLE, bind PRESERVED, CA_MISSING. nix-kit push; no re-ping.
+  Pre-reg 41b9044 single-blocked (occupancy deferred till ssh
+  returns). One entry this turn.
