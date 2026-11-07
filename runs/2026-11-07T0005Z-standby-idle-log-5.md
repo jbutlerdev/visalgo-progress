@@ -47,3 +47,17 @@ First probe in this roll = 250.
   GPU: ssh unavailable, key-install unconfirmed (EA-routed to
   Jeremiah) -> DEFER holds; zero simulated GPU data. State: e4d7b7f
   d85bf53 quiet. Cadence resumes normal 30-min. One entry this turn.
+- 2026-11-07T09:01:04Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening:
+  "visalgo=e4d7b7f progress=f41e0f9 zero-byte=N/A(raw-gone) bind=NO
+  gpu=[ssh UNCONFIRMED key-install-pending known_hosts-gone]
+  date=2026-11-07 time=09:01:04Z"; R-F-2b: no embedded duplicate ->
+  no coalesce claim; R-F-4b: no suspicion, no retraction) e4d7b7f
+  f41e0f9 quiet — probe 251, first probe under ratified EA contract
+  (state block per-field). ~26min after probe-250 (measured from
+  08:35:16Z) -> fresh slot. zero-byte=N/A(raw-gone) | raw-data
+  UNAVAILABLE (bind absent) | gpu ssh UNCONFIRMED (key-install
+  pending Jeremiah, RESTORE-of-ratified-lane via EA; known_hosts
+  also gone — re-scan on install). LSTM pre-reg 41b9044 DUAL-BLOCKED,
+  locked. Cadence normal post-recovery. One entry this turn.
