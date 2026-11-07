@@ -160,3 +160,14 @@ First probe in this roll = 250.
   13:01:29Z) -> fresh slot. zero-byte=N/A(raw-gone) | raw-data
   UNAVAILABLE (bind absent) | gpu ssh UNCONFIRMED. LSTM pre-reg
   41b9044 DUAL-BLOCKED, locked. One entry this turn.
+- 2026-11-07T14:00:35Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening:
+  "visalgo=e4d7b7f progress=1335d9b zero-byte=N/A(raw-gone) bind=NO
+  gpu=[ssh UNCONFIRMED key-install-pending known_hosts-gone]
+  date=2026-11-07 time=14:00:35Z"; R-F-2b: no embedded duplicate ->
+  no coalesce claim; R-F-4b: no suspicion, no retraction) e4d7b7f
+  1335d9b quiet — probe 261. ~29min after probe-260 (measured from
+  13:31:17Z) -> fresh slot. zero-byte=N/A(raw-gone) | raw-data
+  UNAVAILABLE (bind absent) | gpu ssh UNCONFIRMED. LSTM pre-reg
+  41b9044 DUAL-BLOCKED, locked. One entry this turn.
