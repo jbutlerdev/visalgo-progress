@@ -28,3 +28,15 @@ header ts VERBATIM) / R-F-4 (evidence-before-retraction) / R-F-4b
 (suspicion -> audit note only). Runbook: docs/RUNBOOK-sandbox-recovery.md.
 
 First probe in this roll = 274 (post-rollover).
+- 2026-11-07T23:00:36Z (R-F-3: cites THIS turn's probe-call output —
+  probe FIRST tool call, verified pre-write, verbatim: "clock=
+  2026-11-07T23:00:36Z git/ssh/ssh-keygen/python3/curl=MISSING
+  /root/.ssh=GONE bind=61 files zero-byte=19 CA_MISSING"; HEAD-verify
+  same-turn pre-write: origin/main=c2cc7dd EXACT (STOP-gate clean);
+  R-F-2b: no embedded duplicate -> no coalesce claim; R-F-4b: no
+  suspicion, no retraction) STRIP-#2 wake-7 honest gap — gap-numbered
+  probe 274 (first line in roll #6). Same stripped instance
+  (stable-stripped ×7 since 20:00Z; still single-event). Fields:
+  tools MISSING, gpu-ssh UNPROBEABLE, bind 61/19 PRESERVED,
+  CA_MISSING. nix-kit push; no re-ping. Pre-reg 41b9044
+  single-blocked. One entry this turn.
