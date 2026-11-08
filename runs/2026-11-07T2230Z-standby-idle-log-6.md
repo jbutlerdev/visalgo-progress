@@ -314,3 +314,18 @@ First probe in this roll = 274 (post-rollover).
   (recycle window; wakes in between did not fire/complete — stated
   as observed, not explained). Token configs scrubbed (grep 0 both).
   Cadence normal 30-min. One entry this turn.
+- 2026-11-08T16:01:40Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening:
+  "fetch-rc=0 origin/main=e8e44e9 visalgo=e4d7b7f zero-byte=19/61
+  roll6=316 gpu=[256 MiB venv python;23812 MiB llama-server]
+  date=2026-11-08 time=16:01:40Z"; visalgo field carried from
+  same-session verified clone-state, not re-fetched this turn;
+  R-F-2b: no embedded duplicate -> no coalesce claim; R-F-4b: no
+  suspicion, no retraction) e4d7b7f e8e44e9 quiet — probe 296,
+  first normal-cadence line post-RECOVERY-#3. ~23min after probe-295
+  (measured from 15:38:22Z) -> fresh slot. State block:
+  zero-byte=19/61 | raw-data AVAILABLE (bind present) | gpu ssh
+  CONFIRMED (llama-server 23,812 MiB -> human session -> DEFER
+  holds). Roll #6 316 lines (< ~389). Pre-reg 41b9044 single-blocked
+  (GPU occupancy). One entry this turn.
