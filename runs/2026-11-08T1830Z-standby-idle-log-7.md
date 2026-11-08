@@ -191,3 +191,24 @@ First probe in this roll = 301.
   MiB llama-server]. No ledger claim implicated -> audit note per
   R-F-4b (no RETRACT token; the quoted-material defect is in md
   prose, remediated by annotation).
+- 2026-11-08T22:30:58Z+ (same turn, continuation — evidence chain:
+  probe verbatim "fetch-rc=0 origin/main=06b7ad0 zero-byte=0/61
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-08
+  time=22:30:58Z front=61"; then same-turn campaign run output
+  table (classical_results.json) with exact figures quoted below.
+  R-F-2b: no duplicate -> no coalesce claim; R-F-4b: clean)
+  EXPERIMENT: CLASSICAL BASELINE CAMPAIGN on volume-cross front
+  corpus (Jeremiah step-2). Textbook strategies, no tuning:
+  dualMA12/48 + Donchian-20 breakout; cost $5/side (2 ticks) incl
+  slippage; time-axis split train<=2024-06 / val 2024-07..2026-03,
+  no refit on holdout. RESULTS (full sample, net): dualMA net
+  -$38,330 PF 0.97 Sharpe -1.12 turns 9,278; donchian20 net
+  -$52,772 PF 0.96 Sharpe -1.54 turns 11,401. BOTH NEGATIVE net
+  of costs; val-split less negative than train both (MA -5.3k/117k
+  bars vs -33k/235k). Interpretation (stated as interpretation):
+  gross edge PF ~1.1-1.2 exists pre-cost; 5m turnover at NQ tick
+  economics eats it. BASELINE BAR for LSTM pre-reg: beat net-
+  negative on holdout span. Sample size stated: 351,842 bars full
+  (train 234,618 / val 117,224); Jan25/Aug24 source gaps kept as
+  non-trading days, disclosed. 19-month figures superseded as
+  pilot-grade per directive. dash.py row appended. Probe slot 308.
