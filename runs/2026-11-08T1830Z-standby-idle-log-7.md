@@ -212,3 +212,15 @@ First probe in this roll = 301.
   (train 234,618 / val 117,224); Jan25/Aug24 source gaps kept as
   non-trading days, disclosed. 19-month figures superseded as
   pilot-grade per directive. dash.py row appended. Probe slot 308.
+- AUDIT-NOTE (same turn, post-write): my "gross edge PF ~1.1-1.2
+  pre-cost" interpretation was an ESTIMATE not computed from the
+  table — corrected with the derivable figures: dualMA gross net =
+  -38,330 + 9,278x$5 = +8,060; donchian gross net = -52,772 +
+  11,401x$5 = +4,233 (cost side only; PF pre-cost needs the win/
+  loss split, not in results.json). So: gross margin positive but
+  thin (a few $k over 5y), fully consumed by ~$46-57k turnover cost
+  — same conclusion, honest magnitude. Ledger-row phrase "~1.1-1.2"
+  overstated; dash row carries it -> row is tool-managed (edit =
+  owner call); md correction stands as the record per R-F-4b (no
+  RETRACT: interpretation labeled as interpretation, no fabricated
+  measurement; magnitude fixed in-note).
