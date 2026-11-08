@@ -119,6 +119,10 @@ def norm_row(r, i=-1):
     if t not in ALLOWED_TYPES:
         return None  # wake/analysis/anything invented: drop
     ts = r.get("ts") or ""
+    if not re.match(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?(Z|[+-]\d{2}:\d{2})?$", ts):
+        # never hand a renderer a free-text "timestamp" — Invalid
+        # Date once did (2026-11-08).
+        ts = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
     summary = clean_text(r.get("summary"), 600)
     title = clean_text(r.get("title"), 120)
     if not title:  # never render "undefined": derive from summary
