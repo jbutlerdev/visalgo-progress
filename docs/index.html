@@ -78,6 +78,7 @@ fetch('data/runs.json?ts='+Date.now()).then(r=>r.json()).then(rs=>{
   // provenance constitution; see tools/dash.py.
   const ALLOWED=new Set(['experiment','deploy','correction','manual','maintenance','integrity-audit','blocked']);
   const work=rs.filter(r=>ALLOWED.has((r.type||'').toLowerCase())&&(r.title||r.id));
+  work.sort((a,b)=>((b.ts&&isFinite(+new Date(b.ts))?+new Date(b.ts):-1))-((a.ts&&isFinite(+new Date(a.ts))?+new Date(a.ts):-1)));
   const hidden=rs.length-work.length;
   const now=Date.now(),d24=now-864e5,d7=now-6048e5;
   const cnt=f=>work.filter(r=>r.ts&&+new Date(r.ts)>=f).length;
@@ -87,7 +88,7 @@ fetch('data/runs.json?ts='+Date.now()).then(r=>r.json()).then(rs=>{
     ['runs',work.length],['last 24h',cnt(d24)],['last 7d',cnt(d7)],
     ['algos tracked',algos.size],['deploys',work.filter(r=>r.type==='deploy').length],
     hidden?['hidden logs',hidden]:null,
-    ['last run',work[0]&&work[0].ts?new Date(work[0].ts).toLocaleString():'—']
+    (()=>{const v=work.map(r=>+new Date(r.ts||'')).filter(isFinite);return ['last run',v.length?new Date(Math.max(...v)).toLocaleString():'—']})()
   ].filter(Boolean).map(([k,v])=>`<div class="stat"><b>${v}</b><span>${k}</span></div>`).join('');
   document.getElementById('updated').textContent='updated '+new Date().toLocaleTimeString();
   document.getElementById('runs').innerHTML=work.length?work.map(r=>`<div class="run">
