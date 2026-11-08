@@ -364,3 +364,17 @@ First probe in this roll = 274 (post-rollover).
   Ledger row via tools/dash.py append (real-run type). Campaign 1
   is now 61 months. One entry this turn (+probe 298 line above
   covers the cadence slot; this is the experiment entry).
+- 2026-11-08T17:31:45Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening:
+  "fetch-rc=0 origin/main=6eb238a zero-byte=0/61 artifacts=20
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-08
+  time=17:31:45Z"; R-F-2b: no embedded duplicate -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction) e4d7b7f 6eb238a
+  quiet — probe 299. ~61min after probe-297 (measured from
+  16:30:38Z; 16:59Z slot carried probe 298 + NQ-tail experiment
+  entry per data-repair directive). State block: zero-byte=0/61 |
+  raw-data AVAILABLE (61/61, 8.2G post-repair) | gpu ssh CONFIRMED
+  (llama-server 23,812 MiB -> DEFER holds; pre-reg 41b9044 gate
+  monitor). Campaign-1 tail artifacts: 20/20 parquets alive in
+  sandbox (staging path awaits Jeremiah). One entry this turn.
