@@ -154,3 +154,32 @@ First probe in this roll = 301.
   that run's QA. Next wake: build all fronts, re-QA gaps, then
   classical baseline campaign on volume-cross front corpus (sample
   size stated; pilot-grade 19m results superseded).
+- 2026-11-08T22:00:39Z+ (same turn, continuation — evidence chain:
+  probe verbatim "fetch-rc=0 origin/main=9166274 zero-byte=0/61
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-08
+  time=22:00:39Z"; then same-turn front-build "OK=61 FAIL=0
+  start=22:01:06Z end=22:15:30Z", 61 parquets; rollup
+  FRONT_ROLLUP.json months=61 total_bars=351,842 (+13,920 vs
+  single-front 337,922), span 2021-03-10->2026-03-09, 20 roll
+  months (2 fronts) / 41 single-front (quarterly pattern sane);
+  completeness scan first attempt INVALID (bdate_range tz TypeError
+  aborted loop on file 1 — disclosed, fixed same-turn tz-localize
+  naive, re-ran 61/61): suspects = Aug24 last bar 2024-08-27T15:00Z
+  (3bd short of month-end), Jan25 last bar 2025-01-27T18:15Z (4bd
+  short), Mar26 16bd = BY DESIGN (pool ends 2026-03-09). R-F-2b:
+  no duplicate -> no coalesce claim; R-F-4b: clean) EXPERIMENT/QA:
+  FULL-CORPUS volume-cross front-month build (DATA_PIPELINE §3
+  builder, campaign prerequisite per Jeremiah scope-correction).
+  61/61 OK. TWO REAL completeness gaps in 'intact' files: Jan-2025
+  (28th-31st) and Aug-2024 (28th-30th) missing at source — escal-
+  ated to Jeremiah with restore-from-Databento options. dash.py
+  row appended (real run). Probe slot 307 covered by header line
+  below. One entry this turn.
+- 2026-11-08T22:00:39Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM: "origin/main=9166274 zero-byte=0/61
+  gpu=[23812 MiB llama-server] date=2026-11-08 time=22:00:39Z";
+  R-F-4b: no suspicion, no retraction) e4d7b7f 9166274 quiet —
+  probe 307 slot (work entries above). State block: zero-byte=0/61
+  | raw-data AVAILABLE | gpu ssh CONFIRMED (DEFER holds). One
+  entry this turn.
