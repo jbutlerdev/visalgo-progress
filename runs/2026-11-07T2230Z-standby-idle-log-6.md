@@ -294,3 +294,23 @@ First probe in this roll = 274 (post-rollover).
   CA_MISSING, roll #6 282 lines (rollover ~8 wakes out). nix-kit
   push; no re-ping. Pre-reg 41b9044 single-blocked. One entry this
   turn.
+- 2026-11-08T15:38:22Z (R-F-3: cites THIS turn's probe-call output —
+  probe FIRST tool call, verified pre-write, verbatim: "clock=
+  2026-11-08T15:38:22Z git/ssh/ssh-keygen/python3/curl=/usr/bin/*
+  /root/.ssh PRESENT bind=61 files zero-byte=19 CA_OK"; follow-on
+  same-turn: clone HEAD-verifies + gpu query; R-F-2b: no embedded
+  duplicate -> no coalesce claim; R-F-4b: no suspicion, no
+  retraction) RECOVERY-#3 + probe 295 (milestone: full-stack
+  restored, second recycle). STRIP-#2 spanned wakes 2–27 (~27
+  honest-gap rows, x27 stable then recycle). THIS wake: tools on
+  /usr/bin PATH, system CA OK, ~/.ssh present, bind 61/19. GPU:
+  nvidia-smi live -> llama-server 23,812 MiB + venv python 256 MiB
+  -> human session active -> DEFER holds (occupancy = Jeremiah's
+  read). HEAD-verify: ticks-builder=e4d7b7f EXACT; progress drift
+  5a961d9->4069576 TRIAGED BENIGN (2 commits jbutlerdev 06:20-06:22
+  -05:00: dash.py ts-validation + backfill_algos equity charts;
+  fast-forward, no rewrite; tools/dash.py + runs.json are HIS lane).
+  Gap note: last gap-row 09:00:39Z, this wake 15:38Z -> ~6h dormancy
+  (recycle window; wakes in between did not fire/complete — stated
+  as observed, not explained). Token configs scrubbed (grep 0 both).
+  Cadence normal 30-min. One entry this turn.
