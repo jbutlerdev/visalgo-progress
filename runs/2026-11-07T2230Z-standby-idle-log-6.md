@@ -341,3 +341,26 @@ First probe in this roll = 274 (post-rollover).
   gpu ssh CONFIRMED (llama-server 23,812 MiB -> human session ->
   DEFER holds). Pre-reg 41b9044 single-blocked (GPU occupancy). One
   entry this turn.
+- 2026-11-08T16:59:36Z+ (same turn, continuation — evidence chain:
+  probe verbatim "zero-byte=0/61 total-size=8.2G fetch-rc=0
+  origin/main=c04d21b date=2026-11-08 time=16:59:36Z"; then
+  same-turn: mtime listing shows exactly the 19 restored months
+  (202409..202603, all newermt 2026-11-07), restored-month decode
+  OK (NQU4 trades, ts0=2024-09-02T06:00Z Globex-open), canary build
+  manifest + determinism re-run sha256-IDENTICAL (9a14fa6d...),
+  batch OK=19 FAIL=0, rollup bars=101,087, fronts NQU4..NQZ5 sane;
+  R-F-2b: no duplicate -> no coalesce claim; R-F-4b: clean)
+  EXPERIMENT: NQ TAIL EXTENSION Sep24-Mar26 (Jeremiah data-repair
+  directive). zero-byte blocker LIFTED (0/61 verified this wake);
+  'raw data partially corrupt' RETIRED from blocked list. Built all
+  19 restored months via scripts/build_ticks_5m.py (VERBATIM
+  month_bars semantics, constitution #3) + canary determinism PASS
+  (byte-identical re-run); per-month manifests emitted; QA rollup:
+  no <1000-bar month, front-rotation plausible, Mar26 partial-week
+  noted (window ends 2026-03-09 by pool design). Artifacts in sandbox
+  ~/work/nq-tail (20 parquet + 20 manifests) — durable copy path
+  TBD (sandbox non-durable lesson; next wake stages to repo-ignored
+  pool dir or progress repo data branch if Jeremiah says so).
+  Ledger row via tools/dash.py append (real-run type). Campaign 1
+  is now 61 months. One entry this turn (+probe 298 line above
+  covers the cadence slot; this is the experiment entry).
