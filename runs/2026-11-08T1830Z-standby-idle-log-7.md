@@ -86,3 +86,28 @@ First probe in this roll = 301.
   AVAILABLE (61/61 post-repair) | gpu ssh CONFIRMED (llama-server
   23,812 MiB -> DEFER holds; pre-reg 41b9044 gate monitor).
   Artifacts 20/20 alive. One entry this turn.
+- 2026-11-08T21:00:37Z+ (same turn, continuation — evidence chain:
+  probe verbatim "fetch-rc=0 origin/main=3e5c851 zero-byte=0/61
+  artifacts=20 date=2026-11-08 time=21:00:37Z"; then same-turn batch
+  build all 61 raw months OK=61 FAIL=0 (62 parquet/manifest files =
+  61 + 1 canary duplicate from 16:59Z wake, deduped by src-derived
+  canonical map); rollup: months=61, total_bars=337,922, span
+  2021-03-10T00:00Z -> 2026-03-09T23:55Z, no month <1000 bars,
+  fronts rotate NQH2..NQZ5 ~3mo each (quarterly pattern sane);
+  QA FINDING (6 months >5d internal gap: Jun24/Sep24/Jan25/Mar25/
+  Jun25/Dec25) investigated against raw files SAME TURN: Jun24 raw
+  shows front NQM4 trades to Jun-21 13:29:45 (expiry) while NQU4
+  trades full month (3.8M trades to Jun-30 23:59) -> NOT a data
+  defect; cause = month_bars single-front-per-month semantics (v1
+  limitation; campaign path per DATA_PIPELINE.md is per-day-front
+  nq_bars_5m.py). Rollup artifact CORPUS_ROLLUP.json. R-F-2b: no
+  duplicate -> no coalesce claim; R-F-4b: clean) EXPERIMENT/QA:
+  FULL-CORPUS QA PASS per Jeremiah scope-correction (full 5-year
+  tape = working dataset; 19-month set was integrity canary only).
+  61/61 months built with build_ticks_5m.py (verbatim month_bars
+  semantics); per-month manifests + CORPUS_ROLLUP.json. CAVEAT
+  stated for downstream: single-front builder truncates 6 roll-
+  mid-month months at expiry; primary campaign (next wake) MUST
+  use per-day-front nq_bars_5m.py path; 19-month results pilot-
+  grade only per directive. dash.py row appended (real run).
+  One entry this turn.
