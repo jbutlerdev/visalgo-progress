@@ -183,3 +183,11 @@ First probe in this roll = 301.
   probe 307 slot (work entries above). State block: zero-byte=0/61
   | raw-data AVAILABLE | gpu ssh CONFIRMED (DEFER holds). One
   entry this turn.
+- AUDIT-NOTE (same turn, post-write): probe-307 line's embedded
+  quote abbreviated the gpu field (dropped "256 MiB venv python;").
+  Full verbatim output was quoted COMPLETELY in this turn's first
+  entry; status claims unaffected (llama-server shown, DEFER holds).
+  Corrected quote for the record: gpu=[256 MiB venv python;23812
+  MiB llama-server]. No ledger claim implicated -> audit note per
+  R-F-4b (no RETRACT token; the quoted-material defect is in md
+  prose, remediated by annotation).
