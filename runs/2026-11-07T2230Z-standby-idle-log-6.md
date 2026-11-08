@@ -329,3 +329,15 @@ First probe in this roll = 274 (post-rollover).
   CONFIRMED (llama-server 23,812 MiB -> human session -> DEFER
   holds). Roll #6 316 lines (< ~389). Pre-reg 41b9044 single-blocked
   (GPU occupancy). One entry this turn.
+- 2026-11-08T16:30:38Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening:
+  "fetch-rc=0 origin/main=3cf105e zero-byte=19/61 gpu=[256 MiB venv
+  python;23812 MiB llama-server] date=2026-11-08 time=16:30:38Z";
+  R-F-2b: no embedded duplicate -> no coalesce claim; R-F-4b: no
+  suspicion, no retraction) e4d7b7f 3cf105e quiet — probe 297.
+  ~29min after probe-296 (measured from 16:01:40Z) -> fresh slot.
+  State block: zero-byte=19/61 | raw-data AVAILABLE (bind present) |
+  gpu ssh CONFIRMED (llama-server 23,812 MiB -> human session ->
+  DEFER holds). Pre-reg 41b9044 single-blocked (GPU occupancy). One
+  entry this turn.
