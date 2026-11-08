@@ -378,3 +378,17 @@ First probe in this roll = 274 (post-rollover).
   (llama-server 23,812 MiB -> DEFER holds; pre-reg 41b9044 gate
   monitor). Campaign-1 tail artifacts: 20/20 parquets alive in
   sandbox (staging path awaits Jeremiah). One entry this turn.
+- 2026-11-08T18:00:59Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening:
+  "fetch-rc=0 origin/main=82ca4f9 zero-byte=0/61 artifacts=20
+  roll6=380 gpu=[256 MiB venv python;23812 MiB llama-server]
+  date=2026-11-08 time=18:00:59Z"; R-F-2b: no embedded duplicate ->
+  no coalesce claim; R-F-4b: no suspicion, no retraction) e4d7b7f
+  82ca4f9 quiet — probe 300 (milestone: 300 probes since cadence
+  instrument). ~29min after probe-299 (measured from 17:31:45Z) ->
+  fresh slot. State block: zero-byte=0/61 | raw-data AVAILABLE
+  (61/61 post-repair) | gpu ssh CONFIRMED (llama-server 23,812 MiB
+  -> DEFER holds; pre-reg 41b9044 gate monitor). Artifacts 20/20
+  alive. Roll #6 at 380 lines (> ~375 warn) -> ROLLOVER scheduled
+  next wake (maintenance-only, per pattern). One entry this turn.
