@@ -280,3 +280,17 @@ First probe in this roll = 274 (post-rollover).
   single-event). Fields: tools MISSING, gpu-ssh UNPROBEABLE, bind
   61/19 PRESERVED, CA_MISSING. nix-kit push; no re-ping. Pre-reg
   41b9044 single-blocked. One entry this turn.
+- 2026-11-08T09:00:39Z (R-F-3: cites THIS turn's probe-call output —
+  probe FIRST tool call, verified pre-write, verbatim: "clock=
+  2026-11-08T09:00:39Z git/ssh/ssh-keygen/python3/curl=MISSING
+  /root/.ssh=GONE bind=61 files zero-byte=19 CA_MISSING roll6=282";
+  HEAD-verify same-turn pre-write: fetch-rc=0, origin/main=215a695
+  EXACT (STOP-gate clean); R-F-2b: no embedded duplicate -> no
+  coalesce claim; R-F-4b: no suspicion, no retraction) STRIP-#2
+  wake-27 honest gap — gap-numbered probe 294. ~27min after wake-26
+  (measured from 08:33:35Z). Same stripped instance (stable-stripped
+  ×27 since 20:00Z Nov-7, ~13h stable; still single-event). Fields:
+  tools MISSING, gpu-ssh UNPROBEABLE, bind 61/19 PRESERVED,
+  CA_MISSING, roll #6 282 lines (rollover ~8 wakes out). nix-kit
+  push; no re-ping. Pre-reg 41b9044 single-blocked. One entry this
+  turn.
