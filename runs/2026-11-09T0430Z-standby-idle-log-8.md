@@ -373,3 +373,23 @@ First probe in this roll = 320.
   AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB ->
   DEFER holds; pre-reg 41b9044 gate monitor). Roll #8 362 lines ->
   ROLLOVER next wake (maintenance-only). One entry this turn.
+- 2026-11-09T12:01:18Z+ (same turn, continuation — evidence chain:
+  probe output quoted COMPLETE above; then queued full-index
+  corrected-cost XGB re-run (xgb_fixed_fullidx.json) output
+  verbatim: train_5USDside turns 31,154 pf 1.8 (net truncated in
+  tail view = +40,871.2 pts in json), holdout_5USDside net
+  -3,340.5 pts (-66,810 USD @ 20 USD/pt) PF 0.94 turns 16,252;
+  10USDside variants train +30,239.5 PF 1.57 / holdout -7,403.5
+  PF 0.87. Holdout figures IDENTICAL to prior run -> artifact fix
+  cross-validates. INTERPRETATION DISCIPLINE (stated BEFORE the
+  number is usable): train-span result is IN-SAMPLE LOOKAHEAD
+  (fitted trees predict labels they memorized; prob-band on
+  train probs = self-fulfilling) — NOT a performance claim,
+  recorded only as artifact-fix evidence that signal machinery
+  runs on full index; NO dash row built from it. R-F-2b: no
+  duplicate -> no coalesce claim; R-F-4b: clean, no claim made
+  from in-sample numbers) Experiment-completion entry: XGB
+  corrected-cost line CLOSED — honest verdict unchanged (holdout
+  negative, PF 0.94 at 5USDside-equiv); walk-forward re-derivation
+  stands as 41b9044 prerequisite. One entry this turn (probe slot
+  334 above; next wake = maintenance rollover per roll-8 count).
