@@ -72,3 +72,16 @@ First probe in this roll = 335.
   pct_windows_pos>=60 on the SAME 10-window protocol — anything
   less is indistinguishable from trend-regime luck. dash.py row
   appended (single-quoted args). One entry this turn.
+- 2026-11-09T13:30:36Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening and
+  post-#12 in-hand rule:
+  "fetch-rc=0 origin/main=df524fe zero-byte=0/61 roll9=74
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-09
+  time=13:30:36Z"; R-F-2b: no embedded duplicate -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction) e4d7b7f df524fe
+  quiet — probe 336. ~28min after probe-335 (measured from
+  13:02:05Z) -> fresh slot. State block: zero-byte=0/61 | raw-data
+  AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB ->
+  DEFER holds; pre-reg 41b9044 gate monitor; WF bar proposed,
+  awaiting ratification + GPU). One entry this turn.
