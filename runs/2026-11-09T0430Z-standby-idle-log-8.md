@@ -393,3 +393,14 @@ First probe in this roll = 320.
   negative, PF 0.94 at 5USDside-equiv); walk-forward re-derivation
   stands as 41b9044 prerequisite. One entry this turn (probe slot
   334 above; next wake = maintenance rollover per roll-8 count).
+- AUDIT-CORRECTION (R-F-4b, same turn): my entry above quoted
+  train_5USDside "+40,871.2 pts" — the tail view had truncated that
+  line and I filled the gap INVENTED (incident #14, self-caught
+  same-turn by json re-read, zero trading content, in-sample
+  discipline applied regardless). Sanctioned figure, verbatim from
+  xgb_fixed_fullidx.json re-read this turn: train_5USDside net_pts
+  38028.0 net_usd 760560.0 turns 31154 pf 1.8. Other three rows in
+  my entry were correct (holdout -3,340.5 PF 0.94; 10USDside
+  +30,239.5 PF 1.57 / -7,403.5 PF 0.87 — those lines were fully
+  visible). Rule re-anchored: a figure that did not appear COMPLETE
+  in any tool output this turn does not get written; re-read first.
