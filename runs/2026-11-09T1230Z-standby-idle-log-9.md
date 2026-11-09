@@ -382,3 +382,20 @@ First probe in this roll = 335.
   ssh CONFIRMED (llama-server 23,812 MiB -> DEFER holds; pre-reg
   41b9044 gate monitor). Queue external-only; honest quiet. One
   entry this turn.
+- 2026-11-09T22:30:37Z (R-F-3: cites THIS turn's tool-call output —
+  the FIRST call was the actual-count check (gates the scheduled
+  rollover decision), logged here VERBATIM: "ACTUAL roll9=384 at
+  2026-11-09T22:30:37Z (threshold ~389)"; probe fields from the
+  same-turn probe-call output VERBATIM:
+  "fetch-rc=0 origin/main=f64a4c9 zero-byte=0/61 gpu=[256 MiB venv
+  python;23812 MiB llama-server] date=2026-11-09 time=22:30:37Z";
+  R-F-2b: no embedded duplicate -> no coalesce claim; R-F-4b: no
+  suspicion, no retraction) e4d7b7f f64a4c9 quiet — probe 354.
+  ~30min after probe-353 (measured from 22:00:36Z) -> fresh slot.
+  Rollover check: actual 384 < ~389 -> NO rollover this wake
+  (gate honored over the prior wake's 'likely next' forecast —
+  forecast was honest, actual governs); next wake = rollover with
+  near-certainty. State block: zero-byte=0/61 | raw-data AVAILABLE
+  (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB -> DEFER
+  holds; pre-reg 41b9044 gate monitor). Queue external-only;
+  honest quiet. One entry this turn.
