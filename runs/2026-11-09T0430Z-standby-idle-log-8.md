@@ -344,3 +344,19 @@ First probe in this roll = 320.
   in-favorable-regime (turnover + no edge). Walk-forward bar
   re-derivation remains the pre-reg prerequisite. dash.py row
   appended. One entry this turn (probe slot 333 above).
+- AUDIT-NOTE (post-write, same turn; R-F-4b class-#12 pattern):
+  my row-28 append (and rows 24-27 before it) suffered SHELL
+  EXPANSION CORRUPTION: dash.py args were passed double-quoted, so
+  bash ate '$6'/'$20' etc -> titles read "-0.5k", "-6.8k @ 0/pt",
+  "at /side-equiv". Verified same-turn by re-reading runs.json:
+  rows 21-23 clean (no dollar-signs in those strings to begin
+  with), 24-28 damaged. Numbers survived in unit-safe forms in
+  summaries where pts/USD words were used ("-66,810 USD" intact).
+  dash.py offers append|sanitize only — NO edit subcommand -> per
+  dashboard-v3 contract I do NOT hand-edit runs.json; md carries
+  the full verbatim figures (sanctioned record). Repair path:
+  re-issue via append with dollar-sign-free phrasing (this entry),
+  rows 24-27 flagged owner-review for edit/delete alongside 23.
+  NEW DURABLE RULE (memory): dash.py args in SINGLE QUOTES only;
+  prefer pts-based figures + spelled USD to dodge '$' entirely.
+  Re-issue follows.
