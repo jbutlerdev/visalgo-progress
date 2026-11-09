@@ -146,3 +146,23 @@ First probe in this roll = 335.
   AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB ->
   DEFER holds; pre-reg 41b9044 gate monitor; WF bar awaiting
   ratification + GPU). One entry this turn.
+- 2026-11-09T15:30:34Z+ (same turn, continuation — evidence chain:
+  probe output quoted COMPLETE above; then same-turn XGB walk-
+  forward run under the proposed bar protocol (units banner PASS
+  first per #13; all figures below appeared COMPLETE in tool
+  output per #14): net_pts_per_window [-891.2, -880.8, -842.5,
+  -1065.5, -389.8], mean -814.0, median -880.8, pct_windows_pos
+  0.0. PROTOCOL DISCLOSED: expanding-origin (fit on everything
+  strictly before each window), 6mo windows starting 2024-H1
+  (first ~3y corpus consumed as initial train -> only 5 windows),
+  xgb capped 120 trees for the 25-min timebox (disclosed; deeper
+  models are pre-reg territory), single cost 0.25 pts/side, bands
+  .55/.45 next-bar exec. VERDICT: naive XGB FAILS the proposed
+  bar on both tests (mean -814.0 vs required >207.6; 0.0 pct wins
+  vs required >=60) — decisively, not marginally. This is the
+  FIRST test of an ML candidate against a robustness bar rather
+  than a single split; the bar is doing exactly its job. Note:
+  pre-reg 41b9044's spec (3 arms, v2 gate) is the properly-
+  powered version of this test and remains gated on GPU + bar
+  ratification. dash.py row appended (single-quoted). One entry
+  this turn.
