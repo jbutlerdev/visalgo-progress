@@ -91,3 +91,15 @@ First probe in this roll = 320.
   Structural fix adopted: probe line may ONLY be written after the
   probe-call output is in-hand THIS turn (draft-then-run banned);
   interim experiments execute after probe, always. Tally now 12.
+- 2026-11-09T05:30:38Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening AND
+  per post-#12 in-hand rule (line written after output received):
+  "fetch-rc=0 origin/main=4d1dec7 zero-byte=0/61 roll8=93
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-09
+  time=05:30:38Z"; R-F-2b: no embedded duplicate -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction) e4d7b7f 4d1dec7
+  quiet — probe 321. ~29min after probe-320 (measured from
+  05:01:54Z) -> fresh slot. State block: zero-byte=0/61 | raw-data
+  AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB ->
+  DEFER holds; pre-reg 41b9044 gate monitor). One entry this turn.
