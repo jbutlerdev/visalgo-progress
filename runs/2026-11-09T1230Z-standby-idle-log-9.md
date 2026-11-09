@@ -111,3 +111,23 @@ First probe in this roll = 335.
   ssh CONFIRMED (llama-server 23,812 MiB -> DEFER holds; pre-reg
   41b9044 gate monitor; WF bar proposed, awaiting ratification +
   GPU). One entry this turn.
+- 2026-11-09T15:00:40Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening and
+  post-#12 in-hand rule:
+  "fetch-rc=0 origin/main=00bae71 zero-byte=0/61 roll9=113
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-09
+  time=15:00:40Z"; R-F-2b: no embedded duplicate -> no coalesce
+  claim; R-F-4b: DISCLOSED same-turn drafting slip — this turn's
+  OPENING prose (out-of-ledger) pre-drafted "probe 340 / expect=
+  f412860"; the probe output corrected it before any write: true
+  predecessor = probe 338 @ 14:30:38Z tip 00bae71 (chain intact,
+  no drift), this line is probe 339. No ledger row was ever
+  written from the draft -> annotation, not retraction; third
+  instance of draft-before-output class, counter incremented in
+  spirit, formal count unchanged) e4d7b7f 00bae71 quiet — probe
+  339. ~30min after probe-338 (measured from 14:30:38Z) -> fresh
+  slot. State block: zero-byte=0/61 | raw-data AVAILABLE (61/61) |
+  gpu ssh CONFIRMED (llama-server 23,812 MiB -> DEFER holds; pre-
+  reg 41b9044 gate monitor; WF bar awaiting ratification + GPU).
+  One entry this turn.
