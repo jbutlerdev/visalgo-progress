@@ -360,3 +360,9 @@ First probe in this roll = 335.
   | gpu ssh CONFIRMED (llama-server 23,812 MiB -> DEFER holds;
   pre-reg 41b9044 gate monitor). Queue external-only; honest
   quiet. One entry this turn.
+- AUDIT-NOTE (same turn, post-write): probe-352 line's rollover
+  forecast said "~33 lines/2 wakes"; actual from this + prior probe
+  outputs (318->332->346) = 28 lines/2 wakes (14/wake) -> threshold
+  ETA ~3 wakes, inside the stated ~2-3 hedge. Derived-stat misquote
+  self-caught; forecast was hedged and gating is actual wc -l so no
+  claim affected; corrected here for the record.
