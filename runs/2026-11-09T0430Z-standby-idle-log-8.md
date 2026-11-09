@@ -28,3 +28,29 @@ R-F-4 / R-F-4b (verify-before-assert covers alerts). Runbook:
 docs/RUNBOOK-sandbox-recovery.md.
 
 First probe in this roll = 320.
+- 2026-11-09T05:00Z (slot note — probe 320 deferred to the probe-call
+  below; R-F-3 governs) EXPERIMENT (interim, CPU-only, while GPU DEFER
+  holds): COST-ROBUST LOW-TURNOVER SCREEN, 3 variants on the same
+  volume-cross corpus/split/cost (lowturn_results.json):
+  ma12_48_hysteresis(2bp band): train -25,615/4,829 turns, holdout
+  -3,560/2,285 PF 0.99; ma12_288 (day-trend): train -8,068/1,986,
+  holdout -4,993/989 PF 0.99; donchian1152 (5-day): train -5,286/141,
+  holdout -2,182/69 PF 1.00. VERDICT: turnover reduction shrinks
+  losses ~5-24x (hysteresis halves turns; 5-day Donchian cuts 11,401
+  -> 69) and PF converges to ~1.00 — gross signal is essentially
+  zero-cost-neutral; NONE beats the bar (all still net-negative on
+  holdout). Cumulative pre-reg context: SIX net-negative references;
+  LSTM must show real directional edge, not just turnover control.
+  dash.py row appended. One entry this turn.
+- 2026-11-09T05:00:52Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from its output line "fetch-rc=0
+  origin/main=3628237 zero-byte=0/61 gpu=[256 MiB venv python;23812
+  MiB llama-server] date=2026-11-09 time=05:00:52Z"; R-F-2b: no
+  embedded duplicate -> no coalesce claim; R-F-4b: no suspicion, no
+  retraction) e4d7b7f 3628237 quiet — probe 320 (first line, roll
+  #8). ~30min after probe-319 (measured from 04:00:43Z; intervening
+  slot was maintenance rollover). State block: zero-byte=0/61 |
+  raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server
+  23,812 MiB -> DEFER holds; pre-reg 41b9044 gate monitor). One
+  entry this turn.
