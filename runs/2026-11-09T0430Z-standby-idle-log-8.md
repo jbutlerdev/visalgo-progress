@@ -242,3 +242,26 @@ First probe in this roll = 320.
   10:30:36Z) -> fresh slot. State block: zero-byte=0/61 | raw-data
   AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB ->
   DEFER holds; pre-reg 41b9044 gate monitor). One entry this turn.
+- 2026-11-09T11:00:37Z+ (same turn, continuation — evidence chain:
+  probe output quoted COMPLETE above; then same-turn experiment run
+  (2nd tool call, per post-#12 ordering: probe first) output quoted
+  verbatim: conf_long_n=5202 mean_fwd=+0.0244pct, conf_short_n=3117
+  mean_fwd=-0.0027pct (sign-flipped convention: no short edge),
+  train_acc 0.6079 -> holdout_acc 0.5248, p50_long=NaN (NaN from
+  missing fwd at tail — disclosed, immaterial to conclusion),
+  p50_short=-0.0049. xgb_hor30.json saved. R-F-2b: no duplicate ->
+  no coalesce claim; R-F-4b: clean) EXPERIMENT (interim CPU, GPU
+  DEFER holds): XGBOOST LONGER-HORIZON TEST — 30-bar (2.5h) fwd
+  label, confident-only entries (p>0.60/<0.40), same corpus/split.
+  VERDICT: no usable edge: confident-long mean +0.0244% (~$2.40/
+  100pt-scale per trade on ~2.6% annualized vol bars — well under
+  round-trip cost even at horizon, and only 5,202 signals over the
+  holdout anyway); confident-short NEGATIVE edge (wrong-way bias);
+  accuracy gap .608->.525 = regime-overfit again. This completes
+  the pre-registerable negative control set: 7 references across
+  horizons (1-bar and 30-bar) and families (trend/breakout/ML).
+  Conclusion available to Jeremiah for the pre-reg go/no-go: on
+  this corpus at this cost model, the burden on 41b9044 is a real
+  directional edge — turnover control alone demonstrably
+  insufficient at BOTH horizons. dash.py row appended. Probe slot
+  332 covered by line above; this is the experiment entry.
