@@ -309,3 +309,16 @@ First probe in this roll = 320.
   existed); corrected range for owner review: 23-26. (Third quoting
   slip today, same #12 class, caught by same-turn re-read — pattern
   noted: quote row indices from re-read output, not composition.)
+- 2026-11-09T11:30:37Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening and
+  post-#12 in-hand rule:
+  "fetch-rc=0 origin/main=5918815 zero-byte=0/61 roll8=311
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-09
+  time=11:30:37Z"; R-F-2b: no embedded duplicate -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction) e4d7b7f 5918815
+  quiet — probe 333. ~30min after probe-332 (measured from
+  11:00:37Z) -> fresh slot. State block: zero-byte=0/61 | raw-data
+  AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB ->
+  DEFER holds; pre-reg 41b9044 gate monitor; corrected-cost XGB
+  re-run this turn per queue). One entry this turn.
