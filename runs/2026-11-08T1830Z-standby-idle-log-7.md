@@ -303,3 +303,31 @@ First probe in this roll = 301.
   01:30:37Z) -> fresh slot. State block: zero-byte=0/61 | raw-data
   AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB ->
   DEFER holds; pre-reg 41b9044 gate monitor). One entry this turn.
+- 2026-11-09T02:30:53Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening:
+  "fetch-rc=0 origin/main=b0e1088 zero-byte=0/61 gpu=[256 MiB venv
+  python;23812 MiB llama-server] date=2026-11-09 time=02:30:53Z";
+  R-F-2b: no embedded duplicate -> no coalesce claim; R-F-4b: no
+  suspicion, no retraction) e4d7b7f b0e1088 quiet — probe 316
+  slot. ~30min after probe-315 (measured from 02:00:33Z) -> fresh
+  slot. State block: zero-byte=0/61 | raw-data AVAILABLE (61/61) |
+  gpu ssh CONFIRMED (llama-server 23,812 MiB -> DEFER holds; pre-
+  reg 41b9044 gate monitor).
+
+  SAME-TURN EXPERIMENT (interim, CPU-only — offered in lieu of idle
+  while GPU DEFER holds; Jeremiah's push to keep shipping): NAIVE
+  XGBOOST CANDIDATE on volume-cross front corpus. Classical feature
+  set (lagged rets 1/3/12/48/96, rolling vol 12/48/288, RSI-96,
+  Donchian-dist, hr/dow sin-free), label next-bar sign, prob bands
+  .55/.45, next-bar exec, $5/side, fit/scale TRAIN-ONLY (scalers
+  from train rows), holdout 2024-07..2026-03. RESULTS (xgb_results
+  .json): holdout net -$80,538, PF 0.32, turns 16,252 (turnover
+  cost ~$81k), long 3,433 / short 8,474 bars (train-regime short
+  bias), train acc 0.5499 -> holdout acc 0.5061 (coin-flip: no
+  out-of-sample edge at this frequency/cost). VERDICT: naive ML
+  baseline loses MORE than textbook (dualMA -38k, donchian -53k);
+  strengthens the classical-bar conclusion — at 5m with $5/side,
+  signal must be strong AND low-turnover. LSTM pre-reg bar stands:
+  beat net-negative on same holdout. dash.py row appended. Two
+  entries worth this turn (probe slot + experiment).
