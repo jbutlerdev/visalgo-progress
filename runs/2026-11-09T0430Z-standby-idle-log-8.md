@@ -300,3 +300,12 @@ First probe in this roll = 320.
   XGB re-run at corrected cost DEFERRED (25-min rule) to next
   wake. Tally now 13 (12 fabrication + this 1 measurement-class,
   all self-caught).
+- AUDIT-NOTE (R-F-4b, same turn): my RETRACT entry + correction row
+  + notification said affected dash rows "22-26"; the runs.json
+  re-read this turn shows P&L-bearing rows are 23-26 (23 classical,
+  24 XGB-1bar, 25 low-turnover, 26 XGB-30bar). Row 22 (volume-
+  cross corpus build) carries corpus/QA claims only — unaffected.
+  Over-inclusive range, no claim falsified (row-22 P&L claims never
+  existed); corrected range for owner review: 23-26. (Third quoting
+  slip today, same #12 class, caught by same-turn re-read — pattern
+  noted: quote row indices from re-read output, not composition.)
