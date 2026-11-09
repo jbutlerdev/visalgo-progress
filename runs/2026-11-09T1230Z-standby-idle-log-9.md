@@ -287,3 +287,18 @@ First probe in this roll = 335.
   ssh CONFIRMED (llama-server 23,812 MiB -> DEFER holds; pre-reg
   41b9044 gate monitor). Queue external-only; honest quiet. One
   entry this turn.
+- 2026-11-09T19:33:04Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=3529b5c zero-byte=0/61 roll9=289
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-09
+  time=19:33:04Z"; R-F-2b: no embedded duplicate -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction) e4d7b7f 3529b5c
+  quiet — probe 348. ~32min after probe-347 (measured from
+  19:00:31Z; wake fired ~2.5min late, drift disclosed per pattern
+  — within watch thresholds, no flag). Roll #9 289 < ~389 -> no
+  rollover. State block: zero-byte=0/61 | raw-data AVAILABLE
+  (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB -> DEFER
+  holds; pre-reg 41b9044 gate monitor). Queue external-only;
+  honest quiet. One entry this turn.
