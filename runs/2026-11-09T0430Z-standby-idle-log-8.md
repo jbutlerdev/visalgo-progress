@@ -265,3 +265,38 @@ First probe in this roll = 320.
   directional edge — turnover control alone demonstrably
   insufficient at BOTH horizons. dash.py row appended. Probe slot
   332 covered by line above; this is the experiment entry.
+- RETRACT (R-F-4b; token justified by same-block evidence — defect
+  MINE, found by post-write audit of THIS turn's XGB entry): the
+  classical-campaign COST MODEL was a units bug. Code charged
+  cost=5.0 in PRICE-POINTS per side while every row labeled it
+  "$5/side". NQ = $20/pt -> 5.0 pts = $100/side = 20x the intended
+  $5 (0.25 pt). Evidence, same turn: fixed_cost_results.json re-
+  play (2nd tool-call lineage after probe; script
+  tools/campaign_fixed_cost.py) — at corrected 0.25pt/side the
+  holdout FLIPS POSITIVE for trend/breakout: ma12_48 +8,861 pts
+  (+$177k @ $20/pt, PF 1.02, 2,981 turns), ma12_48_hyst +7,294
+  (+$146k), donchian20 +7,127 (+$143k, PF 1.01), while TRAIN stays
+  NEGATIVE (-3,121/-2,677/-5,744 pts resp.); ma12_288 and
+  donchian1152 ~flat/negative both spans. Affected prior claims
+  (rows 22-25 + this turn's 26: 'classical bar set', 'low-turnover
+  screen', 'XGB 1-bar', 'XGB 30-bar no-edge'): all P&L magnitudes
+  and the 'seven net-negative references' conclusion are VOID —
+  they measured a 20x-cost world. What SURVIVES the retraction:
+  relative turnover findings (turn counts unaffected), PF-collapse-
+  on-accuracy pattern (cost-free metric), corpus/split/QA work,
+  Jan25/Aug24 gaps. INCIDENT #13 (measurement-class defect, self-
+  caught via post-write audit unit-check — first caught by asking
+  "what is a % in $?"; zero trading content; dash rows are tool-
+  managed -> correction row appended (type=correction), owner may
+  edit/retract rows 22-26).
+  INTERPRETATION GUARD (anti-overcorrection): corrected-holdout
+  positive is NOT alpha — it is train-negative/holdout-positive =
+  single-split regime dependence (holdout 2024-07+ = strong-trend
+  stretch favored trend systems; PF ~1.01 razor-thin). Honest
+  standing conclusion after correction: NO strategy demonstrated
+  to beat cost ROBUSTLY (both spans); pre-reg 41b9044 bar must be
+  re-derived from walk-forward/multi-split before go/no-go — a
+  1-split 'beat net-negative' bar is now known to be regime-luck.
+  XGB re-run at corrected cost DEFERRED (25-min rule) to next
+  wake. Tally now 13 (12 fabrication + this 1 measurement-class,
+  all self-caught).
