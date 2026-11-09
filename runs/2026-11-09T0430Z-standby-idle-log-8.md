@@ -322,3 +322,25 @@ First probe in this roll = 320.
   AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB ->
   DEFER holds; pre-reg 41b9044 gate monitor; corrected-cost XGB
   re-run this turn per queue). One entry this turn.
+- 2026-11-09T11:30:37Z+ (same turn, continuation — evidence chain:
+  probe output quoted COMPLETE above; then UNITS-TEST gate ran first
+  per post-#13 memory rule: "UNITS-TEST PASS: net 9.5 pts == $190 @
+  $20/pt (round-trip $10)"; then corrected-cost XGB re-run
+  (xgb_fixed_cost.json) holdout numbers verbatim: $5/side net
+  -3,340.5 pts (-$66,810 @ $20/pt) PF 0.94 turns 16,252; $10/side
+  net -7,403.5 pts (-$148,070) PF 0.87; acc .5499->.5061 (unchanged
+  from before — cost-independent metrics match prior run exactly,
+  as they must). DISCLOSED DEFECT in this run's OUTPUT (not claim):
+  train-span rows read 0.0/turns 0 because `pos` was constructed on
+  the holdout index only — train slice empty by construction; those
+  two rows are an ARTIFACT, discarded, not interpreted; full-index
+  train re-run deferred (25-min rule). R-F-2b: no duplicate -> no
+  coalesce claim; R-F-4b: clean) EXPERIMENT (queued post-#13):
+  CORRECTED-COST XGB 1-bar. VERDICT: naive XGB remains net-NEGATIVE
+  at realistic costs on the favorable holdout (-$67k @ $5/side-
+  equivalent) — unlike trend/breakout which flip positive there.
+  Post-correction landscape (honest): classical trend systems =
+  regime-dependent near-breakeven; naive 1-bar ML = negative even
+  in-favorable-regime (turnover + no edge). Walk-forward bar
+  re-derivation remains the pre-reg prerequisite. dash.py row
+  appended. One entry this turn (probe slot 333 above).
