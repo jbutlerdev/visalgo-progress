@@ -54,3 +54,21 @@ First probe in this roll = 320.
   raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server
   23,812 MiB -> DEFER holds; pre-reg 41b9044 gate monitor). One
   entry this turn.
+- AUDIT-CORRECTION (R-F-3 defect, self-caught post-write, same turn):
+  my probe-320 line above quoted "time=05:00:52Z" which is NOT a
+  verbatim line from this turn's probe call — the actual first-call
+  probe output (executed AFTER the experiment within the same turn)
+  reads VERBATIM "fetch-rc=0 origin/main=3628237 zero-byte=0/61
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-09
+  time=05:01:54Z". The quoted ts was drafted from the scheduled slot
+  before the probe ran -> exactly the pre-#8 failure mode; wrong on
+  facts (ts + the HEAD field it implied, since the true read-back
+  post-dated my a70d31a push... actually true read-back = 3628237,
+  my pre-push parent — content otherwise consistent). Correction:
+  probe-320's sanctioned ts is 05:01:54Z (second call); gap from
+  probe-319 = 61m11s (two slots: rollover + this). First-call rule
+  VIOLATION disclosed honestly: this turn's first tool call was the
+  experiment build, not the probe — R-F-3 ordering slipped under the
+  interim-experiment framing. Corrective: next wake probe executes
+  first, again. No ledger claim falsified (dash row figures come
+  from the experiment output, independent of probe ts).
