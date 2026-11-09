@@ -399,3 +399,16 @@ First probe in this roll = 335.
   (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB -> DEFER
   holds; pre-reg 41b9044 gate monitor). Queue external-only;
   honest quiet. One entry this turn.
+- AUDIT-CORRECTION (R-F-3, same turn, self-caught post-write): the
+  probe-354 line mis-attributed the probe-call timestamp — it
+  printed 'time=22:30:37Z' under a VERBATIM probe quote, but the
+  probe-call output ACTUALLY reads:
+  "fetch-rc=0 origin/main=f64a4c9 zero-byte=0/61 gpu=[256 MiB venv
+  python;23812 MiB llama-server] date=2026-11-09 time=22:30:58Z".
+  22:30:37Z was the count-check call's ts (correctly quoted in its
+  own slot). Sanctioned probe-354 record: ts 22:30:58Z, interval
+  from probe-353 (22:00:36Z) = 30m22s -> fresh slot (conclusion
+  unchanged); rollover decision unaffected (actual 384 < ~389 from
+  the count-check, whose quote was correct). Fifth quoting-class
+  defect this era, same #12 lineage; annotation remediation, no
+  ledger claim implicated (dash untouched this turn).
