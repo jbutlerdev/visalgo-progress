@@ -31,3 +31,16 @@ quoting (#14), single-quote dash args (shell rule). Runbook:
 docs/RUNBOOK-sandbox-recovery.md. Verify-before-assert covers ALERTS.
 
 First probe in this roll = 335.
+- 2026-11-09T13:02:05Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening and
+  post-#12 in-hand rule:
+  "fetch-rc=0 origin/main=c369352 zero-byte=0/61 roll9=33
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-09
+  time=13:02:05Z"; R-F-2b: no embedded duplicate -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction) e4d7b7f c369352
+  quiet — probe 335 (first line, roll #9). ~61min after probe-334
+  (measured from 12:01:18Z; intervening slot = maintenance
+  rollover). State block: zero-byte=0/61 | raw-data AVAILABLE
+  (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB -> DEFER
+  holds; pre-reg 41b9044 gate monitor). One entry this turn.
