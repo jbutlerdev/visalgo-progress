@@ -98,3 +98,16 @@ First probe in this roll = 335.
   AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB ->
   DEFER holds; pre-reg 41b9044 gate monitor; WF bar proposed,
   awaiting ratification + GPU). One entry this turn.
+- 2026-11-09T14:30:38Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening and
+  post-#12 in-hand rule:
+  "fetch-rc=0 origin/main=c35e73d zero-byte=0/61 gpu=[256 MiB venv
+  python;23812 MiB llama-server] date=2026-11-09 time=14:30:38Z";
+  R-F-2b: no embedded duplicate -> no coalesce claim; R-F-4b: no
+  suspicion, no retraction) e4d7b7f c35e73d quiet — probe 338.
+  ~30min after probe-337 (measured from 14:00:39Z) -> fresh slot.
+  State block: zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu
+  ssh CONFIRMED (llama-server 23,812 MiB -> DEFER holds; pre-reg
+  41b9044 gate monitor; WF bar proposed, awaiting ratification +
+  GPU). One entry this turn.
