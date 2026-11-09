@@ -360,3 +360,16 @@ First probe in this roll = 320.
   NEW DURABLE RULE (memory): dash.py args in SINGLE QUOTES only;
   prefer pts-based figures + spelled USD to dodge '$' entirely.
   Re-issue follows.
+- 2026-11-09T12:01:18Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening and
+  post-#12 in-hand rule:
+  "fetch-rc=0 origin/main=c070762 zero-byte=0/61 roll8=362
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-09
+  time=12:01:18Z"; R-F-2b: no embedded duplicate -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction) e4d7b7f c070762
+  quiet — probe 334. ~31min after probe-333 (measured from
+  11:30:37Z) -> fresh slot. State block: zero-byte=0/61 | raw-data
+  AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB ->
+  DEFER holds; pre-reg 41b9044 gate monitor). Roll #8 362 lines ->
+  ROLLOVER next wake (maintenance-only). One entry this turn.
