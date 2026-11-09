@@ -44,3 +44,31 @@ First probe in this roll = 335.
   rollover). State block: zero-byte=0/61 | raw-data AVAILABLE
   (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB -> DEFER
   holds; pre-reg 41b9044 gate monitor). One entry this turn.
+- 2026-11-09T13:02:05Z+ (same turn, continuation — evidence chain:
+  probe output quoted COMPLETE above; then wf_classical.py run
+  (units banner + worked example PASS first per #13 rule; one
+  pandas kwarg crash fixed same-turn, disclosed) then FULL-JSON
+  re-read before writing any figure (#14 rule) — sanctioned values
+  verbatim: ma12_48 c025 mean 207.6 pts median 279.6 pct_pos 60.0;
+  ma12_48 c050 mean -16.6 median 45.7 pct_pos 50.0;
+  ma12_48_hyst c025 mean -16.4 median 857.8 pct_pos 60.0;
+  ma12_48_hyst c050 mean -188.1 median 676.4 pct_pos 60.0;
+  donchian20 c025 mean -87.7 median -578.6 pct_pos 40.0;
+  donchian20 c050 mean -362.8 median -817.4 pct_pos 20.0;
+  donchian1152 c025 mean -218.6 median -222.5 pct_pos 40.0;
+  donchian1152 c050 mean -223.6 median -227.5 pct_pos 40.0.
+  (c025 = 0.25 pts/side = 5 USD-side-equiv; c050 = double; USD =
+  pts*20; windows = 10 six-month rolling-origin blocks, parameter-
+  free families so every window is pure OOS. R-F-2b: no duplicate
+  -> no coalesce claim; R-F-4b: clean) EXPERIMENT (queued prereq
+  build, timeboxed): WALK-FORWARD BAR RE-DERIVATION, classical
+  family. FINDING: the single-split flip-positive was regime-luck,
+  confirmed — best cell ma12_48@c025 wins only 60 pct of windows
+  (mean +207.6 pts = ~4.1k USD per 6mo window at 5USD-side-equiv,
+  ~1 contract) and MEAN GOES NEGATIVE at 2x cost; donchian20
+  collapses to 20 pct windows-pos at c050; 5-day donchian flat-
+  negative both. ROBUST CLASSICAL BAR for 41b9044 go/no-go
+  (proposed to Jeremiah): beat ma12_48@c025 on mean-window net AND
+  pct_windows_pos>=60 on the SAME 10-window protocol — anything
+  less is indistinguishable from trend-regime luck. dash.py row
+  appended (single-quoted args). One entry this turn.
