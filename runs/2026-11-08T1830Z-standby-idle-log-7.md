@@ -356,3 +356,15 @@ First probe in this roll = 301.
   DEFER holds; pre-reg 41b9044 gate monitor). Roll #7 345 lines
   (> ~375 warn) -> ROLLOVER scheduled within 1-2 wakes. One entry
   this turn.
+- 2026-11-09T04:00:43Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening:
+  "fetch-rc=0 origin/main=5169374 zero-byte=0/61 roll7=358
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-09
+  time=04:00:43Z"; R-F-2b: no embedded duplicate -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction) e4d7b7f 5169374
+  quiet — probe 319. ~30min after probe-318 (measured from
+  03:30:33Z) -> fresh slot. State block: zero-byte=0/61 | raw-data
+  AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB ->
+  DEFER holds; pre-reg 41b9044 gate monitor). Roll #7 ~371 after
+  this line -> rollover next wake. One entry this turn.
