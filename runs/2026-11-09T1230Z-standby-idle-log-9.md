@@ -179,3 +179,39 @@ First probe in this roll = 335.
   AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB ->
   DEFER holds; pre-reg 41b9044 gate monitor; XGB-WF dry-run failed
   bar, awaiting Jeremiah ratification + GPU). One entry this turn.
+- 2026-11-09T16:00:37Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=af76e4f zero-byte=0/61 roll9=168
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-09
+  time=16:00:37Z"; R-F-2b: no embedded duplicate -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction) e4d7b7f af76e4f
+  quiet — probe 341. ~30min after probe-340 (measured from
+  15:30:34Z) -> fresh slot. State block: zero-byte=0/61 | raw-data
+  AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB ->
+  DEFER holds; pre-reg 41b9044 gate monitor). One entry this turn.
+
+- 2026-11-09T16:00:37Z+ (same turn, continuation — evidence chain:
+  probe output quoted COMPLETE above; then loose-variant trend
+  screen under WF protocol (units banner PASS per #13; run tail
+  TRUNCATED two blocks -> NOTHING written until full json re-read
+  per #14; sanctioned figures verbatim from that re-read):
+  ma12_48_holdmin48 mean 522.7 median 387.2 pct_pos 63.6 turns
+  9,247 nets [686.8 -986.0 -2102.0 -2429.0 1134.5 171.8 387.2
+  3097.8 3170.0 -1057.0 3675.5]; vwap48_288_hyst1 mean 175.1
+  median 196.5 pct_pos 63.6 turns 1,810; vwap288_1152_hyst2 mean
+  36.4 median -308.0 pct_pos 36.4 turns 358. FINDING:
+  ma12_48_holdmin48 MEANS BEATING the proposed bar cell (522.7 vs
+  207.6) at same window-win rate (63.6 pct) — hold-minimum filter
+  cuts whipsaw losses in the weak windows. CAVEATS BEFORE ANY
+  CLAIM: (a) post-hoc variant family — screen is exploration,
+  NOT confirmation; bar cell itself is parameter-free textbook,
+  this one has a tuned knob (48); (b) bar ratification pending —
+  if Jeremiah ratifies 'beat ma12_48@c025', honest follow-up =
+  confirm holdmin on the PRE-REG spec's protocol not this one;
+  (c) PF-equivalent not re-derived here. NO dash row for
+  exploration-tier result (schema: rows are for runs with stated
+  verdicts; this is a screen feeding the pre-reg decision, md-
+  only is the honest tier). One entry this turn (probe slot 341
+  above).
