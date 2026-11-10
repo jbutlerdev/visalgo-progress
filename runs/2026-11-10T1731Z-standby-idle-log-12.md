@@ -38,3 +38,10 @@ Roll #11 frozen same turn (see FINAL STATE banner in runs/2026-11-10T0734Z-stand
   (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB -> DEFER
   holds; pre-reg 41b9044 gate monitor). Queue external-only; honest
   quiet. One entry this turn.
+- AUDIT-NOTE (same turn, post-write): probe-391 line's pin pair
+  printed "e4d7b7f 78d268d" — progress tip correct (78d268d, from
+  this turn's probe output VERBATIM); visalgo pin e4d7b7f is the
+  same-session clone state (NOT re-fetched this turn; probe call
+  doesn't touch the v repo). No claim built on the visalgo side
+  this turn (no visalgo-side activity) -> line stands as probe
+  record, annotation only.
