@@ -116,3 +116,19 @@ Roll #10 frozen same turn (see FINAL STATE banner in runs/2026-11-09T2300Z-stand
   tip=dc18b32 (374's own push, chain intact), zero-byte=0/61, gpu
   unchanged (llama-server 23,812 MiB -> DEFER holds). One entry
   this turn.
+- 2026-11-10T09:31:29Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=a452995 zero-byte=0/61 roll11=118
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-10
+  time=09:31:29Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction) e4d7b7f a452995
+  quiet — probe 375. ~30min after the 09:01:45Z recheck (measured;
+  re-fire count holds at 4, condition already reported at n=3) ->
+  fresh slot. roll11=118 = stat-consistent (99 + recheck-4's +19).
+  118 < ~380 -> no rollover (single checkpoint timer ~10:31Z).
+  State block: zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu
+  ssh CONFIRMED (llama-server 23,812 MiB -> DEFER holds; pre-reg
+  41b9044 gate monitor). Queue external-only; honest quiet. One
+  entry this turn.
