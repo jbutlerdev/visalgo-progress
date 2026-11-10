@@ -97,3 +97,22 @@ Roll #10 frozen same turn (see FINAL STATE banner in runs/2026-11-09T2300Z-stand
   (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB -> DEFER
   holds; pre-reg 41b9044 gate monitor). Queue external-only;
   honest quiet. One entry this turn.
+- 2026-11-10T09:01:45Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=dc18b32 zero-byte=0/61 roll11=99
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-10
+  time=09:01:45Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction) dc18b32
+  RAPID RE-FIRE #4 (SAME-DAY; count from 3 -> 4) — wake fired 38s
+  after probe-374 (this probe's own fetch precedes the write; the
+  09:01:07Z header is probe-374's sanctioned record, file-anchored
+  this turn via grep below). Same slot, NOT fresh. Probe number
+  unchanged (374 remains this slot's probe; next fresh slot = 375).
+  Escalation already discharged at n=3 (08:01:51Z flag,
+  output-cited) -> count-increment only, NO re-notification
+  (condition already reported; per-condition ping policy). Fields:
+  tip=dc18b32 (374's own push, chain intact), zero-byte=0/61, gpu
+  unchanged (llama-server 23,812 MiB -> DEFER holds). One entry
+  this turn.
