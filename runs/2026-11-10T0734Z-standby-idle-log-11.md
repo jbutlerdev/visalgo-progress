@@ -172,7 +172,7 @@ Roll #10 frozen same turn (see FINAL STATE banner in runs/2026-11-09T2300Z-stand
   time=11:00:33Z"; R-F-2b: single prompt instance -> no coalesce
   claim; R-F-4b: no suspicion, no retraction) e4d7b7f f88417d
   quiet — probe 378. ~27min after probe-377 (measured from
-  10:33:56Z; intervening ~10:5xZ timer wake took no-op early-fire
+  10:33:56Z; intervening timer wake (fired between probe-377 and this wake; turn exists in conversation record; no absolute ts emitted by that wake) took no-op early-fire
   path, no probe consumed) -> fresh slot. roll11=165 = unchanged
   (timer wake wrote nothing, per early-fire design). 165 < ~380 ->
   no rollover (re-arm single timer at ~360 per one-timer rule).
