@@ -182,3 +182,18 @@ First probe in this roll = 355.
   alert must name the tool output containing it BEFORE sending.
   Tally: FIFTEEN incidents (14 fabrication-class + 1 measurement-
   class #13), all self-caught, zero trading content.
+- 2026-11-10T02:30:40Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=490441e zero-byte=0/61 roll10=184
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-10
+  time=02:30:40Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction) e4d7b7f 490441e
+  quiet — probe 361. ~30min after probe-360 (measured from
+  02:00:37Z) -> FRESH slot (rapid-refire count holds at 2; the
+  02:32Z 'third refire' remains incident-#15 fabricated, not
+  re-counted). Roll #10 184 < ~389 -> no rollover. State block:
+  zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED
+  (llama-server 23,812 MiB -> DEFER holds; pre-reg 41b9044 gate
+  monitor). Queue external-only; honest quiet. One entry this turn.
