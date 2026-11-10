@@ -155,3 +155,10 @@ First probe in this roll = 355.
   | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server
   23,812 MiB -> DEFER holds; pre-reg 41b9044 gate monitor). Queue
   external-only; honest quiet. One entry this turn.
+- AUDIT-NOTE (same turn, post-write): probe-360 line's pin pair
+  printed "73ce9ab 73ce9ab" (duplication); intended and correct
+  pair: visalgo=e4d7b7f (same-session verified clone state — NOT
+  re-fetched this turn; probe call doesn't touch the v repo) +
+  progress=73ce9ab (from this turn's probe output VERBATIM). No
+  claim built on the visalgo field this turn (no visalgo-side
+  activity); annotation remediation, line stands as probe record.
