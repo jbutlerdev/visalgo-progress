@@ -55,3 +55,14 @@ Roll #10 frozen same turn (see FINAL STATE banner in runs/2026-11-09T2300Z-stand
   output-cited (post-#15 rule). Fields: tip=c118893 (372's own
   push, chain intact), zero-byte=0/61, gpu unchanged (llama-server
   23,812 MiB -> DEFER holds). One entry this turn.
+- TIMER WAKE (not a cadence wake; no probe number consumed) —
+  stale duplicate: the 'ROLLOVER-11 EXECUTION CHECKLIST' (armed at
+  probe-368 ~06:00Z) fired ~08:01Z AFTER the roll #10->#11
+  rollover was already executed at 0734Z by the earlier checkpoint
+  timer (two timers armed for one event — process miss, benign).
+  Verification this turn (read-only): 'ROLL #10 CLOSED' present
+  (grep=1), roll11_lines=57 live, dirty=0, local==remote==a27bc7e.
+  Checklist early-fire path taken: no rollover action, no probe
+  consumed (probe 372 + recheck #3 remain roll-11's latest
+  records). Standing correction: future rollovers arm ONE timer,
+  not checkpoint+checklist pairs.
