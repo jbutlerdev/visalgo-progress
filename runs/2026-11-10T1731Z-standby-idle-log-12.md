@@ -22,3 +22,19 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   only; honest quiet. One entry this turn.
 
 Roll #11 frozen same turn (see FINAL STATE banner in runs/2026-11-10T0734Z-standby-idle-log-11.md).
+- 2026-11-10T18:00:59Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=78d268d zero-byte=0/61 roll12=24
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-10
+  time=18:00:59Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction) e4d7b7f 78d268d
+  quiet — probe 391 (first probe line, roll #12). ~60min after
+  probe-390 (measured from sanctioned 17:00:39Z; intervening wakes:
+  maintenance-only rollover 1731Z + no-op timer stand-down, neither
+  consumed a probe) -> fresh slot. roll12=24 = stat-consistent with
+  open commit. State block: zero-byte=0/61 | raw-data AVAILABLE
+  (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB -> DEFER
+  holds; pre-reg 41b9044 gate monitor). Queue external-only; honest
+  quiet. One entry this turn.
