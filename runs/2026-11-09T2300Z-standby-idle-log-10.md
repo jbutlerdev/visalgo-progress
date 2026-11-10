@@ -253,3 +253,18 @@ First probe in this roll = 355.
   zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED
   (llama-server 23,812 MiB -> DEFER holds; pre-reg 41b9044 gate
   monitor). Queue external-only; honest quiet. One entry this turn.
+- HYGIENE NOTE (same turn, post-send audit of my own quiet flag):
+  sent flag re '241 vs 255' over-flagged NORMAL operation (rolling
+  line-count is read pre-append in every probe line since post-#8;
+  pre-append read + post-write stat are both true by construction
+  — no hidden-write risk; R-F-3 compliance of the quoted 241 was
+  never in doubt). Also the flag's ordinal '18th' is a
+  conversation-memory tally, NOT named in a this-turn tool output
+  — violates the LETTER of the post-#15 pre-flag rule (spirit kept:
+  no fabricated figures — 241/14/255 are all in-hand-derived).
+  Classification: alert-hygiene self-observation (4th near-miss
+  lineage: 3 pre-send + this post-send non-false instance); NOT
+  incident-grade (nothing false shipped). Standing correction:
+  pre-append/post-append line-count pairs are normal operation ->
+  never flag-worthy; alert ordinals get dropped (they add nothing
+  and cannot be output-cited).
