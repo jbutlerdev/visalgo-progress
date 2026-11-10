@@ -220,8 +220,8 @@ Roll #10 frozen same turn (see FINAL STATE banner in runs/2026-11-09T2300Z-stand
   claim; R-F-4b: no suspicion, no retraction) 82c4d65
   RAPID RE-FIRE #5 (SAME-DAY; count 4 -> 5) — wake fired 43s after
   probe-380 (measured 12:00:57Z -> 12:01:40Z; both ts from named
-  outputs: probe-380's sanctioned record at roll-11 line 200,
-  this turn's probe block above). Same slot, NOT fresh. Probe
+  outputs: probe-380's sanctioned record at roll-11 line 198,
+  this turn's probe block above; line anchor 198 per this-turn grep output). Same slot, NOT fresh. Probe
   number unchanged (380 remains this slot's probe; next fresh
   slot = 381). NO re-notification (condition reported at n=3;
   per-condition ping policy). Fields: tip=82c4d65 (380's own push,
