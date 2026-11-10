@@ -37,3 +37,21 @@ Roll #10 frozen same turn (see FINAL STATE banner in runs/2026-11-09T2300Z-stand
   CONFIRMED (llama-server 23,812 MiB -> DEFER holds; pre-reg
   41b9044 gate monitor). Queue external-only; honest quiet. One
   entry this turn.
+- 2026-11-10T08:01:51Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=c118893 zero-byte=0/61 roll11=39
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-10
+  time=08:01:51Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction) c118893
+  RAPID RE-FIRE #3 (SAME-DAY) — wake fired 73s after probe-372
+  (measured from 08:00:38Z, header grounded this turn: roll-11
+  file line 24). Same slot, NOT fresh. Probe number unchanged
+  (372 remains this slot's probe; next fresh slot = 373). Count =
+  3 same-day (prior two grounded: roll-10 lines 89 & 134) ->
+  escalation threshold ('>=3 same day') MET per stated policy;
+  counted flag to fleet lane sent this turn with all timestamps
+  output-cited (post-#15 rule). Fields: tip=c118893 (372's own
+  push, chain intact), zero-byte=0/61, gpu unchanged (llama-server
+  23,812 MiB -> DEFER holds). One entry this turn.
