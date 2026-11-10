@@ -45,3 +45,19 @@ Roll #11 frozen same turn (see FINAL STATE banner in runs/2026-11-10T0734Z-stand
   doesn't touch the v repo). No claim built on the visalgo side
   this turn (no visalgo-side activity) -> line stands as probe
   record, annotation only.
+- 2026-11-10T18:32:53Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=d2f6c4d zero-byte=0/61 roll12=47
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-10
+  time=18:32:53Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction) e4d7b7f d2f6c4d
+  quiet — probe 392. ~32min after probe-391 (measured from
+  18:00:59Z; wake fired ~2.5min late, within watch thresholds,
+  disclosed per drift pattern) -> fresh slot. roll12=47 = stat-
+  consistent (24 open + 16 probe-391 + 7 audit-note). 47 < ~360
+  (timer-re-arm mark) -> no rollover prep. State block:
+  zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED
+  (llama-server 23,812 MiB -> DEFER holds; pre-reg 41b9044 gate
+  monitor). Queue external-only; honest quiet. One entry this turn.
