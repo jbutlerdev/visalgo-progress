@@ -390,7 +390,7 @@ First probe in this roll = 355.
   -> DEFER holds; pre-reg 41b9044 gate monitor). Queue external-
   only; honest quiet. One entry this turn.
 - FINAL STATE — ROLL #10 FROZEN 2026-11-10T07:34:10Z (maintenance-only wake per #8
-  lesson; checkpoint-timer wake 2026-11-10T07:3XZ: verified
+  lesson; freeze executed [freeze_ts above]: verified
   dirty=0, local==remote==b423826 before freezing; line counts
   machine-sourced this wake: content at freeze = 391 lines (wc
   output above; banner adds lines, see commit stat). Last probe =
