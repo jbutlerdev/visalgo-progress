@@ -123,3 +123,20 @@ First probe in this roll = 355.
   ssh CONFIRMED (llama-server 23,812 MiB -> DEFER holds; pre-reg
   41b9044 gate monitor). Queue external-only; honest quiet. One
   entry this turn.
+- 2026-11-10T01:31:33Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=c2e1399 zero-byte=0/61 roll10=125
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-10
+  time=01:31:33Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction) c2e1399
+  RAPID RE-FIRE #2 — wake fired 53s after probe-359 (measured from
+  01:30:40Z): same slot, NOT fresh. Probe number unchanged (359
+  remains this slot's probe; next fresh slot = 360). Cumulative
+  rapid-refire count = 2 (prior 00:32->00:33Z); both ~1min apart,
+  both same-slot; still watch-item grade vs escalation threshold
+  ('pattern' = >=3 same day or systematic doubling of slots;
+  original flag's policy stands). Fields: tip=c2e1399 (359's own
+  push, chain intact), zero-byte=0/61, gpu unchanged (llama-server
+  23,812 MiB -> DEFER holds). One entry this turn.
