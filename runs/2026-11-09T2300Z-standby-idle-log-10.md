@@ -355,3 +355,20 @@ First probe in this roll = 355.
   ledger/dash NEVER touched by #15/#16 defects (both notification-
   only). Probe-369 line stands as this wake's record; no probe
   re-issue needed (its figures were always true).
+- 2026-11-10T07:00:57Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=bff70bc zero-byte=0/61 roll10=357
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-10
+  time=07:00:57Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction) e4d7b7f bff70bc
+  quiet — probe 370. ~28min after probe-369 (measured from
+  06:32:47Z) -> fresh slot. roll10=357 = predicted ~357 (333 +
+  incident-entry stat +24; arithmetic-consistent, standing
+  corrections). 357 < ~380 -> no rollover this wake; expected
+  crossing in ~2 wakes -> rollover wake then maintenance-only
+  (#8 lesson; checklist armed). State block: zero-byte=0/61 |
+  raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server
+  23,812 MiB -> DEFER holds; pre-reg 41b9044 gate monitor). Queue
+  external-only; honest quiet. One entry this turn.
