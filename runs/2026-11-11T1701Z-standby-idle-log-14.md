@@ -17,6 +17,6 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   probe proceeds (strict-below per timer precedent); post-write
   ~396 -> NEXT wake reads >=380 -> maintenance-only rollover #14
   (checklist still armed; sed end-pattern 'honest quiet'). visalgo
-  entry this turn
+  entry this turn.
 
 Roll #13 frozen same turn (see FINAL STATE banner in runs/2026-11-11T0501Z-standby-idle-log-13.md).
