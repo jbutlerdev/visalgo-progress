@@ -396,3 +396,17 @@ OPEN-DEFECT NOTE (same turn, post-write audit): initial open used sed end-patter
   raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server
   23,812 MiB -> DEFER holds; pre-reg 41b9044 gate monitor). Queue
   external-only; honest quiet. One entry this turn.
+- FINAL STATE — ROLL #13 FROZEN 2026-11-11T17:01:21Z (maintenance-only wake per #8
+  lesson; pre-freeze completeness verified THIS wake: dirty=0,
+  local==remote==edb5c37; content at freeze = 398 lines (wc output,
+  this wake); banner adds lines per commit stat. Last probe = 434
+  (sanctioned record copied VERBATIM into roll #14 standing-state
+  header via sed; sed end-pattern single-line 'honest quiet' per
+  roll-13 open-defect lesson). Data/trading state at freeze:
+  zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED
+  (llama-server 23,812 MiB -> DEFER holds; pre-reg 41b9044 gate
+  monitor). Ledger rows=31 (dash tool-only; untouched #15/#16).
+  Incidents at freeze: 16 (15 fabrication + 1 measurement #13),
+  all self-caught, zero trading content. Rapid-refire count = 5
+  (condition reported n=3). Pages deploy verified healthy 2x. No
+  probe consumed by freeze/open.) ROLL #13 CLOSED.
