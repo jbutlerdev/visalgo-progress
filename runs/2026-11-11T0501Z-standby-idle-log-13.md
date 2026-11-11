@@ -20,7 +20,7 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   State block: zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu
   ssh CONFIRMED (llama-server 23,812 MiB -> DEFER holds; pre-reg
   41b9044 gate monitor). Queue external-only; honest quiet. One
-  entry this turn.)
+  entry this turn.
 
 Roll #12 frozen same turn (see FINAL STATE banner in runs/2026-11-10T1731Z-standby-idle-log-12.md).
 OPEN-DEFECT NOTE (same turn, post-write audit): initial open used sed end-pattern 'One entry this turn' which had wrapped across lines in the source -> range ran to EOF, duplicating the freeze banner. Corrected same wake with end-pattern 'honest quiet' (single-line phrase). Lineage: same near-miss family (range/placeholder correctness).
