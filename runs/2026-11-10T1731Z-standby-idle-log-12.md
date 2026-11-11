@@ -214,3 +214,18 @@ Roll #11 frozen same turn (see FINAL STATE banner in runs/2026-11-10T0734Z-stand
   gpu ssh CONFIRMED (llama-server 23,812 MiB -> DEFER holds;
   pre-reg 41b9044 gate monitor). Queue external-only; honest
   quiet. One entry this turn.
+- USER-FLAGGED INVESTIGATION (this wake; replaces the probe entry
+  for this slot — probe 403 stands as next-slot record): "pages
+  deploy appears to be failing" -> verified HEALTHY against API +
+  live URLs (all figures from this wake's outputs): latest build
+  status=built err=None @ commit 01c8ca1 (= tip, probe-402 push);
+  last 20 builds = 19 built + 1 errored (18:01:25Z, transient,
+  between probe-391's two pushes, superseded); live: index 200,
+  data/runs.json 200 parses rows=31 (last ts 2026-11-09T15:32:37Z),
+  data/candidates.json 200 parses OK; fetch paths relative ->
+  resolve 200. Site config: legacy, main//docs, https enforced.
+  Sandbox NOTE: fresh sandbox this wake (p clone was missing) ->
+  re-cloned from GitHub; working state restored. No fix applied
+  (nothing broken found; fabricated-fix prohibition). If user
+  still sees failure: need symptom (URL + what renders) — likely
+  browser cache / stale tab during a 30-min build cadence.
