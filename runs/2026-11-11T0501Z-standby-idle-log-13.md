@@ -116,3 +116,20 @@ OPEN-DEFECT NOTE (same turn, post-write audit): initial open used sed end-patter
   zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED
   (llama-server 23,812 MiB -> DEFER holds; pre-reg 41b9044 gate
   monitor). Queue external-only; honest quiet. One entry this turn.
+- 2026-11-11T08:34:07Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=301563a zero-byte=0/61 roll13=118
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-11
+  time=08:34:07Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction) e4d7b7f 301563a
+  quiet — probe 418. ~33min after probe-417 (measured from
+  08:00:41Z; wake fired ~4min late, within watch thresholds,
+  disclosed per drift pattern) -> fresh slot. roll13=118 = stat-
+  consistent (103 + probe-417's +15). 118 << ~360 (timer-re-arm
+  mark) -> no rollover prep. visalgo sync current: master ed065c9.
+  State block: zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu
+  ssh CONFIRMED (llama-server 23,812 MiB -> DEFER holds; pre-reg
+  41b9044 gate monitor). Queue external-only; honest quiet. One
+  entry this turn.
