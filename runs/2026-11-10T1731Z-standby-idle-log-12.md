@@ -367,7 +367,7 @@ Roll #11 frozen same turn (see FINAL STATE banner in runs/2026-11-10T0734Z-stand
   quiet — probe 410. ~30min after probe-409 (measured from
   03:30:40Z) -> fresh slot. roll12=358 = stat-consistent (341 +
   probe-409's +17). 358 < ~380 -> probe proceeds; post-write ~374;
-  crossing next wake (or timer 05:01Z, whichever lands first;
+  crossing likely 2 wakes out (post-write 375 < ~380; timer 05:01Z would take note-only path at 375;
   single rollover-13 timer armed). visalgo sync current: master
   ed065c9. State block: zero-byte=0/61 | raw-data AVAILABLE
   (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB -> DEFER
