@@ -165,3 +165,8 @@ OPEN-DEFECT NOTE (same turn, post-write audit): initial open used sed end-patter
   ssh CONFIRMED (llama-server 23,812 MiB -> DEFER holds; pre-reg
   41b9044 gate monitor). Queue external-only; honest quiet. One
   entry this turn.
+- NOTE (same turn, post-write): probe-420 line opens 'quiet —
+  probe 420' (template); era-milestone labeling deliberately
+  dropped post-#16 (labels must name their counting artifact;
+  probe-number semantics = lines-in-logs, no single countable
+  ledger). Number itself is from the sanctioned sequence.
