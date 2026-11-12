@@ -334,3 +334,22 @@ Roll #14 frozen same turn (see FINAL STATE banner in runs/2026-11-11T1701Z-stand
   (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB -> DEFER
   holds; pre-reg 41b9044 gate monitor). Queue external-only;
   honest quiet. One entry this turn.
+- 2026-11-12T15:01:10Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=b480deb zero-byte=0/61 roll15=336
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-12
+  time=15:01:10Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  heredoc one cycle then close) e4d7b7f b480deb quiet — probe 477.
+  ~30min after probe-476 (measured from 14:30:44Z) -> fresh slot.
+  roll15=336 = stat-consistent (318 + probe-476's +18) = post-
+  write value predicted last turn. 336 < ~380 -> probe proceeds;
+  armed timer (16:03Z) expected note-only (roll-13/14/15
+  precedent); exec likely probe-478/479 wake. visalgo sync
+  current: master ed065c9. State block: zero-byte=0/61 | raw-data
+  AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB
+  -> DEFER holds; pre-reg 41b9044 gate monitor). Queue
+  external-only; honest quiet. One entry this turn.
