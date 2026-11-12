@@ -394,3 +394,17 @@ Roll #14 frozen same turn (see FINAL STATE banner in runs/2026-11-11T1701Z-stand
   (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB -> DEFER
   holds; pre-reg 41b9044 gate monitor). Queue external-only;
   honest quiet. One entry this turn.
+- FINAL STATE — ROLL #15 FROZEN 2026-11-12T16:04:39Z (maintenance-only wake per #8
+  lesson; pre-freeze completeness verified THIS wake: dirty=0,
+  local==remote==160a692; content at freeze = 396 lines (wc output,
+  this wake); banner adds lines per commit stat. Last probe = 479
+  (sanctioned record copied VERBATIM into roll #16 standing-state
+  header via sed; full-phrase end-anchor per roll-15 open hazard).
+  Data/trading state at freeze: zero-byte=0/61 | raw-data
+  AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB
+  -> DEFER holds; pre-reg 41b9044 gate monitor). Ledger rows=31
+  (dash tool-only; untouched #15/#16). Incidents at freeze: 17
+  (16 fabrication + 1 measurement #13), all self-caught, zero
+  trading content. Rapid-refire count = 5 (condition reported
+  n=3). Pages deploy verified healthy 2x. No probe consumed by
+  freeze/open.) ROLL #15 CLOSED.
