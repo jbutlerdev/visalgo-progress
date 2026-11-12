@@ -40,3 +40,21 @@ Roll #14 frozen same turn (see FINAL STATE banner in runs/2026-11-11T1701Z-stand
   AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB
   -> DEFER holds; pre-reg 41b9044 gate monitor). Queue
   external-only; honest quiet. One entry this turn.
+- 2026-11-12T06:33:46Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "zero-byte=0/61 roll15=42 gpu=[256 MiB venv python;23812 MiB
+  llama-server] date=2026-11-12 time=06:33:46Z"; fetch initially
+  FAILED "HTTP2 framing layer" (fetch-rc=128), retry HTTP/1.1
+  "Empty reply" (rc=128), retry3 plain OK rc=0 origin/main=ef5bd7e
+  — transient network blip, self-healed, api-http=200 +
+  github-root=200 disambiguate; R-F-2b: single prompt instance ->
+  no coalesce claim; R-F-4b: no suspicion, no retraction) e4d7b7f
+  ef5bd7e quiet — probe 460. ~32min after probe-459 (measured from
+  06:01:21Z) -> fresh slot. roll15=42 = stat-consistent (25 +
+  probe-459's +17). visalgo sync current: master ed065c9 (retry2
+  rc=0). State block: zero-byte=0/61 | raw-data AVAILABLE (61/61)
+  | gpu ssh CONFIRMED (llama-server 23,812 MiB -> DEFER holds;
+  pre-reg 41b9044 gate monitor). Queue external-only; honest
+  quiet. One entry this turn.
