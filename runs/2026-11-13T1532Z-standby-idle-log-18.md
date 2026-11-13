@@ -218,3 +218,8 @@ Roll #17 frozen same turn (see FINAL STATE banner in runs/2026-11-13T0331Z-stand
   PERMANENT herd infra — GPU-bound DEFER only; pre-reg 41b9044
   gate monitor). Queue external-only; honest quiet. One entry
   this turn.
+- CORRECTION (measurement class, self-caught post-write pre-close,
+  this wake): probe-525 line states "n ~310k decisions" — sum of
+  the eight cited n's is 293,033 (~293k). Correct statement:
+  ~293k decisions. All cited per-cell values themselves genuine
+  (this turn's output); defect = summary-count mislabel only.
