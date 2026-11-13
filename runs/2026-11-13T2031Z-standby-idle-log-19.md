@@ -145,3 +145,35 @@ Roll #18 frozen same turn (see FINAL STATE banner in runs/2026-11-13T1532Z-stand
   (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound DEFER
   only; pre-reg 41b9044 gate monitor). Queue external-only;
   honest quiet. One entry this turn.
+- 2026-11-13T22:30:41Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=398b6bf zero-byte=0/61 roll19=147
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-13
+  time=22:30:41Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  roll-log heredoc one cycle then close) e4d7b7f 398b6bf — probe
+  533 + REAL INCREMENT. ~27min after probe-532 (measured from
+  22:03:50Z; recomputed) -> fresh slot. roll19=147 = stat-
+  consistent (117 + probe-532's +30). INCREMENT (execute the
+  pre-reg under v1 spec, queued probe-532): PREREG_utc18_fade v1
+  RUN + RESULTS appended as new section 7 (sections 1-6 immutable
+  per deviation protocol), commit ec10d49. VERDICT: **FAIL** —
+  mean_net_pts +1.347, day-block boot CI95 [-1.882, +4.424]
+  INCLUDES ZERO (PASS rule CI-lb>0). n_trades=6,510; n_days=1,141
+  (days WITH >=1 trade — clarification: not total corpus days).
+  Descriptive: half1 +2.27/half2 +0.445 (no sign flip, decay);
+  by-year 2021 +4.1 -> 2025 -1.6 -> stale-edge reading; 2026
+  partial +15.5 flagged as small-n artifact-suspect (Mar-only
+  month, few trades, wide variance) but descriptive-only anyway.
+  HOUR-OF-DAY FAMILY CLOSED, budget spent, NO v2 per section 5.
+  This is the pre-reg discipline working as designed: boundary
+  survivor -> one-shot test -> clean negative -> family closed
+  with the record complete. CPU-bound (0.3s). visalgo sync
+  current: master ed065c9. State block: zero-byte=0/61 | raw-data
+  AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB
+  PERMANENT herd infra — GPU-bound DEFER only; pre-reg 41b9044
+  gate monitor). Queue external-only; honest quiet. One entry
+  this turn.
