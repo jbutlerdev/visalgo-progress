@@ -1,0 +1,47 @@
+{
+ "built_utc": "2026-11-13T18:02:44Z",
+ "study": "first-touch baseline VARIANT: RTH-only (13:30-20:00Z coarse) + last-288-bars-of-file trim (roll-transition buffer); compare baseline_first_touch",
+ "caveats": "same as baseline: raw pts no costs, overlap autocorr uncorrected; RTH band coarse vs DST",
+ "overall": {
+  "h12|after_dn": {
+   "n": 37917,
+   "mean_pts": 0.913,
+   "mean_abs_pts": 58.18
+  },
+  "h12|after_up": {
+   "n": 39818,
+   "mean_pts": 0.776,
+   "mean_abs_pts": 54.8
+  },
+  "h1|after_dn": {
+   "n": 38230,
+   "mean_pts": 0.272,
+   "mean_abs_pts": 14.72
+  },
+  "h1|after_up": {
+   "n": 40159,
+   "mean_pts": -0.122,
+   "mean_abs_pts": 13.94
+  },
+  "h288|after_dn": {
+   "n": 29939,
+   "mean_pts": 24.762,
+   "mean_abs_pts": 323.3
+  },
+  "h288|after_up": {
+   "n": 31380,
+   "mean_pts": 21.887,
+   "mean_abs_pts": 319.47
+  },
+  "h48|after_dn": {
+   "n": 36853,
+   "mean_pts": 4.762,
+   "mean_abs_pts": 125.69
+  },
+  "h48|after_up": {
+   "n": 38737,
+   "mean_pts": 4.457,
+   "mean_abs_pts": 121.67
+  }
+ }
+}

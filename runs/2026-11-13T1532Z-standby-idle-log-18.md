@@ -185,3 +185,36 @@ Roll #17 frozen same turn (see FINAL STATE banner in runs/2026-11-13T0331Z-stand
   PERMANENT herd infra — GPU-bound DEFER only; pre-reg 41b9044
   gate monitor). Queue external-only; honest quiet. One entry
   this turn.
+- 2026-11-13T18:01:49Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=dc73189 zero-byte=0/61 roll18=187
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-13
+  time=18:01:49Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  heredoc one cycle then close) e4d7b7f dc73189 — probe 525 +
+  REAL INCREMENT. ~28min after probe-524 (measured from 17:33:56Z)
+  -> fresh slot. roll18=187 = stat-consistent (147 + probe-524's
+  +40). INCREMENT (baseline refinement, queued probe-524):
+  first-touch re-run RTH-ONLY (13:30-20:00Z coarse band) with
+  last-288-bars-of-file trim (roll/liquidity-transition buffer).
+  n ~310k decisions. OVERALL mean fwd pts (dn/up): h1 +0.272/
+  -0.122; h12 +0.913/+0.776; h48 +4.762/+4.457; h288 +24.762/
+  +21.887. vs full-sample baseline: levels roughly double (RTH
+  is the volatile session, as expected), but the REVERSION
+  ASYMMETRY (dn-minus-up gap) strengthens at h1: +0.394 RTH vs
+  +0.191 full-sample — i.e. the 5m reversion tilt is
+  disproportionately an RTH-hours phenomenon, consistent with
+  session-hour fade/re-entry behavior in our hypothesis family.
+  h288 upward drift also dominates RTH (post-2021 NQ long bias).
+  Same caveats: raw pts no costs, overlap autocorr uncorrected,
+  RTH band coarse vs DST, trim = heuristic 288-bar buffer.
+  Artifact: runs/data/corpus-2021-2026/
+  baseline_first_touch_rth_trim.json. CPU-bound. visalgo sync
+  current: master ed065c9. State block: zero-byte=0/61 | raw-data
+  AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB
+  PERMANENT herd infra — GPU-bound DEFER only; pre-reg 41b9044
+  gate monitor). Queue external-only; honest quiet. One entry
+  this turn.
