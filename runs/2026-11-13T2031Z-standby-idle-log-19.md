@@ -79,3 +79,39 @@ Roll #18 frozen same turn (see FINAL STATE banner in runs/2026-11-13T1532Z-stand
   recomputing. Correct statement: ~60min (two slots) after
   probe-529, consistent with a no-probe wake between. All other
   cited values genuine (this turn's output); findings unaffected.
+- 2026-11-13T21:30:44Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=941b1eb zero-byte=0/61 roll19=81
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-13
+  time=21:30:44Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  heredoc one cycle then close) e4d7b7f 941b1eb — probe 531 +
+  REAL INCREMENT. ~30min after probe-530 (measured from 21:00:43Z;
+  gap RECOMPUTED this wake, post-530 lesson) -> fresh slot.
+  roll19=81 = stat-consistent (72 + probe-530's correction +9).
+  INCREMENT (roll-exclusion pass, queued probe-530): re-run of
+  probe-530's day-block bootstrap WITH quarter-start roll buffer
+  (first 288 RTH bars dropped from Mar/Jun/Sep/Dec files; 21
+  months trimmed, days 1,249->1,180, same seed/B). RESULT:
+  UTC15 +0.556 CI [-0.093, 1.25] -> **FALLS OUT** (CI now
+  includes zero; probe-530 survival was partly roll-
+  contaminated); UTC18 +0.577 CI [0.016, 1.159] -> survives but
+  ONLY barely (lower bound 0.016). Honest characterization —
+  with 8 hours tested and one boundary-survivor, this is
+  consistent with CHANCE at the 5% band; MULTIPLE-COMPARISON
+  caveat now applies. VERDICT (supersedes probe-530): hour-of-day
+  reversion structure NOT robustly established by this baseline
+  family; UTC18 (1pm ET) is the sole candidate, needs its own
+  pre-registered test (honest: do NOT soft-mine further hours).
+  Next honest step is the pre-reg 41b9044 gate pattern applied to
+  UTC18-as-fade-window hypothesis OR move on. Open-hour momentum
+  stays noise-indistinguishable (-0.647 CI incl zero). Artifact:
+  runs/data/corpus-2021-2026/baseline_h1_boot_noroll.json.
+  CPU-bound (1.3s). visalgo sync current: master ed065c9. State
+  block: zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh
+  CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
+  GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
+  external-only; honest quiet. One entry this turn.

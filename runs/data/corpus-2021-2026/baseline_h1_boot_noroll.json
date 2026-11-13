@@ -1,0 +1,98 @@
+{
+ "built_utc": "2026-11-13T21:31:30Z",
+ "study": "day-block bootstrap (B=500, seed 20261113) h1 gap by hour, RTH band, WITH roll-exclusion (first 288 RTH bars dropped from Mar/Jun/Sep/Dec files)",
+ "caveats": "quarter-start heuristic (real rolls cluster there but not exact); block=trading day; no costs; compare baseline_h1_boot",
+ "n_days": 1180,
+ "excluded_months": [
+  "2021-03:976kept/1264",
+  "2021-06:1396kept/1684",
+  "2021-09:1382kept/1670",
+  "2021-12:1446kept/1734",
+  "2022-03:1517kept/1805",
+  "2022-06:1408kept/1696",
+  "2022-09:1402kept/1690",
+  "2022-12:1365kept/1653",
+  "2023-03:1524kept/1812",
+  "2023-06:1413kept/1701",
+  "2023-09:1330kept/1618",
+  "2023-12:1288kept/1576",
+  "2024-03:1286kept/1574",
+  "2024-06:781kept/1069",
+  "2024-09:781kept/1069",
+  "2024-12:1330kept/1618",
+  "2025-03:818kept/1106",
+  "2025-06:781kept/1069",
+  "2025-09:1384kept/1672",
+  "2025-12:830kept/1118",
+  "2026-03:186kept/474"
+ ],
+ "by_hour": {
+  "13": {
+   "point_gap": -0.647,
+   "ci95": [
+    -1.677,
+    0.442
+   ],
+   "ci_excl_zero": false
+  },
+  "14": {
+   "point_gap": -0.264,
+   "ci95": [
+    -1.034,
+    0.514
+   ],
+   "ci_excl_zero": false
+  },
+  "15": {
+   "point_gap": 0.556,
+   "ci95": [
+    -0.093,
+    1.25
+   ],
+   "ci_excl_zero": false
+  },
+  "16": {
+   "point_gap": 0.423,
+   "ci95": [
+    -0.126,
+    1.008
+   ],
+   "ci_excl_zero": false
+  },
+  "17": {
+   "point_gap": -0.179,
+   "ci95": [
+    -0.831,
+    0.407
+   ],
+   "ci_excl_zero": false
+  },
+  "18": {
+   "point_gap": 0.577,
+   "ci95": [
+    0.016,
+    1.159
+   ],
+   "ci_excl_zero": true
+  },
+  "19": {
+   "point_gap": 0.313,
+   "ci95": [
+    -0.295,
+    0.944
+   ],
+   "ci_excl_zero": false
+  },
+  "20": {
+   "point_gap": 3.083,
+   "ci95": [
+    -13.473,
+    18.77
+   ],
+   "ci_excl_zero": false
+  }
+ },
+ "sig_hours": [
+  18
+ ]
+}
