@@ -145,3 +145,43 @@ Roll #17 frozen same turn (see FINAL STATE banner in runs/2026-11-13T0331Z-stand
   PERMANENT herd infra — GPU-bound DEFER only; pre-reg 41b9044
   gate monitor). Queue external-only; honest quiet. One entry
   this turn.
+- 2026-11-13T17:33:56Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=9d8a268 zero-byte=0/61 roll18=147
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-13
+  time=17:33:56Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  heredoc one cycle then close) e4d7b7f 9d8a268 — probe 524 +
+  REAL INCREMENT (Jeremiah standing directive; new lane opened on
+  signed-off corpus per last wake's plan). ~33min after probe-523
+  (measured from 17:00:37Z; wake ~3min late, within watch band) ->
+  fresh slot. roll18=147 = stat-consistent (114 + probe-523's
+  +33). INCREMENT: FIRST-TOUCH 5-MIN BASELINE on signed-off
+  corpus — signal sign(last-5m-bar log-return), outcome fwd
+  close-to-close index points at h={1,12,48,288} bars (5m/1h/4h/
+  1d), after_up vs after_dn, n ~1.6M decisions total. OVERALL
+  (mean fwd pts): h1: after_dn +0.124 / after_up -0.067 (tick-
+  scale mean-reversion tilt, ~|8| pts noise); h12: +0.37/+0.24;
+  h48: +1.40/+0.97; h288: +8.10/+6.56 (long-horizon upward drift
+  dominates, as expected unlevered NQ 2021-26). Reading: at
+  5-min scale the edge is REVERSION-flavored (down-bars recover,
+  up-bars give back) — consistent direction with our reversion-
+  family hypotheses; magnitudes far below spread+slippage at h1
+  (|mean| 0.12 vs ~0.5+ pt half-spread NQ) so raw signal needs
+  the usual conditioning, NOT tradeable standalone. CAVEATS (in
+  artifact): raw pts no costs; overlapping fwd returns auto-
+  correlated (no correction yet); front-month splices unadjusted
+  at rolls (roll-boundary fwd pts contaminated — flagged for
+  roll-exclusion pass). First script defect self-caught pre-push:
+  pandas Series.sign -> np.sign wrap (AttributeError); cosmetic
+  'hh' double-prefix in overall keys after fix, values verified
+  correct. Artifact: runs/data/corpus-2021-2026/
+  baseline_first_touch.json. CPU-bound. visalgo sync current:
+  master ed065c9. State block: zero-byte=0/61 | raw-data
+  AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB
+  PERMANENT herd infra — GPU-bound DEFER only; pre-reg 41b9044
+  gate monitor). Queue external-only; honest quiet. One entry
+  this turn.
