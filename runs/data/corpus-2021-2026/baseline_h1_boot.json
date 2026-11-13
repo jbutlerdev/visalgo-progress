@@ -1,0 +1,84 @@
+{
+ "built_utc": "2026-11-13T21:03:16Z",
+ "study": "day-block bootstrap (B=500, seed 20261113) of h1 dn-up gap by UTC hour, RTH band \u2014 autocorr-robust re-test of probe-526/527 regime shape",
+ "caveats": "block = trading day (captures within-day autocorr; cross-day gaps not blocked); no costs; same samples as probe-526",
+ "n_days": 1249,
+ "by_hour": {
+  "13": {
+   "point_gap": -0.623,
+   "boot_mean": -0.635,
+   "ci95": [
+    -1.809,
+    0.522
+   ],
+   "ci_excl_zero": false
+  },
+  "14": {
+   "point_gap": -0.187,
+   "boot_mean": -0.201,
+   "ci95": [
+    -0.942,
+    0.538
+   ],
+   "ci_excl_zero": false
+  },
+  "15": {
+   "point_gap": 0.694,
+   "boot_mean": 0.7,
+   "ci95": [
+    0.092,
+    1.369
+   ],
+   "ci_excl_zero": true
+  },
+  "16": {
+   "point_gap": 0.369,
+   "boot_mean": 0.36,
+   "ci95": [
+    -0.23,
+    0.906
+   ],
+   "ci_excl_zero": false
+  },
+  "17": {
+   "point_gap": -0.199,
+   "boot_mean": -0.203,
+   "ci95": [
+    -0.81,
+    0.388
+   ],
+   "ci_excl_zero": false
+  },
+  "18": {
+   "point_gap": 0.659,
+   "boot_mean": 0.66,
+   "ci95": [
+    0.144,
+    1.201
+   ],
+   "ci_excl_zero": true
+  },
+  "19": {
+   "point_gap": 0.391,
+   "boot_mean": 0.375,
+   "ci95": [
+    -0.163,
+    1.03
+   ],
+   "ci_excl_zero": false
+  },
+  "20": {
+   "point_gap": 2.972,
+   "boot_mean": 3.166,
+   "ci95": [
+    -11.898,
+    18.839
+   ],
+   "ci_excl_zero": false
+  }
+ },
+ "sig_hours": [
+  15,
+  18
+ ]
+}
