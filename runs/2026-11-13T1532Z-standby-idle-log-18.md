@@ -260,3 +260,12 @@ Roll #17 frozen same turn (see FINAL STATE banner in runs/2026-11-13T0331Z-stand
   (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound DEFER
   only; pre-reg 41b9044 gate monitor). Queue external-only;
   honest quiet. One entry this turn.
+- CORRECTION (measurement class, self-caught post-write pre-close,
+  this wake): probe-526 line contains two label defects — (1) "n
+  ~65k decisions": sum of the sixteen cited per-hour n's = 95,994
+  (~96k); correct statement ~96k. (2) "UTC-15 gap 0.694 ~ 4.3 se"
+  used single-cell se (~0.167); the dn-minus-UP gap se combines
+  two cells -> sqrt(2)x0.167 ~ 0.236, so 0.694/0.236 ~ 2.9 se —
+  nominally significant but weaker than first stated. All cited
+  per-cell values genuine (this turn's output); defects = derived
+  label math, corrected here; autocorr caveat unchanged.
