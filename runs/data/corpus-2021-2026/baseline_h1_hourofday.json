@@ -1,0 +1,102 @@
+{
+ "built_utc": "2026-11-13T18:32:07Z",
+ "study": "h1 reversion asymmetry by UTC hour bucket, RTH band (13:30-20:00Z); dn-up gap = mean(fwd|dn)-mean(fwd|up); localize the 5m reversion window",
+ "caveats": "raw pts no costs; overlap autocorr uncorrected; t-stats not computed",
+ "by_hour": {
+  "13": {
+   "dn": {
+    "n": 3584,
+    "mean": -0.044
+   },
+   "up": {
+    "n": 3801,
+    "mean": 0.579
+   }
+  },
+  "14": {
+   "dn": {
+    "n": 7391,
+    "mean": -0.418
+   },
+   "up": {
+    "n": 7445,
+    "mean": -0.23
+   }
+  },
+  "15": {
+   "dn": {
+    "n": 7163,
+    "mean": 0.393
+   },
+   "up": {
+    "n": 7648,
+    "mean": -0.301
+   }
+  },
+  "16": {
+   "dn": {
+    "n": 7114,
+    "mean": 0.259
+   },
+   "up": {
+    "n": 7633,
+    "mean": -0.111
+   }
+  },
+  "17": {
+   "dn": {
+    "n": 7036,
+    "mean": -0.073
+   },
+   "up": {
+    "n": 7485,
+    "mean": 0.126
+   }
+  },
+  "18": {
+   "dn": {
+    "n": 6871,
+    "mean": 0.584
+   },
+   "up": {
+    "n": 7395,
+    "mean": -0.075
+   }
+  },
+  "19": {
+   "dn": {
+    "n": 7137,
+    "mean": 0.247
+   },
+   "up": {
+    "n": 7152,
+    "mean": -0.145
+   }
+  },
+  "20": {
+   "dn": {
+    "n": 570,
+    "mean": 4.736
+   },
+   "up": {
+    "n": 569,
+    "mean": 1.764
+   }
+  }
+ },
+ "dn_up_gap_by_hour": {
+  "13": -0.623,
+  "14": -0.188,
+  "15": 0.694,
+  "16": 0.37,
+  "17": -0.199,
+  "18": 0.659,
+  "19": 0.392,
+  "20": 2.972
+ },
+ "strongest_gap_hours": [
+  "20",
+  "15",
+  "18"
+ ]
+}

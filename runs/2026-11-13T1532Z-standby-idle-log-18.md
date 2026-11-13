@@ -223,3 +223,40 @@ Roll #17 frozen same turn (see FINAL STATE banner in runs/2026-11-13T0331Z-stand
   the eight cited n's is 293,033 (~293k). Correct statement:
   ~293k decisions. All cited per-cell values themselves genuine
   (this turn's output); defect = summary-count mislabel only.
+- 2026-11-13T18:30:39Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=d8f3ecf zero-byte=0/61 roll18=225
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-13
+  time=18:30:39Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  heredoc one cycle then close) e4d7b7f d8f3ecf — probe 526 +
+  REAL INCREMENT. ~29min after probe-525 (measured from 18:01:49Z)
+  -> fresh slot. roll18=225 = stat-consistent (220 + probe-525's
+  correction +5; wc 225 verified last wake). INCREMENT (hour-of-
+  day localization of the h1 reversion asymmetry, queued
+  probe-525): RTH-band h1 dn-up gap by UTC hour bucket, n ~65k
+  decisions. PROFILE (gap = mean fwd|dn - mean fwd|up, pts): UTC
+  13 (open): -0.623 -> MOMENTUM-flavored at the open (up-bars
+  follow through, dn-bars keep sliding); UTC 14: -0.188 (open
+  regime decaying); UTC 15 (10:00 ET): +0.694 STRONGEST full-hour
+  REVERSION; UTC 16: +0.370; UTC 17: -0.199 (midday lull, weak
+  momentum); UTC 18 (13:00 ET): +0.659 reversion; UTC 19: +0.392;
+  UTC 20 bucket: +2.972 BUT n=570/569 (band edge only 20:00-05
+  bars, boundary artifact — flagged, not actionable). READING:
+  two-regime day — open hour momentum, mid-morning+afternoon
+  reversion, matching our fade/re-entry family's premise (fade
+  window ~UTC 15-19 minus the 17 lull). CAVEATS: raw pts no
+  costs, autocorr uncorrected, t-stats pending (per-hour n ~7k
+  with mean_abs ~14 pts -> se ~0.16, so UTC-15 gap 0.694 ~ 4.3
+  se — nominally significant, autocorr caveat stands). Two
+  script defects self-caught pre-push (float-on-Series;
+  dict-minus-dict), third run produced clean output. Artifact:
+  runs/data/corpus-2021-2026/baseline_h1_hourofday.json.
+  CPU-bound. visalgo sync current: master ed065c9. State block:
+  zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED
+  (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound DEFER
+  only; pre-reg 41b9044 gate monitor). Queue external-only;
+  honest quiet. One entry this turn.
