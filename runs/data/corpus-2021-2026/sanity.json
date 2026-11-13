@@ -1,0 +1,11 @@
+{
+ "months": 61,
+ "global_px_range": [
+  10484.75,
+  26399.0
+ ],
+ "bad_px": "none",
+ "bad_vol": "none",
+ "bad_ohlc": "none",
+ "verdict": "SANITY_OK"
+}
