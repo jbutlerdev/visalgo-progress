@@ -1,0 +1,16 @@
+{
+ "built_utc": "2026-11-13T16:34:45Z",
+ "note": "trades/day = front-month trade count / distinct UTC trading days (23h Globex day; partial first/last months included in range)",
+ "months": 61,
+ "median_trades_per_day": 281949,
+ "range_trades_per_day": [
+  137334,
+  458017
+ ],
+ "range_raw_bytes_per_trade": [
+  16.343,
+  32.928
+ ],
+ "outlier_months_vs_median4x": "none",
+ "verdict": "THROUGHPUT_OK"
+}

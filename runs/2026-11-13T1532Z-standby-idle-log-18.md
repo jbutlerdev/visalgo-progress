@@ -82,3 +82,33 @@ Roll #17 frozen same turn (see FINAL STATE banner in runs/2026-11-13T0331Z-stand
   rollover wake between them. Numbering unaffected (521 stands;
   probe-heredoc 1 <= probe-call 1). No fabrication: ts values and
   all quoted outputs genuine; defect = gap mislabel.
+- 2026-11-13T16:33:42Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=6e37317 zero-byte=0/61 roll18=84
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-13
+  time=16:33:42Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  heredoc one cycle then close) e4d7b7f 6e37317 — probe 522 +
+  REAL INCREMENT (Jeremiah standing directive). ~33min after
+  probe-521 (measured from 16:00:39Z; wake fired ~3min late,
+  within watch thresholds, disclosed per drift pattern) -> fresh
+  slot. roll18=84 = stat-consistent (74 + probe-521's +10
+  correction; wc 84 verified last wake). INCREMENT (corpus
+  throughput audit #3, queued probe-521): per-month front-month
+  trade-count vs distinct UTC trading days AND raw compressed
+  bytes-per-trade (decoder throughput sanity). RESULTS: median
+  281,949 trades/day, range 137,334 (early 2021) -> 458,017
+  (2025-26) — monotone-ish growth, no month < 1/4x or > 4x
+  median (outliers: none); raw bytes/trade 16.34 -> 32.93 across
+  all 61 (tight for zstd stream variance; no month implausibly
+  sparse -> no silent truncation signature). Verdict
+  THROUGHPUT_OK. Artifact: runs/data/corpus-2021-2026/
+  throughput.json. CPU-bound, no GPU dependency. visalgo sync
+  current: master ed065c9. State block: zero-byte=0/61 | raw-data
+  AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB
+  PERMANENT herd infra — GPU-bound DEFER only; pre-reg 41b9044
+  gate monitor). Queue external-only; honest quiet. One entry
+  this turn.
