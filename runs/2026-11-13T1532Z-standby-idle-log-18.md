@@ -269,3 +269,41 @@ Roll #17 frozen same turn (see FINAL STATE banner in runs/2026-11-13T0331Z-stand
   nominally significant but weaker than first stated. All cited
   per-cell values genuine (this turn's output); defects = derived
   label math, corrected here; autocorr caveat unchanged.
+- 2026-11-13T19:00:40Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=8d55622 zero-byte=0/61 roll18=271
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-13
+  time=19:00:40Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  heredoc one cycle then close) e4d7b7f 8d55622 — probe 527 +
+  REAL INCREMENT. ~30min after probe-526 (measured from 18:30:39Z)
+  -> fresh slot. roll18=271 = stat-consistent (262 + probe-526's
+  correction +9; wc 271 verified last wake). INCREMENT (proper
+  per-cell se + gap t-stats for the hour-of-day profile, queued
+  probe-526): pooled fwd-h1 moments per (hour,dir) cell, gap se =
+  sqrt(se_dn^2+se_up^2). RESULT (gap, t): UTC13 -0.623 t=-1.1;
+  UTC14 -0.188 t=-0.5; UTC15 +0.694 t=2.0; UTC16 +0.37 t=1.3;
+  UTC17 -0.199 t=-0.7; UTC18 +0.659 t=2.3; UTC19 +0.392 t=1.3;
+  UTC20 +2.972 t=0.4 (edge bucket, large se — confirms
+  artifact-suspicion). SUPERSEDES probe-526 correction's "~2.9
+  se" estimate for UTC-15 (that used mean_abs proxy se; this
+  pooled-variance computation gives t=2.0) — and both remain
+  OPTIMISTIC: i.i.d. se ignores overlap autocorr (h1 fwd overlaps
+  between adjacent bars), so true t lower. HONEST CHARACTER-
+  ATION: hour-of-day asymmetries are WEAK-TO-BORDERLINE (max t
+  ~2.0-2.3, pre-autocorr-correction); direction-consistent
+  (dn-up gap positive UTC15-19, negative UTC13-14) gives more
+  confidence than any single cell; NO hour clears a defensible
+  significance bar standalone. This tempers probe-526's reading:
+  regime-shape is suggestive, magnitudes sub-cost anyway. One
+  script defect self-caught pre-push (int/str hour-key mismatch
+  KeyError). Artifact: runs/data/corpus-2021-2026/
+  baseline_h1_hourofday_tstats.json. CPU-bound. visalgo sync
+  current: master ed065c9. State block: zero-byte=0/61 |
+  raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server
+  23,812 MiB PERMANENT herd infra — GPU-bound DEFER only; pre-reg
+  41b9044 gate monitor). Queue external-only; honest quiet. One
+  entry this turn.
