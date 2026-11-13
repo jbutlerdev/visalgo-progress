@@ -210,3 +210,30 @@ Roll #18 frozen same turn (see FINAL STATE banner in runs/2026-11-13T1532Z-stand
   (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound DEFER
   only; pre-reg 41b9044 gate monitor). Queue external-only;
   honest quiet. One entry this turn.
+- 2026-11-13T23:34:19Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=63f2ab6 zero-byte=0/61 roll19=212
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-13
+  time=23:34:19Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  roll-log heredoc one cycle then close) e4d7b7f 63f2ab6 — probe
+  535 + REAL INCREMENT. ~34min after probe-534 (measured from
+  23:00:36Z; wake ~3.5min late, within watch band) -> fresh slot.
+  roll19=212 = stat-consistent (179 + probe-534's +33).
+  INCREMENT (artifact-staging gap from probe-534's verification:
+  values existed only in the roll-log line — now published as
+  machine artifact): runs/data/corpus-2021-2026/
+  raw_window_check_jan25_aug24.json — both windows' file/bytes/
+  trades/span/bars/bars_span/calendar-note transcribed from
+  probe-534's full-parse output (all values re-checked against
+  that sanctioned record pre-commit; verdict NO RE-PULL carried).
+  Pattern: verification claims now always ship machine-readable
+  evidence alongside the log line. CPU-bound. visalgo sync
+  current: master ed065c9. State block: zero-byte=0/61 |
+  raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server
+  23,812 MiB PERMANENT herd infra — GPU-bound DEFER only;
+  pre-reg 41b9044 gate monitor). Queue external-only; honest
+  quiet. One entry this turn.

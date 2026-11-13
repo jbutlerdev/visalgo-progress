@@ -1,0 +1,37 @@
+{
+ "verified_utc": "2026-11-13T23:34:19Z",
+ "purpose": "machine artifact for probe-534 Jan25/Aug24 raw-window verification (values from that wake's full-parse output)",
+ "windows": {
+  "2025-01": {
+   "file": "glbx-mdp3-20250101-20250131.trades.dbn.zst",
+   "bytes": 110465024,
+   "trades": 6731587,
+   "span": [
+    "2025-01-01T23:00:00Z",
+    "2025-01-27T18:15:55.380655879Z"
+   ],
+   "bars": 4786,
+   "bars_span": [
+    "2025-01-01T23:00:00Z",
+    "2025-01-27T18:15:00Z"
+   ],
+   "calendar_note": "Jan-27 = pre-MLK last session"
+  },
+  "2024-08": {
+   "file": "glbx-mdp3-20240801-20240831.trades.dbn.zst",
+   "bytes": 124510208,
+   "trades": 7543993,
+   "span": [
+    "2024-08-01T00:00:00.044289159Z",
+    "2024-08-27T15:00:06.689590501Z"
+   ],
+   "bars": 5149,
+   "bars_span": [
+    "2024-08-01T00:00:00Z",
+    "2024-08-27T15:00:00Z"
+   ],
+   "calendar_note": "Aug-27 = month-end Tuesday"
+  }
+ },
+ "verdict": "NO RE-PULL NEEDED \u2014 both windows complete, spans match bars"
+}
