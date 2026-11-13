@@ -307,3 +307,34 @@ Roll #17 frozen same turn (see FINAL STATE banner in runs/2026-11-13T0331Z-stand
   23,812 MiB PERMANENT herd infra — GPU-bound DEFER only; pre-reg
   41b9044 gate monitor). Queue external-only; honest quiet. One
   entry this turn.
+- 2026-11-13T19:33:36Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=0146900 zero-byte=0/61 roll18=309
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-13
+  time=19:33:36Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  heredoc one cycle then close) e4d7b7f 0146900 — probe 528 +
+  REAL INCREMENT. ~33min after probe-527 (measured from 19:00:40Z;
+  wake ~3.5min late, within watch band) -> fresh slot. roll18=309
+  = stat-consistent (309 + probe-527's +0 self-audit lines; wc
+  309 verified by probe-527's own wc output). INCREMENT (weekday
+  split of h1 reversion asymmetry, queued probe-527): RTH-band h1
+  dn-up gap by weekday, 95,994 decisions (sum of ten cited n's =
+  48,497+47,497? — exact: 8916+9576+9619+10016+9558+9988+9555+
+  9912+9218+9636 = 95,994 — CROSS-CHECK: matches probe-526/527
+  hour-split total EXACTLY (same 95,994), independent groupings
+  reconcile = corpus-consistency bonus). RESULT (gap, t): Mon
+  +0.382 t=1.1; Tue +0.115 t=0.3; Wed +0.147 t=0.4; Thu -0.030
+  t=-0.1; Fri +0.652 t=1.7. NO weekday significant (autocorr-
+  optimistic t max 1.7); mild Mon/Fri reversion tilt, Thu flat —
+  weaker than the hour-of-day signal. NEGATIVE RESULT logged: no
+  weekday gate for the baseline. Artifact: runs/data/corpus-
+  2021-2026/baseline_h1_weekday.json. CPU-bound. visalgo sync
+  current: master ed065c9. State block: zero-byte=0/61 | raw-data
+  AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB
+  PERMANENT herd infra — GPU-bound DEFER only; pre-reg 41b9044
+  gate monitor). Queue external-only; honest quiet. One entry
+  this turn.

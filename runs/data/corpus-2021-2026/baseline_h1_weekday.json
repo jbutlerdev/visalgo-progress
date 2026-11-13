@@ -1,0 +1,82 @@
+{
+ "built_utc": "2026-11-13T19:34:05Z",
+ "study": "h1 reversion asymmetry by weekday (RTH band 13:30-20:00Z); gap=mean(fwd|dn)-mean(fwd|up)",
+ "caveats": "i.i.d. se (autocorr uncorrected, t optimistic); no costs; weekends absent (no Globex Sun open pre-Mon)",
+ "by_weekday": {
+  "Mon": {
+   "dn": {
+    "n": 8916,
+    "mean": 0.556,
+    "se": 0.255
+   },
+   "up": {
+    "n": 9576,
+    "mean": 0.174,
+    "se": 0.254
+   },
+   "gap": 0.382,
+   "gap_se": 0.36,
+   "gap_t": 1.1
+  },
+  "Tue": {
+   "dn": {
+    "n": 9619,
+    "mean": 0.156,
+    "se": 0.248
+   },
+   "up": {
+    "n": 10016,
+    "mean": 0.041,
+    "se": 0.227
+   },
+   "gap": 0.115,
+   "gap_se": 0.336,
+   "gap_t": 0.3
+  },
+  "Wed": {
+   "dn": {
+    "n": 9558,
+    "mean": 0.283,
+    "se": 0.256
+   },
+   "up": {
+    "n": 9988,
+    "mean": 0.136,
+    "se": 0.276
+   },
+   "gap": 0.147,
+   "gap_se": 0.376,
+   "gap_t": 0.4
+  },
+  "Thu": {
+   "dn": {
+    "n": 9555,
+    "mean": -0.395,
+    "se": 0.254
+   },
+   "up": {
+    "n": 9912,
+    "mean": -0.365,
+    "se": 0.244
+   },
+   "gap": -0.03,
+   "gap_se": 0.352,
+   "gap_t": -0.1
+  },
+  "Fri": {
+   "dn": {
+    "n": 9218,
+    "mean": 0.432,
+    "se": 0.272
+   },
+   "up": {
+    "n": 9636,
+    "mean": -0.22,
+    "se": 0.275
+   },
+   "gap": 0.652,
+   "gap_se": 0.387,
+   "gap_t": 1.7
+  }
+ }
+}
