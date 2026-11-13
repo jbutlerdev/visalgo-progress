@@ -177,3 +177,36 @@ Roll #18 frozen same turn (see FINAL STATE banner in runs/2026-11-13T1532Z-stand
   PERMANENT herd infra — GPU-bound DEFER only; pre-reg 41b9044
   gate monitor). Queue external-only; honest quiet. One entry
   this turn.
+- 2026-11-13T23:00:36Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=fab6b7a zero-byte=0/61 roll19=179
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-13
+  time=23:00:36Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  roll-log heredoc one cycle then close) e4d7b7f fab6b7a — probe
+  534 + REAL INCREMENT. ~30min after probe-533 (measured from
+  22:30:41Z; recomputed) -> fresh slot. roll19=179 = stat-
+  consistent (147 + probe-533's +32). INCREMENT (Jan25/Aug24
+  re-pull check — last unverified raw-data window, queue item
+  from pre-campaign backlog): both months' raw files PRESENT +
+  full-read (no zero-byte, full dbn parse to last record):
+  2025-01 glbx-mdp3-20250101-20250131, 110,465,024B, 6,731,587
+  trades, span 2025-01-01 23:00:00Z -> 2025-01-27 18:15:55Z,
+  bars 4,786 (23:00->18:15 consistent); 2024-08
+  glbx-mdp3-20240801-20240831, 124,510,208B, 7,543,993 trades,
+  span 2024-08-01 00:00:00Z -> 2024-08-27 15:00:06Z, bars 5,149
+  (midnight->15:00 consistent). Month-END dates consistent with
+  trading calendars (Jan-27 = pre-MLK last session; Aug-27 =
+  month-end Tuesday). RAW FILES COMPLETE -> NO RE-PULL NEEDED;
+  both windows already carried the campaign QA PASS (61/61) +
+  byte/magic checks. First-pass tool defect self-caught pre-log
+  (grep used hyphenated month pattern vs actual YYYYMMDD range
+  filenames; corrected same wake before any claim). CPU-bound.
+  visalgo sync current: master ed065c9. State block: zero-byte=
+  0/61 | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED
+  (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound DEFER
+  only; pre-reg 41b9044 gate monitor). Queue external-only;
+  honest quiet. One entry this turn.
