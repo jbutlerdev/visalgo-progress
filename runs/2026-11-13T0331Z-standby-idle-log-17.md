@@ -411,3 +411,21 @@ Roll #16 frozen same turn (see FINAL STATE banner in runs/2026-11-12T1606Z-stand
   server 23,812 MiB -> GPU-bound DEFER holds, CPU work cleared;
   pre-reg 41b9044 gate monitor). Queue external-only; honest
   quiet. One entry this turn.
+- FINAL STATE — ROLL #17 FROZEN 2026-11-13T15:31:22Z (maintenance-only wake per #8
+  lesson; pre-freeze completeness verified THIS wake: dirty=0,
+  local==remote==4f2d6ff; content at freeze = 413 lines (wc output,
+  this wake); banner adds lines per commit stat. Last probe = 520
+  (sanctioned record copied VERBATIM into roll #18 standing-state
+  header via sed; extraction head/tail verified BEFORE commit per
+  roll-15/16/17 anchor-hazard lessons). CORPUS DELIVERED this
+  roll (probe-519 campaign + probe-520 continuity audit): QA 61/
+  61 PASS, 337,922 bars / 428,266,327 trades / 61 per-month
+  parquets GAPS_OK. Data/trading state at freeze: zero-byte=0/61
+  | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server
+  23,812 MiB PERMANENT herd infra per Jeremiah 13:0xZ — GPU-bound
+  DEFER only; pre-reg 41b9044 gate monitor). Ledger rows=31 (dash
+  tool-only; untouched #15/#16/#17). Incidents at freeze: 17 (16
+  fabrication + 1 measurement #13), all self-caught, zero trading
+  content. Rapid-refire count = 5 (condition reported n=3). Pages
+  deploy verified healthy 2x. No probe consumed by freeze/open.)
+  ROLL #17 CLOSED.
