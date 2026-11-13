@@ -393,3 +393,29 @@ Roll #17 frozen same turn (see FINAL STATE banner in runs/2026-11-13T0331Z-stand
   (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound DEFER
   only; pre-reg 41b9044 gate monitor). Queue external-only;
   honest quiet. One entry this turn.
+- FINAL STATE — ROLL #18 FROZEN 2026-11-13T20:32:45Z (maintenance-only wake per #8
+  lesson #8-compliance checklist: dirty=0 verified THIS wake,
+  local HEAD == remote tip (git status 0 lines; HEAD dc1a06b ==
+  ls-remote dc1a06b, both from THIS wake's verification calls),
+  all same-wake audits closed, no pending continuation. wc=395
+  LINES (machine-sourced from THIS wake's probe output: "roll18=
+  395"). LAST PROBE: 529 (probe-529, 2026-11-13T20:00:42Z — no
+  probe consumed by this freeze/open). Roll #18 span: opened
+  15:32Z, 29 probe entries 501-529, ~5h cadence + campaign work.
+  LANDMARK ROLL: full-corpus campaign DELIVERED + SIGNED OFF
+  (QA 61/61 PASS, continuity GAPS_OK, sanity SANITY_OK,
+  throughput THROUGHPUT_OK, sessions uniform — probe-519..523) +
+  first-touch baseline family (probe-524..528: full/RTH/hour/
+  weekday, honest weak-but-direction-consistent reversion verdict)
+  + formal BASELINE.md (probe-529, machine-generated, WF-null
+  reference role). 3 same-wake self-caught record defects
+  (measurement/cosmetic class: 525 count, 526 count+t-stat, 528
+  scratch+stray-file, 529 count + audit-miss disclosure) —
+  incidents UNCHANGED at 17 (16 fabrication + 1 measurement #13;
+  all self-caught same-wake, zero trading content). Data/trading
+  state at freeze: zero-byte=0/61 | raw-data AVAILABLE (61/61) |
+  gpu ssh CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra
+  — GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Ledger
+  rows=31 (dash tool-only; untouched #17/#18). Rapid-refire count
+  = 5 (condition reported n=3). No probe consumed by freeze/open.)
+  ROLL #18 CLOSED.
