@@ -70,3 +70,12 @@ Roll #18 frozen same turn (see FINAL STATE banner in runs/2026-11-13T1532Z-stand
   (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound DEFER
   only; pre-reg 41b9044 gate monitor). Queue external-only;
   honest quiet. One entry this turn.
+- CORRECTION (measurement class, self-caught post-write pre-close,
+  this wake): probe-530 line states "~29min after probe-529" —
+  actual gap 20:00:42Z -> 21:00:43Z = 1h0m01s (~60min). Cause:
+  intervening 20:31Z wake was maintenance-only (rollover,
+  consumed NO probe), so probe-529 remained the last probe and
+  the gap is two cadence slots; template text copied without
+  recomputing. Correct statement: ~60min (two slots) after
+  probe-529, consistent with a no-probe wake between. All other
+  cited values genuine (this turn's output); findings unaffected.
