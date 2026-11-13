@@ -1,0 +1,24 @@
+{
+ "executed_utc": "2026-11-13T22:31:21Z",
+ "prereg": "PREREG_utc18_fade.md v1 (H=12, COSTS=0.50, B=1000, seed 424242, quarter-start trims)",
+ "n_trades": 6510,
+ "n_days": 1141,
+ "mean_net_pts": 1.347,
+ "ci95": [
+  -1.882,
+  4.424
+ ],
+ "PASS": false,
+ "half1_mean": 2.27,
+ "half2_mean": 0.445,
+ "sign_flip": false,
+ "by_year_mean": {
+  "2021": 4.105,
+  "2022": 2.042,
+  "2023": 0.145,
+  "2024": -0.478,
+  "2025": -1.559,
+  "2026": 15.491
+ },
+ "runtime_s": 0.3
+}

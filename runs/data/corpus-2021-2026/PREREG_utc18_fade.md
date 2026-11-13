@@ -36,3 +36,20 @@ forbidden). One hypothesis, one metric, one H, one seed.
 Any deviation (data change, metric change, H change) = new pre-reg
 number (v2), old version kept immutable, and v1 results remain
 reported as run.
+
+---
+## 7. RESULTS (appended 2026-11-13T22:30Z per deviation protocol — sections 1-6 untouched)
+Executed exactly as pre-committed (script mirrors spec; result JSON:
+prereg_utc18_fade_result.json). n_trades=6,510 over 1,141 days.
+mean_net_pts = +1.347, day-block boot CI95 [-1.882, +4.424] ->
+**CI INCLUDES ZERO -> **FAIL** (PASS rule = CI lower bound > 0).
+Descriptive (cannot flip verdict): half1 +2.27 / half2 +0.445,
+sign_flip FALSE (direction persists but decays); by-year means
+2021 +4.105, 2022 +2.042, 2023 +0.145, 2024 -0.478, 2025 -1.559,
+2026(partial) +15.491. Reading: point estimate positive but CI
+far too wide (n too small at this hour band); year trend shows
+2021-22 edge decayed to ~flat/negative by 2024-25 — consistent
+with a stale historical edge, not a live one. VERDICT STANDING:
+hypothesis NOT supported; hour-of-day family CLOSED (budget
+spent per section 5). NO v2: any UTC18 re-test requires a NEW
+hypothesis with NEW justification, not a re-run.
