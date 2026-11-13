@@ -112,3 +112,36 @@ Roll #17 frozen same turn (see FINAL STATE banner in runs/2026-11-13T0331Z-stand
   PERMANENT herd infra — GPU-bound DEFER only; pre-reg 41b9044
   gate monitor). Queue external-only; honest quiet. One entry
   this turn.
+- 2026-11-13T17:00:37Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=ab1d0a1 zero-byte=0/61 roll18=114
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-13
+  time=17:00:37Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  heredoc one cycle then close) e4d7b7f ab1d0a1 — probe 523 +
+  REAL INCREMENT (Jeremiah standing directive). ~27min after
+  probe-522 (measured from 16:33:42Z) -> fresh slot. roll18=114 =
+  stat-consistent (84 + probe-522's +30). INCREMENT (corpus
+  session-coverage audit #4 — FINAL QA leg, queued probe-522):
+  per-year session split over all 337,922 bars, coarse-UTC bands
+  (13-21h ~ RTH incl DST span). RESULTS: 2021 (partial, Mar-):
+  56,671 bars / 65.3% overnight / 212 RTH-days; 2022: 69,762 /
+  65.1 / 258; 2023: 69,550 / 65.1 / 258; 2024: 65,908 / 65.4 /
+  245; 2025: 63,131 / 65.5 / 235; 2026 (to Mar-9): 12,900 / 65.6
+  / 47. Overnight share flat 65.1-65.6% all six years — matches
+  the 23h-Globex expectation (8h RTH of 23h = 34.8%, overnight
+  65.2%) within DST band error; RTH-day counts = exchange
+  trading-day counts per year; NO year shows session dropout.
+  VERDICT: sessions COMPLETE + UNIFORM -> **CORPUS QA SUITE 4/4
+  GREEN: QA(magic/bytes) PASS, continuity GAPS_OK, sanity
+  SANITY_OK, throughput THROUGHPUT_OK, sessions uniform** —
+  corpus signed-off for downstream WF/ML use. Artifact: runs/
+  data/corpus-2021-2026/sessions.json. CPU-bound. visalgo sync
+  current: master ed065c9. State block: zero-byte=0/61 | raw-data
+  AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB
+  PERMANENT herd infra — GPU-bound DEFER only; pre-reg 41b9044
+  gate monitor). Queue external-only; honest quiet. One entry
+  this turn.

@@ -1,0 +1,54 @@
+{
+ "built_utc": "2026-11-13T17:01:03Z",
+ "note": "session coverage coarse-UTC bands (13-21h ~ RTH incl DST span); completeness leg of corpus QA",
+ "years": {
+  "2021": {
+   "bars": 56671,
+   "rth_bars": 19684,
+   "overnight_bars": 36987,
+   "overnight_share_pct": 65.3,
+   "days_with_rth": 212,
+   "days_with_overnight": 254
+  },
+  "2022": {
+   "bars": 69762,
+   "rth_bars": 24368,
+   "overnight_bars": 45394,
+   "overnight_share_pct": 65.1,
+   "days_with_rth": 258,
+   "days_with_overnight": 310
+  },
+  "2023": {
+   "bars": 69550,
+   "rth_bars": 24244,
+   "overnight_bars": 45306,
+   "overnight_share_pct": 65.1,
+   "days_with_rth": 258,
+   "days_with_overnight": 310
+  },
+  "2024": {
+   "bars": 65908,
+   "rth_bars": 22820,
+   "overnight_bars": 43088,
+   "overnight_share_pct": 65.4,
+   "days_with_rth": 245,
+   "days_with_overnight": 295
+  },
+  "2025": {
+   "bars": 63131,
+   "rth_bars": 21757,
+   "overnight_bars": 41374,
+   "overnight_share_pct": 65.5,
+   "days_with_rth": 235,
+   "days_with_overnight": 282
+  },
+  "2026": {
+   "bars": 12900,
+   "rth_bars": 4440,
+   "overnight_bars": 8460,
+   "overnight_share_pct": 65.6,
+   "days_with_rth": 47,
+   "days_with_overnight": 58
+  }
+ }
+}
