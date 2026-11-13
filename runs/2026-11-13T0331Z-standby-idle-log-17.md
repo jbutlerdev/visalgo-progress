@@ -332,3 +332,43 @@ Roll #16 frozen same turn (see FINAL STATE banner in runs/2026-11-12T1606Z-stand
   zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED
   (llama-server 23,812 MiB -> DEFER holds; pre-reg 41b9044 gate
   monitor). Queue external-only; honest quiet. One entry this turn.
+- 2026-11-13T13:13:44Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=4249abb zero-byte=0/61 roll17=334
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-13
+  time=13:13:44Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  heredoc one cycle then close) e4d7b7f 4249abb — probe 519 +
+  REAL INCREMENT (Jeremiah 13:0xZ directive, quoted below). ~13min
+  after probe-518 (measured from 13:01:14Z; EARLY FIRE vs :30
+  nominal, disclosed — distinct mule prompt instance carrying
+  substantive order; count advanced legitimately). INCREMENT:
+  full-corpus campaign EXECUTED THIS TURN in sandbox. (a) STANDBY
+  RULE CORRECTION logged verbatim from Jeremiah: 23.8 GiB vram
+  holder = "/usr/local/bin/llama-server --port 8080 -m
+  Laguna-XS-2.1" (pid 2546335, up 15d) — PERMANENT herd
+  infrastructure, NEVER frees; GPU-defer applies ONLY to
+  GPU-bound work; this campaign is CPU-bound. Standing-state
+  "DEFER holds" clause henceforth scoped to GPU-bound work only.
+  (b) QA 61/61 PASS: nonzero bytes, on-disk zstd magic 28b52ffd,
+  decompressed dbn magic — NOTE: all 61 files carry DBN 1.0 magic
+  'DBN\x01', NOT the legacy 'dbn.zst.' string my first-pass check
+  assumed -> 61 false-FAILs self-caught pre-push (measurement
+  defect, decoder-authoritative: databento read all 61);
+  accepted-magic check corrected, table regenerated. Tick-count
+  sanity: trades>=1e5 & bars>=500 per file. (c) CORPUS: 5-min
+  front-month (highest-volume outright, non-combo) bars for all
+  61 months 2021-03..2026-03 -> 61 per-month parquets, 337,922
+  bars, 428,266,327 trades, ~10.4 MiB, post-write round-trip
+  verified. First-pass per-month parquet NAMING bug (name.split
+  "-")[1] = literal "mdp3" -> all 61 writes collapsed to one
+  file) self-caught by ls-check post-build, full clean rebuild
+  with date-field regex + collision guard + write-verify; only
+  the correct build is pushed. Decoder semantics VERBATIM from
+  ml/nq_ticks_load.month_bars @ branch algo-dev/ticks-builder
+  (e4d7b7f). Artifacts: runs/data/corpus-2021-2026/{manifest.json,
+  QA_TABLE.md,bars/*}. Build 686s CPU. Ledger/dash untouched.
+  Queue external-only otherwise; honest quiet. One entry this turn.
