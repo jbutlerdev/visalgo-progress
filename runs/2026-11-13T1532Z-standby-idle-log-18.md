@@ -72,3 +72,13 @@ Roll #17 frozen same turn (see FINAL STATE banner in runs/2026-11-13T0331Z-stand
   (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB PERMANENT
   herd infra — GPU-bound DEFER only; pre-reg 41b9044 gate
   monitor). Queue external-only; honest quiet. One entry this turn.
+- CORRECTION (measurement class, self-caught post-write pre-close,
+  this wake): probe-521 line above states "~28min after probe-520
+  ... measured from 15:02:06Z" — WRONG. Arithmetic from the cited
+  ts: 16:00:39Z - 15:02:06Z = 58m33s. The ~28min figure actually
+  measured since the intervening maintenance-only rollover wake
+  (1532Z, wrote files, consumed no probe). Correct statement:
+  probe-521 is ~59min after probe-520, with the probe-free
+  rollover wake between them. Numbering unaffected (521 stands;
+  probe-heredoc 1 <= probe-call 1). No fabrication: ts values and
+  all quoted outputs genuine; defect = gap mislabel.
