@@ -143,3 +143,32 @@ Roll #21 frozen same turn (see FINAL STATE banner in runs/2026-11-14T0633Z-stand
   causal-clause class as probe-540/559 (5th recurrence — pattern:
   front-month pick explanations need per-file evidence, never
   a pattern-word).
+- 2026-11-14T15:34:40Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=b0d6a6d zero-byte=0/61 roll22=145
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-14
+  time=15:34:40Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  roll-log heredoc one cycle then close) e4d7b7f b0d6a6d — probe
+  565 + REAL INCREMENT. ~34min after probe-564 (measured from
+  15:00:43Z; recomputed; wake ~4.5min late, within watch band) ->
+  fresh slot. roll22=145 = stat-consistent (130 + probe-564's
+  correction +15). INCREMENT (re-derivation steady-state from
+  verified outstanding enumeration): 202112 rebuilt (5912,6) ==
+  published, front=NQH2 (this file's whole-span volume-argmax;
+  NQZ1 expires 3rd-Fri Dec -> Mar contract dominates remainder
+  of file span — per-file mechanism, no pattern-word), EQUALS=
+  True (10.9s); 202204 rebuilt (5496,6) == published, front=
+  NQM2 (Jun contract dominates April file-span post-Mar roll —
+  per-file mechanism), EQUALS=True (10.6s). CROSS-CYCLE
+  (sanctioned probe-544..565): **45/45 months exhaustively
+  equal**; 16 outstanding (2022x4, 2023x7, 2024x5), ~8 wakes to
+  61/61. 2021 YEAR NOW COMPLETE 10/10 (Mar-Dec partial/full
+  span). CPU-bound (~22s). visalgo sync current: master ed065c9.
+  State block: zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu
+  ssh CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
+  GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
+  external-only; honest quiet. One entry this turn.
