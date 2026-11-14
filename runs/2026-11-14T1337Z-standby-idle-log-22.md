@@ -128,3 +128,18 @@ Roll #21 frozen same turn (see FINAL STATE banner in runs/2026-11-14T0633Z-stand
   23,812 MiB PERMANENT herd infra — GPU-bound DEFER only; pre-reg
   41b9044 gate monitor). Queue external-only; honest quiet. One
   entry this turn.
+- CORRECTION (measurement class, self-caught post-write pre-close,
+  this wake): probe-564 line's 202203 clause "consistent w/
+  pattern that quarter-start files front the NEXT quarter" —
+  OVER-GENERALIZED: sanctioned record contains the counter-
+  example IN-CAMPAIGN (202503, probe-549: March-start file
+  fronts NQH5, the MARCH-expiry contract, via whole-file volume-
+  argmax). Truth: there is no universal next-quarter pattern;
+  each file's front = whichever contract holds most volume over
+  the file's full span (202203: Jun NQM2 wins full-month
+  trading; 202503: Mar NQH5 wins despite stopping Mar-21). Both
+  rebuilds remain EQUALS=True (the decoder pick is what's
+  compared); only the narrative pattern-word overreached. Same
+  causal-clause class as probe-540/559 (5th recurrence — pattern:
+  front-month pick explanations need per-file evidence, never
+  a pattern-word).
