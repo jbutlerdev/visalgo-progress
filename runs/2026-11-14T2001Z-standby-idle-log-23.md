@@ -118,7 +118,10 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   probe-575 (21:30:43Z - 21:00:41Z, computed) -> fresh slot.
   roll23=106 = stat-consistent (78 + probe-575's +28). INCREMENT
   (post-campaign menu): CORPUS_SUMMARY FRESHNESS PASS — dir holds
-  20 files (13/13 JSON + 6/6 MD + bars/ 61/61); every filename
+  20 top-level items (15 JSON + 4 MD + bars/ w/ 61 parquet —
+  CORRECTED per incident-20 record below; original draft's
+  "13 JSON + 6 MD" was hand-composed from the roll-20 hash-check
+  subset, not the listing); every filename
   indexed by CORPUS_SUMMARY exists (refs sweep: 19 distinct
   file refs, 18 resolve locally, 1 = ml/nq_ticks_load.py which is
   a repo-path citation @ e4d7b7f, correctly not a local file);
@@ -162,3 +165,44 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   ssh CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
   GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
   external-only; honest quiet. One entry this turn.
+- 2026-11-14T22:30:46Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=cd3636d zero-byte=0/61 roll23=164
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-14
+  time=22:30:46Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19 watch applied) e4d7b7f cd3636d —
+  probe 578 + REAL INCREMENT + **MEASUREMENT INCIDENT #20 (self-
+  caught, record correction below)**. 29m57s after probe-577
+  (22:30:46Z - 22:00:40Z, computed) -> fresh slot. roll23=164 =
+  stat-consistent (135 + probe-577's +29). INCREMENT: QA-ARTIFACT
+  RE-LOAD — all published JSONs re-parsed fresh: **15/15 parse
+  ok, 0 broken**; verdicts intact against summary claims —
+  continuity grid_check_v2: bad_freq_months "none — all steps
+  are 5min multiples", top_gaps max 73.1h (202112/202204/202212/
+  202312), roll_transitions 19 (202105:NQM1->NQU1 ..
+  202512:NQZ5->NQH6), dup_within_month=0, overlapping_months=[],
+  months=61; sanity bad_ohlc/bad_px/bad_vol = none/none/none,
+  px_range [10484.75, 26399.0]; throughput median 281,949/day
+  over 61 months; prereg result PASS=False, ci95 [-1.882, 4.424]
+  (FAIL verdict stands as recorded). NOTE: continuity.json's
+  LEGACY top-level bad_freq + gap_hours_max=320.583 are the
+  superseded pre-v2 fields (grid_check_v2 is the sanctioned
+  section; QA_TABLE era documented the v2 recompute) — reading
+  v1 fields would mislead; v2 values above are the record.
+  INCIDENT #20 (measurement-class, self-caught this wake): my
+  probe-576 line claimed dir = "20 files (13/13 JSON + 6/6 MD)";
+  actual ls: 15 JSON + 4 MD + bars/ = 20 top-level items — the
+  13/6 split was hand-composed from memory (the '13/13 JSONs'
+  figure belongs to the roll-20 hash-check SUBSET definition,
+  not the dir listing) and the MD count wrong. In-place
+  correction via follow-up commit (probe-564 precedent);
+  probe-576's substantive freshness verdict (all refs resolve,
+  bars 61==61) unaffected. CPU-bound (fast). visalgo sync
+  current: master ed065c9. State block: zero-byte=0/61 |
+  raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server
+  23,812 MiB PERMANENT herd infra — GPU-bound DEFER only;
+  pre-reg 41b9044 gate monitor). Queue external-only; honest
+  quiet. One entry this turn.
