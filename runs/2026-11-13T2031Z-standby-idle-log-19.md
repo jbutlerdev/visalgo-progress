@@ -436,3 +436,11 @@ Roll #18 frozen same turn (see FINAL STATE banner in runs/2026-11-13T1532Z-stand
   figures correct in scope (396 = post-probe-539-correction;
   408 = pre-banner measured); recorded to keep freeze numbers
   machine-truthful.
+- FINAL-STATE precision note v2 (supersedes v1 parenthetical,
+  same wake): v1 said 408 = "396 + this wake's freeze-note line
+  count" — WRONG decomposition. Verified chain (all from commit
+  stats/wc outputs THIS wake): probe-539 line +31 -> 396
+  (measured), probe-539 correction +12 -> 408 (measured),
+  freeze banner +23 -> 431, precision v1 +7 -> 438 (measured).
+  Banner's "396 at last write" = post-probe-539-line count,
+  correct in that scope. v1 stands as record; v2 is truth.
