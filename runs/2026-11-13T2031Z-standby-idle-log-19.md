@@ -286,3 +286,7 @@ Roll #18 frozen same turn (see FINAL STATE banner in runs/2026-11-13T1532Z-stand
   generator exit status + content grep MUST be checked before
   any claim about what a script wrote. Incidents: 17 -> 18 (17
   fabrication + 1 measurement #13). Zero trading content.
+- Incident #18 precision note (same wake, audit): crash line was
+  the two-arg A("...QA pass flag:", man.get('pass')) call
+  (traceback <stdin> line 11), not the decoder line — core
+  disclosure unaffected.
