@@ -397,3 +397,37 @@ Roll #19 frozen same turn (see FINAL STATE banner in runs/2026-11-13T2031Z-stand
   herd infra — GPU-bound DEFER only; pre-reg 41b9044 gate
   monitor). Queue external-only; honest quiet. One entry this
   turn.
+- CORRECTION (measurement class, self-caught post-write pre-close,
+  this wake): probe-549 line says "ALL SEVEN corpus years" —
+  WRONG count: the parenthetical year list itself (2021x2/2022x1/
+  2023x1/2024x2/2025x2/2026x3) enumerates SIX calendar years
+  (2021-2026; corpus span 2021-03->2026-03, six years all
+  covered). Correct statement: all SIX corpus years covered,
+  11/11 months equal. Findings unaffected.
+- FINAL STATE — ROLL #20 FROZEN 2026-11-14T06:35:51Z (maintenance-only freeze on
+  cadence wake per one-timer rule: probe-549 read roll20=369 ->
+  post-write >= ~380 (wc measured 399 pre-banner). #8 checklist:
+  dirty=0 (0 lines THIS wake), HEAD == remote tip (both read
+  THIS wake), audits closed (probe-549 correction committed),
+  no pending continuation. wc=399 LINES (machine-measured THIS
+  wake pre-banner). LAST PROBE: 549 (2026-11-14T06:31:48Z).
+  Roll span: opened 01:39Z rollover, probes 540-549 (10 entries,
+  ~5h). CONTENT: provenance-reference audit (e4d7b7f resolves),
+  token-hygiene PASS at pattern+entropy depth (0 credential
+  hits; 190/21,328 candidates all classified benign), published-
+  artifact hash-identity 13/13 + bars 3/3, decoder-pin lineage
+  PASS (remote ticks-builder tip == pin exactly), RE-DERIVATION
+  CAMPAIGN 11/11 months exhaustively equal from raw via decoder
+  (all six calendar years, incl quarter-start/Christmas/last-
+  partial month types), Jan25/Aug24 window verification. 3
+  same-wake self-caught record defects (probe-540 timer clause,
+  probe-546 holiday label, probe-548 remainder count, probe-549
+  year-count) — all measurement/cosmetic class, same-wake;
+  Incidents UNCHANGED at 18 (17 fabrication + 1 measurement #13;
+  last = #18 probe-536). Data/trading state at freeze: zero-byte=
+  0/61 | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED
+  (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound
+  DEFER only; pre-reg 41b9044 gate monitor). Ledger rows=31
+  (dash tool-only; untouched #19/#20). Re-fire count = 5
+  (condition reported n=3). No probe consumed by freeze/open.)
+  ROLL #20 CLOSED.
