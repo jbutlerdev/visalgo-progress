@@ -31,3 +31,34 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   honest quiet. One entry this turn.
 
 Roll #21 frozen same turn (see FINAL STATE banner in runs/2026-11-14T0633Z-standby-idle-log-21.md).
+- 2026-11-14T14:03:29Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=ac238a0 zero-byte=0/61 roll22=33
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-14
+  time=14:03:29Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  roll-log heredoc one cycle then close) e4d7b7f ac238a0 — probe
+  562 + REAL INCREMENT. ~29min after probe-561 (measured from
+  13:34:08Z; recomputed) -> fresh slot. roll22=33 = stat-
+  consistent (rollover-open wc, probe-verified). INCREMENT
+  (re-derivation — 2025 REMAINDER BATCH of 6 months, completing
+  the year): all dedupe-checked pre-run vs sanctioned 33-month
+  list: 202502 (5472,6 NQH5) + 202504 (5796,6 NQM5) + 202506
+  (3991,6 NQM5 — expiry-truncation month: ends Jun-20 per
+  documented finding, re-derived EXACT incl truncation) + 202508
+  (5796,6 NQU5) + 202510 (6324,6 NQZ5) + 202512 (4031,6 NQZ5 —
+  expiry-truncation month, ends Dec-19, EXACT incl truncation):
+  **6/6 EQUALS=True** (~61s total). CROSS-CYCLE (sanctioned
+  probe-544..562): **39/39 months exhaustively equal**; 2025
+  YEAR NOW COMPLETE 12/12; 22 outstanding (2021x3, 2022x7,
+  2023x7, 2024x5 — enumerated). Both expiry-truncation months
+  in batch re-derive exact — the decoder's front-expiry cutoff
+  reproduces bit-for-bit. CPU-bound. visalgo sync current:
+  master ed065c9. State block: zero-byte=0/61 | raw-data
+  AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB
+  PERMANENT herd infra — GPU-bound DEFER only; pre-reg 41b9044
+  gate monitor). Queue external-only; honest quiet. One entry
+  this turn.
