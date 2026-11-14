@@ -233,3 +233,33 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound DEFER
   only; pre-reg 41b9044 gate monitor). Queue external-only;
   honest quiet. One entry this turn.
+- 2026-11-14T23:30:45Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=7b3b9a6 zero-byte=0/61 roll23=235
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-14
+  time=23:30:45Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19 watch applied) e4d7b7f 7b3b9a6 —
+  probe 580 + REAL INCREMENT. 29m58s after probe-579 (23:30:45Z -
+  23:00:41Z, computed) -> fresh slot. roll23=235 = stat-consistent
+  (208 + probe-579's +27). INCREMENT (post-campaign menu, raw-
+  side counterpart to bars-level checks): RAW-FILENAME SPAN
+  CONTINUITY — all 61 raw filenames parsed (dates from names,
+  fresh): interior files ALL month-aligned (start=day1,
+  end=month-end), consecutive day-runs, **zero gaps/overlaps**;
+  exactly the 2 documented boundary exceptions, both previously
+  sanctioned records: corpus START 20210310 (build-era documented
+  pull start) + corpus END 20260309 (final partial month,
+  documented). Method note (honesty): first two check drafts
+  correctly flagged the two boundary files (my predicate didn't
+  yet know the documented exceptions); third draft whitelisted
+  ONLY those 2 dates w/ the documented boundary labels — PASS
+  applies to interior alignment + consecutiveness, boundaries
+  exempt BY PRIOR DOCUMENTATION not silently. CPU-bound (fast).
+  visalgo sync current: master ed065c9. State block: zero-byte=
+  0/61 | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED
+  (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound DEFER
+  only; pre-reg 41b9044 gate monitor). Queue external-only;
+  honest quiet. One entry this turn.
