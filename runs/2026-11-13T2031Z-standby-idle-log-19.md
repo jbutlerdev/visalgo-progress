@@ -237,3 +237,33 @@ Roll #18 frozen same turn (see FINAL STATE banner in runs/2026-11-13T1532Z-stand
   23,812 MiB PERMANENT herd infra — GPU-bound DEFER only;
   pre-reg 41b9044 gate monitor). Queue external-only; honest
   quiet. One entry this turn.
+- 2026-11-14T00:06:26Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=4f04217 zero-byte=0/61 roll19=239
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-14
+  time=00:06:26Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  roll-log heredoc one cycle then close) e4d7b7f 4f04217 — probe
+  536 + REAL INCREMENT. ~32min after probe-535 (measured from
+  23:34:19Z; wake ~5min late, within watch band) -> fresh slot.
+  roll19=239 = stat-consistent (212 + probe-535's +27).
+  INCREMENT (CORPUS_SUMMARY.md operator index, queued probe-535):
+  runs/data/corpus-2021-2026/CORPUS_SUMMARY.md (34 lines,
+  machine-generated) — corpus stats READ FROM manifest.json
+  (total_bars=337,922 / total_trades=428,266,327 / months=61 /
+  pass flag) + full artifact inventory (7 QA/audit items, 7
+  baseline items, pre-reg FAIL + closure) + downstream standing
+  rules. HONEST PROCESS NOTE: first generator pass used
+  guessed manifest keys (span/bars/trades ABSENT) with fallback
+  strings matching sanctioned figures — caught pre-commit via
+  build-time verification print, rewrote to read ACTUAL keys
+  (total_bars/total_trades/months), values then machine-sourced
+  not fallback. Same-wake self-caught, no claim ever pushed on
+  fallbacks. CPU-bound. visalgo sync current: master ed065c9.
+  State block: zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu
+  ssh CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
+  GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
+  external-only; honest quiet. One entry this turn.
