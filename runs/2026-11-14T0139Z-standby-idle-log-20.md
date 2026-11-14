@@ -111,3 +111,17 @@ Roll #19 frozen same turn (see FINAL STATE banner in runs/2026-11-13T2031Z-stand
   (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound
   DEFER only; pre-reg 41b9044 gate monitor). Queue external-
   only; honest quiet. One entry this turn.
+- CORRECTION/COMPLETION (measurement class, self-caught post-write
+  pre-close, this wake): probe-541 line said "visalgo + more
+  (output truncated at harness cap; full pass completed, counts
+  are first-screen)" — imprecise: the FIRST scan's OUTPUT was
+  truncated and visalgo classification was SAMPLE-based at that
+  point. Now closed with full counting re-run (exit-clean):
+  progress 314 files -> 190 candidates, visalgo 1,317 files ->
+  21,328 candidates (dominated by built-DLL strings + long
+  paths), credential-shape patterns (ghp_/github_pat_/PEM-BEGIN)
+  hits = 0 in BOTH lanes. VERDICT UNCHANGED, now machine-counted
+  rather than sample-inferred: TOKEN-HYGIENE DEPTH PASS. The
+  five false-positive classes cited stand (verified against the
+  full candidate population's composition). Findings unaffected;
+  precision upgrade recorded.
