@@ -324,3 +324,10 @@ Roll #18 frozen same turn (see FINAL STATE banner in runs/2026-11-13T1532Z-stand
   23,812 MiB PERMANENT herd infra — GPU-bound DEFER only;
   pre-reg 41b9044 gate monitor). Queue external-only; honest
   quiet. One entry this turn.
+- CORRECTION (measurement class, self-caught post-write pre-close,
+  this wake): probe-537 chain breakdown "269 + incident-chain
+  +19+3" = 291 does not reconcile to the machine-sourced 292 —
+  precision-note commit added 4 lines (+4), so true chain is
+  269 + 19 + 4 = 292. Primary roll count was and remains the
+  probe output value (292), correct as recorded. Findings
+  unaffected.
