@@ -331,3 +331,35 @@ Roll #18 frozen same turn (see FINAL STATE banner in runs/2026-11-13T1532Z-stand
   269 + 19 + 4 = 292. Primary roll count was and remains the
   probe output value (292), correct as recorded. Findings
   unaffected.
+- 2026-11-14T01:03:55Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=3a74c6a zero-byte=0/61 roll19=333
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-14
+  time=01:03:55Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  roll-log heredoc one cycle then close) e4d7b7f 3a74c6a — probe
+  538 + REAL INCREMENT. ~32min after probe-537 (measured from
+  00:32:23Z; wake ~4min late, within watch band) -> fresh slot.
+  roll19=333 = stat-consistent (326 + probe-537's correction +7).
+  INCREMENT (half-split stability table, queued probe-537): h1
+  dn-up gap, hours 15+18 POOLED, RTH + quarter-start trims, by
+  year-half (descriptive-ONLY per section-5 closure — pooled
+  survivors re-described, NOT re-tested as hypothesis; budget
+  stays spent, stated in artifact). RESULT: gaps 2021H1 -0.158,
+  H2 +0.065, 2022H1 +2.07, H2 -0.351, 2023H1 -0.456, H2 -0.242,
+  2024H1 +0.563, H2 +2.392, 2025H1 +2.049, H2 -0.318, 2026H1
+  +1.079 -> **6/11 halves positive, sign FLIPS repeatedly**.
+  Reading: direction NOT consistent across corpus — the pooled
+  'surviving' hours are unstable across time, independently
+  corroborating probe-533's pre-reg FAIL and the family closure
+  (pre-registered prediction of stale-edge reading CONFIRMED
+  descriptively). Baseline family now has full stability record.
+  Artifact: baseline_h1_stability.json. CPU-bound (0.3s). visalgo
+  sync current: master ed065c9. State block: zero-byte=0/61 |
+  raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server
+  23,812 MiB PERMANENT herd infra — GPU-bound DEFER only; pre-reg
+  41b9044 gate monitor). Queue external-only; honest quiet. One
+  entry this turn.

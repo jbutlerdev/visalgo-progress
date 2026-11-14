@@ -1,0 +1,66 @@
+{
+ "built_utc": "2026-11-14T01:04:27Z",
+ "study": "stability of h1 dn-up gap (hours 15+18 pooled, RTH, quarter-start trims) by year-half \u2014 is direction consistent across the corpus?",
+ "caveats": "pooled hours 15/18 = the pre-noroll survivors (post-closure descriptive ONLY, not a new test; budget stands spent); i.i.d. n, no boot here",
+ "by_year_half": {
+  "2021H1": {
+   "dn": 0.431,
+   "up": 0.589
+  },
+  "2021H2": {
+   "dn": 0.309,
+   "up": 0.244
+  },
+  "2022H1": {
+   "dn": 0.856,
+   "up": -1.214
+  },
+  "2022H2": {
+   "dn": 0.264,
+   "up": 0.615
+  },
+  "2023H1": {
+   "dn": 0.204,
+   "up": 0.66
+  },
+  "2023H2": {
+   "dn": 0.231,
+   "up": 0.473
+  },
+  "2024H1": {
+   "dn": 0.389,
+   "up": -0.174
+  },
+  "2024H2": {
+   "dn": 1.373,
+   "up": -1.019
+  },
+  "2025H1": {
+   "dn": 0.935,
+   "up": -1.114
+  },
+  "2025H2": {
+   "dn": -0.521,
+   "up": -0.203
+  },
+  "2026H1": {
+   "dn": 1.133,
+   "up": 0.054
+  }
+ },
+ "gaps": {
+  "2021H1": -0.158,
+  "2021H2": 0.065,
+  "2022H1": 2.07,
+  "2022H2": -0.351,
+  "2023H1": -0.456,
+  "2023H2": -0.242,
+  "2024H1": 0.563,
+  "2024H2": 2.392,
+  "2025H1": 2.049,
+  "2025H2": -0.318,
+  "2026H1": 1.079
+ },
+ "halves_positive": 6,
+ "halves_total": 11
+}
