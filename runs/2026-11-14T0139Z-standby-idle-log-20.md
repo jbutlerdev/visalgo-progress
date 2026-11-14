@@ -281,3 +281,18 @@ Roll #19 frozen same turn (see FINAL STATE banner in runs/2026-11-13T2031Z-stand
   CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
   GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
   external-only; honest quiet. One entry this turn.
+- CORRECTION (measurement class, self-caught post-write pre-close,
+  this wake): probe-546 line characterized 202601/202602 as
+  "holiday-window months (Jan-19 / Feb-16 break present)" —
+  WRONG: follow-up check on the published bars shows MLK (Jan-19)
+  and Presidents (Feb-16) 2026 each carry 228 bars / 54 RTH-band
+  bars — CME equity-index futures TRADE through stock-market
+  holidays (near-normal sessions; only Thanksgiving/Christmas
+  eve/major futures-specific closures break them). Correct
+  statement: the two months are ordinary full months chosen
+  because they are the most recent full months (re-derivation
+  continuation from corpus tail). The rebuild EQUALS=True results
+  are unaffected (values machine-produced; only the descriptive
+  label drifted from template expectation — assumed holiday
+  gaps because stock-market calendars have them). Findings
+  stand; label corrected.
