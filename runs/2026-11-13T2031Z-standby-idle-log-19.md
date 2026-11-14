@@ -406,3 +406,26 @@ Roll #18 frozen same turn (see FINAL STATE banner in runs/2026-11-13T1532Z-stand
   json'] reduced to the regex-artifact 'bars' after the real
   gaps were fixed. Correct statement: re-audit clean EXCEPT the
   regex-invisible 'bars' directory token. Findings unaffected.
+- FINAL STATE — ROLL #19 FROZEN 2026-11-14T01:40:07Z (maintenance-only freeze on
+  cadence wake per one-timer rule: probe-539 read roll19=365 ->
+  post-write 396 >= ~380 threshold. #8 checklist: dirty=0 (git
+  status 0 lines THIS wake), HEAD == remote tip (a28c0f9 both,
+  THIS wake's verification calls), audits closed, no pending
+  continuation. wc=396 LINES at last write (machine-sourced:
+  probe-539 wc 365 + probe-539's correction +12 -> 396 per the
+  correction commit's own wc output, re-verified THIS wake by
+  wc 408 including this banner chain). LAST PROBE: 539
+  (2026-11-14T01:34:05Z). Roll span: opened 20:31Z rollover,
+  probes 530-539 (10 entries, ~4.5h). CONTENT: baseline family
+  COMPLETED (bootstrap noroll UTC15 fall-out, pre-reg UTC18
+  FAIL -> family CLOSED, stability table 6/11 sign-flips),
+  CORPUS_SUMMARY.md operator index (via INCIDENT #18 fix —
+  18th total: 17 fabrication + 1 measurement #13), Jan25/Aug24
+  verification + machine artifact, token-hygiene sweep PASS,
+  artifact-integrity audit. Incidents at freeze: 18. Data/
+  trading state: zero-byte=0/61 | raw-data AVAILABLE (61/61) |
+  gpu ssh CONFIRMED (llama-server 23,812 MiB PERMANENT herd
+  infra — GPU-bound DEFER only; pre-reg 41b9044 gate monitor).
+  Ledger rows=31 (dash tool-only; untouched #18/#19). Re-fire
+  count = 5 (condition reported n=3). No probe consumed by
+  freeze/open.) ROLL #19 CLOSED.
