@@ -150,3 +150,31 @@ Roll #20 frozen same turn (see FINAL STATE banner in runs/2026-11-14T0139Z-stand
   (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound
   DEFER only; pre-reg 41b9044 gate monitor). Queue external-
   only; honest quiet. One entry this turn.
+- 2026-11-14T09:02:18Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=14fac97 zero-byte=0/61 roll21=152
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-14
+  time=09:02:18Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  roll-log heredoc one cycle then close) e4d7b7f 14fac97 — probe
+  554 + REAL INCREMENT. ~28min after probe-553 (measured from
+  08:34:27Z; recomputed) -> fresh slot. roll21=152 = stat-
+  consistent (123 + probe-553's +29). INCREMENT (re-derivation
+  steady-state, dedupe-checked pre-run): 202104 rebuilt (5892,6)
+  == published, front=NQM1, EQUALS=True (8.5s); 202408 — SECOND
+  double-verified month (probe-534 full-parsed raw: 7,543,993
+  trades, bars 5149; today: exhaustive rebuild (5149,6) ==
+  published, bar count agrees EXACTLY with probe-534's figure,
+  front=NQU4), EQUALS=True (9.8s). CROSS-CYCLE total (sanctioned
+  probe-544..554): **21/21 months exhaustively equal**; double-
+  verified set = {202501, 202408} (both methods agree); 40
+  outstanding. Note: 09:02Z rollover-21 timer fires this window
+  — stand-down expected (exec landed 06:35Z, duplicate-guard).
+  CPU-bound (~18s). visalgo sync current: master ed065c9. State
+  block: zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh
+  CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
+  GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
+  external-only; honest quiet. One entry this turn.
