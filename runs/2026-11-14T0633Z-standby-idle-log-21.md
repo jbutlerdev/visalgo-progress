@@ -305,3 +305,32 @@ Roll #20 frozen same turn (see FINAL STATE banner in runs/2026-11-14T0139Z-stand
   23,812 MiB PERMANENT herd infra — GPU-bound DEFER only;
   pre-reg 41b9044 gate monitor). Queue external-only; honest
   quiet. One entry this turn.
+- 2026-11-14T12:33:25Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=0306e05 zero-byte=0/61 roll21=307
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-14
+  time=12:33:25Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  roll-log heredoc one cycle then close) e4d7b7f 0306e05 — probe
+  559 + REAL INCREMENT. ~93min after probe-558 (measured from
+  11:00:36Z; recomputed — LONGER GAP explained: two cadence wakes
+  between were consumed by the probe-558 double AUTO-CONTINUE
+  replies + this wake arrived ~1h-late window per mule skip
+  policy; no work dropped: probe-558 increment landed before the
+  gap) -> fresh slot. roll21=307 = stat-consistent (278 +
+  probe-558's +29). INCREMENT (re-derivation steady-state,
+  dedupe-checked pre-run): 202109 rebuilt (5494,6) == published,
+  front=NQZ1 (Dec front post-Sep roll — consistent), EQUALS=True
+  (9.6s); 202403 rebuilt (5319,6) == published, front=NQM4 (Jun
+  front post-Mar roll — consistent, and correctly NOT in the
+  expiry-truncation set since NQM4 trades past March), EQUALS=
+  True (11.1s). CROSS-CYCLE total (sanctioned probe-544..559):
+  **29/29 months exhaustively equal**; 32 outstanding. CPU-bound
+  (~21s). visalgo sync current: master ed065c9. State block:
+  zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED
+  (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound DEFER
+  only; pre-reg 41b9044 gate monitor). Queue external-only;
+  honest quiet. One entry this turn.
