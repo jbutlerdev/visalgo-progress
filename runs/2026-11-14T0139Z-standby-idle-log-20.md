@@ -357,3 +357,13 @@ Roll #19 frozen same turn (see FINAL STATE banner in runs/2026-11-13T2031Z-stand
   CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
   GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
   external-only; honest quiet. One entry this turn.
+- CORRECTION (measurement class, self-caught post-write pre-close,
+  this wake): probe-548 line's coverage disclosure "(12 remaining
+  months incl. all of 2025)" miscounts the remainder: 61 corpus
+  months − 9 re-derived = **52 months NOT yet re-derived**, of
+  which 2025 contributes 12 (all un-re-derived — the year-
+  coverage point stands). Correct statement: 9/61 re-derived,
+  52 outstanding incl. all 12 of 2025. The 9/9-equal result and
+  year-coverage list themselves are correct (12 = 2025's own
+  month count, conflated with total remainder). Findings
+  unaffected.
