@@ -92,3 +92,32 @@ Roll #20 frozen same turn (see FINAL STATE banner in runs/2026-11-14T0139Z-stand
   PERMANENT herd infra — GPU-bound DEFER only; pre-reg 41b9044
   gate monitor). Queue external-only; honest quiet. One entry
   this turn.
+- 2026-11-14T08:00:43Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=5f5543d zero-byte=0/61 roll21=94
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-14
+  time=08:00:43Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  roll-log heredoc one cycle then close) e4d7b7f 5f5543d — probe
+  552 + REAL INCREMENT. ~27min after probe-551 (measured from
+  07:33:37Z; recomputed) -> fresh slot. roll21=94 = stat-
+  consistent (66 + probe-551's +28). INCREMENT (re-derivation
+  steady-state): PRE-RUN DEDUPE CHECK did its job — planned
+  pick 202412 was ALREADY re-derived probe-548 (list printed
+  from sanctioned records before running), swapped to two
+  genuinely outstanding months. 202105 rebuilt (5712,6) ==
+  published, front=NQM1, EQUALS=True (9.1s); 202311 rebuilt
+  (5967,6) == published, front=NQZ3, EQUALS=True (10.2s).
+  CROSS-CYCLE total (sanctioned probe-544..552): **17/17 months
+  exhaustively equal** — dedupe list now 17 distinct months;
+  44 outstanding, same code path. (202311 vs 202211 same
+  5967-bar shape, different instruments/years — coincidence
+  noted, both independently equal.) CPU-bound (~19s). visalgo
+  sync current: master ed065c9. State block: zero-byte=0/61 |
+  raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server
+  23,812 MiB PERMANENT herd infra — GPU-bound DEFER only;
+  pre-reg 41b9044 gate monitor). Queue external-only; honest
+  quiet. One entry this turn.
