@@ -50,7 +50,8 @@ remain roll-discontinuous (BASELINE.md roll-exclusion guidance).
 - Includes all 5 expiry-truncation months (202406/09, 202503/06/12)
   reproduced bit-identically under the documented PARTIAL front-contract
   semantics.
-- All re-decodes from raw source files (no cached intermediates);
+- All 61 months re-decoded fresh from raw source files each (no cached
+  bar intermediates; pinned decoder copy per provenance check probe-547);
   campaign spanned probes 544-573 (30 waking cycles), 2 months/wake.
 - Full-year completeness verified month-by-month: 2021 10/10, 2022 12/12,
   2023 12/12, 2025 12/12.
