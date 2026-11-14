@@ -51,9 +51,16 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
   line sits behind THIS turn's single probe-call output, one
   roll-log heredoc one cycle then close) e4d7b7f 6b69b18 — probe
-  574 + REAL INCREMENT. ~29min after probe-573 (measured from
-  19:32:32Z; recomputed; 28m13s after the rollover-22 exec
-  measurement at 20:01:49Z) -> fresh slot. roll23=43 = stat-
+  574 + REAL INCREMENT. ~58min after probe-573 (20:30:45Z -
+  19:32:32Z = 58m13s; the intervening rollover-22 exec wake at
+  ~20:01 consumed NO probe per maintenance rule, so probe-573
+  remains the last probe -> gap measured against it; 28m56s since
+  that exec measurement) -> fresh slot. CORRECTION (measurement-
+  class INCIDENT #19, self-caught in post-write audit): first
+  draft wrote "~29min after probe-573" and "28m13s" — both wrong:
+  58m13s vs probe-573 (failed to account for the probe-less exec
+  wake), and 20:30:45-20:01:49 = 28m56s not 28m13s. Recorded per
+  incident protocol; substantive claims (sweep 61/61) unaffected. roll23=43 = stat-
   consistent (rollover open committed at 43 lines probe-573
   header, +0 since). INCREMENT (post-campaign menu, first entry):
   **PUBLISHED-BARS HASH SWEEP COMPLETED 61/61** — every file in
