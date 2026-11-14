@@ -30,6 +30,17 @@ _compiled 2026-11-14T00:21:14Z | roll #19 | all artifacts below are IN THIS FOLD
 - PREREG_utc18_fade.md — v1 + RESULTS section 7: **FAIL** (CI [-1.882,+4.424] incl zero; stale-edge year trend) -> hour-of-day family CLOSED, no v2
 - prereg_utc18_fade_result.json — machine result
 
+
+## Expiry-truncation months (probe-557 finding — load-bearing for WF/ML)
+Five month files end at their front contract's 3rd-Friday expiry
+(decoder semantics: single volume-argmax front per file, trading
+stops at expiry): **202406 (ends Jun-21), 202409 (Sep-20),
+202503 (Mar-21), 202506 (Jun-20), 202512 (Dec-19)**. Raw files
+for these months are FULL (verified 202406: 7,999,761 ticks to
+Jun-30; NQM4 last tick Jun-21 13:29:45Z). TREAT THESE 5 MONTHS
+AS PARTIAL (~first 3 weeks of front) in WF/ML; month boundaries
+remain roll-discontinuous (BASELINE.md roll-exclusion guidance).
+
 ## Standing rules for downstream use
 - Any candidate strategy must beat BASELINE.md net of costs, not gross
 - Reused-hour testing FORBIDDEN (budget spent; new hypothesis needs new justification)

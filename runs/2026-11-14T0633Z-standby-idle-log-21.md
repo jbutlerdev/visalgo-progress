@@ -276,3 +276,32 @@ Roll #20 frozen same turn (see FINAL STATE banner in runs/2026-11-14T0139Z-stand
   not corrected. (Two script-attempt defects self-caught pre-
   claim: TradeMsg has no .symbol/.raw_symbol attrs -> to_df()
   path used.)
+- 2026-11-14T11:00:36Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=d818be1 zero-byte=0/61 roll21=278
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-14
+  time=11:00:36Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  roll-log heredoc one cycle then close) e4d7b7f d818be1 — probe
+  558 + REAL INCREMENT. ~30min after probe-557 (measured from
+  10:30:55Z; recomputed) -> fresh slot. roll21=278 = stat-
+  consistent (267 + probe-557's supplement +11). INCREMENT
+  (queued probe-557): expiry-truncation finding DOCUMENTED in
+  operator index — CORPUS_SUMMARY.md new section "Expiry-
+  truncation months (probe-557 finding — load-bearing for WF/
+  ML)": 5 months (202406/202409/202503/202506/202512) end at
+  3rd-Friday front expiries, raws full (202406 evidence:
+  7,999,761 ticks to Jun-30, NQM4 last tick Jun-21 13:29:45Z),
+  PARTIAL-month guidance + roll-discontinuity pointer to
+  BASELINE.md. Write exit-status + grep-verified before claim
+  (probe-536 countermeasure): "Expiry-truncation" present,
+  section landed. Values all transcribed from sanctioned probe-
+  557 record — no new measurements. CPU-bound. visalgo sync
+  current: master ed065c9. State block: zero-byte=0/61 |
+  raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server
+  23,812 MiB PERMANENT herd infra — GPU-bound DEFER only;
+  pre-reg 41b9044 gate monitor). Queue external-only; honest
+  quiet. One entry this turn.
