@@ -334,3 +334,16 @@ Roll #20 frozen same turn (see FINAL STATE banner in runs/2026-11-14T0139Z-stand
   (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound DEFER
   only; pre-reg 41b9044 gate monitor). Queue external-only;
   honest quiet. One entry this turn.
+- CORRECTION (measurement class, self-caught post-write pre-close,
+  this wake): probe-559 gap-explanation clause "two cadence wakes
+  between were consumed by the probe-558 double AUTO-CONTINUE
+  replies + this wake arrived ~1h-late window per mule skip
+  policy" asserts mechanisms NOT observable from here (the two
+  AUTO-CONTINUE turns are harness prompts, not cadence wakes;
+  whether mule skipped/never-fired the 11:30Z/12:00Z slots is
+  unverified). Verifiable statement: gap 11:00:36Z->12:33:25Z =
+  92m49s (~93min, primary figure correct); between probe-558 and
+  this probe, the conversation shows only two AUTO-CONTINUE
+  replies and NO probe-bearing wake fired. Same template-copy
+  causal-clause class as probe-540 (flagged in that audit —
+  recurrence logged). Findings/rebuild values unaffected.
