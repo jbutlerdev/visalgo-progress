@@ -98,3 +98,33 @@ Roll #21 frozen same turn (see FINAL STATE banner in runs/2026-11-14T0633Z-stand
   ssh CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
   GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
   external-only; honest quiet. One entry this turn.
+- 2026-11-14T15:00:43Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=6fbf798 zero-byte=0/61 roll22=100
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-14
+  time=15:00:43Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  roll-log heredoc one cycle then close) e4d7b7f 6fbf798 — probe
+  564 + REAL INCREMENT. ~30min after probe-563 (measured from
+  14:30:40Z; recomputed) -> fresh slot. roll22=100 = stat-
+  consistent (75 + probe-563's +25). INCREMENT (re-derivation
+  steady-state from verified outstanding enumeration): 202111
+  rebuilt (5967,6) == published, front=NQZ1 (Dec front, pre-Dec
+  roll — consistent; NOTE third month at 5967 bars — 202211/
+  202311 also 5967, benign session-count coincidence across
+  Novembers), EQUALS=True (8.9s); 202203 rebuilt (6085,6) ==
+  published, front=NQM2 (Jun front post-Mar roll... careful:
+  NQM2 = Jun-22 contract, March-expiry is NQH2; by Mar file's
+  volume-argmax lands on Jun post-roll — consistent w/ pattern
+  that quarter-start files front the NEXT quarter), EQUALS=True
+  (12.7s). CROSS-CYCLE (sanctioned probe-544..564): **43/43
+  months exhaustively equal**; 18 outstanding (2021x1, 2022x5,
+  2023x7, 2024x5), ~9 wakes to 61/61. CPU-bound (~22s). visalgo
+  sync current: master ed065c9. State block: zero-byte=0/61 |
+  raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server
+  23,812 MiB PERMANENT herd infra — GPU-bound DEFER only; pre-reg
+  41b9044 gate monitor). Queue external-only; honest quiet. One
+  entry this turn.
