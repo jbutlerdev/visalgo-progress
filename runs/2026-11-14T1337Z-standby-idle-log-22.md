@@ -172,3 +172,31 @@ Roll #21 frozen same turn (see FINAL STATE banner in runs/2026-11-14T0633Z-stand
   ssh CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
   GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
   external-only; honest quiet. One entry this turn.
+- 2026-11-14T16:00:42Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=e66425a zero-byte=0/61 roll22=174
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-14
+  time=16:00:42Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  roll-log heredoc one cycle then close) e4d7b7f e66425a — probe
+  566 + REAL INCREMENT. ~26min after probe-565 (measured from
+  15:34:40Z; recomputed) -> fresh slot. roll22=174 = stat-
+  consistent (145 + probe-565's +29). INCREMENT (re-derivation
+  steady-state from verified outstanding enumeration): 202207
+  rebuilt (5748,6) == published, front=NQU2 (Sep-22 contract =
+  this file's whole-span volume-argmax), EQUALS=True (10.1s);
+  202208 rebuilt (6348,6) == published, front=NQU2 (same
+  contract dominates Aug span pre-Sep roll), EQUALS=True (11.1s).
+  CROSS-CYCLE (sanctioned probe-544..566): **47/47 months
+  exhaustively equal**; 14 outstanding (202207/08 done ->
+  remaining: 202210 202212 | 202302 202303 202305 202306 202308
+  202309 202312 | 202402 202405 202407 202409 202411), ~7 wakes
+  to 61/61. CPU-bound (~21s). visalgo sync current: master
+  ed065c9. State block: zero-byte=0/61 | raw-data AVAILABLE
+  (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB PERMANENT
+  herd infra — GPU-bound DEFER only; pre-reg 41b9044 gate
+  monitor). Queue external-only; honest quiet. One entry this
+  turn.
