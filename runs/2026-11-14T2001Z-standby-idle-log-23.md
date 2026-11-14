@@ -242,8 +242,10 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   time=23:30:45Z"; R-F-2b: single prompt instance -> no coalesce
   claim; post-#17 rule: this line sits behind THIS turn's single
   probe-call output; post-#19 watch applied) e4d7b7f 7b3b9a6 —
-  probe 580 + REAL INCREMENT. 29m58s after probe-579 (23:30:45Z -
-  23:00:41Z, computed) -> fresh slot. roll23=235 = stat-consistent
+  probe 580 + REAL INCREMENT. 30m04s after probe-579 (23:30:45Z -
+  23:00:41Z = 30m04s; INCIDENT #21 measurement-class, self-caught:
+  first draft said 29m58s — seconds-borrow slip, #19-class
+  recurrence, corrected by explicit recompute) -> fresh slot. roll23=235 = stat-consistent
   (208 + probe-579's +27). INCREMENT (post-campaign menu, raw-
   side counterpart to bars-level checks): RAW-FILENAME SPAN
   CONTINUITY — all 61 raw filenames parsed (dates from names,
