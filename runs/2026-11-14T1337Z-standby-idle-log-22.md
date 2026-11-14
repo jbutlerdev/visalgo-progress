@@ -406,3 +406,26 @@ Roll #21 frozen same turn (see FINAL STATE banner in runs/2026-11-14T0633Z-stand
   (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound DEFER
   only; pre-reg 41b9044 gate monitor). Queue external-only;
   honest quiet. One entry this turn.
+
+=== ROLL #22 CLOSED 2026-11-14T20:01:49Z (maintenance-only rollover exec; no probe consumed on close) ===
+FINAL STATE (machine-sourced; wc/counts from this turn's measurement
+line "MEASURE dirty=0 tip=d84e56f remote=d84e56f roll22=408
+closedBanner=0 zero-byte=0/61 date=2026-11-14 time=20:01:49Z"; data/
+gpu state from last sanctioned probe record probe-573 @
+2026-11-14T19:32:32Z):
+- probes: 561 .. 573 (13 probes)
+- final wc -l: 408 (measured this turn)
+- dirty=0, local==remote==d84e56f
+- zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED
+  (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound DEFER
+  only; pre-reg 41b9044 gate monitor)
+- incidents: 18 at freeze (17 fabrication-class + 1 measurement-
+  class; NONE new in roll #22)
+ROLL-22 LEGACY: **RE-DERIVATION CAMPAIGN COMPLETED 61/61** (probe-
+573; all 61 corpus months exhaustively equal to published parquets
+from raw via pinned e4d7b7f decoder, incl 5 expiry-truncation
+months exact) + CORPUS_SUMMARY.md re-derivation section (COMPLETED
++ wording hardening) + 4 full-year month-by-month chains + 4
+rollover double-fire guards held + steady 2-months/wake cadence,
+zero incidents.
+=== END ROLL #22 ===
