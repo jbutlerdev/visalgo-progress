@@ -228,3 +228,40 @@ Roll #20 frozen same turn (see FINAL STATE banner in runs/2026-11-14T0139Z-stand
   CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
   GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
   external-only; honest quiet. One entry this turn.
+- 2026-11-14T10:30:55Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=a029f2a zero-byte=0/61 roll21=230
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-14
+  time=10:30:55Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  roll-log heredoc one cycle then close) e4d7b7f a029f2a — probe
+  557 + REAL INCREMENT. ~30min after probe-556 (measured from
+  10:00:50Z; recomputed) -> fresh slot. roll21=230 = stat-
+  consistent (206 + probe-556's +24). INCREMENT (anomaly-driven:
+  re-derivation 202107 (6000,6 NQU1) + 202406 (3995,6 NQM4)
+  EQUALS=True -> 27/27 months equal, 34 outstanding — THEN the
+  3,995-bar 202406 anomaly investigated properly): bars end
+  2024-06-21 13:25Z, June->July gap 226.6h, 0 ts-dups; RAW
+  full-parse: 7,999,761 records, last tick 2024-06-30 23:59:59Z
+  — RAW IS FULL-MONTH, bars are NOT truncated by defect.
+  EXPLANATION (verified): NQM4 EXPIRED Fri 2024-06-21 (3rd
+  Friday); decoder's whole-file volume-argmax front = NQM4,
+  which stops trading at expiry -> bars correctly end at expiry.
+  Corpus-wide sweep confirms EXACTLY 5 such expiry-truncation
+  months: 202406 (Jun-21), 202409 (Sep-20), 202503 (Mar-21),
+  202506 (Jun-20), 202512 (Dec-19) — all 3rd-Friday expiries,
+  consistent. VERDICT: NOT a defect — documented decoder
+  semantics (single front per file) faithfully re-derived.
+  DOWNSTREAM FLAG (new, load-bearing): those 5 months cover
+  only ~first 3 weeks of their front contract -> WF/ML runs
+  must treat as PARTIAL months; month boundaries remain roll-
+  discontinuous (cross-contract px gaps), reinforcing BASELINE.
+  md's roll-exclusion guidance. CPU-bound (~35s incl full-
+  parse). visalgo sync current: master ed065c9. State block:
+  zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh
+  CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
+  GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
+  external-only; honest quiet. One entry this turn.
