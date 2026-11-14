@@ -403,3 +403,31 @@ Roll #20 frozen same turn (see FINAL STATE banner in runs/2026-11-14T0139Z-stand
   (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound DEFER
   only; pre-reg 41b9044 gate monitor). Queue external-only;
   honest quiet. One entry this turn.
+- FINAL STATE — ROLL #21 FROZEN 2026-11-14T13:36:25Z (maintenance-only freeze on
+  cadence wake per one-timer rule: probe-561 read roll21=378 ->
+  post-write 405 (machine-measured THIS wake) >= ~380, exec this
+  wake per roll-20 precedent. #8 checklist: dirty=0 (git status 0
+  lines THIS wake), HEAD == remote tip (both read THIS wake),
+  audits closed (probe-561 audit produced no write), no pending
+  continuation. wc=405 LINES at last write (machine-measured pre-
+  banner THIS wake). LAST PROBE: 561 (2026-11-14T13:34:08Z). Roll
+  span: opened 06:33Z rollover, probes 550-561 (12 entries, ~7h).
+  CONTENT: RE-DERIVATION CAMPAIGN 33/33 months exhaustively equal
+  from raw via e4d7b7f decoder (all six calendar years, incl
+  quarter-start/Christmas/last-partial types; 2 double-verified
+  months 202501/202408 vs probe-534 full-parse); EXPIRY-
+  TRUNCATION FINDING (5 PARTIAL front-expiry months 202406/09,
+  202503/06/12 — raw-full verified, NQM4 last tick direct
+  evidence) documented in CORPUS_SUMMARY.md; pre-run dedupe
+  caught a double-pick pre-claim. Record defects this roll: 4
+  same-wake self-caught (probe-550 GPU-order note OK, 552 dedupe
+  pre-claim, 553 Feb-coincidence verified, 559/561-class
+  cadence-narrative clauses corrected) — all measurement/
+  cosmetic class; INCIDENTS UNCHANGED at 18 (17 fabrication + 1
+  measurement #13; last = #18 probe-536). Data/trading state at
+  freeze: zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh
+  CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
+  GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Ledger
+  rows=31 (dash tool-only; untouched #19/#20/#21). Re-fire count
+  = 5 (condition reported n=3). No probe consumed by freeze/open.
+  ) ROLL #21 CLOSED.

@@ -1,0 +1,33 @@
+# STANDBY IDLE LOG — ROLL #22 (opened 2026-11-14T13:36:25Z, maintenance-only rollover wake; no probe consumed on open)
+
+Standing-state header — copied VERBATIM from last sanctioned probe record (probe 561) per post-#8 machine-sourcing rule:
+
+- 2026-11-14T13:34:08Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=6d31049 zero-byte=0/61 roll21=378
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-14
+  time=13:34:08Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  roll-log heredoc one cycle then close) e4d7b7f 6d31049 — probe
+  561 + REAL INCREMENT. ~30min after probe-560 (measured from
+  13:04:19Z; recomputed) -> fresh slot. roll21=378 = stat-
+  consistent (349 + probe-560's +29). INCREMENT (re-derivation
+  steady-state, dedupe-checked pre-run): 202205 rebuilt (6048,6)
+  == published, front=NQM2 (Jun front pre-Jun roll — consistent),
+  EQUALS=True (14.3s); 202310 rebuilt (6096,6) == published,
+  front=NQZ3 (Dec front pre-Dec roll — consistent), EQUALS=True
+  (15.7s). CROSS-CYCLE total (sanctioned probe-544..561): **33/33
+  months exhaustively equal**; 28 outstanding (~14 wakes at
+  ~2/wake). Rollover-22: probe read 378 (< ~380); post-write
+  expected ~407 -> exec this wake per roll-20 precedent (post-
+  write crossing), verified-complete checks first. CPU-bound
+  (~30s). visalgo sync current: master ed065c9. State block:
+  zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED
+  (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound DEFER
+  only; pre-reg 41b9044 gate monitor). Queue external-only;
+  honest quiet. One entry this turn.
+
+Roll #21 frozen same turn (see FINAL STATE banner in runs/2026-11-14T0633Z-standby-idle-log-21.md).
