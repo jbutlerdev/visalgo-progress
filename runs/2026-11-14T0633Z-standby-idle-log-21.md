@@ -431,3 +431,14 @@ Roll #20 frozen same turn (see FINAL STATE banner in runs/2026-11-14T0139Z-stand
   rows=31 (dash tool-only; untouched #19/#20/#21). Re-fire count
   = 5 (condition reported n=3). No probe consumed by freeze/open.
   ) ROLL #21 CLOSED.
+- FINAL-STATE precision note (same wake as freeze, before close):
+  banner's "Record defects this roll: 4" conflates classes — the
+  TRUE in-file corrections on roll #21 = 1 (probe-559 gap-
+  explanation correction, commit b932c81). Other three cited
+  items were: probe-552 pre-run dedupe (PREVENTED a defect —
+  catch, not record defect), probe-553 Feb-coincidence (claim
+  VERIFIED in-wake, no correction needed), probe-557 supplement
+  (claim STRENGTHENED, no correction). Correct statement: 1
+  record defect + 3 verified/preventive quality events, all same-
+  wake. Class labels in banner were honest per-item; the count
+  word was loose.
