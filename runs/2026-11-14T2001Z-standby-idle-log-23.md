@@ -76,3 +76,31 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   herd infra — GPU-bound DEFER only; pre-reg 41b9044 gate
   monitor). Queue external-only; honest quiet. One entry this
   turn.
+- 2026-11-14T21:00:41Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=c648779 zero-byte=0/61 roll23=78
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-14
+  time=21:00:41Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  roll-log heredoc one cycle then close; post-#19 watch applied:
+  gap clauses recomputed from ts VALUES, not estimates) e4d7b7f
+  c648779 — probe 575 + REAL INCREMENT. 29m56s after probe-574
+  (21:00:41Z - 20:30:45Z, computed) -> fresh slot. roll23=78 =
+  stat-consistent (43 at open + probe-574's +28 + incident-19
+  correction +7 net = 78). INCREMENT (post-campaign menu):
+  DECODER-PIN LINEAGE RE-CHECK — remote algo-dev/ticks-builder
+  tip = e4d7b7f (UNCHANGED since pinning, no drift since
+  probe-547's check) AND remote ml/nq_ticks_load.py extracted
+  fresh == local pinned copy ~/visalgo-corpus/nq_ticks_load.py
+  sha256-identical (fffc25bbd71f8b2e..., VERBATIM=True) — the
+  exact decoder whose 61/61 re-derivation just completed is
+  provably still the branch tip, bit-for-bit; campaign claim
+  remains current. CPU-bound (fast). visalgo sync current: master
+  ed065c9. State block: zero-byte=0/61 | raw-data AVAILABLE
+  (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB PERMANENT
+  herd infra — GPU-bound DEFER only; pre-reg 41b9044 gate
+  monitor). Queue external-only; honest quiet. One entry this
+  turn.
