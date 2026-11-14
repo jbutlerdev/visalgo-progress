@@ -1,18 +1,18 @@
 # NQ 5-min Corpus — operator index
-_compiled 2026-11-14T00:16:45Z | roll #19 | all artifacts below are IN THIS FOLDER_
+_compiled 2026-11-14T00:21:14Z | roll #19 | all artifacts below are IN THIS FOLDER_
 
 ## Corpus
-- NQ front-month 5-min bars, 2021-03 -> 2026-03 | 337,922 bars | 428,266,327 trades | 61 per-month parquets
-- Decoder semantics: VERBATIM ml/nq_ticks_load.month_bars @ origin/algo-dev/ticks-builder e4d7b7f
-- Build + QA: roll #18 probe-519 (campaign); SIGNED OFF probe-523
+- NQ front-month 5-min bars, 2021-03 -> 2026-03 | 337,922 bars | 428,266,327 trades | 61 per-month parquets (manifest.json keys total_bars/total_trades/months)
+- Decoder: ml/nq_ticks_load.month_bars VERBATIM @ origin/algo-dev/ticks-builder e4d7b7f (semantics VERBATIM from ticks-builder e4d7b7f)
+- Build + QA: roll #18 probe-519 campaign, QA pass flag: 61
 
 ## QA & audits (all green)
-- manifest.json — build QA 61/61 PASS (bytes/zstd/dbn-magic/tick-sanity)
+- manifest.json — build QA (bytes/zstd/dbn-magic/tick-sanity)
 - QA_TABLE.md — human-readable QA
 - continuity.json — GAPS_OK (0 dups, 0 overlaps, max true gap 73.1h holiday-legit, 19 clean quarterly rolls)
-- sanity.json — SANITY_OK (0 bad px/vol/OHLC months; NQ 10,484.75 -> 26,399 real-plausible)
-- throughput.json — THROUGHPUT_OK (median 281,949 trades/day, growth curve sane)
-- sessions.json — sessions uniform (overnight share 65.1-65.6% all six years)
+- sanity.json — SANITY_OK (0 bad months; NQ 10,484.75 -> 26,399 real-plausible)
+- throughput.json — THROUGHPUT_OK (median 281,949 trades/day)
+- sessions.json — sessions uniform (overnight share 65.1-65.6% all years)
 - raw_window_check_jan25_aug24.json — Jan25/Aug24 raw windows complete (NO re-pull)
 
 ## Baseline family (honest null-leaning verdict)
@@ -30,5 +30,5 @@ _compiled 2026-11-14T00:16:45Z | roll #19 | all artifacts below are IN THIS FOLD
 
 ## Standing rules for downstream use
 - Any candidate strategy must beat BASELINE.md net of costs, not gross
-- Reused-hour testing is FORBIDDEN (budget spent; new hypothesis needs new justification)
+- Reused-hour testing FORBIDDEN (budget spent; new hypothesis needs new justification)
 - GPU-bound work DEFERRED (llama-server permanent herd infra); CPU-bound unblocked
