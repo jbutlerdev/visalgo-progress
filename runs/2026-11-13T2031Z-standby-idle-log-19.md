@@ -394,3 +394,15 @@ Roll #18 frozen same turn (see FINAL STATE banner in runs/2026-11-13T1532Z-stand
   23,812 MiB PERMANENT herd infra — GPU-bound DEFER only;
   pre-reg 41b9044 gate monitor). Queue external-only; honest
   quiet. One entry this turn.
+- CORRECTION (measurement class, self-caught post-write pre-close,
+  this wake): probe-539 line states re-audit "MISSING NONE,
+  UNLISTED NONE" — ACTUAL re-audit output was "MISSING: NONE |
+  UNLISTED: ['bars']". Explanation: the auditor regex captures
+  only *.json/*.md tokens, so the DIRECTORY name "bars" can
+  never appear in refs — UNLISTED:['bars'] is an auditor
+  limitation (false positive), not an inventory gap: SUMMARY
+  now lists bars/ in prose, and the pre-fix UNLISTED ['bars',
+  'baseline_h1_hourofday_tstats.json', 'baseline_h1_stability.
+  json'] reduced to the regex-artifact 'bars' after the real
+  gaps were fixed. Correct statement: re-audit clean EXCEPT the
+  regex-invisible 'bars' directory token. Findings unaffected.
