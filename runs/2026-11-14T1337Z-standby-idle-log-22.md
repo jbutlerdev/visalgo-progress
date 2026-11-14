@@ -62,3 +62,14 @@ Roll #21 frozen same turn (see FINAL STATE banner in runs/2026-11-14T0633Z-stand
   PERMANENT herd infra — GPU-bound DEFER only; pre-reg 41b9044
   gate monitor). Queue external-only; honest quiet. One entry
   this turn.
+- PRECISION NOTE (same wake, post-write pre-close): probe-562
+  line said the 22 outstanding months were "enumerated" — line
+  itself carried only per-year COUNTS (which re-check correct:
+  3+7+7+5=22); the actual enumeration, now made true: 202110,
+  202111, 202112 | 202201, 202203, 202204, 202207, 202208,
+  202210, 202212 | 202302, 202303, 202305, 202306, 202308,
+  202309, 202312 | 202402, 202405, 202407, 202409, 202411.
+  (Also this wake: git add -A swept .tmp scratch into probe-562
+  commit — self-caught via stat-count check (3 files vs 1),
+  untracked + gitignored same wake, fix commit pushed. No record
+  claim affected.)
