@@ -206,3 +206,30 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   23,812 MiB PERMANENT herd infra — GPU-bound DEFER only;
   pre-reg 41b9044 gate monitor). Queue external-only; honest
   quiet. One entry this turn.
+- 2026-11-14T23:00:41Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=98b284b zero-byte=0/61 roll23=208
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-14
+  time=23:00:41Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19 watch applied) e4d7b7f 98b284b —
+  probe 579 + REAL INCREMENT. 29m55s after probe-578 (23:00:41Z -
+  22:30:46Z, computed) -> fresh slot. roll23=208 = stat-consistent
+  (164 + probe-578's +45 net incl incident-20 correction block).
+  INCREMENT (post-campaign menu): CROSS-ARTIFACT CONSISTENCY
+  CHECK — actual row-count sum over all 61 published parquets
+  (pyarrow metadata, fresh read) = **337,922 == continuity.json
+  total_bars EXACTLY == total_unique_bars EXACTLY** (both True);
+  ties the QA record's bar-total directly to the physical
+  published files (previously only checked via continuity's own
+  computation at build time); files=61 == 61 months. Combined
+  w/ probe-574 hash sweep + probe-577 magic sweep + probe-578
+  JSON re-load: published corpus now verified consistent at
+  hash-, format-, parse- AND count-level. CPU-bound (fast).
+  visalgo sync current: master ed065c9. State block: zero-byte=
+  0/61 | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED
+  (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound DEFER
+  only; pre-reg 41b9044 gate monitor). Queue external-only;
+  honest quiet. One entry this turn.
