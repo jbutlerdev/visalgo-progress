@@ -75,3 +75,39 @@ Roll #19 frozen same turn (see FINAL STATE banner in runs/2026-11-13T2031Z-stand
   intervening wakes at all. Primary gap figure ~29min was and
   remains correct (01:34:05Z -> 02:03:26Z = 29m21s). Findings
   unaffected.
+- 2026-11-14T02:31:37Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=0cc982f zero-byte=0/61 roll20=77
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-14
+  time=02:31:37Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  roll-log heredoc one cycle then close) e4d7b7f 0cc982f — probe
+  541 + REAL INCREMENT. ~28min after probe-540 (measured from
+  02:03:26Z; recomputed) -> fresh slot. roll20=77 = stat-
+  consistent (67 + probe-540's correction +10). INCREMENT
+  (entropy-sweep depth pass — closes probe-537's disclosed
+  pattern-scan limitation): Shannon-entropy scan (>4.2, len>=28)
+  over BOTH lanes' tracked files: progress 314 files -> 190
+  candidates, visalgo + more (output truncated at harness cap;
+  full pass completed, counts are first-screen). ALL sampled
+  candidates CLASSIFIED benign, five false-positive classes:
+  (1) long file paths (runs/..., /opt/agent-data/...); (2)
+  binary-embedded base64-ish runs inside parquet/DLL artifacts
+  (expected high entropy — compressed column data, PE debug
+  strings); (3) C++ mangled symbols (_ZN...) in the built DLL;
+  (4) env-probe state strings ("git/ssh/...=MISSING" roll-5/6
+  historical probes); (5) KEYHINT tags on runs.json:1 = whole-
+  line JSON matching 'key' substring anywhere -> tags every
+  token in file (auditor artifact, not signal). NO credential-
+  shaped true positives: zero ghp_/github_pat_ (pattern scan
+  probe-537 corroborates), zero PEM blocks, zero assignment-
+  style high-entropy values. VERDICT: TOKEN-HYGIENE DEPTH PASS
+  — both lanes clean at pattern AND entropy depth. CPU-bound.
+  visalgo sync current: master ed065c9. State block: zero-byte=
+  0/61 | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED
+  (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound
+  DEFER only; pre-reg 41b9044 gate monitor). Queue external-
+  only; honest quiet. One entry this turn.
