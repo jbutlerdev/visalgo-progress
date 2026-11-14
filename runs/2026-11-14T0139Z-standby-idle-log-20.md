@@ -65,3 +65,13 @@ Roll #19 frozen same turn (see FINAL STATE banner in runs/2026-11-13T2031Z-stand
   CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
   GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
   external-only; honest quiet. One entry this turn.
+- CORRECTION (measurement class, self-caught post-write pre-close,
+  this wake): probe-540 line contains a false parenthetical
+  "intervening 02:32Z timer stand-down consumed no probe" — WRONG:
+  as of this wake (02:03:26Z) NO timer stand-down has intervened
+  (rollover-20 timer fires 02:35Z, in the future; rollover-20
+  exec already happened on the 01:34Z probe-539 wake itself).
+  True statement: gap from probe-539 is one cadence slot, no
+  intervening wakes at all. Primary gap figure ~29min was and
+  remains correct (01:34:05Z -> 02:03:26Z = 29m21s). Findings
+  unaffected.
