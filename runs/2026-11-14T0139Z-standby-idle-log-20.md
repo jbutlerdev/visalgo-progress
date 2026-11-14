@@ -157,3 +157,33 @@ Roll #19 frozen same turn (see FINAL STATE banner in runs/2026-11-13T2031Z-stand
   herd infra — GPU-bound DEFER only; pre-reg 41b9044 gate
   monitor). Queue external-only; honest quiet. One entry this
   turn.
+- 2026-11-14T03:30:40Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=1b4521b zero-byte=0/61 roll20=159
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-14
+  time=03:30:40Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  roll-log heredoc one cycle then close) e4d7b7f 1b4521b — probe
+  543 + REAL INCREMENT. ~30min after probe-542 (measured from
+  03:00:42Z; recomputed) -> fresh slot. roll20=159 = stat-
+  consistent (127 + probe-542's +32). INCREMENT (decoder-pin
+  lineage verification — audits so far verified artifacts vs the
+  PIN, never the PIN itself): remote ls-remote of visalgo algo-
+  dev/ticks-builder = e4d7b7fe91c73932d46aa9085ff260a374ca06c7 —
+  **REMOTE BRANCH TIP == THE PIN ITSELF** (exact, not just
+  ancestor); e4d7b7f resolves as commit in master-lane object
+  store; subject: "scripts/oos_table.py: implements oos-table
+  pre-reg 39dcde1 (3 arms file-source vocabulary, v2 cent-
+  identity gate, summarize_days pooled)" — decoder semantics
+  provenance chain INTACT (branch never force-pushed past pin;
+  ml/nq_ticks_load.py present at pin via ls-tree). VERDICT:
+  DECODER-PIN LINEAGE PASS — every corpus artifact's "VERBATIM
+  @ e4d7b7f" claim now verified end-to-end (remote tip -> commit
+  -> file). CPU-bound. visalgo sync current: master ed065c9.
+  State block: zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu
+  ssh CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
+  GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
+  external-only; honest quiet. One entry this turn.
