@@ -187,3 +187,36 @@ Roll #19 frozen same turn (see FINAL STATE banner in runs/2026-11-13T2031Z-stand
   ssh CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
   GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
   external-only; honest quiet. One entry this turn.
+- 2026-11-14T04:00:38Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=060cb2f zero-byte=0/61 roll20=189
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-14
+  time=04:00:38Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  roll-log heredoc one cycle then close) e4d7b7f 060cb2f — probe
+  544 + REAL INCREMENT. ~30min after probe-543 (measured from
+  03:30:40Z; recomputed) -> fresh slot. roll20=189 = stat-
+  consistent (159 + probe-543's +30). INCREMENT (end-to-end
+  REPRODUCIBILITY re-derivation — strongest corpus audit yet,
+  extends probe-542 hash check which only compared copies):
+  FULL-MONTH rebuild of 202401 from RAW glbx-mdp3-20240101-
+  20240131.trades.dbn.zst through the decoder copy (VERBATIM
+  @ e4d7b7f semantics, same call path as campaign) vs published
+  parquet: rebuilt (6036,6) == published (6036,6), index MATCH,
+  OHLCV round(6) VALUES_EQUAL=True, front=NQH4 (volume-weighted
+  pick reproduced), 11.2s. First-pass defect self-caught pre-
+  claim: treated month_bars return as bare DF -> AttributeError
+  (returns (bars, front) tuple); signature checked, fixed, ran.
+  VERDICT: REPRODUCIBILITY PASS — raw -> decoder -> bars chain
+  re-derives the corpus exactly (1 month exhaustively; 3 months
+  hash-spot probe-542; 13/13 JSONs identical). Corpus audit
+  stack now: bytes/magic + continuity + sanity + throughput +
+  sessions + hashes + pin-lineage + re-derivation. CPU-bound.
+  visalgo sync current: master ed065c9. State block: zero-byte=
+  0/61 | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED
+  (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound
+  DEFER only; pre-reg 41b9044 gate monitor). Queue external-
+  only; honest quiet. One entry this turn.
