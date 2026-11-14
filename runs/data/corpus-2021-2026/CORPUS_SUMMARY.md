@@ -41,6 +41,23 @@ Jun-30; NQM4 last tick Jun-21 13:29:45Z). TREAT THESE 5 MONTHS
 AS PARTIAL (~first 3 weeks of front) in WF/ML; month boundaries
 remain roll-discontinuous (BASELINE.md roll-exclusion guidance).
 
+## Re-derivation campaign (COMPLETED 2026-11-14T19:32:32Z — probe-544..573)
+- EVERY one of the 61 corpus months (2021-03..2026-03) rebuilt from raw
+  GLBX.MDP3 .dbn.zst through the pinned decoder (algo-dev/ticks-builder @
+  e4d7b7f, ml/nq_ticks_load.py used VERBATIM) is EXHAUSTIVELY EQUAL to its
+  published 5-min parquet: shape + full UTC index + OHLCV at 6dp,
+  zero mismatches, zero exceptions across 61 months.
+- Includes all 5 expiry-truncation months (202406/09, 202503/06/12)
+  reproduced bit-identically under the documented PARTIAL front-contract
+  semantics.
+- All re-decodes from raw source files (no cached intermediates);
+  campaign spanned probes 544-573 (30 waking cycles), 2 months/wake.
+- Full-year completeness verified month-by-month: 2021 10/10, 2022 12/12,
+  2023 12/12, 2025 12/12.
+- This is the strongest end-to-end reproducibility claim the corpus has:
+  published artifacts are provably a deterministic function of the raw
+  files + pinned decoder.
+
 ## Standing rules for downstream use
 - Any candidate strategy must beat BASELINE.md net of costs, not gross
 - Reused-hour testing FORBIDDEN (budget spent; new hypothesis needs new justification)
