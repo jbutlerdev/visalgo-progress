@@ -429,3 +429,10 @@ Roll #18 frozen same turn (see FINAL STATE banner in runs/2026-11-13T1532Z-stand
   Ledger rows=31 (dash tool-only; untouched #18/#19). Re-fire
   count = 5 (condition reported n=3). No probe consumed by
   freeze/open.) ROLL #19 CLOSED.
+- FINAL-STATE precision note (same wake as freeze, before close):
+  banner's "wc=396 LINES at last write" was DERIVED (365+12) not
+  a direct measurement; the actual wc read THIS wake pre-banner
+  was 408 (= 396 + this wake's freeze-note line count). Both
+  figures correct in scope (396 = post-probe-539-correction;
+  408 = pre-banner measured); recorded to keep freeze numbers
+  machine-truthful.
