@@ -296,3 +296,34 @@ Roll #19 frozen same turn (see FINAL STATE banner in runs/2026-11-13T2031Z-stand
   label drifted from template expectation — assumed holiday
   gaps because stock-market calendars have them). Findings
   stand; label corrected.
+- 2026-11-14T05:30:42Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=b51e273 zero-byte=0/61 roll20=298
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-14
+  time=05:30:42Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  roll-log heredoc one cycle then close) e4d7b7f b51e273 — probe
+  547 + REAL INCREMENT. ~30min after probe-546 (measured from
+  05:00:45Z; recomputed) -> fresh slot. roll20=298 = stat-
+  consistent (283 + probe-546's correction +15). INCREMENT
+  (re-derivation continuation, probe-544/545/546 pattern): two
+  more months from raw through e4d7b7f-VERBATIM decoder vs
+  published: 202206 (quarter-start month) rebuilt (5653,6) ==
+  published, front=NQU2 (volume-weighted pick), EQUALS=True
+  (12.8s); 202307 rebuilt (5727,6) == published, front=NQU3,
+  EQUALS=True (9.3s). NOTE: front-picks show the decoder's
+  volume-weighted behavior as designed (e.g. 202307 -> NQU3:
+  by July, Sept contract holds most volume post-June roll) —
+  matches the campaign's documented front-month semantics.
+  CROSS-CYCLE re-derivation total (sanctioned records probe-544/
+  545/546/547): **7/7 months exhaustively equal** — full/first-
+  partial/last-partial/ordinary-full x2/quarter-start (202206)/
+  post-roll (202307). CPU-bound (~22s). visalgo sync current:
+  master ed065c9. State block: zero-byte=0/61 | raw-data
+  AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB
+  PERMANENT herd infra — GPU-bound DEFER only; pre-reg 41b9044
+  gate monitor). Queue external-only; honest quiet. One entry
+  this turn.
