@@ -19,10 +19,12 @@ _compiled 2026-11-14T00:21:14Z | roll #19 | all artifacts below are IN THIS FOLD
 - BASELINE.md — formal write-up, WF-null reference role
 - baseline_first_touch.json — full-hours, 4 horizons (n=1,306,200 decisions)
 - baseline_first_touch_rth_trim.json — RTH+trim variant (n=293,033)
-- baseline_h1_hourofday.json + _tstats.json — hour profile, i.i.d. t max 2.3
+- baseline_h1_hourofday.json / baseline_h1_hourofday_tstats.json — hour profile, i.i.d. t max 2.3
 - baseline_h1_boot.json — day-block bootstrap: UTC15/18 CI-excl-zero (borderline)
 - baseline_h1_boot_noroll.json — + roll-exclusion: UTC15 FALLS OUT, UTC18 sole survivor
 - baseline_h1_weekday.json — no significant weekday (max t=1.7)
+- baseline_h1_stability.json — year-half stability: 6/11 positive, sign flips (corroborates closure)
+- bars/ — the 61 per-month parquet corpus
 
 ## Pre-registration (family-closing)
 - PREREG_utc18_fade.md — v1 + RESULTS section 7: **FAIL** (CI [-1.882,+4.424] incl zero; stale-edge year trend) -> hour-of-day family CLOSED, no v2
