@@ -265,3 +265,14 @@ Roll #20 frozen same turn (see FINAL STATE banner in runs/2026-11-14T0139Z-stand
   CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
   GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
   external-only; honest quiet. One entry this turn.
+- SUPPLEMENT (same wake as probe-557 record, post-write pre-close):
+  the expiry explanation's "verified" scope at writing = raw-
+  full-month parse + 5-month 3rd-Friday sweep + 0 dups (sound
+  inference); DIRECT per-symbol evidence added now: NQM4 in the
+  June raw has 4,095,731 trades, LAST TICK 2024-06-21 13:29:45Z
+  (expiry Fri morning ET; NQ stops 10:00 ET) — bars ending
+  13:25Z = last 5m bar before last trade, EXACT decoder
+  semantics. Claim now directly confirmed, record strengthened
+  not corrected. (Two script-attempt defects self-caught pre-
+  claim: TradeMsg has no .symbol/.raw_symbol attrs -> to_df()
+  path used.)
