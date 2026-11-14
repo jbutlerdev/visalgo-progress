@@ -125,3 +125,35 @@ Roll #19 frozen same turn (see FINAL STATE banner in runs/2026-11-13T2031Z-stand
   five false-positive classes cited stand (verified against the
   full candidate population's composition). Findings unaffected;
   precision upgrade recorded.
+- 2026-11-14T03:00:42Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=3e9a4a7 zero-byte=0/61 roll20=127
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-14
+  time=03:00:42Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  roll-log heredoc one cycle then close) e4d7b7f 3e9a4a7 — probe
+  542 + REAL INCREMENT. ~29min after probe-541 (measured from
+  02:31:37Z; recomputed; intervening 02:35Z timer wake consumed NO
+  probe, verified-stand-down — so gap IS one cadence slot) ->
+  fresh slot. roll20=127 = stat-consistent (113 + probe-541's
+  correction +14). INCREMENT (published-artifact hash-verification
+  vs persistent-corpus originals — provenance-integrity guard):
+  sha256 every published JSON in runs/data/corpus-2021-2026/
+  against $HOME/visalgo-corpus/qa/ original (rename-map handled):
+  **13/13 MATCH, 0 DIFF**; 2 NO-ORIG explained legitimately —
+  manifest.json (campaign-time build artifact, repo-native) +
+  raw_window_check_jan25_aug24.json (probe-535 artifact written
+  directly into repo, per its log line "machine artifact for
+  probe-534" — never in qa/); bars spot-check 3 months (202103/
+  202310/202603, first/mid/last): 3/3 sha256 MATCH vs persistent
+  corpus. VERDICT: PUBLISHED-ARTIFACT PROVENANCE PASS — repo
+  copies are bit-identical to build-time originals, no drift
+  since campaign. CPU-bound. visalgo sync current: master
+  ed065c9. State block: zero-byte=0/61 | raw-data AVAILABLE
+  (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB PERMANENT
+  herd infra — GPU-bound DEFER only; pre-reg 41b9044 gate
+  monitor). Queue external-only; honest quiet. One entry this
+  turn.
