@@ -251,3 +251,33 @@ Roll #19 frozen same turn (see FINAL STATE banner in runs/2026-11-13T2031Z-stand
   23,812 MiB PERMANENT herd infra — GPU-bound DEFER only; pre-
   reg 41b9044 gate monitor). Queue external-only; honest quiet.
   One entry this turn.
+- 2026-11-14T05:00:45Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=eb894ab zero-byte=0/61 roll20=253
+  gpu=[256 MiB venv python;23812 MiB llama-server] date=2026-11-14
+  time=05:00:45Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; R-F-4b: no suspicion, no retraction; post-#17 rule: this
+  line sits behind THIS turn's single probe-call output, one
+  roll-log heredoc one cycle then close) e4d7b7f eb894ab — probe
+  546 + REAL INCREMENT. ~30min after probe-545 (measured from
+  04:31:01Z; recomputed) -> fresh slot. roll20=253 = stat-
+  consistent (222 + probe-545's +31). INCREMENT (re-derivation
+  continuation, probe-544/545 pattern): two more months rebuilt
+  from raw through e4d7b7f-VERBATIM decoder vs published:
+  202601 (MLK-window month, Jan-19 holiday break present in
+  bars) rebuilt (5748,6) == published, front=NQH6, EQUALS=True
+  (9.1s); 202602 (Presidents-window, Feb-16 break) rebuilt
+  (5472,6) == published, front=NQH6, EQUALS=True (9.4s).
+  CROSS-CYCLE re-derivation total (sanctioned records probe-544/
+  545/546): **5/5 months exhaustively equal** — full (202401),
+  first-partial (202103), last-partial (202603), two holiday-
+  window months (202601/202602) — every structural month TYPE
+  now covered at least once; holiday-break gaps re-derive
+  identically (decoder's no-trade handling deterministic).
+  CPU-bound (~19s). visalgo sync current: master ed065c9. State
+  block: zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh
+  CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
+  GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
+  external-only; honest quiet. One entry this turn.
