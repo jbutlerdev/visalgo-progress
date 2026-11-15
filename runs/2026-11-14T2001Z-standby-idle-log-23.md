@@ -348,3 +348,31 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   herd infra — GPU-bound DEFER only; pre-reg 41b9044 gate
   monitor). Queue external-only; honest quiet. One entry this
   turn.
+- 2026-11-15T01:30:40Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=45be8c8 zero-byte=0/61 roll23=350
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-15
+  time=01:30:40Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19/#21 watch applied) e4d7b7f 45be8c8 —
+  probe 584 + REAL INCREMENT. 29m54s after probe-583 (01:30:40 -
+  01:00:46 = 29m54s, computed) -> fresh slot. roll23=350 = stat-
+  consistent (318 + probe-583's +32). INCREMENT (post-campaign
+  menu): SESSIONS-ARTIFACT CROSS-CHECK — sessions.json (6 year
+  records) re-loaded fresh: (1) per-year bars sum = **337,922 ==
+  the independent parquet row-sum** (probes 579/582) EXACTLY;
+  (2) per-year rth_bars+overnight_bars == bars for ALL 6 years
+  (partition complete); (3) overnight_share_pct range 65.1-65.6
+  == CORPUS_SUMMARY's standing claim character-for-character.
+  QA-completeness leg now independently re-verified end-to-end
+  (sessions <-> parquets <-> summary). ROLLOVER WATCH: roll23
+  350+this line ~<380 -> exec NOT yet (threshold ~380; 01:33Z
+  backstop timer fires imminently -> early-fire note-only stand-
+  down by design; real exec next wake or via 02:28Z backstop).
+  CPU-bound (fast). visalgo sync current: master ed065c9. State
+  block: zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh
+  CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
+  GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
+  external-only; honest quiet. One entry this turn.
