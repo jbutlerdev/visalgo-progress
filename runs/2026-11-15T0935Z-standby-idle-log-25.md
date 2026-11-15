@@ -162,3 +162,29 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   herd infra — GPU-bound DEFER only; pre-reg 41b9044 gate
   monitor). Queue external-only; honest quiet. One entry this
   turn.
+- 2026-11-15T12:30:41Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=8772044 zero-byte=0/61 roll25=164
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-15
+  time=12:30:41Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19/#21/#22 watch: gap by explicit
+  subtraction) e4d7b7f 8772044 — probe 604 + REAL INCREMENT.
+  28m22s after probe-603 (12:30:41 - 12:02:19 = 28m22s,
+  subtracted) -> fresh slot. Probe number from records (603+1).
+  roll25=164 = stat-consistent (135 + probe-603's +29). INCREMENT
+  (post-campaign menu): FRONT-CODE STRUCTURAL VALIDITY — all 61
+  front_sequence entries: cycle code in {H,M,U,Z} (quarterly),
+  year-digit consistent w/ year window (contract year in {ym
+  year, +1}), none expired at its own month: **61/61 valid**.
+  Scope honesty: this is a structural/semantic check (codes well-
+  formed & non-expired), NOT independent market-truth of which
+  contract led volume (that's the re-derivation's job, 61/61
+  @573 via raw volume-argmax). CPU-bound (fast). visalgo sync
+  current: master ed065c9. State block: zero-byte=0/61 |
+  raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server
+  23,812 MiB PERMANENT herd infra — GPU-bound DEFER only;
+  pre-reg 41b9044 gate monitor). Queue external-only; honest
+  quiet. One entry this turn.
