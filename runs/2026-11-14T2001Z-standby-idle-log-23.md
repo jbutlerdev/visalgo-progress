@@ -291,3 +291,28 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
   GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
   external-only; honest quiet. One entry this turn.
+- 2026-11-15T00:30:42Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=7aa0b85 zero-byte=0/61 roll23=293
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-15
+  time=00:30:42Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19/#21 watch applied) e4d7b7f 7aa0b85 —
+  probe 582 + REAL INCREMENT. 28m32s after probe-581 (00:30:42 -
+  00:02:10 = 28m32s, computed) -> fresh slot. roll23=293 = stat-
+  consistent (267 + probe-581's +26). INCREMENT (post-campaign
+  menu): OHLC-INVARIANT SWEEP (fresh full read, all 61 files,
+  337,922 rows checked — count independently re-derived this
+  wake, matches probe-579's parquet row-sum) — **PASS: zero
+  violations**: high>=max(o,c), low<=min(o,c), high>=low, all
+  px>0, volume integer>=0, every row, every file. Complements
+  build-era sanity.json (bad_ohlc=none then too — this is the
+  post-campaign independent re-check); bars-side verification now
+  spans hash/format/parse/count/index/grid/invariant levels.
+  CPU-bound (fast). visalgo sync current: master ed065c9. State
+  block: zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh
+  CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
+  GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
+  external-only; honest quiet. One entry this turn.
