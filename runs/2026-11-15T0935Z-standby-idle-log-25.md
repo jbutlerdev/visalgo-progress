@@ -266,3 +266,29 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   ssh CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
   GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
   external-only; honest quiet. One entry this turn.
+- 2026-11-15T15:34:19Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=1b34e19 zero-byte=0/61 roll25=268
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-15
+  time=15:34:19Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19/#21/#22 watch: gap by explicit
+  subtraction) e4d7b7f 1b34e19 — probe 608 + REAL INCREMENT.
+  92m04s after probe-607 (15:34:19 - 14:02:15 = 92m04s,
+  subtracted; wake ~62min late vs cadence — disclosed as raw
+  fact, no causal claim; intervening time consumed by AUTO-
+  CONTINUE closes only, no missed work per queue). Probe number
+  from records (607+1). roll25=268 = stat-consistent (244 +
+  probe-607's +24). INCREMENT (post-campaign menu): MANIFEST-
+  TRADES <-> PARQUET-N PER-MONTH — per-month manifest.trades ==
+  sum of published n column per file: **61/61 exact, 0
+  mismatched** (probe-587 tied the GLOBAL trade count; per-month
+  granularity was untested — now closed; per-month n is also
+  what the re-derivation compared shapes on @544..573). CPU-bound
+  (fast). visalgo sync current: master ed065c9. State block:
+  zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED
+  (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound DEFER
+  only; pre-reg 41b9044 gate monitor). Queue external-only;
+  honest quiet. One entry this turn.
