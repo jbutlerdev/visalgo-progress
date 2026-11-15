@@ -109,3 +109,31 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound
   DEFER only; pre-reg 41b9044 gate monitor). Queue external-only;
   honest quiet. One entry this turn.
+- 2026-11-15T19:30:44Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=ba597b2 zero-byte=0/61 roll26=111
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-15
+  time=19:30:44Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19/#21/#22/#23 watch: gaps by explicit
+  subtraction w/ anchor labels) e4d7b7f ba597b2 — probe 615 +
+  REAL INCREMENT. 29m44s after probe-614 (19:30:44 - 19:01:00 =
+  29m44s, subtracted; single anchor — no probe-less wake since) ->
+  fresh slot. Probe number from records (614+1). roll26=111 =
+  stat-consistent (84 + probe-614's +27). INCREMENT (post-campaign
+  menu): ZSTD FRAME-FLAGS + CHECKSUM-DECLARATION AUDIT — parsed
+  every raw file's frame header: magic b28b52ffd OK 61/61 AND
+  **all 61 declare the FContent_Checksum flag** (xxhash content
+  checksum present in every frame — the files self-certify
+  integrity, deepening probe-577's magic-only look and probe-
+  609's decode pass: python-zstandard verifies that checksum on
+  stream end, so 609's zero-error result already implied checksum
+  validation — this wake establishes the flag was actually set,
+  i.e. the verification was real, not vacuously skipped).
+  CPU-bound (fast). visalgo sync current: master ed065c9. State
+  block: zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh
+  CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
+  GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
+  external-only; honest quiet. One entry this turn.
