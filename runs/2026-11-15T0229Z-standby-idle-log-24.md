@@ -175,3 +175,28 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   23,812 MiB PERMANENT herd infra — GPU-bound DEFER only; pre-reg
   41b9044 gate monitor). Queue external-only; honest quiet. One
   entry this turn.
+- 2026-11-15T05:30:44Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=bba5493 zero-byte=0/61 roll24=177
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-15
+  time=05:30:44Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19/#21/#22 watch: gap by explicit
+  subtraction) e4d7b7f bba5493 — probe 591 + REAL INCREMENT.
+  30m02s after probe-590 (05:30:44 - 05:00:42 = 30m02s,
+  subtracted) -> fresh slot. roll24=177 = stat-consistent (150 +
+  probe-590's +27). INCREMENT (post-campaign menu): QA_TABLE
+  dates <-> MANIFEST DATES direct tie — all 61 table "first→last"
+  date pairs == manifest.rows per-month first/last dates
+  **exactly, 0 mismatched**. New pairwise edge: prior checks tied
+  table->filename-span (589) and manifest->parquet-index-ends
+  (590); this closes table<->manifest directly on dates, so the
+  three date sources (human table, build manifest, physical
+  index) are now mutually corroborated pairwise. CPU-bound
+  (fast). visalgo sync current: master ed065c9. State block:
+  zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED
+  (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound DEFER
+  only; pre-reg 41b9044 gate monitor). Queue external-only;
+  honest quiet. One entry this turn.
