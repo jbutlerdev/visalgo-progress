@@ -133,3 +133,32 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   ssh CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
   GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
   external-only; honest quiet. One entry this turn.
+- 2026-11-15T12:02:19Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=a8bdf19 zero-byte=0/61 roll25=135
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-15
+  time=12:02:19Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19/#21/#22 watch: gap by explicit
+  subtraction) e4d7b7f a8bdf19 — probe 603 + REAL INCREMENT.
+  31m30s after probe-602 (12:02:19 - 11:30:49 = 31m30s,
+  subtracted; wake ~1.5min late, within watch band) -> fresh slot.
+  Probe number from records (602+1). roll25=135 = stat-consistent
+  (109 + probe-602's +26). INCREMENT (post-campaign menu):
+  CONTINUITY FRONT-CHANGES FIELD SEMANTICS — hypothesis
+  (front_changes = the 19 transition months) TESTED & REFUTED by
+  data (len=61, not 19) — no claim made; correct semantics then
+  established: **front_changes == front_sequence, same 61
+  (month, front) pairs same order** — the field is a
+  full-sequence duplication (misleading name, internally
+  consistent; the real transition list is roll_transitions,
+  already tied 19/19 @594). Downstream note: use
+  front_sequence/roll_transitions; front_changes adds no
+  information. CPU-bound (fast). visalgo sync current: master
+  ed065c9. State block: zero-byte=0/61 | raw-data AVAILABLE
+  (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB PERMANENT
+  herd infra — GPU-bound DEFER only; pre-reg 41b9044 gate
+  monitor). Queue external-only; honest quiet. One entry this
+  turn.
