@@ -57,10 +57,14 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   claim; post-#17 rule: this line sits behind THIS turn's single
   probe-call output; post-#19/#21/#22 watch: gap by explicit
   subtraction) e4d7b7f 1ce8fd0 — probe 613 + REAL INCREMENT.
-  34m41s after probe-612 (18:37:05 - 18:02:24 = 34m41s,
-  subtracted; exec wake 18:02:24 consumed no probe so 612 remains
-  last probe record; ~4min late vs cadence, within watch band) ->
-  fresh slot. Probe number from records (612+1). roll26=49 =
+  1h06m07s after probe-612 (18:37:05 - 17:30:58 = 1h06m07s) and
+  34m41s after the probe-less rollover-25->26 exec wake
+  (18:37:05 - 18:02:24 = 34m41s; both anchors quoted per #19
+  lesson; INCIDENT #23 measurement-class self-caught in post-write
+  audit: first draft labeled 34m41s as 'after probe-612' — that
+  value belongs to the exec-wake anchor, exec wake consumed no
+  probe so probe-anchor gap is 1h06m07s; anchor mix-up corrected
+  by explicit dual subtraction) -> fresh slot. Probe number from records (612+1). roll26=49 =
   stat-consistent (rollover open committed at 49 lines, +0 since).
   INCREMENT (post-campaign menu): INTRA-MONTH GAP VALUES <->
   PHYSICAL INDEX — max consecutive-bar gap recomputed per file
