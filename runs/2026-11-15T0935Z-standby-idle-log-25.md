@@ -419,3 +419,51 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   PERMANENT herd infra — GPU-bound DEFER only; pre-reg 41b9044
   gate monitor). Queue external-only; honest quiet. One entry
   this turn.
+
+=== ROLL #25 CLOSED 2026-11-15T18:02:24Z (maintenance-only rollover exec; no probe consumed on close) ===
+FINAL STATE (machine-sourced; wc/counts from this turn's measurement
+line "MEASURE dirty=0 tip=0509b40 remote=0509b40 roll25=421
+closedBanner=0 zero-byte=0/61 lastIncident=INCIDENT #22 date=2026-11-15
+time=18:02:24Z"; data/gpu state from last sanctioned probe record
+probe-612 @ 2026-11-15T17:30:58Z):
+- probes: 599 .. 612 (14 probes; roll opened w/ probe-598 verbatim
+  header on the rollover-24->25 exec wake at 31 lines)
+- final wc -l: 421 (measured this turn)
+- dirty=0, local==remote==0509b40
+- zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED
+  (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound DEFER
+  only; pre-reg 41b9044 gate monitor)
+- incidents at freeze: 22 (grep-verified lastIncident=INCIDENT #22;
+  ZERO new incidents in roll #25 — zero fabrication-class, zero
+  measurement-class; two my-predicate bugs @605 + one
+  hypothesis-refutation @603 + wrong-proposition discloses, all
+  caught pre-claim = handled, not incidents)
+OPEN QUESTIONS CARRIED FORWARD:
+  (1) from roll #24: throughput.json median_trades_per_day=
+      281,949 UNRESOLVED (probe-597; 3 hypotheses failed; artifact
+      self-consistent; do NOT re-attempt w/o build-side semantics)
+  (2) from probe-612 FINDING (first finding-class): global max bar
+      gap = **320.58h** (2025-12-19 14:25Z -> 2026-01-01 23:00Z),
+      NOT the published 73.1h — root cause = documented decoder
+      semantic (whole-file volume-argmax front: NQZ5 won Dec-25,
+      post-roll NQH6 records dropped by design; raw verified
+      intact: 1,573,145 post-cutoff records, 99.8% NQH6). NOT
+      data loss, NOT inconsistency; **CORPUS_SUMMARY line 12
+      "max true gap 73.1h" is MIS-SCOPED (v2=within-month; v1
+      gap_hours_max=320.583 was the accurate global figure)**.
+      OPEN: summary line needs rewording (await Jeremiah or
+      sanctioned doc-update); downstream: 5m bars 2025-12-22..31
+      absent BY DESIGN — do not treat as hole.
+ROLL-25 LEGACY: deep-verification continuation — sessions share-
+formula 6/6 (599), sanity px-range<->physical EXACT (600), rth
+band [13,21) semantics reproduced 6/6 (601), 4-source 337,922
+equality chain (602), front_changes field semantics established
+(603), front-code validity 61/61 (604), roll-transition timing
+19/19 w/ 2 predicate bugs disclosed (605), global bar-time order
+0/60-boundary violations (606), bar-existence min(n)=min(vol)=1
+(607), manifest.trades<->parquet-n per-month 61/61 (608), FULL
+zstd-decode 61/61 23.88GB 0-err (609), front-label triangle
+closed 61/61 (610), per-bar volume>=n 337,922 rows 0-viol
+(611), **gap FINDING + root-cause chain (612)**; 1 timer
+early-fire stand-down held (16:13Z); zero incidents.
+=== END ROLL #25 ===
