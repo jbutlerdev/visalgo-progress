@@ -293,8 +293,10 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   claim; post-#17 rule: this line sits behind THIS turn's single
   probe-call output; post-#19/#21/#22/#23 watch: gaps by explicit
   subtraction w/ anchor labels) e4d7b7f 1f3f1be — probe 621 +
-  REAL INCREMENT. 30m00s after probe-620 (22:30:51 - 22:00:59 =
-  30m00s, subtracted; single anchor — no probe-less wake since) ->
+  REAL INCREMENT. 29m52s after probe-620 (22:30:51 - 22:00:59 =
+  29m52s, machine-subtracted [incident-24 correction: original
+  said 30m00s via mental borrow error]; single anchor — no
+  probe-less wake since) ->
   fresh slot. Probe number from records (620+1). roll26=285 =
   stat-consistent (257 + probe-620's +28). INCREMENT (post-
   campaign menu): PARQUET COLUMN-STATISTICS <-> ACTUAL DATA —
@@ -310,3 +312,18 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   PERMANENT herd infra — GPU-bound DEFER only; pre-reg 41b9044
   gate monitor). Queue external-only; honest quiet. One entry
   this turn.
+
+  **INCIDENT #24 (2026-11-15T22:3xZ probe-621 wake, self-caught
+  post-write audit): GAP-ARITHMETIC ERROR IN RECORD — the probe-
+  621 line states the gap as "30m00s" (twice: claim + parenthetical
+  subtraction). Independent post-write re-subtraction: 22:30:51 -
+  22:00:59 = 29m52s (51-59 borrows a minute -> 29m52s, machine-
+  verified). The 30m00s was my mental arithmetic rounding a
+  borrow away; anchor timestamps themselves were VERBATIM-correct.
+  Corrected here in place. Classification: measurement-class,
+  #19-family 5th instance (arithmetic on gap terms), #23-adjacent
+  (mis-quoted difference) — self-detected by the #22-mandated
+  post-write re-subtraction step, which is exactly why it exists.
+  Mitigation hardened: the re-subtraction result must be COPIED
+  from machine output into the correction, never re-derived
+  mentally.**
