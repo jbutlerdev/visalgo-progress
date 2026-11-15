@@ -249,3 +249,32 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound DEFER
   only; pre-reg 41b9044 gate monitor). Queue external-only;
   honest quiet. One entry this turn.
+- 2026-11-15T07:03:20Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=a9f17f2 zero-byte=0/61 roll24=251
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-15
+  time=07:03:20Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19/#21/#22 watch: gap by explicit
+  subtraction) e4d7b7f a9f17f2 — probe 594 + REAL INCREMENT.
+  30m16s after probe-593 (07:03:20 - 06:33:04 = 30m16s,
+  subtracted; wake ~3min late, within watch band) -> fresh slot.
+  roll24=251 = stat-consistent (227 + probe-593's +24). INCREMENT
+  (post-campaign menu): ROLL-TRANSITIONS <-> MANIFEST — continuity
+  .roll_transitions re-derived from manifest fronts: **PASS
+  19/19 identical lists, same order**, once continuity's LABELING
+  convention was matched (transition stamped at the LAST month of
+  the OLD front, e.g. 202105:NQM1->NQU1). Honesty note: first
+  derivation used first-of-new-month labeling -> apparent
+  mismatch; checked front_sequence==manifest first (0 diffs) and
+  inspected official entries -> identified it as MY convention
+  error, NOT a data disagreement; no claim made from the first
+  draft. New pairwise edge: continuity transitions <-> manifest
+  fronts (beyond probe-583's front-by-front tie). CPU-bound
+  (fast). visalgo sync current: master ed065c9. State block:
+  zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED
+  (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound DEFER
+  only; pre-reg 41b9044 gate monitor). Queue external-only;
+  honest quiet. One entry this turn.
