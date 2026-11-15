@@ -330,3 +330,38 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound DEFER
   only; pre-reg 41b9044 gate monitor). Queue external-only;
   honest quiet. One entry this turn.
+- 2026-11-15T08:35:02Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=ce9ee11 zero-byte=0/61 roll24=332
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-15
+  time=08:35:02Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19/#21/#22 watch: gap by explicit
+  subtraction) e4d7b7f ce9ee11 — probe 597 + REAL INCREMENT
+  (negative result honestly recorded). 33m59s after probe-596
+  (08:35:02 - 08:01:03 = 33m59s, subtracted; wake ~5min late,
+  within watch band) -> fresh slot. roll24=332 = stat-consistent
+  (306 + probe-596's +26). INCREMENT: THROUGHPUT-MEDIAN
+  RE-DERIVATION ATTEMPT -> **UNRESOLVED, recorded as open
+  question**: artifact claims median_trades_per_day=281,949
+  (note: "front-month trade count / distinct UTC trading days
+  (23h Globex day; partial first/last months included in
+  range)"). My three denominator hypotheses all FAIL to
+  reproduce (calendar-span median 244,355.5; UTC-midnight-
+  normalized unique-day mean 283,808 and median-of-daily-sums
+  332,819; weekday-denominator median 339,041.9) — none within
+  tolerance; the artifact's day-assignment (23h Globex-day
+  boundary, likely 23:00Z-start) is not reconstructable from the
+  published field alone (build-side script not retained). NO
+  claim made either direction: NOT declared defect (artifact
+  self-consistent: months=61, no 4x outliers, note documents
+  semantics), NOT declared tie. Sits alongside pre-reg stale-
+  edge honesty notes. Roll-24 freeze should carry this open
+  question. CPU-bound (fast). visalgo sync current: master
+  ed065c9. State block: zero-byte=0/61 | raw-data AVAILABLE
+  (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB PERMANENT
+  herd infra — GPU-bound DEFER only; pre-reg 41b9044 gate
+  monitor). Queue external-only; honest quiet. One entry this
+  turn.
