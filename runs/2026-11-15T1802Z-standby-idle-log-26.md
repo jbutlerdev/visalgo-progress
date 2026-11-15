@@ -82,3 +82,30 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
   GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
   external-only; honest quiet. One entry this turn.
+- 2026-11-15T19:01:00Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=7036299 zero-byte=0/61 roll26=84
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-15
+  time=19:01:00Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19/#21/#22/#23 watch: gaps by explicit
+  subtraction w/ anchor labels) e4d7b7f 7036299 — probe 614 +
+  REAL INCREMENT. 23m55s after probe-613 (19:01:00 - 18:37:05 =
+  23m55s, subtracted; no probe-less wake since, single anchor) ->
+  fresh slot. Probe number from records (613+1). roll26=84 =
+  stat-consistent (49 + probe-613's +31 +4 net incident-23
+  block). INCREMENT (post-campaign menu): MONTH-SET IDENTITY —
+  the 61 ym-keys of continuity.front_sequence, manifest.rows,
+  QA_TABLE rows and bars/ filenames compared as SETS: **all four
+  identical, 61 each, zero symmetric difference**. This is the
+  set-level companion to probe-602's sum-level chain (equal
+  totals did not logically preclude, e.g., one month swapped —
+  now ruled out at key level; every per-month field tie in
+  588-613 sits on this shared key set). CPU-bound (fast).
+  visalgo sync current: master ed065c9. State block: zero-byte=
+  0/61 | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED
+  (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound
+  DEFER only; pre-reg 41b9044 gate monitor). Queue external-only;
+  honest quiet. One entry this turn.
