@@ -148,3 +148,30 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   23,812 MiB PERMANENT herd infra — GPU-bound DEFER only;
   pre-reg 41b9044 gate monitor). Queue external-only; honest
   quiet. One entry this turn.
+- 2026-11-15T05:00:42Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=fc5a29c zero-byte=0/61 roll24=150
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-15
+  time=05:00:42Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19/#21/#22 watch: gap by explicit
+  subtraction) e4d7b7f fc5a29c — probe 590 + REAL INCREMENT.
+  29m53s after probe-589 (05:00:42 - 04:30:49 = 29m53s,
+  subtracted) -> fresh slot. roll24=150 = stat-consistent (122 +
+  probe-589's +28). INCREMENT (post-campaign menu): MANIFEST
+  PER-MONTH ROWS <-> PHYSICAL PARQUETS — manifest.rows (the
+  61-entry per-month detail list; my first script draft wrongly
+  treated 'rows' as an int aggregate -> wrong-proposition,
+  discarded pre-claim after inspecting actual structure) checked
+  field-by-field vs fresh parquet reads: per-month **bars count,
+  first/last index timestamps, parquet_bytes on disk, qa +
+  tick_sanity flags — ALL match, 61/61, violations=0**. Strongest
+  manifest-level tie yet (per-file first/last ts equality against
+  physical index ends, not just sums). CPU-bound (fast). visalgo
+  sync current: master ed065c9. State block: zero-byte=0/61 |
+  raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server
+  23,812 MiB PERMANENT herd infra — GPU-bound DEFER only; pre-reg
+  41b9044 gate monitor). Queue external-only; honest quiet. One
+  entry this turn.
