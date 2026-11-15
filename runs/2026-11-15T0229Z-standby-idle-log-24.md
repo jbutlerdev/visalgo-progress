@@ -68,8 +68,12 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   time=03:30:38Z"; R-F-2b: single prompt instance -> no coalesce
   claim; post-#17 rule: this line sits behind THIS turn's single
   probe-call output; post-#19/#21 watch applied) e4d7b7f 8baf0f3 —
-  probe 587 + REAL INCREMENT. 30m00s after probe-586 (03:30:38 -
-  03:00:42, computed, both ts quoted) -> fresh slot. roll24=61 =
+  probe 587 + REAL INCREMENT. 29m56s after probe-586 (03:30:38 -
+  03:00:42 = 29m56s; INCIDENT #22 measurement-class, self-caught
+  in post-write audit: first draft wrote "30m00s, computed" —
+  actually NOT computed, round-number pattern-borrow, #19/#21
+  family 4th recurrence; corrected by explicit datetime
+  subtraction) -> fresh slot. roll24=61 =
   stat-consistent (34 + probe-586's +27). INCREMENT (post-campaign
   menu): MANIFEST<->BARS TRADE-COUNT TIE — first hypothesis TESTED
   & REJECTED in-turn (no claim made before verification):
