@@ -199,3 +199,30 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   PERMANENT herd infra — GPU-bound DEFER only; pre-reg 41b9044
   gate monitor). Queue external-only; honest quiet. One entry
   this turn.
+- 2026-11-15T21:00:43Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=e83f10c zero-byte=0/61 roll26=201
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-15
+  time=21:00:43Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19/#21/#22/#23 watch: gaps by explicit
+  subtraction w/ anchor labels) e4d7b7f e83f10c — probe 618 +
+  REAL INCREMENT. 29m37s after probe-617 (21:00:43 - 20:31:06 =
+  29m37s, subtracted; single anchor — no probe-less wake since) ->
+  fresh slot. Probe number from records (617+1). roll26=201 =
+  stat-consistent (170 + probe-617's +31). INCREMENT (post-
+  campaign menu): QA_TABLE zstd/dbn FLAG COLUMNS <-> MANIFEST
+  MAGIC BOOLEANS — all 61 table (zstd=Y, dbn=Y) pairs ==
+  manifest zstd_magic/dbn_magic **exactly, 0 mismatched** (every
+  manifest boolean True, hence every table cell Y). Table<->
+  manifest flag edge closes the last untested human-readable
+  column pair; the physical truth behind the flags was
+  independently established @577 (magic bytes), @592 (manifest
+  bytes vs disk) and @615 (frame-flags + checksum declaration).
+  CPU-bound (fast). visalgo sync current: master ed065c9. State
+  block: zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh
+  CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
+  GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
+  external-only; honest quiet. One entry this turn.
