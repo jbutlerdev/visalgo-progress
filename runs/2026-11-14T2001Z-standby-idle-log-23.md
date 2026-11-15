@@ -406,3 +406,36 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
   GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
   external-only; honest quiet. One entry this turn.
+
+=== ROLL #23 CLOSED 2026-11-15T02:29:03Z (maintenance-only rollover exec; no probe consumed on close) ===
+FINAL STATE (machine-sourced; wc/counts from this turn's measurement
+line "MEASURE dirty=0 tip=c7d63b0 remote=c7d63b0 roll23=408
+closedBanner=0 zero-byte=0/61 date=2026-11-15 time=02:29:03Z"; data/
+gpu state from last sanctioned probe record probe-585 @
+2026-11-15T02:01:07Z):
+- probes: 574 .. 585 (12 probes; roll opened w/ probe-573 verbatim
+  header on the rollover-22 exec wake at 43 lines)
+- final wc -l: 408 (measured this turn)
+- dirty=0, local==remote==c7d63b0
+- zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED
+  (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound DEFER
+  only; pre-reg 41b9044 gate monitor)
+- incidents at freeze: 21 (records-verified: #19/#20/#21 all
+  designated IN THIS ROLL — cadence-gap slip, hand-composed
+  file-counts, gap pattern-borrow; all measurement-class, all
+  self-caught in same-wake audits, all corrected in place; 17
+  fabrication-class + #13 measurement-class are prior-roll legacy)
+ROLL-23 LEGACY: post-campaign multi-level corpus verification —
+published-bars sha256 sweep 61/61 (probe-574), decoder-pin lineage
+re-check VERBATIM PASS (575), CORPUS_SUMMARY freshness pass (576,
+corrected), raw zstd-magic sweep 61/61 (577), QA re-load 15/15
+parse + verdicts intact (578), cross-artifact row-sum 337,922 tie
+(579), raw filename span-continuity PASS (580), bars index-
+consistency + 5min-grid-alignment PASS (581), OHLC-invariant sweep
+PASS 337,922 rows (582), front-sequence cross-check 18/18 (583),
+sessions cross-check PASS (584), manifest<->raw sets-equal PASS
+(585). Published corpus: hash/format/parse/count/index/grid/
+invariant/front/session-partition/manifest-level ALL independently
+re-verified. 2 rollover timer early-fire stand-downs held
+(duplicate-exec guard). Zero fabrication-class incidents.
+=== END ROLL #23 ===
