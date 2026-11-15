@@ -47,3 +47,34 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   PERMANENT herd infra — GPU-bound DEFER only; pre-reg 41b9044
   gate monitor). Queue external-only; honest quiet. One entry
   this turn.
+- 2026-11-15T18:37:05Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=1ce8fd0 zero-byte=0/61 roll26=49
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-15
+  time=18:37:05Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19/#21/#22 watch: gap by explicit
+  subtraction) e4d7b7f 1ce8fd0 — probe 613 + REAL INCREMENT.
+  34m41s after probe-612 (18:37:05 - 18:02:24 = 34m41s,
+  subtracted; exec wake 18:02:24 consumed no probe so 612 remains
+  last probe record; ~4min late vs cadence, within watch band) ->
+  fresh slot. Probe number from records (612+1). roll26=49 =
+  stat-consistent (rollover open committed at 49 lines, +0 since).
+  INCREMENT (post-campaign menu): INTRA-MONTH GAP VALUES <->
+  PHYSICAL INDEX — max consecutive-bar gap recomputed per file
+  from published indices: all claimed grid_check_v2 top months
+  (202112/202204/202212/202312 @ 73.1h) **reproduced exactly**,
+  physical per-file max also 73.1h (raw 73.08h == 73.1 at the
+  artifact's own 1-decimal rounding convention; initial 'DIFF'
+  was MY tolerance being stricter than the artifact's precision —
+  disclosed, no claim made from it). Completes the gap story
+  opened by probe-612: claimed intra-month max IS the true max
+  over all 61 files (no month exceeds it); the 320.58h global
+  figure stands as the cross-boundary roll-cutoff finding.
+  CPU-bound (fast). visalgo sync current: master ed065c9. State
+  block: zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh
+  CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
+  GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
+  external-only; honest quiet. One entry this turn.
