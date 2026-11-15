@@ -91,3 +91,32 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   PERMANENT herd infra — GPU-bound DEFER only; pre-reg 41b9044
   gate monitor). Queue external-only; honest quiet. One entry this
   turn.
+- 2026-11-15T04:00:45Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=d25e3e1 zero-byte=0/61 roll24=93
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-15
+  time=04:00:45Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19/#21/#22 watch: gap by explicit
+  subtraction) e4d7b7f d25e3e1 — probe 588 + REAL INCREMENT.
+  30m07s after probe-587 (04:00:45 - 03:30:38 = 30m07s,
+  subtracted) -> fresh slot. roll24=93 = stat-consistent (61 +
+  probe-587's +28 +6 net incident-22 block). INCREMENT (post-
+  campaign menu): QA_TABLE CROSS-DOC VERIFICATION — regex-parsed
+  all 61 table rows (bars + front columns): (1) table bars ==
+  pyarrow row-count per parquet **61/61 match**; (2) table front
+  == continuity.json front_sequence **61/61 match**. Method
+  honesty: first check draft assumed aggregates (median/px-range)
+  lived IN the table -> 3 FAILs were MY wrong-proposition (table
+  is per-month; aggregates live in JSONs) — discarded, wrong
+  proposition, no claim; second draft also carried a
+  genexpr-unpack bug (disclosed, data clean), third ran clean.
+  Published QA table now machine-verified against both the
+  physical bars AND the continuity record. CPU-bound (fast).
+  visalgo sync current: master ed065c9. State block: zero-byte=
+  0/61 | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED
+  (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound DEFER
+  only; pre-reg 41b9044 gate monitor). Queue external-only;
+  honest quiet. One entry this turn.
