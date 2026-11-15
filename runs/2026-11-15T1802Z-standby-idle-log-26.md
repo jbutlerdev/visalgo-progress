@@ -255,3 +255,31 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   23,812 MiB PERMANENT herd infra — GPU-bound DEFER only;
   pre-reg 41b9044 gate monitor). Queue external-only; honest
   quiet. One entry this turn.
+- 2026-11-15T22:00:59Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=59aa486 zero-byte=0/61 roll26=257
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-15
+  time=22:00:59Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19/#21/#22/#23 watch: gaps by explicit
+  subtraction w/ anchor labels) e4d7b7f 59aa486 — probe 620 +
+  REAL INCREMENT. 30m14s after probe-619 (22:00:59 - 21:30:45 =
+  30m14s, subtracted; single anchor — no probe-less wake since) ->
+  fresh slot. Probe number from records (619+1). roll26=257 =
+  stat-consistent (228 + probe-619's +29). INCREMENT (post-
+  campaign menu): PARQUET ROW-GROUP INTERNAL STRUCTURE — per
+  file, sum(row_group.num_rows) == file num_rows: **PASS 61/61,
+  0 mismatched**; uniform shape signature (7 cols, nonempty,
+  created_by absent). Pre-record reconciliation: 7 cols verified
+  = open/high/low/close/volume/n/ts_recv on file-1 — matches the
+  schema established in the campaign (no discrepancy; checked
+  because a col-count surprise would have invalidated 606's
+  per-column sweeps' premise). Row-group totals internally
+  consistent w/ the 337,922 grand total @587. CPU-bound (fast).
+  visalgo sync current: master ed065c9. State block: zero-byte=
+  0/61 | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED
+  (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound
+  DEFER only; pre-reg 41b9044 gate monitor). Queue external-only;
+  honest quiet. One entry this turn.
