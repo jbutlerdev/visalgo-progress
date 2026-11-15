@@ -188,3 +188,31 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   23,812 MiB PERMANENT herd infra — GPU-bound DEFER only;
   pre-reg 41b9044 gate monitor). Queue external-only; honest
   quiet. One entry this turn.
+- 2026-11-15T13:01:49Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=1f1fc8f zero-byte=0/61 roll25=190
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-15
+  time=13:01:49Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19/#21/#22 watch: gap by explicit
+  subtraction) e4d7b7f 1f1fc8f — probe 605 + REAL INCREMENT.
+  31m08s after probe-604 (13:01:49 - 12:30:41 = 31m08s,
+  subtracted; wake ~1min late, within watch band) -> fresh slot.
+  Probe number from records (604+1). roll25=190 = stat-consistent
+  (164 + probe-604's +26). INCREMENT (post-campaign menu):
+  ROLL-TRANSITION STRUCTURAL TIMING — all 19 continuity
+  roll_transitions verified: next-quarterly-code-in-cycle (H->M->
+  U->Z->H) AND year-digit holds within year, increments only on
+  Z->H wrap: **19/19 PASS, 0 anomalies**. Method honesty: TWO
+  predicate bugs MINE this wake (draft-1 hour-vs-month comparison
+  flagged 4 Dec->Mar wraps; draft-2 always-digit-increment
+  flagged 14 same-year rolls) — both identified as MY errors from
+  the data before any claim; artifact stayed clean both times;
+  corrected predicate (cycle-order + wrap-aware digit) run clean.
+  CPU-bound (fast). visalgo sync current: master ed065c9. State
+  block: zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh
+  CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
+  GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
+  external-only; honest quiet. One entry this turn.
