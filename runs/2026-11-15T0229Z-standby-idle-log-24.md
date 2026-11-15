@@ -278,3 +278,29 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound DEFER
   only; pre-reg 41b9044 gate monitor). Queue external-only;
   honest quiet. One entry this turn.
+- 2026-11-15T07:30:49Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=03a8ac5 zero-byte=0/61 roll24=280
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-15
+  time=07:30:49Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19/#21/#22 watch: gap by explicit
+  subtraction) e4d7b7f 03a8ac5 — probe 595 + REAL INCREMENT.
+  27m29s after probe-594 (07:30:49 - 07:03:20 = 27m29s,
+  subtracted) -> fresh slot. roll24=280 = stat-consistent (251 +
+  probe-594's +29). INCREMENT (post-campaign menu): SESSIONS <->
+  MANIFEST per-year tie — sessions.json per-year bars ==
+  manifest per-month bars summed by year, **6/6 exact (56,671 /
+  69,762 / 69,550 / 65,908 / 63,131 / 12,900)**; closes the last
+  untested QA-completeness pairing (sessions had only been tied
+  to the global parquet sum @584). Honesty note: mid-turn I
+  half-formed a guess the tie might fail (year-boundary months
+  spanning UTC midnight) and RE-RAN with per-year printout before
+  claiming — guess refuted by output, PASS stands as recorded.
+  CPU-bound (fast). visalgo sync current: master ed065c9. State
+  block: zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh
+  CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
+  GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
+  external-only; honest quiet. One entry this turn.
