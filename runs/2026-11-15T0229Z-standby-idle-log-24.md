@@ -392,3 +392,42 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   23,812 MiB PERMANENT herd infra — GPU-bound DEFER only;
   pre-reg 41b9044 gate monitor). Queue external-only; honest
   quiet. One entry this turn.
+
+=== ROLL #24 CLOSED 2026-11-15T09:35:18Z (maintenance-only rollover exec; no probe consumed on close) ===
+FINAL STATE (machine-sourced; wc/counts from this turn's measurement
+line "MEASURE dirty=0 tip=0459277 remote=0459277 roll24=394
+closedBanner=0 zero-byte=0/61 lastIncident=INCIDENT #22 date=2026-11-15
+time=09:35:18Z"; data/gpu state from last sanctioned probe record
+probe-598 @ 2026-11-15T09:00:45Z):
+- probes: 586 .. 598 (13 probes; roll opened w/ probe-585 verbatim
+  header on the rollover-24 exec wake at 34 lines)
+- final wc -l: 394 (measured this turn)
+- dirty=0, local==remote==0459277
+- zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED
+  (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound DEFER
+  only; pre-reg 41b9044 gate monitor)
+- incidents at freeze: 22 (grep-verified lastIncident=INCIDENT #22;
+  #19-#22 all measurement-class, all self-caught in audits, all
+  corrected in place; zero fabrication-class this roll)
+OPEN QUESTION CARRIED (probe-597, sanctioned record):
+  throughput.json median_trades_per_day=281,949 NOT reproducible
+  from published fields (3 denominator hypotheses tried:
+  calendar-span 244,355.5 / UTC-day 283,808 & 332,819 / weekday
+  339,041.9). Artifact self-consistent (months=61, no 4x outliers,
+  note documents 23h-Globex-day semantics) — neither defect nor
+  tie declared; build-side day-assignment not reconstructable.
+  Do NOT re-attempt without build-side semantics.
+ROLL-24 LEGACY: post-campaign cross-artifact verification mesh —
+bar-schema uniform 61/61 (586), manifest<->bars trade-count tie
+EXACT + volume semantics documented (587), QA_TABLE cross-doc
+bars/front 61/61 (588), trades/dates 61/61 (589), manifest rows
+vs physical parquets field-by-field 61/61 (590), table<->manifest
+dates triangle closure (591), manifest.bytes<->raw 61/61 (592),
+null/inf zero over 2,027,532 cells (593), roll_transitions 19/19
+under old-front-label convention (594), sessions<->manifest per-
+year 6/6 (595), manifest.volume<->parquet 61/61 (596), throughput
+honest-UNRESOLVED (597), table-bytes<->raw 61/61 (598); 2 timer
+early-fire stand-downs held (duplicate-exec guard); one manifest
+int-aggregate wrong-proposition + one convention mismatch
+disclosed pre-claim; zero fabrication-class incidents.
+=== END ROLL #24 ===
