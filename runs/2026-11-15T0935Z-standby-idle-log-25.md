@@ -216,3 +216,29 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
   GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
   external-only; honest quiet. One entry this turn.
+- 2026-11-15T13:45:04Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=89e17ca zero-byte=0/61 roll25=218
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-15
+  time=13:45:04Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19/#21/#22 watch: gap by explicit
+  subtraction) e4d7b7f 89e17ca — probe 606 + REAL INCREMENT.
+  43m15s after probe-605 (13:45:04 - 13:01:49 = 43m15s,
+  subtracted; wake ~14min late, beyond watch band — disclosed as
+  raw fact, no cadence-causal claim per standing weak-spot rule).
+  Probe number from records (605+1). roll25=218 = stat-consistent
+  (190 + probe-605's +28). INCREMENT (post-campaign menu):
+  GLOBAL BAR-TIME ORDER ACROSS MONTH BOUNDARIES — first ts of
+  each month strictly > last ts of previous month across all 60
+  file-to-file boundaries: **0 violations** (per-file monotonicity
+  was proven @581; this extends to corpus-global strict ordering —
+  combined, the published bar-time index is globally strictly
+  increasing). CPU-bound (fast). visalgo sync current: master
+  ed065c9. State block: zero-byte=0/61 | raw-data AVAILABLE
+  (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB PERMANENT
+  herd infra — GPU-bound DEFER only; pre-reg 41b9044 gate
+  monitor). Queue external-only; honest quiet. One entry this
+  turn.
