@@ -304,3 +304,29 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
   GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
   external-only; honest quiet. One entry this turn.
+- 2026-11-15T08:01:03Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=2482c5f zero-byte=0/61 roll24=306
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-15
+  time=08:01:03Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19/#21/#22 watch: gap by explicit
+  subtraction) e4d7b7f 2482c5f — probe 596 + REAL INCREMENT.
+  30m14s after probe-595 (08:01:03 - 07:30:49 = 30m14s,
+  subtracted) -> fresh slot. roll24=306 = stat-consistent (280 +
+  probe-595's +26). INCREMENT (post-campaign menu): MANIFEST-
+  VOLUME <-> PARQUET volume-column sums — per-month
+  manifest.volume == sum of published volume column, **61/61
+  exact (0 mismatched)**. With probe-590's other fields (bars/
+  first/last/parquet_bytes/qa/tick_sanity) + 592's raw bytes,
+  EVERY load-bearing manifest field is now independently
+  re-verified against physical files. ROLLOVER WATCH: 306 + this
+  line ~330s -> exec near next wakes; 08:35Z backstop fires
+  below threshold -> note-only stand-down expected. CPU-bound
+  (fast). visalgo sync current: master ed065c9. State block:
+  zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED
+  (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound DEFER
+  only; pre-reg 41b9044 gate monitor). Queue external-only;
+  honest quiet. One entry this turn.
