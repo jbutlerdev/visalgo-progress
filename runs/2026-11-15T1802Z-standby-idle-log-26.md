@@ -226,3 +226,32 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
   GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
   external-only; honest quiet. One entry this turn.
+- 2026-11-15T21:30:45Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=75e97b2 zero-byte=0/61 roll26=228
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-15
+  time=21:30:45Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19/#21/#22/#23 watch: gaps by explicit
+  subtraction w/ anchor labels) e4d7b7f 75e97b2 — probe 619 +
+  REAL INCREMENT. 30m02s after probe-618 (21:30:45 - 21:00:43 =
+  30m02s, subtracted; single anchor — no probe-less wake since) ->
+  fresh slot. Probe number from records (618+1). roll26=228 =
+  stat-consistent (201 + probe-618's +27). INCREMENT (post-
+  campaign menu): QA_TABLE QA-VERDICT COLUMN <-> MANIFEST per-row
+  .qa — all 61 table verdict cells == manifest qa ('PASS')
+  exactly, all_pass=True, 0 mismatched. Regex-capture caveat
+  checked pre-record: greedy group could have grabbed a date
+  column instead — the all_pass=True assertion (dates could never
+  read 'PASS') proves the verdict column was the captured one.
+  MILESTONE: QA_TABLE now FULLY column-tied — every human-
+  readable column (bytes/zstd/dbn/trades/bars/front/first→last/
+  QA) independently verified against physical files or manifest
+  (588/589/591/598/618/now). CPU-bound (fast). visalgo sync
+  current: master ed065c9. State block: zero-byte=0/61 |
+  raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server
+  23,812 MiB PERMANENT herd infra — GPU-bound DEFER only;
+  pre-reg 41b9044 gate monitor). Queue external-only; honest
+  quiet. One entry this turn.
