@@ -319,3 +319,30 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   23,812 MiB PERMANENT herd infra — GPU-bound DEFER only;
   pre-reg 41b9044 gate monitor). Queue external-only; honest
   quiet. One entry this turn.
+- 2026-11-15T16:32:47Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=ca5de16 zero-byte=0/61 roll25=321
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-15
+  time=16:32:47Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19/#21/#22 watch: gap by explicit
+  subtraction) e4d7b7f ca5de16 — probe 610 + REAL INCREMENT.
+  31m57s after probe-609 (16:32:47 - 16:00:50 = 31m57s,
+  subtracted) -> fresh slot. Probe number from records (609+1).
+  roll25=321 = stat-consistent (294 + probe-609's +27). INCREMENT
+  (post-campaign menu): QA_TABLE-FRONT <-> MANIFEST-FRONT direct
+  tie — all 61 table front labels == manifest.rows per-month
+  fronts **exactly, 0 mismatched**. Completes the front LABEL
+  triangle (table<->continuity @588, continuity<->manifest via
+  re-derivation @594, table<->manifest now) — third independent
+  agreement path for every front label. ROLLOVER WATCH: this
+  line brings roll25 to ~347 -> under ~380; exec expected on
+  NEXT wake (probe-611); 16:13Z backstop already stood down
+  note-only. CPU-bound (fast). visalgo sync current: master
+  ed065c9. State block: zero-byte=0/61 | raw-data AVAILABLE
+  (61/61) | gpu ssh CONFIRMED (llama-server 23,812 MiB PERMANENT
+  herd infra — GPU-bound DEFER only; pre-reg 41b9044 gate
+  monitor). Queue external-only; honest quiet. One entry this
+  turn.
