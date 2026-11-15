@@ -137,3 +137,34 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
   GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
   external-only; honest quiet. One entry this turn.
+- 2026-11-15T20:00:54Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=461ee05 zero-byte=0/61 roll26=139
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-15
+  time=20:00:54Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19/#21/#22/#23 watch: gaps by explicit
+  subtraction w/ anchor labels) e4d7b7f 461ee05 — probe 616 +
+  REAL INCREMENT (partial, honestly scoped). 30m10s after probe-
+  615 (20:00:54 - 19:30:44 = 30m10s, subtracted; single anchor —
+  no probe-less wake since) -> fresh slot. Probe number from
+  records (615+1). roll26=139 = stat-consistent (111 + probe-
+  615's +28). INCREMENT (post-campaign menu): BUILD-ORDERING
+  TEMPORAL PROVENANCE — draft-1 assumed built_utc on all 5 QA
+  artifacts -> KeyError-class crash on the two that lack it
+  (disclosed; structure re-inspected before any claim). Result
+  on the 3 that carry built_utc: manifest 14:51:42Z < throughput
+  16:34:45Z < sessions 17:01:03Z (all 2026-11-13) — **PASS for
+  the timestamps that exist**: manifest first, derived after,
+  ~2h09m campaign span, no inversions. SCOPE LIMIT recorded:
+  sanity.json + continuity.json carry NO timestamp field — their
+  build-order cannot be timestamp-verified (structural fact of
+  the artifacts, not a defect; noted for completeness so future
+  readers don't assume 5-way temporal proof). CPU-bound (fast).
+  visalgo sync current: master ed065c9. State block: zero-byte=
+  0/61 | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED
+  (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound
+  DEFER only; pre-reg 41b9044 gate monitor). Queue external-only;
+  honest quiet. One entry this turn.
