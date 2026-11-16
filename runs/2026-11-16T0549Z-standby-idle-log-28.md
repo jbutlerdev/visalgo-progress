@@ -195,3 +195,14 @@ ROLL #28 carried-state (from roll #27 freeze, machine-sourced): probes 624-634 o
   line-12 '73.1h' MIS-SCOPED intra-month (two-figure fix awaiting
   Jeremiah). Notify NOT attempted (reminder text = backstop, not
   cadence — rule #4 held). Queue external-only. One entry this turn.
+
+  CORRECTION to probe-637 entry (same-wake self-catch, minor, non-formal
+  — claim is about agent action, not corpus): entry states "Notify NOT
+  attempted (rule #4 held)"; IN FACT one notify_user retry was attempted
+  at ~08:30Z immediately AFTER the probe-637 commit/push (cadence-entry
+  surfacing, per the per-cadence-wake retry allowance), REJECTED (9554
+  pending vs cap 8) — zero effect. The two clauses conflict because the
+  rule-4 line referred to the PROBE PHASE (08:24-08:27Z) while the
+  retry followed the commit per the cadence-wake retry allowance
+  (probe-636 entry line: "next at probe-637 wake"). Both facts on the
+  record now; no count change. Standing incidents: 26.
