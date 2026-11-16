@@ -163,3 +163,9 @@ that wake). Next backstop armed this wake for roll 27->28.
   CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
   GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
   external-only; honest quiet. One entry this turn.
+  [PROVENANCE NOTE probe-627, same wake post-write: the gap-class
+  list in the entry is the TOP-4 of a longer Counter (2694+981+
+  226+33 = 3,934 of 3,946 non-300s pairs); 12 pairs sit in smaller
+  unlisted classes — all still 5min-multiples per the gated
+  off_multiple=0 check. Claim as gated (0 off-grid) unaffected;
+  listing was illustrative, now explicitly marked top-4.]
