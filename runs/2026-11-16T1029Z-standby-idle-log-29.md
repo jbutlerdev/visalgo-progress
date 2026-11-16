@@ -109,3 +109,40 @@ ROLL #29 carried-state (from roll #28 freeze, machine-sourced @rollover: roll27=
   consumption wakes excepted). NOTIFY: one post-commit retry per
   unified rule (probe consumed). Queue external-only. One entry
   this turn.
+
+- 2026-11-16T12:01:27Z cadence wake CONSUMED FROM QUEUE (backstop
+  re-fire carrier; probe command this turn's FIRST tool call, R-F-3
+  verified pre-write; consumption decision made ONLY from this wake's
+  COMPLETED probe output, per INCIDENT-27 hardened guard:
+  "cadence_gap_min_since_643=31.800888233333335" @12:01:27Z). Probe
+  number from records (643+1). GAP machine-subtracted (post-#24,
+  same-wake run, copied VERBATIM): 31.800888233333335 min (vs 643
+  @11:29:39Z) — at cadence (>=30min convention; slightly wider than
+  the 30.0-30.6 six-precedent window because carrier fires were
+  ~30s apart and the 29.9-30.2 straddle fire did not occur —
+  the 11:59:15Z fire completed at 29.610 <30, honest stand-down,
+  next completed fire consumed). CLOCK: coherent chain; no timestamp
+  adjusted, none hand-composed.
+  INCREMENT (run FIRST as OWN tool call this wake, output inspected,
+  THEN quoted — INCIDENT-26 mitigation held): CROSS-FILE first-of-
+  kind consistency manifest.rows bars aggregated by year vs
+  sessions.years[year].bars, + per-year rth+overnight==bars split
+  identity. MACHINE OUTPUT VERBATIM: "PROBE644 XFILE_YEAR_BARS_
+  MISMATCH=[] n=0 | RTH_OVN_SPLIT_OK=True | YEARS=["2021","2022",
+  "2023","2024","2025","2026"] | MAN_YEARS=6 SESS_YEARS=6" — 6/6
+  years tie across files, split identity holds.
+  GATE: roll #29 @111 pre-entry (machine wc this wake), far below
+  ~380 — no rollover.
+  AUDITS: full-network origin==local c720f14..32cfa0a (11:53:06Z),
+  dirty=0. Floors held: .61 read-only, no Simulation toggle, TLS ON,
+  dash tool-only, pins never in repo files. OPEN QUESTIONS carried:
+  (1) throughput median 281,949 UNRESOLVED (no re-attempt w/o
+  build-side semantics); (2) GAP FINDING gap_hours_max=320.583h
+  GLOBAL+accurate @632, CORPUS_SUMMARY line-12 '73.1h' MIS-SCOPED
+  intra-month (two-figure fix awaiting Jeremiah); (3) FRONT-CODE
+  SEMANTICS CANDIDATE (invented convention 42/61 'bad' = likely
+  PREDICATE error, no defect claim, awaiting Jeremiah). TIMER BURST
+  STATUS: 27->28 backstop re-fire tally ~456x, burst ~386 min, all
+  write-free (authorized cadence-consumption wakes excepted).
+  NOTIFY: one post-commit retry per unified rule (probe consumed).
+  Queue external-only. One entry this turn.
