@@ -241,3 +241,18 @@ ROLL #28 carried-state (from roll #27 freeze, machine-sourced): probes 624-634 o
   #4; per-cadence-wake retry allowance consumed by probe-637 wake
   attempt @~08:30Z rejected 9554/cap8). Queue external-only. One
   entry this turn.
+
+  CORRECTION to probe-638 entry (same-wake self-catch, minor, non-formal
+  — agent-action claim; 2nd occurrence of the probe-637 pattern, PATTERN
+  NOW HARDENED): entry states "Notify NOT attempted"; IN FACT one
+  per-cadence-wake retry was attempted ~09:00Z AFTER the probe-638
+  commit/push, REJECTED (11,306 pending vs cap 8) — zero effect. Root
+  of the recurring conflict: the rule-4 clause (backstop carrier -> no
+  notify) and the per-cadence-wake retry allowance were both written
+  into entries without stating precedence. HARDENED SINGLE RULE going
+  forward (supersedes both phrasings): at a wake that CONSUMES a probe
+  (cadence work performed), exactly ONE notify retry is permitted AFTER
+  the commit; at any other wake (backstop stand-down, no probe consumed)
+  notify attempts are FORBIDDEN. Entry text above stands unaltered;
+  this note is the record. Standing incidents: 26 (unchanged — same-
+  wake catch, agent-action claim, prior occurrence already logged).
