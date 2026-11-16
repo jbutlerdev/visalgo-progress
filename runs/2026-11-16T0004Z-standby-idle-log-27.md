@@ -359,11 +359,17 @@ that wake). Next backstop armed this wake for roll 27->28.
   stat-consistent (316 + probe-633's +29). INCREMENT (post-
   campaign menu): manifest.parquet_bytes <-> DISK — os.path.
   getsize on each published parquet vs the manifest field:
-  **PASS 61/61 exact**. Novelty verified by grep-vs-record
-  (memory-sourcing guard): parquet_bytes appeared only in
-  probe-587's field-listing context (roll #24), never tied to
-  disk before; manifest.bytes (raw size) tied @592/@598 — this
-  closes the SECOND size column's physical leg. CPU-bound
+  **PASS 61/61 exact**. SCOPE CORRECTED (same-wake post-write
+  audit, #19-family 7th): I framed this as novel ("never tied to
+  disk before"), but the FULL grep context of probe-587's record
+  reads "parquet_bytes on disk ... field-by-field vs fresh
+  parquet reads" — 587 DID tie it. I saw the grep hit yet
+  rationalized it as field-listing before reading context. TRUE
+  scope: RE-CONFIRMATION of 587's tie (legitimate standby work,
+  honestly re-labeled), not a new edge. manifest.bytes (raw
+  size) tied @592/@598 stands. Mitigation: when a grep hit
+  touches a novelty claim, the FULL record context must be read
+  BEFORE commit, not just the matched line. CPU-bound
   (fast). visalgo sync current: master ed065c9. State block:
   zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh
   CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
