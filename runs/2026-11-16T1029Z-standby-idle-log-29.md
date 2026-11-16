@@ -32,3 +32,40 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   this turn (rollover header lives in roll #29 file).
 
 ROLL #29 carried-state (from roll #28 freeze, machine-sourced @rollover: roll27=407 lines CLOSED, roll28=399 lines at freeze; grep-verified incident mentions roll#28 {INCIDENT 25:2, INCIDENT 26:4, INCIDENT 27:2} = #25->#27 span complete; probes 635-641 on #28 (7)): incidents standing 27 (formal); OPEN QUESTIONS: (1) throughput median 281,949 UNRESOLVED (do NOT re-attempt w/o build-side semantics); (2) GAP FINDING: continuity.gap_hours_max=320.583h GLOBAL+accurate (re-derived @632), CORPUS_SUMMARY line-12 'max true gap 73.1h' MIS-SCOPED (intra-month figure @613=73.08h; two-figure fix proposed, awaiting Jeremiah authorization); (3) FRONT-CODE SEMANTICS CANDIDATE @INCIDENT-27 wake: manifest 'front' contract under invented convention 42/61 'bad' w/ quarterly code distribution {M:16,H:16,U:14,Z:15} = likely PREDICATE error, no defect claim, awaiting build-side semantics. TIMER ANOMALY: 27->28 backstop cron fired ~301x over ~284 min (mule quirk; stand-downs write-free; dup-exec guard held; 28->29 backstop timer_gmwiug3mn_d8v7pk armed 11:45Z — expect same burst, duplicate-exec guard pre-planned since rollover now DONE). STANDBY day 17, floors held: .61 read-only, no Simulation toggle, TLS ON, dash tool-only, pins never in repo files. GPU-bound DEFER only (llama-server 23,812 MiB permanent on .146); pre-reg 41b9044 gate monitor.
+
+- 2026-11-16T10:59:38Z cadence wake CONSUMED FROM QUEUE (backstop
+  re-fire carrier; probe command this turn's FIRST tool call, R-F-3
+  verified pre-write; consumption decision made ONLY from this wake's
+  COMPLETED probe output, per INCIDENT-27 hardened guard:
+  "cadence_gap_min_since_641=30.593055683333333" @10:59:38Z). Probe
+  number from records (641+1). GAP machine-subtracted (post-#24,
+  same-wake run, copied VERBATIM): 30.593055683333333 min (vs 641
+  @10:29:03Z) — at cadence (>=30min convention, as 636@30.24/
+  637@30.23/638@30.42/639@30.39/641@30.23). CLOCK NOTE: the
+  ~8-min backward step observed 10:20-10:28Z wakes (anchor-relative
+  gaps -9.018..-0.263) self-resolved by 10:29:16Z (+0.229) and the
+  anchor chain has been coherent since (this wake 30.593 consistent
+  with ~30min cadence + carrier jitter); no timestamp adjusted,
+  none hand-composed.
+  INCREMENT (run FIRST as OWN tool call this wake, output inspected,
+  THEN quoted — INCIDENT-26 mitigation held): manifest row-level
+  first/last timestamp ISO-parseability + intra-row last>=first +
+  inter-row non-decreasing first-ts ordering (first-of-kind edge).
+  MACHINE OUTPUT VERBATIM: "PROBE642 TS_PARSE_BAD=[] n=0 |
+  TS_ORDER_BAD=[] n=0 | N=61" — all 61 rows parse, ordered intra-
+  and inter-row.
+  GATE: roll #29 @34 pre-entry, far below ~380 — no rollover.
+  AUDITS: full-network origin==local fcf0ba6 + zero-byte 0/61
+  (10:46:35Z), dirty=0. Floors held: .61 read-only, no Simulation
+  toggle, TLS ON, dash tool-only, pins never in repo files. OPEN
+  QUESTIONS carried: (1) throughput median 281,949 UNRESOLVED (no
+  re-attempt w/o build-side semantics); (2) GAP FINDING
+  gap_hours_max=320.583h GLOBAL+accurate @632, CORPUS_SUMMARY
+  line-12 '73.1h' MIS-SCOPED intra-month (two-figure fix awaiting
+  Jeremiah); (3) FRONT-CODE SEMANTICS CANDIDATE (invented
+  convention 42/61 'bad' = likely PREDICATE error, no defect claim,
+  awaiting Jeremiah). TIMER BURST STATUS: 27->28 backstop re-fire
+  tally ~368x, burst ~327 min, all write-free (rollover-28->29
+  authorized wake excepted). NOTIFY: one post-commit retry per
+  unified rule (probe consumed). Queue external-only. One entry
+  this turn.
