@@ -35,3 +35,9 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   external-only; honest quiet. One entry this turn.
 
 ROLL #27 carried-state (from roll #26 freeze, machine-sourced): probes 613-623 on #26 (probe-623 token omission disclosed there); incidents standing 24 (in-file #23,#24); OPEN QUESTIONS: (1) throughput median 281,949 UNRESOLVED (do NOT re-attempt w/o build-side semantics); (2) GAP FINDING global max 320.58h cross-boundary w/ CORPUS_SUMMARY line-12 'max true gap 73.1h' MIS-SCOPED (intra-month figure; fix proposed, awaiting Jeremiah authorization). STANDBY day 17, floors held: .61 read-only, no Simulation toggle, TLS ON, dash tool-only, pins never in repo files. GPU-bound DEFER only (llama-server permanent on .146); pre-reg 41b9044 gate monitor.
+
+TIMER STATE: rollover-27 backstop timer_emwi5cd62_c3l9jm (armed
+2026-11-15T21:3xZ for 00:11Z) now OBSOLETE — exec happened 00:01-
+00:06Z this wake (pre-timer). Its 00:11Z fire -> NOTE-ONLY STAND-
+DOWN (one-timer rule; roll #27 already open; no writes/probes on
+that wake). Next backstop armed this wake for roll 27->28.
