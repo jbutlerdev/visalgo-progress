@@ -282,3 +282,35 @@ that wake). Next backstop armed this wake for roll 27->28.
   gpu ssh CONFIRMED (llama-server 23,812 MiB PERMANENT herd
   infra — GPU-bound DEFER only; pre-reg 41b9044 gate monitor).
   Queue external-only; honest quiet. One entry this turn.
+- 2026-11-16T04:30:47Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=6b4b548 zero-byte=0/61 roll27=284
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-16
+  time=04:30:47Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19/#21/#22/#23/#24 watch: gap by
+  explicit SUBTRACTION COPIED FROM MACHINE OUTPUT — 29m51s after
+  probe-631 (04:30:47 - 04:00:56 = 0:29:51 per python datetime,
+  copied verbatim; single anchor — no probe-less wake since) ->
+  fresh slot. Probe number from records (631+1). roll27=284 =
+  stat-consistent (258 + probe-631's +26). INCREMENT (post-
+  campaign menu): continuity.gap_hours_max FIELD RECOMPUTE FROM
+  PHYSICAL DATA — draft-1 assumed the field was within-month ->
+  INSPECT gate fired (73.0833 recomp vs 320.583 stated; no claim
+  made); draft-2 swept global (within-file + all 60 boundaries):
+  **PASS — stated 320.5833333333333 == recomputed 320.583333 to
+  float equality, at boundary before 202601** (Dec-25 roll
+  cutoff). SCOPE ESTABLISHED: the field is GLOBAL-scoped and
+  ACCURATE; 73.08 (intra-month, @613) is a different statistic.
+  FINDING NUANCE recorded (carries to freeze blocks): continuity
+  was NEVER wrong — only CORPUS_SUMMARY line-12's "max true gap
+  73.1h" mis-scopes 73.1 as THE true gap; the doc-fix proposal
+  for Jeremiah sharpens to: cite both (global 320.58h w/ roll-
+  cutoff cause; intra-month 73.1h). CPU-bound (~4min). visalgo
+  sync current: master ed065c9. State block: zero-byte=0/61 |
+  raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server
+  23,812 MiB PERMANENT herd infra — GPU-bound DEFER only;
+  pre-reg 41b9044 gate monitor). Queue external-only; honest
+  quiet. One entry this turn.
