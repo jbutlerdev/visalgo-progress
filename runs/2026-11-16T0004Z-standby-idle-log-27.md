@@ -135,3 +135,31 @@ that wake). Next backstop armed this wake for roll 27->28.
   (process deviation #24-family, no false content — corrected
   within-wake per #16/#18 honesty policy; next time gate the
   output on EVERY asserted clause).]
+- 2026-11-16T02:00:45Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=fa15a0f zero-byte=0/61 roll27=137
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-16
+  time=02:00:45Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19/#21/#22/#23/#24 watch: gap by
+  explicit SUBTRACTION COPIED FROM MACHINE OUTPUT — 29m43s after
+  probe-626 (02:00:45 - 01:31:02 = 0:29:43 per python datetime,
+  copied verbatim; single anchor — no probe-less wake since) ->
+  fresh slot. Probe number from records (626+1). roll27=137 =
+  stat-consistent (103 + probe-626's +26 +8 note = 137).
+  INCREMENT (post-campaign menu): EXHAUSTIVE WITHIN-MONTH GAP
+  CLASSIFICATION — all 337,861 consecutive-pair diffs (=337,922
+  -61, arithmetic tie-in ✓): **every diff a whole multiple of
+  5min (0 off-grid)**; 333,915 exactly 300s, 3,946 session gaps
+  (classes: 2,694 sub-1h overnight edges, 981 ~1h, 226 2-day,
+  33 5h — holiday/weekend spans, all plausible; every clause
+  gated on printed output per probe-626 mitigation). Completes
+  the gap story: 574 doc-level, 607 ordering, 612/613 max-gap
+  anchors, 613 intra-month values, now every-pair classification.
+  CPU-bound (~3min). visalgo sync current: master ed065c9. State
+  block: zero-byte=0/61 | raw-data AVAILABLE (61/61) | gpu ssh
+  CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
+  GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
+  external-only; honest quiet. One entry this turn.
