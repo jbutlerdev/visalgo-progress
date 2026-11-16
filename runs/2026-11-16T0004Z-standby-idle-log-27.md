@@ -169,3 +169,32 @@ that wake). Next backstop armed this wake for roll 27->28.
   unlisted classes — all still 5min-multiples per the gated
   off_multiple=0 check. Claim as gated (0 off-grid) unaffected;
   listing was illustrative, now explicitly marked top-4.]
+- 2026-11-16T02:30:55Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=d342ea6 zero-byte=0/61 roll27=171
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-16
+  time=02:30:55Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19/#21/#22/#23/#24 watch: gap by
+  explicit SUBTRACTION COPIED FROM MACHINE OUTPUT — 30m10s after
+  probe-627 (02:30:55 - 02:00:45 = 0:30:10 per python datetime,
+  copied verbatim; single anchor — no probe-less wake since) ->
+  fresh slot. Probe number from records (627+1). roll27=171 =
+  stat-consistent (137 + probe-627's +28 +6 note = 171).
+  INCREMENT (post-campaign menu): QA_TABLE first→last DATE
+  COLUMNS <-> PHYSICAL ROWS — every table (first,last) date pair
+  vs the actual first/last bar dates read from the parquet:
+  **PASS 61/61, 0 mismatched** — incl. 202512, whose table last-
+  date matches the physically-truncated (roll-cutoff) file
+  boundary. Adds ROW-LEVEL physical grounding to probe-591's
+  table<->manifest doc-level date tie. Draft-1 regex failed
+  parse (assumed ' → ' spacing; actual '→') — parse-fail gated
+  (count!=61), sample inspected, corrected before any claim;
+  predicate bugs self-handled per policy. CPU-bound (~2min).
+  visalgo sync current: master ed065c9. State block: zero-byte=
+  0/61 | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED
+  (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound
+  DEFER only; pre-reg 41b9044 gate monitor). Queue external-only;
+  honest quiet. One entry this turn.
