@@ -71,3 +71,33 @@ that wake). Next backstop armed this wake for roll 27->28.
   23,812 MiB PERMANENT herd infra — GPU-bound DEFER only;
   pre-reg 41b9044 gate monitor). Queue external-only; honest
   quiet. One entry this turn.
+- 2026-11-16T01:01:10Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=3012c8d zero-byte=0/61 roll27=73
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-16
+  time=01:01:10Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19/#21/#22/#23/#24 watch: gap by
+  explicit SUBTRACTION COPIED FROM MACHINE OUTPUT — 30m05s after
+  probe-624 (01:01:10 - 00:31:05 = 0:30:05 per python datetime,
+  copied verbatim; single anchor — no probe-less wake since;
+  prior-wake disclosure honored: secondary anchors machine-sourced
+  henceforth) -> fresh slot. Probe number from records (624+1).
+  roll27=73 = stat-consistent (43 + probe-624's +30). INCREMENT
+  (post-campaign menu): BAR-CLOCK-ALIGNMENT (value-level) — all
+  337,922 ts_recv: minute divisible by 5, second==0, microsecond
+  ==0, single signature after full re-count -> **PASS**. Draft-1
+  predicate bug disclosed pre-claim: I wrote minute==0 (hour-top
+  only) -> OFF-GRID false-negative on first run; inspect showed
+  12 evenly-spread buckets (all sec/usec 0) -> corrected to
+  minute%5==0; per policy predicate bugs self-handled pre-claim
+  are not incidents. NEW EDGE: probe-575 checked grid-alignment
+  per-file on indices; this is the value-level corpus-wide re-
+  count incl second/microsecond. CPU-bound (~3min). visalgo sync
+  current: master ed065c9. State block: zero-byte=0/61 |
+  raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server
+  23,812 MiB PERMANENT herd infra — GPU-bound DEFER only;
+  pre-reg 41b9044 gate monitor). Queue external-only; honest
+  quiet. One entry this turn.
