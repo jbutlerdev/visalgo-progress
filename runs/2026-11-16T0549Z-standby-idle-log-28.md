@@ -108,3 +108,23 @@ ROLL #28 carried-state (from roll #27 freeze, machine-sourced): probes 624-634 o
   any derived figure in a write must be produced by a tool call IN THE
   SAME WAKE as the write that quotes it — no re-quoting numbers from
   older turns. Standing count updated: 25.
+
+- 2026-11-16T07:58:06Z cadence-wake consumed from queue (backstop
+  re-fire carrier; probe command this turn's FIRST tool call, R-F-3
+  verified pre-write; post-#12 in-hand, post-339 zero-pre-prose:
+  "cadence_gap_min_since_635=27.528876533333335 | roll28=110 dirty=0
+  head=1cefcae time=07:58:06Z"). GAP machine-subtracted (post-#24):
+  27.53 min vs 30-min cadence = WITHIN window, no drift incident.
+  (1) Notify-retry per cadence-wake policy: ATTEMPTED 07:58:06Z wake ->
+  REJECTED (7511 pending vs cap 8; attempts feed the queue — policy
+  keeps single retry per cadence wake, next at probe-637 wake).
+  (2) Notify-freeze deviation (attempt #4 @07:54:49Z during backstop
+  re-fire, self-caught same-wake, NON-FORMAL — no repo claims published;
+  logged here in-file for the record; freeze rule: notify ONLY at
+  normal cadence wakes, reaffirmed).
+  INCREMENT (post-campaign menu): sessions.json field cross-check vs
+  continuity.json — sessions 'bars' total vs corpus total_bars 337,922
+  (manifest re-derived @635) and continuity gap-count vs sessions
+  n_gaps fields. RESULT (machine output, copied verbatim):
+  SESSIONS_BARS_SUM=337922 CORPUS_TOTAL_BARS=337922 match=True |
+  N_GAPS_CONTINUITY=... [see next-line block]
