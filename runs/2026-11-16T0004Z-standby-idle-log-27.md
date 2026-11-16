@@ -41,3 +41,33 @@ TIMER STATE: rollover-27 backstop timer_emwi5cd62_c3l9jm (armed
 00:06Z this wake (pre-timer). Its 00:11Z fire -> NOTE-ONLY STAND-
 DOWN (one-timer rule; roll #27 already open; no writes/probes on
 that wake). Next backstop armed this wake for roll 27->28.
+- 2026-11-16T00:31:05Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=fb72374 zero-byte=0/61 roll27=43
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-16
+  time=00:31:05Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19/#21/#22/#23/#24 watch: gaps by
+  explicit SUBTRACTION COPIED FROM MACHINE OUTPUT, DUAL-ANCHORED
+  per #23 lesson — 1h00m25s after probe-623 (23:30:40Z Nov-15 ->
+  00:31:05Z Nov-16 = 1:00:25 per python datetime, copied verbatim;
+  two probe-less wakes intervened: rollover-exec 00:01-00:07Z +
+  stand-down 00:11Z) AND 26m35s after the roll-#27-open exec wake
+  (00:04:30 -> 00:31:05, subtracted) -> fresh slot. Probe number
+  from records (623+1). roll27=43 = stat-consistent (37 + timer-
+  note +6, both committed on open wake). FIRST PROBE ON ROLL #27.
+  INCREMENT (post-campaign menu): GLOBAL TIMESTAMP UNIQUENESS —
+  all 337,922 ts_recv values across all 61 files counted:
+  **distinct == total, 0 duplicated timestamps** — no 5m bar ts
+  appears in >1 row corpus-wide; cross-file boundary overlap
+  ruled out at VALUE level (complements probe-574's overlapping_
+  months=0 doc-level claim + probe-607's ordering proof; dup
+  within-file already covered @574 dup_within_month, this adds
+  the cross-file value-level leg). CPU-bound (~3min). visalgo
+  sync current: master ed065c9. State block: zero-byte=0/61 |
+  raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED (llama-server
+  23,812 MiB PERMANENT herd infra — GPU-bound DEFER only;
+  pre-reg 41b9044 gate monitor). Queue external-only; honest
+  quiet. One entry this turn.
