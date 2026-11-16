@@ -256,3 +256,40 @@ ROLL #28 carried-state (from roll #27 freeze, machine-sourced): probes 624-634 o
   notify attempts are FORBIDDEN. Entry text above stands unaltered;
   this note is the record. Standing incidents: 26 (unchanged — same-
   wake catch, agent-action claim, prior occurrence already logged).
+
+- 2026-11-16T09:28:31Z cadence wake CONSUMED FROM QUEUE (backstop
+  re-fire carrier; probe command this turn's FIRST tool call, R-F-3
+  verified pre-write; post-#12 in-hand, post-339 zero-pre-prose:
+  "cadence_gap_min_since_638=30.389246866666667 | roll28=258 dirty=0
+  head=e482e32 time=09:28:31Z"). Probe number from records (638+1).
+  GAP machine-subtracted (post-#24, same-wake run, copied VERBATIM):
+  30.389246866666667 min (vs 638 @08:58:08Z) — at cadence (>=30min
+  convention, same as 636@30.24/637@30.23/638@30.42).
+  INCREMENT #1 (run FIRST as OWN tool call this wake, output
+  inspected, THEN quoted — INCIDENT-26 mitigation held): manifest
+  row-level field-consistency across all 61 rows: rows[0] key set
+  (15 fields incl zstd/dbn magic + tick_sanity + qa), SAMPLE_ROW
+  202103 VERBATIM-echoed, TRADES_SUM=428266327 BARS_SUM=337922 N=61
+  — BOTH rollups re-tie to manifest block (4th/5th independent ties
+  of the two totals). INCREMENT #2 (own tool call, output inspected
+  before quoting): "FLAG_CONSISTENCY_BAD=[] n=0" — every row has
+  qa==PASS AND zstd_magic AND dbn_magic AND tick_sanity all true
+  (conjunction check, NEW edge: previously these were only
+  individually pass-counted; the AND-conjunction per-row check is
+  first-of-kind); derived-intensity note (informational):
+  TPB_MIN=[657.2, "202106"] TPB_MED=[1252.7, "202505"]
+  TPB_MAX=[1975.6, "202504"] — plausible volume-seasonality spread
+  (mid-2021 lull / spring-2025 boom), no anomaly claim.
+  AUDITS: fsck rc=0 (last wake), dirty=0, local==remote e482e32
+  (fetch-verified 09:04:18Z). Floors held: .61 read-only, no
+  Simulation toggle, TLS ON, dash tool-only, pins never in repo
+  files. Both OPEN QUESTIONS carried: (1) throughput median 281,949
+  UNRESOLVED (no re-attempt w/o build-side semantics); (2) GAP
+  FINDING gap_hours_max=320.583h GLOBAL+accurate @632, CORPUS_SUMMARY
+  line-12 '73.1h' MIS-SCOPED intra-month (two-figure fix awaiting
+  Jeremiah). TIMER BURST STATUS: 27->28 backstop re-fire tally ~234x,
+  burst ~223 min, all write-free; per-fires 09:02:28 (4.34min),
+  09:03:14 (5.10), 09:03:44 (5.61), 09:04:18 (6.18 full-network
+  probe), 09:08:24 (10.28), 09:28:31 (30.39 -> consumed 639).
+  NOTIFY: one post-commit retry per unified rule (probe consumed).
+  Queue external-only. One entry this turn.
