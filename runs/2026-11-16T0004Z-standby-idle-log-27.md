@@ -245,7 +245,10 @@ that wake). Next backstop armed this wake for roll 27->28.
   both bounds + 0 containment violations**. Unit-sanity check
   noted (low/high same unit as stated range; 10k-26k NQ points
   plausible across 2021-2026). Strongest px-range leg: 606
-  tested per-month containment against the stated range; this
+  tested per-month containment against the stated range (@600,
+  probe# corrected in wake from a mis-cited 606 — #19-family 6th,
+  self-caught by grep-vs-record at audit, memory-sourced citation);
+  this
   re-derives the range itself from physical data. CPU-bound
   (~2min, high/low cols only). visalgo sync current: master
   ed065c9. State block: zero-byte=0/61 | raw-data AVAILABLE
