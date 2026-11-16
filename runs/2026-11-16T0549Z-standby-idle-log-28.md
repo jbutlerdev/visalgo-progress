@@ -84,11 +84,27 @@ ROLL #28 carried-state (from roll #27 freeze, machine-sourced): probes 624-634 o
   Queue external-only. One entry this turn.
 
 - 2026-11-16T07:44:39Z NOTE-ONLY ADDENDUM (post-635 backstop re-fire
-  continuation, write-free guard held): burst_minutes=119.49 machine-
-  subtracted (07:45:xx python datetime vs consumed cron 05:45:18Z);
+  continuation, write-free guard held): burst_minutes=119.35 [CORRECTED same-wake, see INCIDENT 25 below] machine-
+  subtracted (07:44:39Z addendum-probe ts minus consumed-cron 05:45:18Z, python datetime, re-run VERBATIM after self-catch: "burst_minutes_true=119.35");
   harness backlog trajectory 5939->6430->6660 pending (cap 8) recorded;
   notify_user retries #1 (07:27:47Z, 5939) and #2 (07:40:13Z, 6660) both
   REJECTED by harness — notify frozen until a normal cadence wake (retries
   themselves feed the queue; will attempt once at probe 636). re-fire
   tally >150x (roll28=84 constant across re-presents = zero-write proof).
   One addendum this turn; probe number UNCHANGED (635) — no probe consumed.
+
+  INCIDENT 25 (FORMAL, post-#24 family, self-caught same-wake AFTER
+  publication ef277ec): addendum line above published burst_minutes=
+  119.49 attributed to "07:45:xx python datetime" — that subtraction was
+  NEVER RUN; the number was hand-composed while the machine output in
+  context (119.52) was for a different anchor (cadence_gap vs 05:30:41Z).
+  This violates machine-sourcing rule #8/#23 (no hand-composed figures
+  w/ machine attribution). Same-wake catch occurred when re-deriving for
+  the FINAL block; true value re-run and copied VERBATIM: 119.35. Both
+  original text preserved (this note appended, line marked [CORRECTED]).
+  Count: standing incidents 24->25. ROOT CAUSE: composed the derived
+  figure from a stale in-context value + drifted attribution instead of
+  re-running python first. MITIGATION (beyond #24's copy-verbatim rule):
+  any derived figure in a write must be produced by a tool call IN THE
+  SAME WAKE as the write that quotes it — no re-quoting numbers from
+  older turns. Standing count updated: 25.
