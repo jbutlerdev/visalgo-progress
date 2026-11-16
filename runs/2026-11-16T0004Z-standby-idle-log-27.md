@@ -375,3 +375,33 @@ that wake). Next backstop armed this wake for roll 27->28.
   CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
   GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
   external-only; honest quiet. One entry this turn.
+
+CLOSED 2026-11-16T05:46:53Z by ROLLOVER 27->28 EXEC wake (backstop-timer
+wake, gate met 377>=~380; no probe consumed on close; next probe 635).
+Roll #27 span: opened 2026-11-16T00:04:30Z @37+6 lines (sed from probe-
+623 record + timer note), closed @406 lines post-close-block (wc measured AFTER block write — draft said 377+13=390,
+machine wc says 406; corrected from machine output per #19-family lesson). Frozen counts (MACHINE-
+SOURCED this wake per #23-hardening; full grep context READ before every
+novelty/absolute claim per probe-634 mitigation):
+- probes on roll #27: 624..634 = 11 (from records; token grep undercounts
+  due to hyphen/line-wrap formatting — observation disclosed).
+- incidents corpus-wide standing: 24 (grep -ho "INCIDENT #" runs/*.md |
+  sort -u -> max #24; in-file this roll: none formal; #19-family watch
+  slips 5-7th handled in place, no standing formal count).
+- roll27 wc @freeze: 377 -> 406 post-close-block (machine wc; 29-line
+  block, not the hand-estimated 13 — #19-family self-caught in-wake).
+TIMER ANOMALY OBSERVED: backstop cron fired 4x within ~100s (05:45:12/
+45:47/46:20/46:53) — mule-side scheduler quirk; stand-downs are write-
+free so corpus unaffected; duplicate-exec guard held (single exec).
+OPEN QUESTIONS carried to roll #28 (both must appear in every future
+freeze block):
+1. throughput.json median 281,949 UNRESOLVED — not reproducible from
+   published fields (3 hypotheses failed @599-612); do NOT re-attempt
+   w/o build-side semantics.
+2. GAP FINDING (probe-612, re-derived @632): continuity.gap_hours_max =
+   320.583h GLOBAL-scoped and ACCURATE (Dec-25 roll-cutoff boundary,
+   float-exact recompute); intra-month max 73.08h (@613) is a separate
+   statistic. CORPUS_SUMMARY line-12 "max true gap 73.1h" MIS-SCOPES
+   the intra-month figure as THE true gap; two-figure fix proposed
+   (cite global 320.58h + intra-month 73.1h), awaiting Jeremiah
+   authorization. NOT data loss, NOT inconsistency.
