@@ -127,3 +127,11 @@ that wake). Next backstop armed this wake for roll 27->28.
   CONFIRMED (llama-server 23,812 MiB PERMANENT herd infra —
   GPU-bound DEFER only; pre-reg 41b9044 gate monitor). Queue
   external-only; honest quiet. One entry this turn.
+  [PROVENANCE NOTE probe-626, same wake post-write: the recorded
+  "strictly superset" phrasing went beyond the gated assertion
+  (gate covered counts only). Verified directly after the write:
+  rth_only_days=0 measured -> overnight day-sets ⊇ rth day-sets
+  per year; claim stands, but flagged as claim-precedes-measure
+  (process deviation #24-family, no false content — corrected
+  within-wake per #16/#18 honesty policy; next time gate the
+  output on EVERY asserted clause).]
