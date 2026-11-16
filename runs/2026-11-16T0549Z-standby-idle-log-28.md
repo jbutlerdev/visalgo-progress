@@ -156,3 +156,42 @@ ROLL #28 carried-state (from roll #27 freeze, machine-sourced): probes 624-634 o
   (all-months non-5min-step list = expected session-boundary steps)" +
   manifest rows "first_ym=202103 last_ym=202603 n=61". Standing count:
   26.
+
+- 2026-11-16T08:27:44Z cadence wake CONSUMED FROM QUEUE (backstop
+  re-fire carrier; probe command this turn's FIRST tool call, R-F-3
+  verified pre-write; post-#12 in-hand, post-339 zero-pre-prose:
+  "roll28=158 dirty=0 head=32b6843 time=08:27:44Z"). Probe number from
+  records (636+1). GAP machine-subtracted (post-#24, same-wake run,
+  copied VERBATIM): "cadence_gap_min_since_636=30.238816466666666"
+  (vs 636 @07:58:06Z) — at the 30-min cadence, on time.
+  PROBE-636 ADDENDUM (queued notes landing): (a) notify-freeze
+  deviations #1 (07:27:47Z re-fire wake) & #2 (08:09:36Z re-fire wake),
+  both self-caught same-wake, non-formal (rejected, no repo claims);
+  rule now: notify ONLY when wake reminder text IS the cadence
+  reminder; (b) harness backlog trajectory 5939->6430->6660->7053->
+  7511->8279->8399 pending (cap 8), re-fire tally ~194x over ~159-min
+  burst, all write-free (roll28 constant across re-presents = proof);
+  (c) RECOMMENDATION to Jeremiah: cancel/shorten 28->29 backstop
+  timer_gmwiug3mn_d8v7pk (armed 11:45Z) BEFORE it fires — consumed
+  one-shot cron re-fires ~190x/2.5h in this harness; backstop value is
+  marginal vs the wake-starvation cost.
+  INCREMENT (run FIRST as own tool call this wake, output inspected,
+  THEN quoted — INCIDENT-26 mitigation held): independent row-count
+  cross-check via pandas len() (columns=[] fast path) per file vs
+  manifest bars, fresh read of all 61 files. MACHINE OUTPUT VERBATIM:
+  "files=61 total_len_sum=337922 manifest_total_bars=337922 match=True
+  bad=[]" -> third independent row-count derivation (after wc-based
+  sessions recompute @623 and probe-635 per-file bars check) agrees
+  61/61 + rollup. NOTE (honesty, post-#15): first run attempt of this
+  increment (08:24:04Z backstop wake) failed w/o output (heredoc
+  quoting), discarded UNPUBLISHED; diagnostic (cols-empty path ok on
+  file0) then clean re-run this wake — nothing was ever claimed from a
+  pre-run value (INCIDENT 26 lesson applied correctly). AUDITS: fsck
+  rc=0 (08:14:17Z), dirty=0, local==remote 32b6843. Floors held: .61
+  read-only, no Simulation toggle, TLS ON, dash tool-only, pins never
+  in repo files. Both OPEN QUESTIONS carried (1) throughput median
+  281,949 UNRESOLVED (no re-attempt w/o build-side semantics); (2) GAP
+  FINDING gap_hours_max=320.583h GLOBAL+accurate @632, CORPUS_SUMMARY
+  line-12 '73.1h' MIS-SCOPED intra-month (two-figure fix awaiting
+  Jeremiah). Notify NOT attempted (reminder text = backstop, not
+  cadence — rule #4 held). Queue external-only. One entry this turn.
