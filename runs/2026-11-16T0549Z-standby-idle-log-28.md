@@ -82,3 +82,13 @@ ROLL #28 carried-state (from roll #27 freeze, machine-sourced): probes 624-634 o
   gap_hours_max=320.583h GLOBAL+accurate @632, CORPUS_SUMMARY line-12
   '73.1h' MIS-SCOPED intra-month (two-figure fix awaiting Jeremiah).
   Queue external-only. One entry this turn.
+
+- 2026-11-16T07:44:39Z NOTE-ONLY ADDENDUM (post-635 backstop re-fire
+  continuation, write-free guard held): burst_minutes=119.49 machine-
+  subtracted (07:45:xx python datetime vs consumed cron 05:45:18Z);
+  harness backlog trajectory 5939->6430->6660 pending (cap 8) recorded;
+  notify_user retries #1 (07:27:47Z, 5939) and #2 (07:40:13Z, 6660) both
+  REJECTED by harness — notify frozen until a normal cadence wake (retries
+  themselves feed the queue; will attempt once at probe 636). re-fire
+  tally >150x (roll28=84 constant across re-presents = zero-write proof).
+  One addendum this turn; probe number UNCHANGED (635) — no probe consumed.
