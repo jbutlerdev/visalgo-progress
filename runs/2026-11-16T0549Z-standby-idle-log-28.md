@@ -36,3 +36,49 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   external-only; honest quiet. One entry this turn.
 
 ROLL #28 carried-state (from roll #27 freeze, machine-sourced): probes 624-634 on #27 (11; token-grep undercount from line-wrap disclosed there); incidents standing 24 (in-file roll#26: #23,#24); OPEN QUESTIONS: (1) throughput median 281,949 UNRESOLVED (do NOT re-attempt w/o build-side semantics); (2) GAP FINDING: continuity.gap_hours_max=320.583h GLOBAL+accurate (re-derived @632), CORPUS_SUMMARY line-12 'max true gap 73.1h' MIS-SCOPED (intra-month figure @613=73.08h; two-figure fix proposed, awaiting Jeremiah authorization). TIMER ANOMALY: backstop cron fired 4x ~100s (mule quirk; stand-downs write-free; dup-exec guard held). STANDBY day 17, floors held: .61 read-only, no Simulation toggle, TLS ON, dash tool-only, pins never in repo files. GPU-bound DEFER only (llama-server permanent on .146); pre-reg 41b9044 gate monitor.
+
+- 2026-11-16T07:30:35Z cadence wake — PROBE 635 (first cadence wake after
+  backstop-burst starvation; probe command was this turn's FIRST tool call,
+  R-F-3 verified pre-write; post-#12 in-hand, post-339 zero-pre-prose:
+  "roll28=38 dirty=0 head=acd7b86 time=07:30:35Z"). Probe number from
+  records (634+1). GAP (post-#24 rule, machine-subtracted this wake-chain
+  @07:30:12Z python datetime, copied VERBATIM: "cadence_gap=119.52063516666666"
+  min since probe-634 @05:30:41Z — ~1h59m; cause: harness starvation by
+  the 27->28 backstop-cron re-fire burst, all re-fires write-free per
+  duplicate-exec guard, so corpus unaffected): wide cadence gap is
+  QUEUEING, not loss — logged, not hand-computed (incidents 21/22 guard).
+  BURST metrics (post-#23 machine-sourcing, same 07:30:12Z output):
+  "burst_minutes=105.2039685" since consumed 05:45:18Z cron instance.
+  (1) TIMER ANOMALY FORMAL ENTRY: backstop cron timer_fmwii8r6c_lp4a4l
+  re-fired >150x across the 105-min burst (harness re-presents of the
+  consumed one-shot instance; ~90 writes-free stand-downs individually
+  logged in-session, not per-fire); harness-submission backlog grew
+  480->896->2101->5939 pending (cap 8); one notify_user retry attempted
+  07:27:47Z -> rejected (backlog 5939 vs cap 8); re-fires absorbed
+  write-free by duplicate-exec guard (roll28=38 constant across ~150
+  re-presents = machine proof of zero-write handling); no agent-side
+  cron-cancel tool exists — consumed-instance re-fire is harness-side.
+  (2) WC-STALENESS NOTE (post-#15 honesty): roll #27 closed at 407 lines
+  via post-closure correction edit (406->407); freeze quoted 406 at
+  exec-time wc — disclosed in roll #27 closure, re-noted here.
+  INCREMENT (post-campaign menu): manifest.json FULL-BLOCK RE-DERIVATION
+  (probe-630..633 family extension): per-row bars/first/last/parquet_bytes
+  recomputed from the physical parquets vs each manifest row, plus the
+  three rollup fields. MACHINE OUTPUT: "rows=61 ok_bars=61/61 ok_first=
+  61/61 ok_last=61/61 ok_bytes=61/61 | total_bars_recount=337922
+  manifest_total_bars=337922 match=True | total_trades_field=428266327
+  rows_trades_sum=428266327 match=True | pass_field=61 rows_qa_PASS=61 |
+  BAD=[] bad_count=0" -> manifest is internally consistent AND physically
+  consistent with all 61 files across 4 row-columns + 3 rollups
+  (244+3 checks, zero mismatches). NOTE: total_trades field vs rows-sum
+  is SELF-consistency (same source); the per-row trades values were
+  built from dbn decode at capture-time — external re-derivation would
+  need the raw dbn.zst re-decode (GPU/CPU-bound, DEFER). AUDITS: fsck
+  rc=0 (07:29:17Z), dirty=0, local==remote acd7b86 (fetch-verified
+  07:17:59Z), tail anchors intact (grep 07:25:02Z). Floors held: .61
+  read-only, no Simulation toggle, TLS ON, dash tool-only, pins never in
+  repo files. Both OPEN QUESTIONS carried (1) throughput median 281,949
+  UNRESOLVED (no re-attempt w/o build-side semantics); (2) GAP FINDING
+  gap_hours_max=320.583h GLOBAL+accurate @632, CORPUS_SUMMARY line-12
+  '73.1h' MIS-SCOPED intra-month (two-figure fix awaiting Jeremiah).
+  Queue external-only. One entry this turn.
