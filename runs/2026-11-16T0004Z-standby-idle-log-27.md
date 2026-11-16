@@ -314,3 +314,32 @@ that wake). Next backstop armed this wake for roll 27->28.
   23,812 MiB PERMANENT herd infra — GPU-bound DEFER only;
   pre-reg 41b9044 gate monitor). Queue external-only; honest
   quiet. One entry this turn.
+- 2026-11-16T05:00:52Z (R-F-3: cites THIS turn's probe-call output —
+  probe command was this turn's FIRST tool call, verified pre-write;
+  header ts copied VERBATIM from output per post-#8 hardening,
+  post-#12 in-hand rule, post-339 zero-pre-prose rule:
+  "fetch-rc=0 origin/main=10925da zero-byte=0/61 roll27=316
+  gpu=[23812 MiB llama-server;256 MiB venv python] date=2026-11-16
+  time=05:00:52Z"; R-F-2b: single prompt instance -> no coalesce
+  claim; post-#17 rule: this line sits behind THIS turn's single
+  probe-call output; post-#19/#21/#22/#23/#24 watch: gap by
+  explicit SUBTRACTION COPIED FROM MACHINE OUTPUT — 30m05s after
+  probe-632 (05:00:52 - 04:30:47 = 0:30:05 per python datetime,
+  copied verbatim; single anchor — no probe-less wake since) ->
+  fresh slot. Probe number from records (632+1). roll27=316 =
+  stat-consistent (284 + probe-632's +32). INCREMENT (post-
+  campaign menu): continuity.roll_months COHERENCE — draft-1
+  expected the 19 roll months (conflated roll_months w/
+  roll_transitions) -> sym-diff gate fired INSPECT, NO claim;
+  field inspected: roll_months==[] AND front_sequence is scalar
+  (one front string per month) -> **PASS: the empty list is the
+  CORRECT value under the established decoder semantic (ONE
+  front per whole file => mid-month rolls structurally
+  impossible)**. New edge: the [] field is now positively
+  coherence-verified (was untested; a naive auditor could read
+  [] as a bug — records say otherwise). CPU-bound (fast).
+  visalgo sync current: master ed065c9. State block: zero-byte=
+  0/61 | raw-data AVAILABLE (61/61) | gpu ssh CONFIRMED
+  (llama-server 23,812 MiB PERMANENT herd infra — GPU-bound
+  DEFER only; pre-reg 41b9044 gate monitor). Queue external-
+  only; honest quiet. One entry this turn.
