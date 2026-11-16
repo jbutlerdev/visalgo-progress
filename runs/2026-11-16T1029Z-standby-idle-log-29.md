@@ -69,3 +69,43 @@ ROLL #29 carried-state (from roll #28 freeze, machine-sourced @rollover: roll27=
   authorized wake excepted). NOTIFY: one post-commit retry per
   unified rule (probe consumed). Queue external-only. One entry
   this turn.
+
+- 2026-11-16T11:29:39Z cadence wake CONSUMED FROM QUEUE (backstop
+  re-fire carrier; probe command this turn's FIRST tool call, R-F-3
+  verified pre-write; consumption decision made ONLY from this wake's
+  COMPLETED probe output, per INCIDENT-27 hardened guard:
+  "cadence_gap_min_since_642=30.02881315" @11:29:39Z). Probe number
+  from records (642+1). GAP machine-subtracted (post-#24, same-wake
+  run, copied VERBATIM): 30.02881315 min (vs 642 @10:59:38Z) — at
+  cadence (>=30min convention, as 636@30.24/637@30.23/638@30.42/
+  639@30.39/641@30.23/642@30.59). CLOCK: coherent chain since the
+  10:29 self-resolve; no timestamp adjusted, none hand-composed.
+  CORRECTION (probe-635 R-F-2 precedent): probe-642 entry's commit
+  MESSAGE said "roll #29 @58" — machine wc that wake said 71
+  ("71 runs/2026-11-16T1029Z-standby-idle-log-29.md"); entry BODY
+  figure 34-pre/71 was consistent with machine output; correction
+  logged here, commit msg history not rewritten (no force-push);
+  guard reaffirmed: line-count figures quoted ONLY from same-wake
+  wc output, including commit messages.
+  INCREMENT (run FIRST as OWN tool call this wake, output inspected,
+  THEN quoted — INCIDENT-26 mitigation held): manifest row ym
+  6-digit-zero-pad format + STRICTLY increasing ym (no dup/skip-
+  regress rows) + bars>0 per row (first-of-kind conjunction).
+  MACHINE OUTPUT VERBATIM: "PROBE643 YM_FMT_BAD=[] |
+  YM_STRICT_INC_DUPS=[] | BARS_NONPOS=[] | N=61" — all 61 rows ok.
+  GATE: roll #29 @71 pre-entry (machine wc this wake), far below
+  ~380 — no rollover.
+  AUDITS: full-network origin==local c720f14 + zero-byte 0/61
+  (11:21:29Z), dirty=0. Floors held: .61 read-only, no Simulation
+  toggle, TLS ON, dash tool-only, pins never in repo files. OPEN
+  QUESTIONS carried: (1) throughput median 281,949 UNRESOLVED (no
+  re-attempt w/o build-side semantics); (2) GAP FINDING
+  gap_hours_max=320.583h GLOBAL+accurate @632, CORPUS_SUMMARY
+  line-12 '73.1h' MIS-SCOPED intra-month (two-figure fix awaiting
+  Jeremiah); (3) FRONT-CODE SEMANTICS CANDIDATE (invented
+  convention 42/61 'bad' = likely PREDICATE error, no defect claim,
+  awaiting Jeremiah). TIMER BURST STATUS: 27->28 backstop re-fire
+  tally ~412x, burst ~356 min, all write-free (authorized cadence-
+  consumption wakes excepted). NOTIFY: one post-commit retry per
+  unified rule (probe consumed). Queue external-only. One entry
+  this turn.
