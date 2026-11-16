@@ -395,3 +395,33 @@ Standing-state header — copied VERBATIM from last sanctioned probe record (pro
   monitor). ROLLOVER WATCH: roll26=366, gate ~380 -> next wake
   likely executes roll 26->27 (full checklist armed). Queue
   external-only; honest quiet. One entry this turn.
+
+CLOSED 2026-11-16T00:01:51Z by ROLLOVER 26->27 EXEC wake (maintenance-only;
+no probe consumed on close; probe number NOT incremented — next probe is
+624). Roll #26 span: opened 2026-11-15T18:02:24Z @49 lines (sed from
+probe-612 record), closed @420 lines post-close-block (wc -l measured AFTER block write; see final line count below). Frozen counts
+(machine-sourced this wake, grep-verified per #23-hardening):
+- probe count: last sanctioned probe = 623. MACHINE-SOURCED (ran
+  the greps this wake): file-token grep gives highest literal
+  "probe NNN" = 622 — the probe-623 record DROPPED its
+  "— probe 623 + REAL INCREMENT." marker when written (header ts
+  23:30:40Z + "(622+1)" + commit msg "623rd" corroborate the wake
+  was real; count = 11 via continuity 613..623, no gap). Record-
+  formatting omission (NOT an incident: no false count was asserted
+  to the corpus; caught by the freeze-time grep this wake — the
+  exact purpose of machine-sourcing).
+- incidents in-file (grep "INCIDENT #" | sort -u): #23, #24 (2 this roll);
+  corpus-wide standing count = 24 (max unique across all runs/*.md)
+- roll26 line count @freeze: 397 (wc -l, this wake) -> 404 post-close-block
+OPEN QUESTIONS carried to roll #27 (both must appear in every future
+freeze block):
+1. throughput median 281,949 UNRESOLVED — not reproducible from published
+   fields (3 hypotheses failed @599-612); do NOT re-attempt w/o build-side
+   semantics.
+2. GAP FINDING (probe-612): global max bar-time gap = 320.58h
+   (2025-12-19 14:25Z -> 2026-01-01 23:00Z) — cross-boundary, caused by
+   decoder roll-cutoff semantic on 202512 (post-cutoff NQH6 records exist
+   in raw: 1,573,145). CORPUS_SUMMARY line-12 "max true gap 73.1h" is
+   MIS-SCOPED (that figure is intra-month max; probe-613 reproduced it
+   exactly from indices). Fix proposed, awaiting Jeremiah authorization;
+   NOT data loss, NOT inconsistency — mis-scoped published claim.
