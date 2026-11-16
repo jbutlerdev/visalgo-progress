@@ -334,3 +334,37 @@ ROLL #28 carried-state (from roll #27 freeze, machine-sourced): probes 624-634 o
   integrity record only (permitted exception; duplicate-exec branch
   already consumed). Notify FORBIDDEN per unified rule (no probe
   consumed). One entry this turn.
+
+- 2026-11-16T09:58:46Z cadence wake CONSUMED FROM QUEUE (backstop
+  re-fire carrier; probe command this turn's FIRST tool call, R-F-3
+  verified pre-write; consumption decision made ONLY from this wake's
+  COMPLETED probe output, per INCIDENT-27 hardened guard:
+  "cadence_gap_min_since_639=30.330242983333333 | roll28=336 dirty=0
+  head=0b18bcb time=09:58:46Z"). Probe number from records (639+1).
+  GAP machine-subtracted (post-#24, same-wake run, copied VERBATIM):
+  30.330242983333333 min (vs 639 @09:28:31Z) — at cadence (>=30min
+  convention, as 636@30.24/637@30.23/638@30.42/639@30.39).
+  INCREMENT (run FIRST as OWN tool call this wake, output inspected,
+  THEN quoted — INCIDENT-26 mitigation held): manifest row-level
+  parquet-path<->ym template consistency + trades>=bars invariant +
+  volume rollup (first-of-kind: volume never rollup-checked before).
+  MACHINE OUTPUT VERBATIM: "PROBE640 PATH_BAD=[] n=0 |
+  TRADES_LT_BARS=[] n=0 | VOLUME_SUM=657264884 | N=61" — all 61 rows
+  carry parquet == 'bars/NQ_ticks_5m_<ym>.parquet' exactly; no row
+  has trades < bars; volume sum 657,264,884 (informational: > trade
+  count 428,266,327 as expected — volume=contracts, trades=tick
+  events; ratio ~1.535 contracts/trade plausible, NO anomaly claim).
+  AUDITS: fsck rc=0 (09:33:40Z), dirty=0, local==remote 0b18bcb
+  (INCIDENT-27 entry wake). Floors held: .61 read-only, no Simulation
+  toggle, TLS ON, dash tool-only, pins never in repo files. OPEN
+  QUESTIONS carried: (1) throughput median 281,949 UNRESOLVED (no
+  re-attempt w/o build-side semantics); (2) GAP FINDING
+  gap_hours_max=320.583h GLOBAL+accurate @632, CORPUS_SUMMARY line-12
+  '73.1h' MIS-SCOPED intra-month (two-figure fix awaiting Jeremiah);
+  (3) NEW CANDIDATE @INCIDENT-27 wake: front-contract semantics
+  (invented convention 42/61 'bad' = likely PREDICATE error, no
+  defect claim, awaiting Jeremiah). TIMER BURST STATUS: 27->28
+  backstop re-fire tally ~279x, burst ~254 min, all write-free except
+  INCIDENT-27 integrity record (permitted exception). NOTIFY: one
+  post-commit retry per unified rule (probe consumed). Queue
+  external-only. One entry this turn.
