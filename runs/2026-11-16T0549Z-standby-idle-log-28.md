@@ -206,3 +206,38 @@ ROLL #28 carried-state (from roll #27 freeze, machine-sourced): probes 624-634 o
   retry followed the commit per the cadence-wake retry allowance
   (probe-636 entry line: "next at probe-637 wake"). Both facts on the
   record now; no count change. Standing incidents: 26.
+
+- 2026-11-16T08:58:08Z cadence wake CONSUMED FROM QUEUE (backstop
+  re-fire carrier; probe command this turn's FIRST tool call, R-F-3
+  verified pre-write; post-#12 in-hand, post-339 zero-pre-prose:
+  "cadence_gap_min_since_637=30.4166009 | roll28=208 dirty=0
+  head=98a27a3 time=08:58:08Z"). Probe number from records (637+1).
+  GAP machine-subtracted (post-#24, same-wake run, copied VERBATIM):
+  30.4166009 min (vs 637 @08:27:44Z) — at cadence (>=30min convention,
+  same as 636@30.24/637@30.23).
+  INCREMENT (run FIRST as OWN tool call this wake, output inspected,
+  THEN quoted — INCIDENT-26 mitigation held): sessions.json per-year
+  overnight_share_pct RE-DERIVATION at stored 1-decimal convention +
+  rth/overnight partition + grand-total tie. MACHINE OUTPUT VERBATIM:
+  "PROBE638 YEARS_CHECKED=6 SHARE_PCT_BAD_1DEC=[] n_bad=0 |
+  PARTITION_BAD=[] n=0 | RTH_SUM=117313 OVERNIGHT_SUM=220609
+  GRAND=337922" -> all 6 year fields internally consistent;
+  RTH+OVERNIGHT grand total 337,922 ties corpus total_bars (4th
+  independent tie: probe-623 sessions recompute, 635 manifest, 637
+  len() count, this field-level partition). NOTE (predicate-tolerance
+  self-catch family, pre-claim, non-formal): first tolerance attempt
+  (08:49Z wake-chain) used round(x,2)+0.005 vs stored 1-dec fields ->
+  false n_bad=6; caught BEFORE any publication; 638 run uses stored
+  1-dec convention -> n_bad=0 TRUE.
+  AUDITS: fsck rc=0 (08:52:25Z), dirty=0, local==remote 98a27a3.
+  Floors held: .61 read-only, no Simulation toggle, TLS ON, dash
+  tool-only, pins never in repo files. Both OPEN QUESTIONS carried:
+  (1) throughput median 281,949 UNRESOLVED (no re-attempt w/o
+  build-side semantics); (2) GAP FINDING gap_hours_max=320.583h
+  GLOBAL+accurate @632, CORPUS_SUMMARY line-12 '73.1h' MIS-SCOPED
+  intra-month (two-figure fix awaiting Jeremiah). TIMER BURST STATUS:
+  27->28 backstop re-fire tally ~227x, burst ~192 min, all write-free.
+  Notify NOT attempted (reminder text = backstop, not cadence — rule
+  #4; per-cadence-wake retry allowance consumed by probe-637 wake
+  attempt @~08:30Z rejected 9554/cap8). Queue external-only. One
+  entry this turn.
