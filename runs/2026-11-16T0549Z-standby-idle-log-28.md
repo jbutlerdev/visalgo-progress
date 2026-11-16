@@ -368,3 +368,4 @@ ROLL #28 carried-state (from roll #27 freeze, machine-sourced): probes 624-634 o
   INCIDENT-27 integrity record (permitted exception). NOTIFY: one
   post-commit retry per unified rule (probe consumed). Queue
   external-only. One entry this turn.
+
